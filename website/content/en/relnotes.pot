@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-01-30 16:03-0300\n"
+"POT-Creation-Date: 2021-02-06 11:53-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -39,7 +39,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:12
-msgid "image:../gifs/doc.jpg[BSD daemon reading documentation,width=274,height=163]"
+msgid ""
+"image:../gifs/doc.jpg[BSD daemon reading documentation,width=274,height=163]"
 msgstr ""
 
 #. type: Plain text
@@ -103,8 +104,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/relnotes.adoc:28
 msgid ""
-"These files are located in the top-level directory of each "
-"distribution. Both HTML and text forms are usually provided."
+"These files are located in the top-level directory of each distribution. "
+"Both HTML and text forms are usually provided."
 msgstr ""
 
 #. type: Title ==
@@ -129,8 +130,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/relnotes.adoc:36
 msgid ""
-"HTML versions of the release documentation for FreeBSD -CURRENT and FreeBSD "
-"-STABLE are available on the FreeBSD web site. These documents are "
+"HTML versions of the release documentation for FreeBSD -CURRENT and FreeBSD -"
+"STABLE are available on the FreeBSD web site. These documents are "
 "continually changing and automatically generated. The versions on the web "
 "site are rebuilt at the same time that the rest of the web site is updated."
 msgstr ""
@@ -143,67 +144,93 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:40
-msgid "link:../releases/12.0r/readme/[README]"
+msgid "link:../releases/CURRENT/readme/[README]"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:41
-msgid "link:../releases/12.0r/relnotes/[Release Notes]"
+msgid "link:../releases/CURRENT/relnotes/[Release Notes]"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:42
-msgid "link:../releases/12.0r/hardware/[Hardware Notes]"
+msgid "link:../releases/CURRENT/hardware/[Hardware Notes]"
 msgstr ""
 
 #. type: Title ===
 #: website/content/en/relnotes.adoc:43
 #, no-wrap
-msgid "FreeBSD 11-STABLE Release Documentation"
+msgid "FreeBSD 13-STABLE Release Documentation"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:46
-msgid "link:../relnotes/11-STABLE/readme/[README]"
+msgid "link:../relnotes/13-STABLE/readme/[README]"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:47
-msgid "link:../relnotes/11-STABLE/relnotes/[Release Notes]"
+msgid "link:../relnotes/13-STABLE/relnotes/[Release Notes]"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:48
-msgid "link:../relnotes/11-STABLE/hardware/[Hardware Notes]"
+msgid "link:../relnotes/13-STABLE/hardware/[Hardware Notes]"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:49
-msgid "link:../relnotes/11-STABLE/errata/[Errata]"
+msgid "link:../relnotes/13-STABLE/errata/[Errata]"
 msgstr ""
 
 #. type: Title ===
 #: website/content/en/relnotes.adoc:50
 #, no-wrap
-msgid "FreeBSD 10-STABLE Release Documentation"
+msgid "FreeBSD 12-STABLE Release Documentation"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:53
-msgid "link:../relnotes/10-STABLE/readme/[README]"
+msgid "link:../relnotes/12-STABLE/readme/[README]"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:54
-msgid "link:../relnotes/10-STABLE/relnotes/[Release Notes]"
+msgid "link:../relnotes/12-STABLE/relnotes/[Release Notes]"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/relnotes.adoc:55
-msgid "link:../relnotes/10-STABLE/hardware/[Hardware Notes]"
+msgid "link:../relnotes/12-STABLE/hardware/[Hardware Notes]"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/relnotes.adoc:55
-msgid "link:../relnotes/10-STABLE/errata/[Errata]"
+#: website/content/en/relnotes.adoc:56
+msgid "link:../relnotes/12-STABLE/errata/[Errata]"
+msgstr ""
+
+#. type: Title ===
+#: website/content/en/relnotes.adoc:57
+#, no-wrap
+msgid "FreeBSD 11-STABLE Release Documentation"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/relnotes.adoc:60
+msgid "link:../relnotes/11-STABLE/readme/[README]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/relnotes.adoc:61
+msgid "link:../relnotes/11-STABLE/relnotes/[Release Notes]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/relnotes.adoc:62
+msgid "link:../relnotes/11-STABLE/hardware/[Hardware Notes]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/relnotes.adoc:62
+msgid "link:../relnotes/11-STABLE/errata/[Errata]"
 msgstr ""

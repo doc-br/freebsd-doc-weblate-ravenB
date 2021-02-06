@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-01-30 16:03-0300\n"
+"POT-Creation-Date: 2021-02-06 11:53-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -47,44 +47,32 @@ msgstr ""
 #: website/content/en/releases/11.4R/schedule.adoc:17
 msgid ""
 "This is the release schedule for FreeBSD {localRel}. For more information "
-"about the release engineering process, please see the "
-"link:../../../releng/[Release Engineering] section of the web site."
+"about the release engineering process, please see the link:../../../releng/"
+"[Release Engineering] section of the web site."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.4R/schedule.adoc:19
 msgid ""
 "General discussions about the pending release and known issues should be "
-"sent to the public mailto:FreeBSD-current@FreeBSD.org[freebsd-current] "
-"mailing list. link:{handbook}#mfc-glossary[MFC] requests are no longer being "
-"accepted for {localBranchReleng}."
+"sent to the public mailto:FreeBSD-stable@FreeBSD.org[freebsd-stable] mailing "
+"list."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.4R/schedule.adoc:21
+msgid ""
+"link:{handbook}#mfc-glossary[MFC] requests are no longer being accepted."
 msgstr ""
 
 #. type: Title ==
-#: website/content/en/releases/11.4R/schedule.adoc:20
+#: website/content/en/releases/11.4R/schedule.adoc:22
 #, no-wrap
 msgid "Schedule"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.4R/schedule.adoc:23
-msgid ""
-"During the {localBranchHead} freeze, the Release Engineering Team may create "
-"ALPHA snapshots to publish for testing purposes. As the frequency and total "
-"number of the ALPHA snapshots will depend on the length of time the "
-"{localBranchHead} branch is frozen, no official schedule is provided."
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/11.4R/schedule.adoc:25
-msgid ""
-"Announcements regarding the availability of the ALPHA snapshots will be sent "
-"to the mailto:freebsd-current@FreeBSD.org[freebsd-current] and "
-"mailto:freebsd-snapshots@FreeBSD.org[freebsd-snapshots] mailing lists."
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/11.4R/schedule.adoc:42
+#: website/content/en/releases/11.4R/schedule.adoc:40
 msgid ""
 "|=== |Action |Expected |Actual |Description |Initial release schedule "
 "announcement |- |3 January 2020 |Release Engineers send announcement email "
@@ -99,27 +87,27 @@ msgid ""
 "snapshot.  |BETA2 builds begin |15 May 2020 |15 May 2020 |Second beta test "
 "snapshot.  |RC1 builds begin |22 May 2020 |22 May 2020 |First release "
 "candidate.  |RC2 builds begin |29 May 2020 |29 May 2020 |Second release "
-"candidate.  |RELEASE builds begin |12 June 2020 |12 June 2020 "
-"|{localRel}-RELEASE builds begin.  |RELEASE announcement |16 June 2020 |16 "
-"June 2020 |{localRel}-RELEASE press release.  |Turn over to the secteam |- "
-"|22 June 2020 |{localBranchReleng} branch is handed over to the FreeBSD "
-"Security Officer Team in one or two weeks after the announcement.  |==="
+"candidate.  |RELEASE builds begin |12 June 2020 |12 June 2020 |{localRel}-"
+"RELEASE builds begin.  |RELEASE announcement |16 June 2020 |16 June 2020 |"
+"{localRel}-RELEASE press release.  |Turn over to the secteam |- |22 June "
+"2020 |{localBranchReleng} branch is handed over to the FreeBSD Security "
+"Officer Team in one or two weeks after the announcement.  |==="
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.4R/schedule.adoc:44
+#: website/content/en/releases/11.4R/schedule.adoc:42
 msgid "\"*\" indicates \"as-needed\" items."
 msgstr ""
 
 #. == Status / TODO
 #. link:todo/[FreeBSD Release Engineering TODO Page]
 #. type: Title ==
-#: website/content/en/releases/11.4R/schedule.adoc:50
+#: website/content/en/releases/11.4R/schedule.adoc:48
 #, no-wrap
 msgid "Additional Information"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.4R/schedule.adoc:52
+#: website/content/en/releases/11.4R/schedule.adoc:50
 msgid "link:../../../releng/[FreeBSD Release Engineering website]"
 msgstr ""

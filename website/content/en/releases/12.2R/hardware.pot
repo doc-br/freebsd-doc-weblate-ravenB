@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-01-30 16:03-0300\n"
+"POT-Creation-Date: 2021-02-06 11:53-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: website/content/en/releases/12.2R/hardware.adoc:4
 #, no-wrap
 msgid ""
-"title: \"FreeBSD 12.1-RELEASE Hardware Notes\"\n"
+"title: \"FreeBSD 12.2-RELEASE Hardware Notes\"\n"
 "sidenav: download\n"
 "---\n"
 msgstr ""
@@ -247,18 +247,18 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:63
 msgid ""
-"There is a wide variety of motherboards available for this "
-"architecture. Motherboards using the ISA, VLB, EISA, AGP, and PCI expansion "
-"buses are well-supported. There is some limited support for the MCA "
-"(\"MicroChannel\") expansion bus used in the IBM PS/2 line of PCs."
+"There is a wide variety of motherboards available for this architecture. "
+"Motherboards using the ISA, VLB, EISA, AGP, and PCI expansion buses are well-"
+"supported. There is some limited support for the MCA (\"MicroChannel\") "
+"expansion bus used in the IBM PS/2 line of PCs."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:65
 msgid ""
 "Symmetric multi-processor (SMP) systems are generally supported by FreeBSD, "
-"although in some cases, BIOS or motherboard bugs may generate some "
-"problems. Perusal of the archives of the A.SMP may yield some clues."
+"although in some cases, BIOS or motherboard bugs may generate some problems. "
+"Perusal of the archives of the A.SMP may yield some clues."
 msgstr ""
 
 #. type: Plain text
@@ -326,11 +326,10 @@ msgid ""
 "ACPI depends on a Differentiated System Descriptor Table (DSDT) provided by "
 "each machine's BIOS. Some machines have bad or incomplete DSDTs, which "
 "prevents ACPI from functioning correctly. Replacement DSDTs for some "
-"machines can be found at the "
-"http://acpi.sourceforge.net/dsdt/index.php[DSDT] section of the "
-"http://acpi.sourceforge.net/[ACPI4Linux] project Web site. FreeBSD can use "
-"these DSDTs to override the DSDT provided by the BIOS; see the {{< manpage "
-"\"acpi\" \"4\">}} manual page for more information."
+"machines can be found at the http://acpi.sourceforge.net/dsdt/index."
+"php[DSDT] section of the http://acpi.sourceforge.net/[ACPI4Linux] project "
+"Web site. FreeBSD can use these DSDTs to override the DSDT provided by the "
+"BIOS; see the {{< manpage \"acpi\" \"4\">}} manual page for more information."
 msgstr ""
 
 #. type: Title ===
@@ -347,7 +346,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:89 website/content/en/releases/12.2R/hardware.adoc:96
+#: website/content/en/releases/12.2R/hardware.adoc:89
+#: website/content/en/releases/12.2R/hardware.adoc:96
 msgid "SMP is supported on all systems with more than 1 processor."
 msgstr ""
 
@@ -380,8 +380,7 @@ msgstr ""
 msgid ""
 "If you have a system that is not listed here, it may not have been tested "
 "with FreeBSD {releaseCurrent}. We encourage you to try it and send a note to "
-"the A.SPARC with your results, including which devices work and which do "
-"not."
+"the A.SPARC with your results, including which devices work and which do not."
 msgstr ""
 
 #. type: Plain text
@@ -432,8 +431,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:112
 msgid ""
-"Sun Fire(TM) B100s (support for the on-board NICs first appeared in "
-"8.1-RELEASE)"
+"Sun Fire(TM) B100s (support for the on-board NICs first appeared in 8.1-"
+"RELEASE)"
 msgstr ""
 
 #. type: Plain text
@@ -616,7 +615,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:151
-msgid "Sun Fire(TM) V215 (support first appeared in 7.3-RELEASE and 8.1-RELEASE)"
+msgid ""
+"Sun Fire(TM) V215 (support first appeared in 7.3-RELEASE and 8.1-RELEASE)"
 msgstr ""
 
 #. type: Plain text
@@ -626,7 +626,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:153
-msgid "Sun Fire(TM) V245 (support first appeared in 7.3-RELEASE and 8.1-RELEASE)"
+msgid ""
+"Sun Fire(TM) V245 (support first appeared in 7.3-RELEASE and 8.1-RELEASE)"
 msgstr ""
 
 #. type: Plain text
@@ -637,8 +638,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:155
 msgid ""
-"Sun Fire(TM) V440 (support for the on-board NICs first appeared in "
-"7.3-RELEASE and 8.0-RELEASE)"
+"Sun Fire(TM) V440 (support for the on-board NICs first appeared in 7.3-"
+"RELEASE and 8.0-RELEASE)"
 msgstr ""
 
 #. type: Plain text
@@ -720,18 +721,18 @@ msgstr ""
 msgid "Fujitsu PRIMEPOWER(R) 850"
 msgstr ""
 
+#
+#
+#
+#
+#
+#
 #. The "Supported Devices" section of the release notes.
-#
 #. Generally processor-independent, with conditional text inclusion handling any architecture-dependent text.
-#
 #. Within each subsection describing a class of hardware (i.e. Ethernet interfaces), list broad groups of devices alphabetically as paragraphs sorted alphabetically (frequently these groups will be arranged by manufacturer, i.e. 3Com Ethernet interfaces).
-#
 #. Where applicable, a "Miscellaneous" section may follow all other named sections.
-#
 #. These guidelines are not hard-and-fast rules, and exceptions will occur. Following these guidelines (vague as they may be) is highly recommended to try to keep the formatting of this section consistent.
-#
 #. We give manpage references using the &man entities where possible. If a driver has no manpage (and consequently no man page, we simply give the name of the driver).
-#
 #. Please avoid doing man pages conversions unless you know for sure that an entity and manpage exist; sweeps through this file to fix "missed" conversions are likely to break the build.
 #. type: Title ==
 #: website/content/en/releases/12.2R/hardware.adoc:192
@@ -762,9 +763,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Note*: +\n"
-"The device lists in this document are being generated automatically from "
-"FreeBSD manual pages. This means that some devices, which are supported by "
-"multiple drivers, may appear multiple times.\n"
+"The device lists in this document are being generated automatically from FreeBSD manual pages. This means that some devices, which are supported by multiple drivers, may appear multiple times.\n"
 msgstr ""
 
 #. type: Title ===
@@ -782,7 +781,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:209
-msgid "Controllers supported by the {{< manpage \"aac\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"aac\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -1324,7 +1324,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:321
-msgid "The {{< manpage \"adw\" \"4\">}} driver supports SCSI controllers including:"
+msgid ""
+"The {{< manpage \"adw\" \"4\">}} driver supports SCSI controllers including:"
 msgstr ""
 
 #. type: Plain text
@@ -1622,7 +1623,8 @@ msgid "Adaptec 4944UW"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:385 website/content/en/releases/12.2R/hardware.adoc:398
+#: website/content/en/releases/12.2R/hardware.adoc:385
+#: website/content/en/releases/12.2R/hardware.adoc:398
 msgid "Many motherboards with on-board SCSI support"
 msgstr ""
 
@@ -1674,7 +1676,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:400
-msgid "The adapters supported by the {{< manpage \"aic\" \"4\">}} driver include:"
+msgid ""
+"The adapters supported by the {{< manpage \"aic\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -1714,7 +1717,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:410
-msgid "Controllers supported by the {{< manpage \"amr\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"amr\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -1949,7 +1953,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:459
-msgid "The {{< manpage \"arcmsr\" \"4\">}} driver supports the following cards:"
+msgid ""
+"The {{< manpage \"arcmsr\" \"4\">}} driver supports the following cards:"
 msgstr ""
 
 #. type: Plain text
@@ -2180,7 +2185,8 @@ msgid "BusLogic BT-540CF"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:508 website/content/en/releases/12.2R/hardware.adoc:509
+#: website/content/en/releases/12.2R/hardware.adoc:508
+#: website/content/en/releases/12.2R/hardware.adoc:509
 msgid "BusLogic BT-542B"
 msgstr ""
 
@@ -2241,7 +2247,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:522
-msgid "  Controllers supported by the {{< manpage \"ciss\" \"4\">}} driver include:"
+msgid ""
+"  Controllers supported by the {{< manpage \"ciss\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -2472,17 +2479,18 @@ msgid "Smart RAID IV"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:574 website/content/en/releases/12.2R/hardware.adoc:739
+#: website/content/en/releases/12.2R/hardware.adoc:574
+#: website/content/en/releases/12.2R/hardware.adoc:739
 #, no-wrap
 msgid ""
 "*Note*: +\n"
-"[amd64, i386] Booting from these controllers is supported. EISA adapters are "
-"not supported.\n"
+"[amd64, i386] Booting from these controllers is supported. EISA adapters are not supported.\n"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:576
-msgid "Controllers supported by the {{< manpage \"esp\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"esp\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -2809,7 +2817,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:653
-msgid "Controllers supported by the {{< manpage \"iir\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"iir\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -2861,7 +2870,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:666
-msgid "Controllers supported by the {{< manpage \"ips\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"ips\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -3015,7 +3025,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:702
-msgid "The {{< manpage \"mfi\" \"4\">}} driver supports the following hardware:"
+msgid ""
+"The {{< manpage \"mfi\" \"4\">}} driver supports the following hardware:"
 msgstr ""
 
 #. type: Plain text
@@ -3090,7 +3101,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:719
-msgid "Controllers supported by the {{< manpage \"mlx\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"mlx\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -3159,7 +3171,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:735 website/content/en/releases/12.2R/hardware.adoc:749
+#: website/content/en/releases/12.2R/hardware.adoc:735
+#: website/content/en/releases/12.2R/hardware.adoc:749
 msgid ""
 "Compatible Mylex controllers not listed should work, but have not been "
 "verified."
@@ -3167,7 +3180,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:741
-msgid "Controllers supported by the {{< manpage \"mly\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"mly\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -3197,7 +3211,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:751
-msgid "These controllers are supported by the {{< manpage \"mpr\" \"4\">}} driver:"
+msgid ""
+"These controllers are supported by the {{< manpage \"mpr\" \"4\">}} driver:"
 msgstr ""
 
 #. type: Plain text
@@ -3272,7 +3287,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:768
-msgid "These controllers are supported by the {{< manpage \"mps\" \"4\">}} driver:"
+msgid ""
+"These controllers are supported by the {{< manpage \"mps\" \"4\">}} driver:"
 msgstr ""
 
 #. type: Plain text
@@ -3376,7 +3392,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:791
-msgid "LSI Logic FC949E, LSI Logic FC949ES (Dual 4Gb/s Fibre Channel PCI-Express)"
+msgid ""
+"LSI Logic FC949E, LSI Logic FC949ES (Dual 4Gb/s Fibre Channel PCI-Express)"
 msgstr ""
 
 #. type: Plain text
@@ -3430,7 +3447,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:806
-msgid "The {{< manpage \"mrsas\" \"4\">}} driver supports the following hardware:"
+msgid ""
+"The {{< manpage \"mrsas\" \"4\">}} driver supports the following hardware:"
 msgstr ""
 
 #. type: Plain text
@@ -3515,7 +3533,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:830
-msgid "The {{< manpage \"mvs\" \"4\">}} driver supports the following controllers:"
+msgid ""
+"The {{< manpage \"mvs\" \"4\">}} driver supports the following controllers:"
 msgstr ""
 
 #. type: Plain text
@@ -3614,17 +3633,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:858 website/content/en/releases/12.2R/hardware.adoc:943
+#: website/content/en/releases/12.2R/hardware.adoc:858
+#: website/content/en/releases/12.2R/hardware.adoc:943
 msgid "53C810"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:859 website/content/en/releases/12.2R/hardware.adoc:944
+#: website/content/en/releases/12.2R/hardware.adoc:859
+#: website/content/en/releases/12.2R/hardware.adoc:944
 msgid "53C810A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:860 website/content/en/releases/12.2R/hardware.adoc:945
+#: website/content/en/releases/12.2R/hardware.adoc:860
+#: website/content/en/releases/12.2R/hardware.adoc:945
 msgid "53C815"
 msgstr ""
 
@@ -3634,17 +3656,20 @@ msgid "53C820"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:862 website/content/en/releases/12.2R/hardware.adoc:947
+#: website/content/en/releases/12.2R/hardware.adoc:862
+#: website/content/en/releases/12.2R/hardware.adoc:947
 msgid "53C825A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:863 website/content/en/releases/12.2R/hardware.adoc:948
+#: website/content/en/releases/12.2R/hardware.adoc:863
+#: website/content/en/releases/12.2R/hardware.adoc:948
 msgid "53C860"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:864 website/content/en/releases/12.2R/hardware.adoc:949
+#: website/content/en/releases/12.2R/hardware.adoc:864
+#: website/content/en/releases/12.2R/hardware.adoc:949
 msgid "53C875"
 msgstr ""
 
@@ -3659,22 +3684,26 @@ msgid "53C885"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:867 website/content/en/releases/12.2R/hardware.adoc:951
+#: website/content/en/releases/12.2R/hardware.adoc:867
+#: website/content/en/releases/12.2R/hardware.adoc:951
 msgid "53C895"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:868 website/content/en/releases/12.2R/hardware.adoc:952
+#: website/content/en/releases/12.2R/hardware.adoc:868
+#: website/content/en/releases/12.2R/hardware.adoc:952
 msgid "53C895A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:869 website/content/en/releases/12.2R/hardware.adoc:953
+#: website/content/en/releases/12.2R/hardware.adoc:869
+#: website/content/en/releases/12.2R/hardware.adoc:953
 msgid "53C896"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:870 website/content/en/releases/12.2R/hardware.adoc:959
+#: website/content/en/releases/12.2R/hardware.adoc:870
+#: website/content/en/releases/12.2R/hardware.adoc:959
 msgid "53C1510D"
 msgstr ""
 
@@ -3722,7 +3751,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:882
-msgid "Controllers supported by the {{< manpage \"nsp\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"nsp\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -3737,7 +3767,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:887
-msgid "The {{< manpage \"pms\" \"4\">}} driver supports the following hardware:"
+msgid ""
+"The {{< manpage \"pms\" \"4\">}} driver supports the following hardware:"
 msgstr ""
 
 #. type: Plain text
@@ -3926,7 +3957,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:929
-msgid "Controllers supported by the {{< manpage \"stg\" \"4\">}} driver include:"
+msgid ""
+"Controllers supported by the {{< manpage \"stg\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -4070,8 +4102,7 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:974
 msgid ""
-"Tekram DC-315 PCI Ultra SCSI adapter without BIOS and internal SCSI "
-"connector"
+"Tekram DC-315 PCI Ultra SCSI adapter without BIOS and internal SCSI connector"
 msgstr ""
 
 #. type: Plain text
@@ -4343,7 +4374,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1035
-msgid "Adaptec AIC-7110 Parallel to SCSI interface (built-in to Iomega ZIP drives)"
+msgid ""
+"Adaptec AIC-7110 Parallel to SCSI interface (built-in to Iomega ZIP drives)"
 msgstr ""
 
 #. type: Plain text
@@ -4638,9 +4670,9 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1105
 msgid ""
-"The {{< manpage \"axe\" \"4\">}} driver supports ASIX Electronics "
-"AX88172/AX88178/AX88772/AX88772A/AX88772B/AX88760 based USB Ethernet "
-"adapters including:"
+"The {{< manpage \"axe\" \"4\">}} driver supports ASIX Electronics AX88172/"
+"AX88178/AX88772/AX88772A/AX88772B/AX88760 based USB Ethernet adapters "
+"including:"
 msgstr ""
 
 #. type: Plain text
@@ -5539,7 +5571,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1319
-msgid "ADMtek AL981 Comet, AN985 Centaur, ADM9511 Centaur II and ADM9513 Centaur II"
+msgid ""
+"ADMtek AL981 Comet, AN985 Centaur, ADM9511 Centaur II and ADM9513 Centaur II"
 msgstr ""
 
 #. type: Plain text
@@ -5574,7 +5607,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1326
-msgid "Macronix 98713, 98713A, 98715, 98715A, 98715AEC-C, 98725, 98727 and 98732"
+msgid ""
+"Macronix 98713, 98713A, 98715, 98715A, 98715AEC-C, 98725, 98727 and 98732"
 msgstr ""
 
 #. type: Plain text
@@ -5636,8 +5670,7 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1339
 msgid ""
-"Built in Ethernet on LinkSys EtherFast 10/100 Instant GigaDrive (DM9102, "
-"MII)"
+"Built in Ethernet on LinkSys EtherFast 10/100 Instant GigaDrive (DM9102, MII)"
 msgstr ""
 
 #. type: Plain text
@@ -5837,7 +5870,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1382
-msgid "The {{< manpage \"ed\" \"4\">}} driver supports the following Ethernet NICs:"
+msgid ""
+"The {{< manpage \"ed\" \"4\">}} driver supports the following Ethernet NICs:"
 msgstr ""
 
 #. type: Plain text
@@ -5929,7 +5963,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1401
-msgid "Corega Ether PCC-T/EtherII PCC-T/FEther PCC-TXF/PCC-TXD PCC-T/Fether II TXD"
+msgid ""
+"Corega Ether PCC-T/EtherII PCC-T/FEther PCC-TXF/PCC-TXD PCC-T/Fether II TXD"
 msgstr ""
 
 #. type: Plain text
@@ -5964,7 +5999,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1408
-msgid "ELECOM Laneed LD-CDL/TX, LD-CDF, LD-CDS, LD-10/100CD, LD-CDWA (DP83902A)"
+msgid ""
+"ELECOM Laneed LD-CDL/TX, LD-CDF, LD-CDS, LD-10/100CD, LD-CDWA (DP83902A)"
 msgstr ""
 
 #. type: Plain text
@@ -6009,7 +6045,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1417
-msgid "Linksys EtherFast 10/100 PC Card, Combo PCMCIA Ethernet Card (PCMPC100 V2)"
+msgid ""
+"Linksys EtherFast 10/100 PC Card, Combo PCMCIA Ethernet Card (PCMPC100 V2)"
 msgstr ""
 
 #. type: Plain text
@@ -6109,7 +6146,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1437
-msgid "SMC WD8003E/WD8003EBT/WD8003S/WD8003SBT/WD8003W/WD8013EBT/WD8013W and clones"
+msgid ""
+"SMC WD8003E/WD8003EBT/WD8003S/WD8003SBT/WD8003W/WD8013EBT/WD8013W and clones"
 msgstr ""
 
 #. type: Plain text
@@ -6367,7 +6405,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1494
-msgid "3Com 3C574, 3C574TX, 3C574-TX, 3CCFE574BT, 3CXFE574BT, 3C3FE574BT PCMCIA"
+msgid ""
+"3Com 3C574, 3C574TX, 3C574-TX, 3CCFE574BT, 3CXFE574BT, 3C3FE574BT PCMCIA"
 msgstr ""
 
 #. type: Plain text
@@ -6387,7 +6426,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1498
-msgid "3Com Megahertz 3CCEM556, 3CXEM556, 3CCEM556B, 3CXEM556B, 3C3FEM556C PCMCIA"
+msgid ""
+"3Com Megahertz 3CCEM556, 3CXEM556, 3CCEM556B, 3CXEM556B, 3C3FEM556C PCMCIA"
 msgstr ""
 
 #. type: Plain text
@@ -6402,7 +6442,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1502
-msgid "Agere ET1310 Gigabit Ethernet adapters ({{< manpage \"et\" \"4\">}}driver)"
+msgid ""
+"Agere ET1310 Gigabit Ethernet adapters ({{< manpage \"et\" \"4\">}}driver)"
 msgstr ""
 
 #. type: Plain text
@@ -6816,7 +6857,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1607
-msgid "JMicron JMC251 PCI Express Gigabit Ethernet with Card Read Host controller"
+msgid ""
+"JMicron JMC251 PCI Express Gigabit Ethernet with Card Read Host controller"
 msgstr ""
 
 #. type: Plain text
@@ -6826,7 +6868,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1609
-msgid "JMicron JMC261 PCI Express Gigabit Ethernet with Card Read Host controller"
+msgid ""
+"JMicron JMC261 PCI Express Gigabit Ethernet with Card Read Host controller"
 msgstr ""
 
 #. type: Plain text
@@ -7434,8 +7477,8 @@ msgstr ""
 #: website/content/en/releases/12.2R/hardware.adoc:1747
 msgid ""
 "The {{< manpage \"pcn\" \"4\">}} driver supports adapters and embedded "
-"controllers based on the AMD PCnet/FAST, PCnet/FAST+, PCnet/FAST III, "
-"PCnet/PRO and PCnet/Home Fast Ethernet chips:"
+"controllers based on the AMD PCnet/FAST, PCnet/FAST+, PCnet/FAST III, PCnet/"
+"PRO and PCnet/Home Fast Ethernet chips:"
 msgstr ""
 
 #. type: Plain text
@@ -8146,8 +8189,7 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1916
 msgid ""
-"The following adapters should also be supported but have not yet been "
-"tested:"
+"The following adapters should also be supported but have not yet been tested:"
 msgstr ""
 
 #. type: Plain text
@@ -8305,7 +8347,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:1955
-msgid "The {{< manpage \"udav\" \"4\">}} driver supports the following adapters:"
+msgid ""
+"The {{< manpage \"udav\" \"4\">}} driver supports the following adapters:"
 msgstr ""
 
 #. type: Plain text
@@ -8650,7 +8693,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2047 website/content/en/releases/12.2R/hardware.adoc:2048 website/content/en/releases/12.2R/hardware.adoc:2068
+#: website/content/en/releases/12.2R/hardware.adoc:2047
+#: website/content/en/releases/12.2R/hardware.adoc:2048
+#: website/content/en/releases/12.2R/hardware.adoc:2068
 msgid "Apple Airport Extreme"
 msgstr ""
 
@@ -8660,12 +8705,14 @@ msgid "ASUS WL-100g"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2050 website/content/en/releases/12.2R/hardware.adoc:2069
+#: website/content/en/releases/12.2R/hardware.adoc:2050
+#: website/content/en/releases/12.2R/hardware.adoc:2069
 msgid "ASUS WL-138g"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2051 website/content/en/releases/12.2R/hardware.adoc:2070
+#: website/content/en/releases/12.2R/hardware.adoc:2051
+#: website/content/en/releases/12.2R/hardware.adoc:2070
 msgid "Buffalo WLI-CB-G54S"
 msgstr ""
 
@@ -8680,12 +8727,14 @@ msgid "Compaq R4035 onboard"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2054 website/content/en/releases/12.2R/hardware.adoc:2071
+#: website/content/en/releases/12.2R/hardware.adoc:2054
+#: website/content/en/releases/12.2R/hardware.adoc:2071
 msgid "Dell Wireless 1390"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2055 website/content/en/releases/12.2R/hardware.adoc:2072
+#: website/content/en/releases/12.2R/hardware.adoc:2055
+#: website/content/en/releases/12.2R/hardware.adoc:2072
 msgid "Dell Wireless 1470"
 msgstr ""
 
@@ -8695,22 +8744,26 @@ msgid "Dell Truemobile 1300 r2"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2057 website/content/en/releases/12.2R/hardware.adoc:2073
+#: website/content/en/releases/12.2R/hardware.adoc:2057
+#: website/content/en/releases/12.2R/hardware.adoc:2073
 msgid "Dell Truemobile 1400"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2058 website/content/en/releases/12.2R/hardware.adoc:2075
+#: website/content/en/releases/12.2R/hardware.adoc:2058
+#: website/content/en/releases/12.2R/hardware.adoc:2075
 msgid "HP nx6125"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2059 website/content/en/releases/12.2R/hardware.adoc:2076
+#: website/content/en/releases/12.2R/hardware.adoc:2059
+#: website/content/en/releases/12.2R/hardware.adoc:2076
 msgid "Linksys WPC54G Ver 3"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2060 website/content/en/releases/12.2R/hardware.adoc:2077
+#: website/content/en/releases/12.2R/hardware.adoc:2060
+#: website/content/en/releases/12.2R/hardware.adoc:2077
 msgid "Linksys WPC54GS Ver 2"
 msgstr ""
 
@@ -8720,7 +8773,8 @@ msgid "TRENDnet TEW-401PCplus"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2062 website/content/en/releases/12.2R/hardware.adoc:2078
+#: website/content/en/releases/12.2R/hardware.adoc:2062
+#: website/content/en/releases/12.2R/hardware.adoc:2078
 msgid "US Robotics 5411"
 msgstr ""
 
@@ -8731,9 +8785,9 @@ msgid ""
 "Broadcom's firmware. While this older firmware does support most BCM43xx "
 "parts, the {{< manpage \"bwn\" \"4\">}} driver works better for the newer "
 "chips it supports. You must use the {{< manpage \"bwi\" \"4\">}} driver if "
-"you are using older Broadcom chipsets (BCM4301, BCM4303 and BCM4306 rev "
-"2). The v4 version of the firmware that {{< manpage \"bwn\" \"4\">}} uses "
-"does not support these chips."
+"you are using older Broadcom chipsets (BCM4301, BCM4303 and BCM4306 rev 2). "
+"The v4 version of the firmware that {{< manpage \"bwn\" \"4\">}} uses does "
+"not support these chips."
 msgstr ""
 
 #. type: Plain text
@@ -9255,7 +9309,8 @@ msgid "SMC SMCWPCI-GM"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2187 website/content/en/releases/12.2R/hardware.adoc:2386
+#: website/content/en/releases/12.2R/hardware.adoc:2187
+#: website/content/en/releases/12.2R/hardware.adoc:2386
 msgid "SparkLAN WL-685R"
 msgstr ""
 
@@ -9410,9 +9465,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2220
 msgid ""
-"Realtek RTL8192C, RTL8188E, RTL8812A and RTL8821A based PCIe IEEE "
-"802.11b/g/n wireless network adapters (MAN.RTWN.4{{< manpage \"rtwn\" "
-"\"4\">}} driver)"
+"Realtek RTL8192C, RTL8188E, RTL8812A and RTL8821A based PCIe IEEE 802.11b/g/"
+"n wireless network adapters (MAN.RTWN.4{{< manpage \"rtwn\" \"4\">}} driver)"
 msgstr ""
 
 #. type: Plain text
@@ -10019,8 +10073,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2347
 msgid ""
-"An up to date list can be found at "
-"http://customerproducts.atheros.com/customerproducts/default.asp."
+"An up to date list can be found at http://customerproducts.atheros.com/"
+"customerproducts/default.asp."
 msgstr ""
 
 #. type: Plain text
@@ -10289,8 +10343,8 @@ msgstr ""
 msgid ""
 "[amd64, i386] Lucent Technologies WaveLAN/IEEE 802.11b wireless network "
 "adapters and workalikes using the Lucent Hermes, Intersil PRISM-II, Intersil "
-"PRISM-2.5, Intersil Prism-3, and Symbol Spectrum24 chipsets ({{< manpage "
-"\"wi\" \"4\">}} driver)"
+"PRISM-2.5, Intersil Prism-3, and Symbol Spectrum24 chipsets ({{< manpage \"wi"
+"\" \"4\">}} driver)"
 msgstr ""
 
 #. type: Plain text
@@ -10536,8 +10590,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2462
 msgid ""
-"The {{< manpage \"ce\" \"4\">}} driver supports the following models of "
-"Tau-PCI/32 WAN adapters:"
+"The {{< manpage \"ce\" \"4\">}} driver supports the following models of Tau-"
+"PCI/32 WAN adapters:"
 msgstr ""
 
 #. type: Plain text
@@ -10588,8 +10642,8 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2476
 msgid ""
-"The {{< manpage \"cp\" \"4\">}} driver supports the following models of "
-"Tau-PCI WAN adapters:"
+"The {{< manpage \"cp\" \"4\">}} driver supports the following models of Tau-"
+"PCI WAN adapters:"
 msgstr ""
 
 #. type: Plain text
@@ -10770,7 +10824,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2526
-msgid "[i386] Cyclades Cyclom-Y serial board ({{< manpage \"cy\" \"4\">}} driver)"
+msgid ""
+"[i386] Cyclades Cyclom-Y serial board ({{< manpage \"cy\" \"4\">}} driver)"
 msgstr ""
 
 #. type: Plain text
@@ -10819,7 +10874,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2538
-msgid "[amd64, i386] Lava Computers 2SP-PCI/DSerial-PCI/Quattro-PCI/Octopus-550"
+msgid ""
+"[amd64, i386] Lava Computers 2SP-PCI/DSerial-PCI/Quattro-PCI/Octopus-550"
 msgstr ""
 
 #. type: Plain text
@@ -10874,7 +10930,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2549
-msgid "[amd64, i386] SIIG Cyber Serial (Single and Dual) PCI 16C550/16C650/16C850"
+msgid ""
+"[amd64, i386] SIIG Cyber Serial (Single and Dual) PCI 16C550/16C650/16C850"
 msgstr ""
 
 #. type: Plain text
@@ -11214,7 +11271,8 @@ msgid "Terratec DMX 6fire"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2638 website/content/en/releases/12.2R/hardware.adoc:2657
+#: website/content/en/releases/12.2R/hardware.adoc:2638
+#: website/content/en/releases/12.2R/hardware.adoc:2657
 msgid ""
 "Only analog playback is supported. Recording and other features of these "
 "cards are not supported."
@@ -11512,7 +11570,8 @@ msgid "NVIDIA nForce2 400"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/hardware.adoc:2711 website/content/en/releases/12.2R/hardware.adoc:2864
+#: website/content/en/releases/12.2R/hardware.adoc:2711
+#: website/content/en/releases/12.2R/hardware.adoc:2864
 msgid "NVIDIA nForce3"
 msgstr ""
 
@@ -11803,8 +11862,7 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2780
 msgid ""
-"The {{< manpage \"snd_spicds\" \"4\">}} driver supports the following "
-"codecs:"
+"The {{< manpage \"snd_spicds\" \"4\">}} driver supports the following codecs:"
 msgstr ""
 
 #. type: Plain text
@@ -12074,8 +12132,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Note*: +\n"
-"[amd64, i386] USB Ethernet adapters can be found in the section listing "
-"link:#ethernet[Ethernet interfaces].\n"
+"[amd64, i386] USB Ethernet adapters can be found in the section listing link:#ethernet[Ethernet interfaces].\n"
 msgstr ""
 
 #. type: Plain text
@@ -12083,8 +12140,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Note*: +\n"
-"[amd64, i386] USB Bluetooth adapters can be found in "
-"link:#bluetooth[Bluetooth] section.\n"
+"[amd64, i386] USB Bluetooth adapters can be found in link:#bluetooth[Bluetooth] section.\n"
 msgstr ""
 
 #. type: Plain text
@@ -12222,7 +12278,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2893
-msgid "Devices supported by the {{< manpage \"umodem\" \"4\">}} driver include:"
+msgid ""
+"Devices supported by the {{< manpage \"umodem\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -12324,7 +12381,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2918
-msgid "The {{< manpage \"ubsa\" \"4\">}} driver supports the following adapters:"
+msgid ""
+"The {{< manpage \"ubsa\" \"4\">}} driver supports the following adapters:"
 msgstr ""
 
 #. type: Plain text
@@ -12371,7 +12429,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2930
-msgid "The {{< manpage \"uftdi\" \"4\">}} driver supports the following adapters:"
+msgid ""
+"The {{< manpage \"uftdi\" \"4\">}} driver supports the following adapters:"
 msgstr ""
 
 #. type: Plain text
@@ -12698,7 +12757,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:2999
-msgid "  The {{< manpage \"umct\" \"4\">}} driver supports the following adapters:"
+msgid ""
+"  The {{< manpage \"umct\" \"4\">}} driver supports the following adapters:"
 msgstr ""
 
 #. type: Plain text
@@ -12733,7 +12793,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:3009
-msgid "The {{< manpage \"uvisor\" \"4\">}} driver supports the following devices:"
+msgid ""
+"The {{< manpage \"uvisor\" \"4\">}} driver supports the following devices:"
 msgstr ""
 
 #. type: Plain text
@@ -13222,8 +13283,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Note*: +\n"
-"Information regarding specific video cards and compatibility with Xorg can "
-"be found at http://www.x.org/.\n"
+"Information regarding specific video cards and compatibility with Xorg can be found at http://www.x.org/.\n"
 msgstr ""
 
 #. type: Plain text
@@ -13280,9 +13340,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Note*: +\n"
-"{{< manpage \"moused\" \"8\">}} has more information on using pointing "
-"devices with FreeBSD. Information on using pointing devices with Xorg can be "
-"found at http://www.x.org/.\n"
+"{{< manpage \"moused\" \"8\">}} has more information on using pointing devices with FreeBSD. Information on using pointing devices with Xorg can be found at http://www.x.org/.\n"
 msgstr ""
 
 #. type: Plain text
@@ -13294,7 +13352,8 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.2R/hardware.adoc:3151
-msgid "[i386, amd64] PC-compatible joysticks ({{< manpage \"joy\" \"4\">}} driver)"
+msgid ""
+"[i386, amd64] PC-compatible joysticks ({{< manpage \"joy\" \"4\">}} driver)"
 msgstr ""
 
 #. type: Plain text

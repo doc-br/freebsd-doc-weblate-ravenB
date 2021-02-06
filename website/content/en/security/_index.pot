@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-01-30 16:03-0300\n"
+"POT-Creation-Date: 2021-02-06 11:53-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -100,9 +100,9 @@ msgid ""
 "FreeBSD security issues specific to the base system should be reported via "
 "email to the mailto:secteam@FreeBSD.org[FreeBSD Security Team] or, if a "
 "higher level of confidentiality is required, via PGP encrypted email to the "
-"mailto:security-officer@FreeBSD.org[Security Officer Team] using the "
-"link:so_public_key.asc[Security Officer PGP key]. Additional information can "
-"be found at the link:reporting/[reporting FreeBSD security incidents] page."
+"mailto:security-officer@FreeBSD.org[Security Officer Team] using the link:"
+"so_public_key.asc[Security Officer PGP key]. Additional information can be "
+"found at the link:reporting/[reporting FreeBSD security incidents] page."
 msgstr ""
 
 #. type: Title ==
@@ -195,8 +195,7 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/security/_index.adoc:57
 msgid ""
-"Advisories affecting the base system are sent to the following mailing "
-"lists:"
+"Advisories affecting the base system are sent to the following mailing lists:"
 msgstr ""
 
 #. type: Plain text
@@ -224,19 +223,19 @@ msgstr ""
 #. type: Plain text
 #: website/content/en/security/_index.adoc:65
 msgid ""
-"Advisories are always signed using the FreeBSD Security Officer "
-"link:so_public_key.asc[PGP key] and are archived, along with their "
-"associated patches, at the http://security.FreeBSD.org/ web server in the "
-"http://security.FreeBSD.org/advisories/[advisories] and "
-"http://security.FreeBSD.org/patches/[patches] subdirectories."
+"Advisories are always signed using the FreeBSD Security Officer link:"
+"so_public_key.asc[PGP key] and are archived, along with their associated "
+"patches, at the http://security.FreeBSD.org/ web server in the http://"
+"security.FreeBSD.org/advisories/[advisories] and http://security.FreeBSD.org/"
+"patches/[patches] subdirectories."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/security/_index.adoc:67
 msgid ""
 "The FreeBSD Security Officer provides security advisories for _-STABLE "
-"Branches_ and the _Security Branches_. (Advisories are not issued for the "
-"_-CURRENT Branch_, which is primarily oriented towards FreeBSD developers.)"
+"Branches_ and the _Security Branches_. (Advisories are not issued for the _-"
+"CURRENT Branch_, which is primarily oriented towards FreeBSD developers.)"
 msgstr ""
 
 #. type: Plain text
@@ -307,17 +306,18 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/security/_index.adoc:90
-msgid "Each release is supported by the Security Officer for a limited time only."
+msgid ""
+"Each release is supported by the Security Officer for a limited time only."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/security/_index.adoc:92
 msgid ""
 "The designation and expected lifetime of all currently supported branches "
-"and their respective releases are given below. The _Expected EoL "
-"(end-of-life)_ column indicates the earliest date on which support for that "
-"branch or release will end. Please note that these dates may be pushed back "
-"if circumstances warrant it."
+"and their respective releases are given below. The _Expected EoL (end-of-"
+"life)_ column indicates the earliest date on which support for that branch "
+"or release will end. Please note that these dates may be pushed back if "
+"circumstances warrant it."
 msgstr ""
 
 #. type: Plain text
@@ -328,17 +328,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/security/_index.adoc:105
+#: website/content/en/security/_index.adoc:104
 msgid ""
 "|=== |Branch |Release |Release Date |Expected EoL |stable/12 |n/a |n/a |June "
 "30, 2024 |releng/12.2 |12.2-RELEASE |October 27, 2020 |12.3-RELEASE + 3 "
-"months |releng/12.1 |12.1-RELEASE |November 4, 2019 |January 31, 2021 "
-"|stable/11 |n/a |n/a |September 30, 2021 |releng/11.4 |11.4-RELEASE |June "
-"16, 2020 |September 30, 2021 |==="
+"months |stable/11 |n/a |n/a |September 30, 2021 |releng/11.4 |11.4-RELEASE |"
+"June 16, 2020 |September 30, 2021 |==="
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/security/_index.adoc:107
+#: website/content/en/security/_index.adoc:106
 msgid ""
 "In the run-up to a release, a number of -BETA and -RC releases may be "
 "published for testing purposes. These releases are only supported for a few "
@@ -348,13 +347,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: website/content/en/security/_index.adoc:109
+#: website/content/en/security/_index.adoc:108
 #, no-wrap
 msgid "The FreeBSD support model"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/security/_index.adoc:112
+#: website/content/en/security/_index.adoc:111
 msgid ""
 "Under the current support model, each major version's stable branch is "
 "explicitly supported for 5 years, while each individual point release is "
@@ -362,9 +361,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/security/_index.adoc:113
+#: website/content/en/security/_index.adoc:112
 msgid ""
-"The details and rationale behind this model can be found in the "
-"https://lists.freebsd.org/pipermail/freebsd-announce/2015-February/001624.html[official "
-"announcement] sent in February 2015."
+"The details and rationale behind this model can be found in the https://"
+"lists.freebsd.org/pipermail/freebsd-announce/2015-February/001624."
+"html[official announcement] sent in February 2015."
 msgstr ""

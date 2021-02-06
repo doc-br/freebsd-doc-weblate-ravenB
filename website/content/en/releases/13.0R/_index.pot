@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-01-30 16:03-0300\n"
+"POT-Creation-Date: 2021-02-06 11:53-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -66,12 +66,12 @@ msgstr ""
 
 #. link:signatures[FreeBSD {localRel}-RELEASE signed checksum files] +
 #. link:installation[FreeBSD {localRel}-RELEASE installation information] +
-#. link:hardware[FreeBSD {localRel}-RELEASE hardware information] +
-#. link:relnotes[FreeBSD {localRel}-RELEASE release notes] +
-#. link:errata[FreeBSD {localRel}-RELEASE errata] +
-#. link:readme[FreeBSD {localRel}-RELEASE readme] +
 #. link:todo[FreeBSD Release Engineering TODO Page]
 #. type: Plain text
 #: website/content/en/releases/13.0R/_index.adoc:27
-msgid "link:schedule[FreeBSD {localRel}-RELEASE schedule] +"
+msgid ""
+"link:hardware[FreeBSD {localRel}-RELEASE hardware information] + link:"
+"relnotes[FreeBSD {localRel}-RELEASE release notes] + link:errata[FreeBSD "
+"{localRel}-RELEASE errata] + link:readme[FreeBSD {localRel}-RELEASE readme] "
+"+ link:schedule[FreeBSD {localRel}-RELEASE schedule] +"
 msgstr ""
