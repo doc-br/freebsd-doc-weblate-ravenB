@@ -44,16 +44,16 @@ for resource in $RESOURCES; do
 		dir=$(echo "$dirbase" | rev | cut -d '/' -f 1 | rev)
 		echo "$document"
 
-		if [ -f "$dirbase/$name.pot" ]; then
+		if [ -f "$dirbase/$name.po" ]; then
 			po4a-updatepo \
 				--format asciidoc \
 				--master "$document" \
 				--master-charset "UTF-8" \
 				--copyright-holder "The FreeBSD Project" \
 				--package-name "FreeBSD Documentation" \
-				--po "$dirbase/$name.pot"
-			if [ -f "$dirbase/$name.pot~" ]; then
-				rm -f "$dirbase/$name.pot~" 
+				--po "$dirbase/$name.po"
+			if [ -f "$dirbase/$name.po~" ]; then
+				rm -f "$dirbase/$name.po~" 
 			fi
 		else
 			po4a-gettextize \
@@ -62,7 +62,7 @@ for resource in $RESOURCES; do
 				--master-charset "UTF-8" \
 				--copyright-holder "The FreeBSD Project" \
 				--package-name "FreeBSD Documentation" \
-				--po "$dirbase/$name.pot"
+				--po "$dirbase/$name.po"
 		fi
 	done
 done
