@@ -7,19 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
 "POT-Creation-Date: 2021-02-10 20:36-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-02-11 16:13+0000\n"
+"Last-Translator: Danilo G. Baio <dbaio@FreeBSD.org>\n"
+"Language-Team: Portuguese (Brazil) <https://raven.fugbr.org/projects/"
+"websiteb/communityirc/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. type: Plain text
 #: website/content/en/community/irc.adoc:1
 #, no-wrap
 msgid "---\n"
-msgstr ""
+msgstr "---\n"
 
 #. type: Plain text
 #: website/content/en/community/irc.adoc:4
@@ -29,12 +32,15 @@ msgid ""
 "sidenav: community\n"
 "---\n"
 msgstr ""
+"title: \"IRC\"\n"
+"sidenav: community\n"
+"---\n"
 
 #. type: Title =
 #: website/content/en/community/irc.adoc:8
 #, no-wrap
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #. type: Plain text
 #: website/content/en/community/irc.adoc:10
@@ -50,3 +56,13 @@ msgid ""
 "the FreeBSD project. See also link:{faq}#irc[the FAQ entry] for more "
 "information."
 msgstr ""
+"Embora os canais #freebsd existam em várias redes IRC, o projeto FreeBSD não "
+"os controla e nem endossa o IRC como meio de suporte. Você pode ser "
+"ignorado, insultado ou expulso se fizer perguntas em qualquer canal do IRC, "
+"embora possa ter um pouco mais de sorte em canais chamados #freebsdhelp onde "
+"eles existirem. Uma lista de canais IRC conhecidos relacionados ao FreeBSD "
+"está disponível na https://wiki.freebsd.org/IRC/Channels[wiki] FreeBSD. Se "
+"você quiser experimentar estes ou quaisquer outros canais no IRC, é por sua "
+"própria conta e risco e quaisquer reclamações sobre a conduta nesses canais "
+"não devem ser direcionadas ao projeto FreeBSD. Consulte também o link: {faq} "
+"#irc [the FAQ entry] para obter mais informações."
