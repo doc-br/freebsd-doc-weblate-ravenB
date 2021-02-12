@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
 "POT-Creation-Date: 2021-02-10 20:35-0300\n"
-"PO-Revision-Date: 2021-02-12 00:25+0000\n"
+"PO-Revision-Date: 2021-02-12 11:05+0000\n"
 "Last-Translator: Danilo G. Baio <dbaio@FreeBSD.org>\n"
 "Language-Team: Portuguese (Brazil) <https://raven.fugbr.org/projects/"
 "documentation/articlesbsdl-gpl_index/pt_BR/>\n"
@@ -89,7 +89,7 @@ msgstr ""
 #: documentation/content/en/articles/bsdl-gpl/_index.adoc:30
 #, no-wrap
 msgid "Very Brief Open Source History"
-msgstr ""
+msgstr "Breve História do Open Source"
 
 #. type: Plain text
 #: documentation/content/en/articles/bsdl-gpl/_index.adoc:33
@@ -788,7 +788,7 @@ msgstr ""
 #: documentation/content/en/articles/bsdl-gpl/_index.adoc:176
 #, no-wrap
 msgid "[1] http://www.gnu.org/licenses/gpl.html\n"
-msgstr ""
+msgstr "[1] http://www.gnu.org/licenses/gpl.html\n"
 
 #. type: delimited block .
 #: documentation/content/en/articles/bsdl-gpl/_index.adoc:178
