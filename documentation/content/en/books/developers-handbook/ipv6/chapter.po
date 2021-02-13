@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -41,11 +41,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:10
 #, no-wrap
 msgid "IPv6 Internals"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:33
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -107,11 +102,11 @@ msgid "RFC1639: FTP Operation Over Big Address Records (FOOBAR)"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:53 documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:89
-#, no-wrap
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:53
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:89
 msgid ""
-"** RFC2428 is preferred over RFC1639. FTP clients will first try RFC2428, "
-"then RFC1639 if failed.\n"
+"RFC2428 is preferred over RFC1639. FTP clients will first try RFC2428, then "
+"RFC1639 if failed."
 msgstr ""
 
 #. type: Plain text
@@ -125,14 +120,21 @@ msgid "RFC1933: Transition Mechanisms for IPv6 Hosts and Routers"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:58
+msgid "IPv4 compatible address is not supported."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:59
+msgid "automatic tunneling (described in 4.3 of this RFC) is not supported."
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:60
-#, no-wrap
 msgid ""
-"** IPv4 compatible address is not supported.\n"
-"** automatic tunneling (described in 4.3 of this RFC) is not supported.\n"
-"** man:gif[4] interface implements IPv[46]-over-IPv[46] tunnel in a generic "
+"man:gif[4] interface implements IPv[46]-over-IPv[46] tunnel in a generic "
 "way, and it covers \"configured tunnel\" described in the spec. See "
-"<<gif,23.5.1.5>> in this document for details.\n"
+"<<gif,23.5.1.5>> in this document for details."
 msgstr ""
 
 #. type: Plain text
@@ -147,8 +149,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:65
-#, no-wrap
-msgid "** usr.sbin/route6d support this.\n"
+msgid "usr.sbin/route6d support this."
 msgstr ""
 
 #. type: Plain text
@@ -158,10 +159,9 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:69
-#, no-wrap
 msgid ""
-"** For supported library functions/kernel APIs, see "
-"[.filename]#sys/netinet6/ADVAPI#.\n"
+"For supported library functions/kernel APIs, see "
+"[.filename]#sys/netinet6/ADVAPI#."
 msgstr ""
 
 #. type: Plain text
@@ -171,10 +171,9 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:73
-#, no-wrap
 msgid ""
-"** RFC2362 defines packet formats for "
-"PIM-SM. [.filename]#draft-ietf-pim-ipv6-01.txt# is written based on this.\n"
+"RFC2362 defines packet formats for "
+"PIM-SM. [.filename]#draft-ietf-pim-ipv6-01.txt# is written based on this."
 msgstr ""
 
 #. type: Plain text
@@ -184,10 +183,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:77
-#, no-wrap
-msgid ""
-"** supports node required addresses, and conforms to the scope "
-"requirement.\n"
+msgid "supports node required addresses, and conforms to the scope requirement."
 msgstr ""
 
 #. type: Plain text
@@ -197,8 +193,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:81
-#, no-wrap
-msgid "** supports 64-bit length of Interface ID.\n"
+msgid "supports 64-bit length of Interface ID."
 msgstr ""
 
 #. type: Plain text
@@ -208,8 +203,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:85
-#, no-wrap
-msgid "** Userland applications use the well-known addresses assigned in the RFC.\n"
+msgid "Userland applications use the well-known addresses assigned in the RFC."
 msgstr ""
 
 #. type: Plain text
@@ -229,8 +223,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:94
-#, no-wrap
-msgid "** See <<neighbor-discovery,23.5.1.2>> in this document for details.\n"
+msgid "See <<neighbor-discovery,23.5.1.2>> in this document for details."
 msgstr ""
 
 #. type: Plain text
@@ -240,8 +233,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:98
-#, no-wrap
-msgid "** See <<ipv6-pnp,23.5.1.4>> in this document for details.\n"
+msgid "See <<ipv6-pnp,23.5.1.4>> in this document for details."
 msgstr ""
 
 #. type: Plain text
@@ -251,8 +243,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:102
-#, no-wrap
-msgid "** See <<icmpv6,23.5.1.9>> in this document for details.\n"
+msgid "See <<icmpv6,23.5.1.9>> in this document for details."
 msgstr ""
 
 #. type: Plain text
@@ -267,10 +258,9 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:107
-#, no-wrap
 msgid ""
-"** Necessary statistics are gathered by the kernel. Actual IPv6 MIB support "
-"is provided as a patchkit for ucd-snmp.\n"
+"Necessary statistics are gathered by the kernel. Actual IPv6 MIB support is "
+"provided as a patchkit for ucd-snmp."
 msgstr ""
 
 #. type: Plain text
@@ -280,10 +270,9 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:111
-#, no-wrap
 msgid ""
-"** Necessary statistics are gathered by the kernel. Actual IPv6 MIB support "
-"is provided as patchkit for ucd-snmp.\n"
+"Necessary statistics are gathered by the kernel. Actual IPv6 MIB support is "
+"provided as patchkit for ucd-snmp."
 msgstr ""
 
 #. type: Plain text
@@ -303,11 +292,10 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:117
-#, no-wrap
 msgid ""
-"** IPv4 mapped address (3.7) and special behavior of IPv6 wildcard bind "
-"socket (3.8) are supported. See <<ipv6-wildcard-socket,23.5.1.12>> in this "
-"document for details.\n"
+"IPv4 mapped address (3.7) and special behavior of IPv6 wildcard bind socket "
+"(3.8) are supported. See <<ipv6-wildcard-socket,23.5.1.12>> in this document "
+"for details."
 msgstr ""
 
 #. type: Plain text
@@ -317,8 +305,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:121
-#, no-wrap
-msgid "** See <<ipv6-jumbo,23.5.1.7>> in this document for details.\n"
+msgid "See <<ipv6-jumbo,23.5.1.7>> in this document for details."
 msgstr ""
 
 #. type: Plain text
@@ -357,10 +344,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:130
-#, no-wrap
-msgid ""
-"** man:pim6dd[8] implements dense mode. man:pim6sd[8] implements sparse "
-"mode.\n"
+msgid "man:pim6dd[8] implements dense mode. man:pim6sd[8] implements sparse mode."
 msgstr ""
 
 #. type: Plain text
@@ -377,8 +361,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:135
-#, no-wrap
-msgid "** See <<ipv6-sas,23.5.1.6>> in this document for details.\n"
+msgid "See <<ipv6-sas,23.5.1.6>> in this document for details."
 msgstr ""
 
 #. type: Plain text
@@ -1319,13 +1302,15 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:406 documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:444
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:406
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:444
 #, no-wrap
 msgid "\tint on;\n"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:409 documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:447
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:409
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:447
 #, no-wrap
 msgid ""
 "\tsetsockopt(s, IPPROTO_IPV6, IPV6_BINDV6ONLY,\n"
@@ -1682,13 +1667,15 @@ msgid "IPsec is mainly organized by three components."
 msgstr ""
 
 #. type: Title ====
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:528 documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:531
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:528
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:531
 #, no-wrap
 msgid "Policy Management"
 msgstr ""
 
 #. type: Title ====
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:529 documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:537
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:529
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:537
 #, no-wrap
 msgid "Key Management"
 msgstr ""
@@ -1836,19 +1823,35 @@ msgid "Currently supported algorithms are:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:568 documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:605
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:568
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:605
 msgid "old IPsec AH"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:570
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:583
+msgid "null crypto checksum (no document, just for debugging)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:571
+msgid "keyed MD5 with 128bit crypto checksum ([.filename]#rfc1828.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:572
+msgid "keyed SHA1 with 128bit crypto checksum (no document)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:573
+msgid "HMAC MD5 with 128bit crypto checksum ([.filename]#rfc2085.txt#)"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:574
-#, no-wrap
-msgid ""
-"** null crypto checksum (no document, just for debugging)\n"
-"** keyed MD5 with 128bit crypto checksum ([.filename]#rfc1828.txt#)\n"
-"** keyed SHA1 with 128bit crypto checksum (no document)\n"
-"** HMAC MD5 with 128bit crypto checksum ([.filename]#rfc2085.txt#)\n"
-"** HMAC SHA1 with 128bit crypto checksum (no document)\n"
+msgid "HMAC SHA1 with 128bit crypto checksum (no document)"
 msgstr ""
 
 #. type: Plain text
@@ -1857,11 +1860,13 @@ msgid "old IPsec ESP"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:578
+msgid "null encryption (no document, similar to [.filename]#rfc2410.txt#)"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:579
-#, no-wrap
-msgid ""
-"** null encryption (no document, similar to [.filename]#rfc2410.txt#)\n"
-"** DES-CBC mode ([.filename]#rfc1829.txt#)\n"
+msgid "DES-CBC mode ([.filename]#rfc1829.txt#)"
 msgstr ""
 
 #. type: Plain text
@@ -1870,14 +1875,23 @@ msgid "new IPsec AH"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:584
+msgid "keyed MD5 with 96bit crypto checksum (no document)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:585
+msgid "keyed SHA1 with 96bit crypto checksum (no document)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:586
+msgid "HMAC MD5 with 96bit crypto checksum ([.filename]#rfc2403.txt#)"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:587
-#, no-wrap
-msgid ""
-"** null crypto checksum (no document, just for debugging)\n"
-"** keyed MD5 with 96bit crypto checksum (no document)\n"
-"** keyed SHA1 with 96bit crypto checksum (no document)\n"
-"** HMAC MD5 with 96bit crypto checksum ([.filename]#rfc2403.txt#)\n"
-"** HMAC SHA1 with 96bit crypto checksum ([.filename]#rfc2404.txt#)\n"
+msgid "HMAC SHA1 with 96bit crypto checksum ([.filename]#rfc2404.txt#)"
 msgstr ""
 
 #. type: Plain text
@@ -1886,26 +1900,55 @@ msgid "new IPsec ESP"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:598
-#, no-wrap
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:591
+msgid "null encryption ([.filename]#rfc2410.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:592
 msgid ""
-"** null encryption ([.filename]#rfc2410.txt#)\n"
-"** DES-CBC with derived IV "
-"([.filename]#draft-ietf-ipsec-ciph-des-derived-01.txt#, draft expired)\n"
-"** DES-CBC with explicit IV ([.filename]#rfc2405.txt#)\n"
-"** 3DES-CBC with explicit IV ([.filename]#rfc2451.txt#)\n"
-"** BLOWFISH CBC ([.filename]#rfc2451.txt#)\n"
-"** CAST128 CBC ([.filename]#rfc2451.txt#)\n"
-"** RC5 CBC ([.filename]#rfc2451.txt#)\n"
-"** each of the above can be combined with:\n"
+"DES-CBC with derived IV "
+"([.filename]#draft-ietf-ipsec-ciph-des-derived-01.txt#, draft expired)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:593
+msgid "DES-CBC with explicit IV ([.filename]#rfc2405.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:594
+msgid "3DES-CBC with explicit IV ([.filename]#rfc2451.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:595
+msgid "BLOWFISH CBC ([.filename]#rfc2451.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:596
+msgid "CAST128 CBC ([.filename]#rfc2451.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:597
+msgid "RC5 CBC ([.filename]#rfc2451.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:598
+msgid "each of the above can be combined with:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:600
+msgid "ESP authentication with HMAC-MD5(96bit)"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:601
-#, no-wrap
-msgid ""
-"*** ESP authentication with HMAC-MD5(96bit)\n"
-"*** ESP authentication with HMAC-SHA1(96bit)\n"
+msgid "ESP authentication with HMAC-SHA1(96bit)"
 msgstr ""
 
 #. type: Plain text
@@ -1914,13 +1957,17 @@ msgid "The following algorithms are NOT supported:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:608
-#, no-wrap
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:607
 msgid ""
-"** HMAC MD5 with 128bit crypto checksum + 64bit replay prevention "
-"([.filename]#rfc2085.txt#)\n"
-"** keyed SHA1 with 160bit crypto checksum + 32bit padding "
-"([.filename]#rfc1852.txt#)\n"
+"HMAC MD5 with 128bit crypto checksum + 64bit replay prevention "
+"([.filename]#rfc2085.txt#)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/ipv6/chapter.adoc:608
+msgid ""
+"keyed SHA1 with 160bit crypto checksum + 32bit padding "
+"([.filename]#rfc1852.txt#)"
 msgstr ""
 
 #. type: Plain text

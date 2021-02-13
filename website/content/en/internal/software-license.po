@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -23,8 +23,8 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/internal/software-license.adoc:5
-msgid "title: \"Software License Policy\" sidenav: docs ---"
+#: website/content/en/internal/software-license.adoc:4
+msgid "title: \"Software License Policy\" sidenav: docs"
 msgstr ""
 
 #. type: Title =
@@ -85,50 +85,90 @@ msgid "Policy"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/internal/software-license.adoc:24
+#: website/content/en/internal/software-license.adoc:21
 msgid ""
 "The import of new software licensed under any licenses other than the BSD "
 "license and BSD-Like Licenses (as defined below) requires the prior approval "
-"of the FreeBSD Core Team. Requests for import must include: ** A list of "
-"features or bug fixes that the new version or patches contain, along with "
-"evidence that our users need those features. PRs or references to mailing "
-"list discussions are ideal forms of evidence.  ** This process should be "
-"used for all software imports, not just those that require Core Team "
-"review. The mere existence of a new version does not justify an import of "
-"software to source or ports.  ** A list of FreeBSD branches that may be "
-"affected. Expansions of scope require a new request to and approval from the "
-"FreeBSD Core Team."
+"of the FreeBSD Core Team. Requests for import must include:"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:22
+msgid ""
+"A list of features or bug fixes that the new version or patches contain, "
+"along with evidence that our users need those features. PRs or references to "
+"mailing list discussions are ideal forms of evidence."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:23
+msgid ""
+"This process should be used for all software imports, not just those that "
+"require Core Team review. The mere existence of a new version does not "
+"justify an import of software to source or ports."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:24
+msgid ""
+"A list of FreeBSD branches that may be affected. Expansions of scope require "
+"a new request to and approval from the FreeBSD Core Team."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:26
+msgid ""
+"The Apache License 2.0 is acceptable for use in some cases. The Core Team "
+"must approve the import of new Apache License licensed components or the "
+"change of license of existing components to the Apache License."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:27
+#: website/content/en/internal/software-license.adoc:32
+#: website/content/en/internal/software-license.adoc:36
+msgid "This license is approved for the following components:"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:28
+msgid "LLVM toolchain and (with LLVM Exceptions) runtime components."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/internal/software-license.adoc:29
+msgid "Subversion and its dependencies"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:31
 msgid ""
-"The Apache License 2.0 is acceptable for use in some cases. The Core Team "
-"must approve the import of new Apache License licensed components or the "
-"change of license of existing components to the Apache License.  ** This "
-"license is approved for the following components: *** LLVM toolchain and "
-"(with LLVM Exceptions) runtime components.  *** Subversion and its "
-"dependencies"
+"The BSD+Patent License is acceptable for use in some cases. The Core Team "
+"must approve the import of new BSD+Patent License licensed components or the "
+"change of license of existing components to the BSD+Patent License."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/internal/software-license.adoc:33
+msgid "EDK2 derived code related to UEFI functionality"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:35
 msgid ""
-"The BSD+Patent License is acceptable for use in some cases. The Core Team "
-"must approve the import of new BSD+Patent License licensed components or the "
-"change of license of existing components to the BSD+Patent License.  ** This "
-"license is approved for the following components: *** EDK2 derived code "
-"related to UEFI functionality"
+"The Common Development and Distribution License (CDDL) is acceptable for use "
+"in some cases. The Core Team must approve the import of new CDDL licensed "
+"components or the change of license of existing components to the CDDL."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/internal/software-license.adoc:37
+msgid "DTrace"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/internal/software-license.adoc:38
-msgid ""
-"The Common Development and Distribution License (CDDL) is acceptable for use "
-"in some cases. The Core Team must approve the import of new CDDL licensed "
-"components or the change of license of existing components to the CDDL.  ** "
-"This license is approved for the following components: *** DTrace *** ZFS "
-"filesystem including kernel support and userland utilities"
+msgid "ZFS filesystem including kernel support and userland utilities"
 msgstr ""
 
 #. type: Plain text

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -37,11 +37,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/testing/chapter.adoc:9
 #, no-wrap
 msgid "Regression and Performance Testing"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/testing/chapter.adoc:32
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -423,45 +418,47 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/testing/chapter.adoc:111
-#, no-wrap
-msgid "** For each machine within that architecture:\n"
+msgid "For each machine within that architecture:"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/testing/chapter.adoc:113
-#, no-wrap
-msgid "*** If a brief log file exists, then:\n"
+msgid "If a brief log file exists, then:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/testing/chapter.adoc:115
+msgid "Call `success()` to determine the outcome of the build."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/testing/chapter.adoc:116
+msgid "Output the modification size."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/developers-handbook/testing/chapter.adoc:117
+msgid "Output the size of the brief log file with a link to the log file itself."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/testing/chapter.adoc:118
-#, no-wrap
-msgid ""
-"**** Call `success()` to determine the outcome of the build.\n"
-"**** Output the modification size.\n"
-"**** Output the size of the brief log file with a link to the log file "
-"itself.\n"
-"**** If a full log file also exists, then:\n"
+msgid "If a full log file also exists, then:"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/testing/chapter.adoc:120
-#, no-wrap
-msgid ""
-"***** Output the size of the full log file with a link to the log file "
-"itself.\n"
+msgid "Output the size of the full log file with a link to the log file itself."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/testing/chapter.adoc:122
-#, no-wrap
-msgid "*** Otherwise:\n"
+msgid "Otherwise:"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/developers-handbook/testing/chapter.adoc:124
-#, no-wrap
-msgid "**** No output.\n"
+msgid "No output."
 msgstr ""
 
 #. type: Plain text

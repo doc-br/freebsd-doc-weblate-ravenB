@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:9
 #, no-wrap
 msgid "USB Device Mode / USB OTG"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:27 documentation/content/en/books/handbook/usb-device-mode/_index.adoc:31 documentation/content/en/books/handbook/usb-device-mode/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -224,7 +199,8 @@ msgid "# service devd restart\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:101 documentation/content/en/books/handbook/usb-device-mode/_index.adoc:155
+#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:101
+#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:155
 msgid ""
 "Make sure the necessary modules are loaded and the correct template is set "
 "at boot by adding those lines to [.filename]#/boot/loader.conf#, creating it "
@@ -240,7 +216,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:109 documentation/content/en/books/handbook/usb-device-mode/_index.adoc:163
+#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:109
+#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:163
 msgid "To load the module and set the template without rebooting use:"
 msgstr ""
 
@@ -286,7 +263,8 @@ msgid "Connecting to USB Device Mode Serial Ports from macOS"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:130 documentation/content/en/books/handbook/usb-device-mode/_index.adoc:139
+#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:130
+#: documentation/content/en/books/handbook/usb-device-mode/_index.adoc:139
 msgid ""
 "To connect to a board configured to provide USB device mode serial ports, "
 "connect the USB host, such as a laptop, to the boards USB OTG or USB client "

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -60,33 +60,8 @@ msgid "The Design and Implementation of the 4.4BSD Operating System"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/design-44bsd/_index.adoc:32
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/design-44bsd/_index.adoc:40 documentation/content/en/books/design-44bsd/_index.adoc:50 documentation/content/en/books/design-44bsd/_index.adoc:60
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/design-44bsd/_index.adoc:42
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/design-44bsd/_index.adoc:52
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
 #: documentation/content/en/books/design-44bsd/_index.adoc:62
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/design-44bsd/_index.adoc:64
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -317,19 +292,31 @@ msgstr ""
 msgid "Machine-independent software in the 4.4BSD kernel"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/design-44bsd/_index.adoc:137
+#. type: Table
+#: documentation/content/en/books/design-44bsd/_index.adoc:136
+#, no-wrap
 msgid ""
-"|=== |Category |Lines of code |Percentage of kernel |headers |9,393 |4.6 "
-"|initialization |1,107 |0.6 |kernel facilities |8,793 |4.4 |generic "
-"interfaces |4,782 |2.4 |interprocess communication |4,540 |2.2 |terminal "
-"handling |3,911 |1.9 |virtual memory |11,813 |5.8 |vnode management |7,954 "
-"|3.9 |filesystem naming |6,550 |3.2 |fast filestore |4,365 |2.2 "
-"|log-structure filestore |4,337 |2.1 |memory-based filestore |645 |0.3 "
-"|cd9660 filesystem |4,177 |2.1 |miscellaneous filesystems (10) |12,695 |6.3 "
-"|network filesystem |17,199 |8.5 |network communication |8,630 |4.3 "
-"|internet protocols |11,984 |5.9 |ISO protocols |23,924 |11.8 |X.25 "
-"protocols |10,626 |5.3 |XNS protocols |5,192 |2.6 |==="
+"|Category |Lines of code |Percentage of kernel\n"
+"|headers |9,393 |4.6\n"
+"|initialization |1,107 |0.6\n"
+"|kernel facilities |8,793 |4.4\n"
+"|generic interfaces |4,782 |2.4\n"
+"|interprocess communication |4,540 |2.2\n"
+"|terminal handling |3,911 |1.9\n"
+"|virtual memory |11,813 |5.8\n"
+"|vnode management |7,954 |3.9\n"
+"|filesystem naming |6,550 |3.2\n"
+"|fast filestore |4,365 |2.2\n"
+"|log-structure filestore |4,337 |2.1\n"
+"|memory-based filestore |645 |0.3\n"
+"|cd9660 filesystem |4,177 |2.1\n"
+"|miscellaneous filesystems (10) |12,695 |6.3\n"
+"|network filesystem |17,199 |8.5\n"
+"|network communication |8,630 |4.3\n"
+"|internet protocols |11,984 |5.9\n"
+"|ISO protocols |23,924 |11.8\n"
+"|X.25 protocols |10,626 |5.3\n"
+"|XNS protocols |5,192 |2.6\n"
 msgstr ""
 
 #. type: Plain text
@@ -381,14 +368,18 @@ msgstr ""
 msgid "Machine-dependent software for the HP300 in the 4.4BSD kernel"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/design-44bsd/_index.adoc:161
+#. type: Table
+#: documentation/content/en/books/design-44bsd/_index.adoc:160
+#, no-wrap
 msgid ""
-"|=== |Category |Lines of code |Percentage of kernel |machine dependent "
-"headers |1,562 |0.8 |device driver headers |3,495 |1.7 |device driver source "
-"|17,506 |8.7 |virtual memory |3,087 |1.5 |other machine dependent |6,287 "
-"|3.1 |routines in assembly language |3,014 |1.5 |HP/UX compatibility |4,683 "
-"|2.3 |==="
+"|Category |Lines of code |Percentage of kernel\n"
+"|machine dependent headers |1,562 |0.8\n"
+"|device driver headers |3,495 |1.7\n"
+"|device driver source |17,506 |8.7\n"
+"|virtual memory |3,087 |1.5\n"
+"|other machine dependent |6,287 |3.1\n"
+"|routines in assembly language |3,014 |1.5\n"
+"|HP/UX compatibility |4,683 |2.3\n"
 msgstr ""
 
 #. type: Plain text

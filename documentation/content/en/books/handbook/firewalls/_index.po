@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/firewalls/_index.adoc:9
 #, no-wrap
 msgid "Firewalls"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:27 documentation/content/en/books/handbook/firewalls/_index.adoc:31 documentation/content/en/books/handbook/firewalls/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -529,40 +504,28 @@ msgstr ""
 msgid "Useful `pfctl` Options"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:201
-msgid "|=== | Command | Purpose"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:204
-msgid "|`pfctl -e` |Enable PF."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:207
-msgid "|`pfctl -d` |Disable PF."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:210
+#. type: Table
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:216
+#, no-wrap
 msgid ""
-"|`pfctl -F all -f /etc/pf.conf` |Flush all NAT, filter, state, and table "
-"rules and reload [.filename]#/etc/pf.conf#."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:213
-msgid ""
-"|`pfctl -s [ rules \\| nat \\| states ]` |Report on the filter rules, NAT "
-"rules, or state table."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:217
-msgid ""
-"|`pfctl -vnf /etc/pf.conf` |Check [.filename]#/etc/pf.conf# for errors, but "
-"do not load ruleset.  |==="
+"| Command\n"
+"| Purpose\n"
+"\n"
+"|`pfctl -e`\n"
+"|Enable PF.\n"
+"\n"
+"|`pfctl -d`\n"
+"|Disable PF.\n"
+"\n"
+"|`pfctl -F all -f /etc/pf.conf`\n"
+"|Flush all NAT, filter, state, and table rules and reload "
+"[.filename]#/etc/pf.conf#.\n"
+"\n"
+"|`pfctl -s [ rules \\| nat \\| states ]`\n"
+"|Report on the filter rules, NAT rules, or state table.\n"
+"\n"
+"|`pfctl -vnf /etc/pf.conf`\n"
+"|Check [.filename]#/etc/pf.conf# for errors, but do not load ruleset.\n"
 msgstr ""
 
 #. type: delimited block =
@@ -684,7 +647,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:272 documentation/content/en/books/handbook/firewalls/_index.adoc:454
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:272
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:454
 #, no-wrap
 msgid "# pfctl -f /etc/pf.conf\n"
 msgstr ""
@@ -1182,7 +1146,8 @@ msgid "and a rule which uses the macro:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:494 documentation/content/en/books/handbook/firewalls/_index.adoc:525
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:494
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:525
 #, no-wrap
 msgid "pass inet proto icmp all icmp-type $icmp_types keep state\n"
 msgstr ""
@@ -2473,7 +2438,8 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:1001 documentation/content/en/books/handbook/firewalls/_index.adoc:1617
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1001
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1617
 #, no-wrap
 msgid "ACTION"
 msgstr ""
@@ -2580,7 +2546,8 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:1028 documentation/content/en/books/handbook/firewalls/_index.adoc:1670
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1028
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1670
 #, no-wrap
 msgid "SRC_PORT"
 msgstr ""
@@ -2607,7 +2574,8 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:1034 documentation/content/en/books/handbook/firewalls/_index.adoc:1680
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1034
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1680
 #, no-wrap
 msgid "DST_PORT"
 msgstr ""
@@ -2620,7 +2588,8 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:1037 documentation/content/en/books/handbook/firewalls/_index.adoc:1645
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1037
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1645
 #, no-wrap
 msgid "OPTIONS"
 msgstr ""
@@ -2661,7 +2630,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/handbook/firewalls/_index.adoc:1046 documentation/content/en/books/handbook/firewalls/_index.adoc:1695
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1046
+#: documentation/content/en/books/handbook/firewalls/_index.adoc:1695
 #, no-wrap
 msgid "Example Ruleset"
 msgstr ""

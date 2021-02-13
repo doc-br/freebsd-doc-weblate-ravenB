@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,11 +63,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/problem-reports/_index.adoc:29
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/problem-reports/_index.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -416,72 +411,116 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/problem-reports/_index.adoc:103
-#, no-wrap
+#: documentation/content/en/articles/problem-reports/_index.adoc:100
 msgid ""
-"** Include the version of FreeBSD you are running (there is a place to put "
+"Include the version of FreeBSD you are running (there is a place to put "
 "that, see below) and on which architecture. You should include whether you "
 "are running from a release (e.g., from a CD-ROM or download), or from a "
 "system maintained by Subversion (and, if so, what revision number you are "
 "at). If you are tracking the FreeBSD-CURRENT branch, that is the very first "
 "thing someone will ask, because fixes (especially for high-profile problems) "
 "tend to get committed very quickly, and FreeBSD-CURRENT users are expected "
-"to keep up.\n"
-"** Include which global options you have specified in your "
+"to keep up."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:101
+msgid ""
+"Include which global options you have specified in your "
 "[.filename]#make.conf#, [.filename]#src.conf#, and "
 "[.filename]#src-env.conf#. Given the infinite number of options, not every "
-"combination may be fully supported.\n"
-"** If the problem can be reproduced easily, include information that will "
-"help a developer to reproduce it themselves. If a problem can be "
-"demonstrated with specific input then include an example of that input if "
-"possible, and include both the actual and the expected output. If this data "
-"is large or cannot be made public, then do try to create a minimal file that "
-"exhibits the same issue and that can be included within the PR.\n"
-"** If this is a kernel problem, then be prepared to supply the following "
+"combination may be fully supported."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:102
+msgid ""
+"If the problem can be reproduced easily, include information that will help "
+"a developer to reproduce it themselves. If a problem can be demonstrated "
+"with specific input then include an example of that input if possible, and "
+"include both the actual and the expected output. If this data is large or "
+"cannot be made public, then do try to create a minimal file that exhibits "
+"the same issue and that can be included within the PR."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:103
+msgid ""
+"If this is a kernel problem, then be prepared to supply the following "
 "information. (You do not have to include these by default, which only tends "
 "to fill up the database, but you should include excerpts that you think "
-"might be relevant):\n"
+"might be relevant):"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:105
+msgid ""
+"your kernel configuration (including which hardware devices you have "
+"installed)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:106
+msgid ""
+"whether or not you have debugging options enabled (such as `WITNESS`), and "
+"if so, whether the problem persists when you change the sense of that option"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:107
+msgid ""
+"the full text of any backtrace, panic or other console output, or entries in "
+"[.filename]#/var/log/messages#, if any were generated"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:108
+msgid ""
+"the output of `pciconf -l` and relevant parts of your `dmesg` output if your "
+"problem relates to a specific piece of hardware"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:109
+msgid ""
+"the fact that you have read [.filename]#src/UPDATING# and that your problem "
+"is not listed there (someone is guaranteed to ask)"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/problem-reports/_index.adoc:110
-#, no-wrap
 msgid ""
-"*** your kernel configuration (including which hardware devices you have "
-"installed)\n"
-"*** whether or not you have debugging options enabled (such as `WITNESS`), "
-"and if so, whether the problem persists when you change the sense of that "
-"option\n"
-"*** the full text of any backtrace, panic or other console output, or "
-"entries in [.filename]#/var/log/messages#, if any were generated\n"
-"*** the output of `pciconf -l` and relevant parts of your `dmesg` output if "
-"your problem relates to a specific piece of hardware\n"
-"*** the fact that you have read [.filename]#src/UPDATING# and that your "
-"problem is not listed there (someone is guaranteed to ask)\n"
-"*** whether or not you can run any other kernel as a fallback (this is to "
-"rule out hardware-related issues such as failing disks and overheating CPUs, "
-"which can masquerade as kernel problems)\n"
+"whether or not you can run any other kernel as a fallback (this is to rule "
+"out hardware-related issues such as failing disks and overheating CPUs, "
+"which can masquerade as kernel problems)"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/problem-reports/_index.adoc:112
-#, no-wrap
 msgid ""
-"** If this is a ports problem, then be prepared to supply the following "
+"If this is a ports problem, then be prepared to supply the following "
 "information. (You do not have to include these by default, which only tends "
 "to fill up the database, but you should include excerpts that you think "
-"might be relevant):\n"
+"might be relevant):"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:114
+msgid "which ports you have installed"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:115
+msgid ""
+"any environment variables that override the defaults in "
+"[.filename]#bsd.port.mk#, such as `PORTSDIR`"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/problem-reports/_index.adoc:116
-#, no-wrap
 msgid ""
-"*** which ports you have installed\n"
-"*** any environment variables that override the defaults in "
-"[.filename]#bsd.port.mk#, such as `PORTSDIR`\n"
-"*** the fact that you have read [.filename]#ports/UPDATING# and that your "
-"problem is not listed there (someone is guaranteed to ask)\n"
+"the fact that you have read [.filename]#ports/UPDATING# and that your "
+"problem is not listed there (someone is guaranteed to ask)"
 msgstr ""
 
 #. type: Plain text
@@ -682,17 +721,21 @@ msgid "  Here is a description of the major categories:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/problem-reports/_index.adoc:165
-#, no-wrap
+#: documentation/content/en/articles/problem-reports/_index.adoc:162
 msgid ""
-"** If a problem is with the kernel, the libraries (such as standard C "
-"library `libc`), or a peripheral driver in the base system, in general you "
-"will use the `kern` category. (There are a few exceptions; see below). In "
-"general these are things that are described in section 2, 3, or 4 of the "
-"manual pages.\n"
-"** If a problem is with a binary program such as man:sh[1] or man:mount[8], "
-"you will first need to determine whether these programs are in the base "
-"system or were added via the Ports Collection. If you are unsure, you can do "
+"If a problem is with the kernel, the libraries (such as standard C library "
+"`libc`), or a peripheral driver in the base system, in general you will use "
+"the `kern` category. (There are a few exceptions; see below). In general "
+"these are things that are described in section 2, 3, or 4 of the manual "
+"pages."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:163
+msgid ""
+"If a problem is with a binary program such as man:sh[1] or man:mount[8], you "
+"will first need to determine whether these programs are in the base system "
+"or were added via the Ports Collection. If you are unsure, you can do "
 "`whereis _programname_`. FreeBSD's convention for the Ports Collection is to "
 "install everything underneath [.filename]#/usr/local#, although this can be "
 "overridden by a system administrator. For these, you will use the `ports` "
@@ -700,13 +743,23 @@ msgid ""
 "location is [.filename]#/bin#, [.filename]#/usr/bin#, [.filename]#/sbin#, or "
 "[.filename]#/usr/sbin#, it is part of the base system, and you should use "
 "the `bin` category. These are all things that are described in section 1 or "
-"8 of the manual pages.\n"
-"** If you believe that the error is in the startup `(rc)` scripts, or in "
-"some kind of other non-executable configuration file, then the right "
-"category is `conf` (configuration). These are things that are described in "
-"section 5 of the manual pages.\n"
-"** If you have found a problem in the documentation set (articles, books, "
-"man pages) or website the correct choice is `docs`.\n"
+"8 of the manual pages."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:164
+msgid ""
+"If you believe that the error is in the startup `(rc)` scripts, or in some "
+"kind of other non-executable configuration file, then the right category is "
+"`conf` (configuration). These are things that are described in section 5 of "
+"the manual pages."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:165
+msgid ""
+"If you have found a problem in the documentation set (articles, books, man "
+"pages) or website the correct choice is `docs`."
 msgstr ""
 
 #. type: delimited block =
@@ -722,22 +775,35 @@ msgid "  There are a few more specialized categories."
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/problem-reports/_index.adoc:178
-#, no-wrap
+#: documentation/content/en/articles/problem-reports/_index.adoc:175
 msgid ""
-"** If the problem would otherwise be filed in `kern` but has to do with the "
-"USB subsystem, the correct choice is `usb`.\n"
-"** If the problem would otherwise be filed in `kern` but has to do with the "
-"threading libraries, the correct choice is `threads`.\n"
-"** If the problem would otherwise be in the base system, but has to do with "
-"our adherence to standards such as POSIX(R), the correct choice is "
-"`standards`.\n"
-"** If you are convinced that the problem will only occur under the processor "
+"If the problem would otherwise be filed in `kern` but has to do with the USB "
+"subsystem, the correct choice is `usb`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:176
+msgid ""
+"If the problem would otherwise be filed in `kern` but has to do with the "
+"threading libraries, the correct choice is `threads`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:177
+msgid ""
+"If the problem would otherwise be in the base system, but has to do with our "
+"adherence to standards such as POSIX(R), the correct choice is `standards`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/problem-reports/_index.adoc:178
+msgid ""
+"If you are convinced that the problem will only occur under the processor "
 "architecture you are using, select one of the architecture-specific "
 "categories: commonly `i386` for Intel-compatible machines in 32-bit mode; "
 "`amd64` for AMD machines running in 64-bit mode (this also includes "
 "Intel-compatible machines running in EMT64 mode); and less commonly `arm` or "
-"`powerpc`.\n"
+"`powerpc`."
 msgstr ""
 
 #. type: delimited block =
@@ -778,17 +844,15 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/problem-reports/_index.adoc:198
-#, no-wrap
 msgid ""
-"** If you really do not know where the problem lies (or the explanation does "
+"If you really do not know where the problem lies (or the explanation does "
 "not seem to fit into the ones above), use the `misc` category. Before you do "
 "so, you may wish to ask for help on the {freebsd-questions} first. You may "
-"be advised that one of the existing categories really is a better choice.\n"
+"be advised that one of the existing categories really is a better choice."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/problem-reports/_index.adoc:199
-#, no-wrap
 msgid ""
 "_Environment:_ This should describe, as accurately as possible, the "
 "environment in which the problem has been observed. This includes the "
@@ -796,12 +860,11 @@ msgid ""
 "contains the problem, and any other relevant items such as system "
 "configuration, other installed software that influences the problem, "
 "etc.-quite simply everything a developer needs to know to reconstruct the "
-"environment in which the problem occurs.\n"
+"environment in which the problem occurs."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/problem-reports/_index.adoc:200
-#, no-wrap
 msgid ""
 "__Description:__A complete and accurate description of the problem you are "
 "experiencing. Try to avoid speculating about the causes of the problem "
@@ -810,7 +873,7 @@ msgid ""
 "include the actions you need to take to reproduce the problem. If you know "
 "any workaround, include it. It not only helps other people with the same "
 "problem work around it, but may also help a developer understand the cause "
-"for the problem.\n"
+"for the problem."
 msgstr ""
 
 #. type: Title ==

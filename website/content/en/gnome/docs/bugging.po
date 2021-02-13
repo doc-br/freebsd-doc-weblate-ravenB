@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -23,8 +23,8 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/gnome/docs/bugging.adoc:5
-msgid "title: \"FreeBSD GNOME Project: Reporting a Bug\" sidenav: gnome ---"
+#: website/content/en/gnome/docs/bugging.adoc:4
+msgid "title: \"FreeBSD GNOME Project: Reporting a Bug\" sidenav: gnome"
 msgstr ""
 
 #. type: Title =
@@ -127,21 +127,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/gnome/docs/bugging.adoc:30
+#: website/content/en/gnome/docs/bugging.adoc:27
+msgid "Information specific for each type of breakage:"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/gnome/docs/bugging.adoc:28
 msgid ""
-"Information specific for each type of breakage: ** If a port will not build, "
-"provide a full log of the unsuccessful build by uploading it to any website "
-"or copy-and-paste to http://freebsd-gnome.pastebin.com. Try to avoid sending "
-"any attachments to the mailing list, because attachments sent to FreeBSD "
-"mailing lists are usually discarded by the mailing list software.  ** If a "
-"program produces a core dump, provide a back trace. Back traces are only "
-"useful if the application (and possibly its dependencies) are compiled with "
-"debugging symbols. See these "
+"If a port will not build, provide a full log of the unsuccessful build by "
+"uploading it to any website or copy-and-paste to "
+"http://freebsd-gnome.pastebin.com. Try to avoid sending any attachments to "
+"the mailing list, because attachments sent to FreeBSD mailing lists are "
+"usually discarded by the mailing list software."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/gnome/docs/bugging.adoc:29
+msgid ""
+"If a program produces a core dump, provide a back trace. Back traces are "
+"only useful if the application (and possibly its dependencies) are compiled "
+"with debugging symbols. See these "
 "http://live.gnome.org/GettingTraces[instructions] for more information on "
 "obtaining useful back traces. In general, though, you can build and install "
 "your port with the following command to produce binaries that will have "
-"useful debugging symbols: `make WITH_DEBUG=\"yes\" install` ** If an "
-"application produces unexpected behavior, provide a clear and detailed "
+"useful debugging symbols: `make WITH_DEBUG=\"yes\" install`"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/gnome/docs/bugging.adoc:30
+msgid ""
+"If an application produces unexpected behavior, provide a clear and detailed "
 "description, including a description of the behavior that you were "
 "expecting."
 msgstr ""

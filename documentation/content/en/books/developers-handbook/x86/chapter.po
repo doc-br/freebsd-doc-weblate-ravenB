@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,11 +37,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/x86/chapter.adoc:9
 #, no-wrap
 msgid "x86 Assembly Language Programming"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:32
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -101,7 +96,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:49 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3851
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:49
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3851
 msgid "Copyright (R) 2000-2001 G. Adam Stanislav. All rights reserved."
 msgstr ""
 
@@ -1192,13 +1188,20 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:544 documentation/content/en/books/developers-handbook/x86/chapter.adoc:623 documentation/content/en/books/developers-handbook/x86/chapter.adoc:704 documentation/content/en/books/developers-handbook/x86/chapter.adoc:823 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1061 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2080 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2912
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:544
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:623
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:704
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:823
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1061
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2080
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2912
 #, no-wrap
 msgid "%include\t'system.inc'\n"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:548 documentation/content/en/books/developers-handbook/x86/chapter.adoc:627
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:548
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:627
 #, no-wrap
 msgid ""
 "section\t.data\n"
@@ -1252,7 +1255,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:582 documentation/content/en/books/developers-handbook/x86/chapter.adoc:670
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:582
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:670
 #, no-wrap
 msgid ""
 ".done:\n"
@@ -1448,7 +1452,8 @@ msgid "Once you have changed [.filename]#hex.asm# to reflect these changes, type
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:688 documentation/content/en/books/developers-handbook/x86/chapter.adoc:932
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:688
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:932
 #, no-wrap
 msgid ""
 "% nasm -f elf hex.asm\n"
@@ -1502,13 +1507,18 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:706 documentation/content/en/books/developers-handbook/x86/chapter.adoc:825 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1063 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2082 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2914
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:706
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:825
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1063
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2082
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2914
 #, no-wrap
 msgid "%define\tBUFSIZE\t2048\n"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:709 documentation/content/en/books/developers-handbook/x86/chapter.adoc:828
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:709
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:828
 #, no-wrap
 msgid ""
 "section\t.data\n"
@@ -1516,7 +1526,10 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:713 documentation/content/en/books/developers-handbook/x86/chapter.adoc:832 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1072 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2096
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:713
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:832
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1072
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2096
 #, no-wrap
 msgid ""
 "section .bss\n"
@@ -1525,7 +1538,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:721 documentation/content/en/books/developers-handbook/x86/chapter.adoc:840
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:721
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:840
 #, no-wrap
 msgid ""
 "section\t.text\n"
@@ -1538,7 +1552,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:725 documentation/content/en/books/developers-handbook/x86/chapter.adoc:844 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2244
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:725
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:844
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2244
 #, no-wrap
 msgid ""
 ".loop:\n"
@@ -1547,7 +1563,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:731 documentation/content/en/books/developers-handbook/x86/chapter.adoc:850 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1125
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:731
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:850
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1125
 #, no-wrap
 msgid ""
 "\t; convert it to hex\n"
@@ -1558,7 +1576,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:736 documentation/content/en/books/developers-handbook/x86/chapter.adoc:855 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1130
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:736
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:855
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1130
 #, no-wrap
 msgid ""
 "\tmov\tal, dl\n"
@@ -1568,7 +1588,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:741 documentation/content/en/books/developers-handbook/x86/chapter.adoc:860 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1135
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:741
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:860
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1135
 #, no-wrap
 msgid ""
 "\tmov\tal, ' '\n"
@@ -1578,7 +1600,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:745 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2255
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:745
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2255
 #, no-wrap
 msgid ""
 ".put:\n"
@@ -1587,7 +1610,11 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:750 documentation/content/en/books/developers-handbook/x86/chapter.adoc:872 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1147 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2277 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3425
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:750
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:872
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1147
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2277
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3425
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -1597,13 +1624,20 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:752 documentation/content/en/books/developers-handbook/x86/chapter.adoc:874 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1149 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2279 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3427
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:752
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:874
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1149
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2279
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3427
 #, no-wrap
 msgid "\tcall\tread\n"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:757 documentation/content/en/books/developers-handbook/x86/chapter.adoc:879 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1154 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2284
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:757
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:879
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1154
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2284
 #, no-wrap
 msgid ""
 ".fetch:\n"
@@ -1613,7 +1647,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:770 documentation/content/en/books/developers-handbook/x86/chapter.adoc:892
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:770
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:892
 #, no-wrap
 msgid ""
 "read:\n"
@@ -1631,7 +1666,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:776 documentation/content/en/books/developers-handbook/x86/chapter.adoc:898
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:776
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:898
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -1642,7 +1678,11 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:784 documentation/content/en/books/developers-handbook/x86/chapter.adoc:906 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1190 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2324 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3464
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:784
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:906
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1190
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2324
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3464
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -1655,7 +1695,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:796 documentation/content/en/books/developers-handbook/x86/chapter.adoc:918
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:796
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:918
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -2090,7 +2131,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1086 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1098
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1086
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1098
 #, no-wrap
 msgid ""
 "\tpop\tecx\n"
@@ -2188,7 +2230,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1171 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2305
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1171
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2305
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -2197,7 +2240,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1175 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2309 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3397
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1175
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2309
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3397
 #, no-wrap
 msgid ""
 "\t; close files\n"
@@ -2206,7 +2251,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1178 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2312 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3400
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1178
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2312
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3400
 #, no-wrap
 msgid ""
 "\tpush\tdword [fd.out]\n"
@@ -2214,7 +2261,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1182 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2316 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3406
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1182
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2316
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3406
 #, no-wrap
 msgid ""
 "\t; return success\n"
@@ -3847,7 +3896,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1918 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1940
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1918
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1940
 #, no-wrap
 msgid ""
 "\tcmp\tal, ah\n"
@@ -3894,7 +3944,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1944 documentation/content/en/books/developers-handbook/x86/chapter.adoc:1972
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1944
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:1972
 #, no-wrap
 msgid ""
 "\txchg\tal, ah\n"
@@ -4263,7 +4314,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2115 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2998
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2115
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2998
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -4277,7 +4329,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2124 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3007
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2124
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3007
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -4312,7 +4365,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2139 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3022
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2139
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3022
 #, no-wrap
 msgid ""
 "\t; ECX contains the pointer to an argument\n"
@@ -4329,7 +4383,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2146 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3030
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2146
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3030
 #, no-wrap
 msgid ""
 ".o:\n"
@@ -4338,7 +4393,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2150 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3034
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2150
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3034
 #, no-wrap
 msgid ""
 "\t; Make sure we are not asked for the output file twice\n"
@@ -4347,7 +4403,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2155 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3039
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2155
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3039
 #, no-wrap
 msgid ""
 "\t; Find the path to output file - it is either at [ECX+1],\n"
@@ -4368,7 +4425,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2169 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3052
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2169
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3052
 #, no-wrap
 msgid ""
 ".openoutput:\n"
@@ -4381,7 +4439,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2173 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3056
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2173
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3056
 #, no-wrap
 msgid ""
 "\tadd\tesp, byte 12\n"
@@ -4390,7 +4449,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2177 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3060
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2177
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3060
 #, no-wrap
 msgid ""
 ".i:\n"
@@ -4399,7 +4459,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2181 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3064
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2181
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3064
 #, no-wrap
 msgid ""
 "\t; Make sure we are not asked twice\n"
@@ -4421,7 +4482,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2195 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3077
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2195
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3077
 #, no-wrap
 msgid ""
 ".openinput:\n"
@@ -4432,7 +4494,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2199 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3081
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2199
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3081
 #, no-wrap
 msgid ""
 "\tadd\tesp, byte 8\n"
@@ -4566,7 +4629,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2288 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3437
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2288
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3437
 #, no-wrap
 msgid ""
 "read:\n"
@@ -4593,7 +4657,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2338 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3478
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2338
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3478
 #, no-wrap
 msgid ""
 "align 4\n"
@@ -5673,7 +5738,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2680 documentation/content/en/books/developers-handbook/x86/chapter.adoc:2820
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2680
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:2820
 msgid "But..."
 msgstr ""
 
@@ -7032,7 +7098,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3348 documentation/content/en/books/developers-handbook/x86/chapter.adoc:3376
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3348
+#: documentation/content/en/books/developers-handbook/x86/chapter.adoc:3376
 #, no-wrap
 msgid ""
 "\tsub\tebp, ebp\n"

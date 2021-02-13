@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.1R/readme.adoc:14 website/content/en/releases/9.1R/readme.adoc:21 website/content/en/releases/9.1R/readme.adoc:31 website/content/en/releases/9.1R/readme.adoc:37 website/content/en/releases/9.1R/readme.adoc:44 website/content/en/releases/9.1R/readme.adoc:52 website/content/en/releases/9.1R/readme.adoc:64 website/content/en/releases/9.1R/readme.adoc:83 website/content/en/releases/9.1R/readme.adoc:95 website/content/en/releases/9.1R/readme.adoc:102 website/content/en/releases/9.1R/readme.adoc:117 website/content/en/releases/9.1R/readme.adoc:125 website/content/en/releases/9.1R/readme.adoc:135
+#: website/content/en/releases/9.1R/readme.adoc:14
+#: website/content/en/releases/9.1R/readme.adoc:21
+#: website/content/en/releases/9.1R/readme.adoc:31
+#: website/content/en/releases/9.1R/readme.adoc:37
+#: website/content/en/releases/9.1R/readme.adoc:44
+#: website/content/en/releases/9.1R/readme.adoc:52
+#: website/content/en/releases/9.1R/readme.adoc:64
+#: website/content/en/releases/9.1R/readme.adoc:83
+#: website/content/en/releases/9.1R/readme.adoc:95
+#: website/content/en/releases/9.1R/readme.adoc:102
+#: website/content/en/releases/9.1R/readme.adoc:117
+#: website/content/en/releases/9.1R/readme.adoc:125
+#: website/content/en/releases/9.1R/readme.adoc:135
 msgid "'''''"
 msgstr ""
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/advanced-networking/_index.adoc:9
 #, no-wrap
 msgid "Advanced Networking"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:27 documentation/content/en/books/handbook/advanced-networking/_index.adoc:31 documentation/content/en/books/handbook/advanced-networking/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -367,50 +342,36 @@ msgstr ""
 msgid "Commonly Seen Routing Table Flags"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:134
-msgid "|=== | Command | Purpose"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:137
-msgid "|U |The route is active (up)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:140
-msgid "|H |The route destination is a single host."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:143
+#. type: Table
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:155
+#, no-wrap
 msgid ""
-"|G |Send anything for this destination on to this gateway, which will figure "
-"out from there where to send it."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:146
-msgid "|S |This route was statically configured."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:149
-msgid ""
-"|C |Clones a new route based upon this route for machines to connect "
-"to. This type of route is normally used for local networks."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:152
-msgid ""
-"|W |The route was auto-configured based upon a local area network (clone) "
-"route."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:156
-msgid "|L |Route involves references to Ethernet (link) hardware.  |==="
+"| Command\n"
+"| Purpose\n"
+"\n"
+"|U\n"
+"|The route is active (up).\n"
+"\n"
+"|H\n"
+"|The route destination is a single host.\n"
+"\n"
+"|G\n"
+"|Send anything for this destination on to this gateway, which will figure "
+"out from there where to send it.\n"
+"\n"
+"|S\n"
+"|This route was statically configured.\n"
+"\n"
+"|C\n"
+"|Clones a new route based upon this route for machines to connect to. This "
+"type of route is normally used for local networks.\n"
+"\n"
+"|W\n"
+"|The route was auto-configured based upon a local area network (clone) "
+"route.\n"
+"\n"
+"|L\n"
+"|Route involves references to Ethernet (link) hardware.\n"
 msgstr ""
 
 #. type: Plain text
@@ -614,7 +575,9 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:243 documentation/content/en/books/handbook/advanced-networking/_index.adoc:1218 documentation/content/en/books/handbook/advanced-networking/_index.adoc:1627
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:243
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:1218
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:1627
 #, no-wrap
 msgid "Troubleshooting"
 msgstr ""
@@ -1161,45 +1124,33 @@ msgstr ""
 msgid "Station Capability Codes"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:453
-msgid "|=== | Capability Code | Meaning"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:456
+#. type: Table
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:468
+#, no-wrap
 msgid ""
-"|`E` |Extended Service Set (ESS). Indicates that the station is part of an "
-"infrastructure network rather than an IBSS/ad-hoc network."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:459
-msgid ""
-"|`I` |IBSS/ad-hoc network. Indicates that the station is part of an ad-hoc "
-"network rather than an ESS network."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:462
-msgid ""
-"|`P` |Privacy. Encryption is required for all data frames exchanged within "
-"the BSS using cryptographic means such as WEP, TKIP or AES-CCMP."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:465
-msgid ""
-"|`S` |Short Preamble. Indicates that the network is using short preambles, "
+"| Capability Code\n"
+"| Meaning\n"
+"\n"
+"|`E`\n"
+"|Extended Service Set (ESS). Indicates that the station is part of an "
+"infrastructure network rather than an IBSS/ad-hoc network.\n"
+"\n"
+"|`I`\n"
+"|IBSS/ad-hoc network. Indicates that the station is part of an ad-hoc "
+"network rather than an ESS network.\n"
+"\n"
+"|`P`\n"
+"|Privacy. Encryption is required for all data frames exchanged within the "
+"BSS using cryptographic means such as WEP, TKIP or AES-CCMP.\n"
+"\n"
+"|`S`\n"
+"|Short Preamble. Indicates that the network is using short preambles, "
 "defined in 802.11b High Rate/DSSS PHY, and utilizes a 56 bit sync field "
-"rather than the 128 bit field used in long preamble mode."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:469
-msgid ""
-"|`s` |Short slot time. Indicates that the 802.11g network is using a short "
-"slot time because there are no legacy (802.11b) stations present.  |==="
+"rather than the 128 bit field used in long preamble mode.\n"
+"\n"
+"|`s`\n"
+"|Short slot time. Indicates that the 802.11g network is using a short slot "
+"time because there are no legacy (802.11b) stations present.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1222,7 +1173,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:479 documentation/content/en/books/handbook/advanced-networking/_index.adoc:1003
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:479
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:1003
 #, no-wrap
 msgid "Basic Settings"
 msgstr ""
@@ -1258,7 +1210,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:493 documentation/content/en/books/handbook/advanced-networking/_index.adoc:546
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:493
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:546
 #, no-wrap
 msgid ""
 "wlans_ath0=\"wlan0\"\n"
@@ -1549,7 +1502,10 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:619 documentation/content/en/books/handbook/advanced-networking/_index.adoc:750 documentation/content/en/books/handbook/advanced-networking/_index.adoc:809 documentation/content/en/books/handbook/advanced-networking/_index.adoc:876
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:619
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:750
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:809
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:876
 #, no-wrap
 msgid ""
 "wlans_ath0=\"wlan0\"\n"
@@ -1557,7 +1513,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:622 documentation/content/en/books/handbook/advanced-networking/_index.adoc:879
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:622
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:879
 msgid "Then, bring up the interface:"
 msgstr ""
 
@@ -1764,7 +1721,8 @@ msgid "Then, add the following lines to [.filename]#/etc/rc.conf#:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:753 documentation/content/en/books/handbook/advanced-networking/_index.adoc:812
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:753
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:812
 msgid "The next step is to bring up the interface:"
 msgstr ""
 
@@ -1854,7 +1812,8 @@ msgid "Next, add the following lines to [.filename]#/etc/rc.conf#:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:832 documentation/content/en/books/handbook/advanced-networking/_index.adoc:899
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:832
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:899
 #, no-wrap
 msgid ""
 "# service netif start\n"
@@ -4559,7 +4518,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2034 documentation/content/en/books/handbook/advanced-networking/_index.adoc:2124
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2034
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2124
 msgid "The virtual interface should look something like this:"
 msgstr ""
 
@@ -4589,7 +4549,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2052 documentation/content/en/books/handbook/advanced-networking/_index.adoc:2147
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2052
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2147
 msgid ""
 "To retain this configuration across reboots, add the following entries to "
 "[.filename]#/etc/rc.conf#:"
@@ -5489,57 +5450,57 @@ msgstr ""
 msgid "Reserved IPv6 Addresses"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2445
-msgid "|=== | IPv6 address | Prefixlength (Bits)  | Description | Notes"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2450
-msgid "|`::` |128 bits |unspecified |Equivalent to `0.0.0.0` in IPv4."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2455
-msgid "|`::1` |128 bits |loopback address |Equivalent to `127.0.0.1` in IPv4."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2460
+#. type: Table
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2485
+#, no-wrap
 msgid ""
-"|`::00:xx:xx:xx:xx` |96 bits |embedded IPv4 |The lower 32 bits are the "
-"compatible IPv4 address."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2465
-msgid ""
-"|`::ff:xx:xx:xx:xx` |96 bits |IPv4 mapped IPv6 address |The lower 32 bits "
-"are the IPv4 address for hosts which do not support IPv6."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2470
-msgid "|`fe80::/10` |10 bits |link-local |Equivalent to 169.254.0.0/16 in IPv4."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2475
-msgid ""
-"|`fc00::/7` |7 bits |unique-local |Unique local addresses are intended for "
-"local communication and are only routable within a set of cooperating sites."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2480
-msgid "|`ff00::` |8 bits |multicast |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2486
-msgid ""
-"|``2000::-3fff::`` |3 bits |global unicast |All global unicast addresses are "
-"assigned from this pool. The first 3 bits are `001`.  |==="
+"| IPv6 address\n"
+"| Prefixlength (Bits)\n"
+"| Description\n"
+"| Notes\n"
+"\n"
+"|`::`\n"
+"|128 bits\n"
+"|unspecified\n"
+"|Equivalent to `0.0.0.0` in IPv4.\n"
+"\n"
+"|`::1`\n"
+"|128 bits\n"
+"|loopback address\n"
+"|Equivalent to `127.0.0.1` in IPv4.\n"
+"\n"
+"|`::00:xx:xx:xx:xx`\n"
+"|96 bits\n"
+"|embedded IPv4\n"
+"|The lower 32 bits are the compatible IPv4 address.\n"
+"\n"
+"|`::ff:xx:xx:xx:xx`\n"
+"|96 bits\n"
+"|IPv4 mapped IPv6 address\n"
+"|The lower 32 bits are the IPv4 address for hosts which do not support "
+"IPv6.\n"
+"\n"
+"|`fe80::/10`\n"
+"|10 bits\n"
+"|link-local\n"
+"|Equivalent to 169.254.0.0/16 in IPv4.\n"
+"\n"
+"|`fc00::/7`\n"
+"|7 bits\n"
+"|unique-local\n"
+"|Unique local addresses are intended for local communication and are only "
+"routable within a set of cooperating sites.\n"
+"\n"
+"|`ff00::`\n"
+"|8 bits\n"
+"|multicast\n"
+"|\n"
+"\n"
+"|``2000::-3fff::``\n"
+"|3 bits\n"
+"|global unicast\n"
+"|All global unicast addresses are assigned from this pool. The first 3 bits "
+"are `001`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -5891,18 +5852,21 @@ msgid "carp_load=\"YES\"\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2631 documentation/content/en/books/handbook/advanced-networking/_index.adoc:2702
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2631
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2702
 msgid "To load the module now without rebooting:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2635 documentation/content/en/books/handbook/advanced-networking/_index.adoc:2706
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2635
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2706
 #, no-wrap
 msgid "# kldload carp\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2638 documentation/content/en/books/handbook/advanced-networking/_index.adoc:2709
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2638
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2709
 msgid ""
 "For users who prefer to use a custom kernel, include the following line in "
 "the custom kernel configuration file and compile the kernel as described in "
@@ -5910,7 +5874,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2642 documentation/content/en/books/handbook/advanced-networking/_index.adoc:2713
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2642
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2713
 #, no-wrap
 msgid "device\tcarp\n"
 msgstr ""
@@ -6000,7 +5965,8 @@ msgid "# ifconfig em0 vhid 1 state backup\n"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2686 documentation/content/en/books/handbook/advanced-networking/_index.adoc:2766
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2686
+#: documentation/content/en/books/handbook/advanced-networking/_index.adoc:2766
 msgid ""
 "Once the configuration is complete, either restart networking or reboot each "
 "system. High availability is now enabled."

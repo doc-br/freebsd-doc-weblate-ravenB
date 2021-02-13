@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:8
 #, no-wrap
 msgid "Special Considerations"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -633,7 +628,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:232 documentation/content/en/books/porters-handbook/special/chapter.adoc:3800
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:232
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3800
 #, no-wrap
 msgid "Examples"
 msgstr ""
@@ -780,40 +776,29 @@ msgstr ""
 msgid "Variables for Ports That Use `configure`"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:286 documentation/content/en/books/porters-handbook/special/chapter.adoc:314 documentation/content/en/books/porters-handbook/special/chapter.adoc:340 documentation/content/en/books/porters-handbook/special/chapter.adoc:2767
-msgid "|=== | Variable | Means"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:289
-msgid "|`GNU_CONFIGURE` |The port uses `configure` script to prepare build."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:292
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:301
+#, no-wrap
 msgid ""
-"|`HAS_CONFIGURE` |Same as `GNU_CONFIGURE`, except default configure target "
-"is not added to `CONFIGURE_ARGS`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:295
-msgid "|`CONFIGURE_ARGS` |Additional arguments passed to `configure` script."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:298
-msgid ""
-"|`CONFIGURE_ENV` |Additional environment variables to be set for `configure` "
-"script run."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:302
-msgid ""
-"|`CONFIGURE_TARGET` |Override default configure target. Default value is "
-"`${MACHINE_ARCH}-portbld-freebsd${OSREL}`.  |==="
+"| Variable\n"
+"| Means\n"
+"\n"
+"|`GNU_CONFIGURE`\n"
+"|The port uses `configure` script to prepare build.\n"
+"\n"
+"|`HAS_CONFIGURE`\n"
+"|Same as `GNU_CONFIGURE`, except default configure target is not added to "
+"`CONFIGURE_ARGS`.\n"
+"\n"
+"|`CONFIGURE_ARGS`\n"
+"|Additional arguments passed to `configure` script.\n"
+"\n"
+"|`CONFIGURE_ENV`\n"
+"|Additional environment variables to be set for `configure` script run.\n"
+"\n"
+"|`CONFIGURE_TARGET`\n"
+"|Override default configure target. Default value is "
+"`${MACHINE_ARCH}-portbld-freebsd${OSREL}`.\n"
 msgstr ""
 
 #. type: Title ===
@@ -833,42 +818,33 @@ msgstr ""
 msgid "Variables for Ports That Use `cmake`"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:317
-msgid "|`CMAKE_ARGS` |Port specific CMake flags to be passed to the `cmake` binary."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:320
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:332
+#, no-wrap
 msgid ""
-"|`CMAKE_ON` |For each entry in `CMAKE_ON`, an enabled boolean value is added "
-"to `CMAKE_ARGS`. See <<using-cmake-example2>>."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:323
-msgid ""
-"|`CMAKE_OFF` |For each entry in `CMAKE_OFF`, a disabled boolean value is "
-"added to `CMAKE_ARGS`. See <<using-cmake-example2>>."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:326
-msgid ""
-"|`CMAKE_BUILD_TYPE` |Type of build (CMake predefined build "
-"profiles). Default is `Release`, or `Debug` if `WITH_DEBUG` is set."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:329
-msgid "|`CMAKE_SOURCE_PATH` |Path to the source directory. Default is `${WRKSRC}`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:333
-msgid ""
-"|`CONFIGURE_ENV` |Additional environment variables to be set for the `cmake` "
-"binary.  |==="
+"| Variable\n"
+"| Means\n"
+"\n"
+"|`CMAKE_ARGS`\n"
+"|Port specific CMake flags to be passed to the `cmake` binary.\n"
+"\n"
+"|`CMAKE_ON`\n"
+"|For each entry in `CMAKE_ON`, an enabled boolean value is added to "
+"`CMAKE_ARGS`. See <<using-cmake-example2>>.\n"
+"\n"
+"|`CMAKE_OFF`\n"
+"|For each entry in `CMAKE_OFF`, a disabled boolean value is added to "
+"`CMAKE_ARGS`. See <<using-cmake-example2>>.\n"
+"\n"
+"|`CMAKE_BUILD_TYPE`\n"
+"|Type of build (CMake predefined build profiles). Default is `Release`, or "
+"`Debug` if `WITH_DEBUG` is set.\n"
+"\n"
+"|`CMAKE_SOURCE_PATH`\n"
+"|Path to the source directory. Default is `${WRKSRC}`.\n"
+"\n"
+"|`CONFIGURE_ENV`\n"
+"|Additional environment variables to be set for the `cmake` binary.\n"
 msgstr ""
 
 #. type: Block title
@@ -877,11 +853,16 @@ msgstr ""
 msgid "Variables the Users Can Define for `cmake` Builds"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:344
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:343
+#, no-wrap
 msgid ""
-"|`CMAKE_NOCOLOR` |Disables color build output. Default not set, unless "
-"`BATCH` or `PACKAGE_BUILDING` are set.  |==="
+"| Variable\n"
+"| Means\n"
+"\n"
+"|`CMAKE_NOCOLOR`\n"
+"|Disables color build output. Default not set, unless `BATCH` or "
+"`PACKAGE_BUILDING` are set.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1023,163 +1004,120 @@ msgstr ""
 msgid "Variables the Users Can Define for `cargo` Builds"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:415
-msgid "|=== | Variable | Default | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:419
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:503
+#, no-wrap
 msgid ""
-"|`CARGO_CRATES` | |List of crates the port depends on. Each entry needs to "
-"have a format like `cratename-semver` for example, `libc-0.2.40`. Port "
-"maintainers can generate this list from [.filename]#Cargo.lock# using `make "
-"cargo-crates`. Manually bumping crate versions is possible but be mindful of "
-"transitive dependencies."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:423
-msgid ""
-"|`CARGO_FEATURES` | |List of application features to build (space separated "
-"list). To deactivate all default features add the special token "
-"`--no-default-features` to `CARGO_FEATURES`. Manually passing it to "
-"`CARGO_BUILD_ARGS`, `CARGO_INSTALL_ARGS`, and `CARGO_TEST_ARGS` is not "
-"needed."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:427
-msgid ""
-"|`CARGO_CARGOTOML` |`${WRKSRC}/Cargo.toml` |The path to the "
-"[.filename]#Cargo.toml# to use."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:431
-msgid ""
-"|`CARGO_CARGOLOCK` |`${WRKSRC}/Cargo.lock` |The path to the "
-"[.filename]#Cargo.lock# to use for `make cargo-crates`. It is possible to "
-"specify more than one lock file when necessary."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:435
-msgid ""
-"|`CARGO_ENV` | |A list of environment variables to pass to Cargo similar to "
-"`MAKE_ENV`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:439
-msgid "|`RUSTFLAGS` | |Flags to pass to the Rust compiler."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:443
-msgid "|`CARGO_CONFIGURE` |`yes` |Use the default `do-configure`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:447
-msgid ""
-"|`CARGO_UPDATE_ARGS` | |Extra arguments to pass to Cargo during the "
-"configure phase. Valid arguments can be looked up with `cargo update "
-"--help`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:451
-msgid "|`CARGO_BUILDDEP` |`yes` |Add a build dependency on package:lang/rust[]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:455
-msgid ""
-"|`CARGO_CARGO_BIN` |`${LOCALBASE}/bin/cargo` |Location of the `cargo` "
-"binary."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:459
-msgid "|`CARGO_BUILD` |`yes` |Use the default `do-build`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:463
-msgid ""
-"|`CARGO_BUILD_ARGS` | |Extra arguments to pass to Cargo during the build "
-"phase. Valid arguments can be looked up with `cargo build --help`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:467
-msgid "|`CARGO_INSTALL` |`yes` |Use the default `do-install`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:471
-msgid ""
-"|`CARGO_INSTALL_ARGS` | |Extra arguments to pass to Cargo during the install "
-"phase. Valid arguments can be looked up with `cargo install --help`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:475
-msgid ""
-"|`CARGO_INSTALL_PATH` |`.` |Path to the crate to install. This is passed to "
-"`cargo install` via its `--path` argument. When multiple paths are specified "
-"`cargo install` is run multiple times."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:479
-msgid "|`CARGO_TEST` |`yes` |Use the default `do-test`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:483
-msgid ""
-"|`CARGO_TEST_ARGS` | |Extra arguments to pass to Cargo during the test "
-"phase. Valid arguments can be looked up with `cargo test --help`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:487
-msgid ""
-"|`CARGO_TARGET_DIR` |`${WRKDIR}/target` |Location of the cargo output "
-"directory."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:491
-msgid ""
-"|`CARGO_DIST_SUBDIR` |[.filename]#rust/crates# |Directory relative to "
-"`DISTDIR` where the crate distribution files will be stored."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:495
-msgid ""
-"|`CARGO_VENDOR_DIR` |`${WRKSRC}/cargo-crates` |Location of the vendor "
-"directory where all crates will be extracted to. Try to keep this under "
-"`PATCH_WRKSRC`, so that patches can be applied easily."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:499
-msgid ""
-"|`CARGO_USE_GITHUB` |`no` |Enable fetching of crates locked to specific Git "
-"commits on GitHub via `GH_TUPLE`. This will try to patch all "
-"[.filename]#Cargo.toml# under `WRKDIR` to point to the offline sources "
-"instead of fetching them from a Git repository during the build."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:504
-msgid ""
-"|`CARGO_USE_GITLAB` |`no` |Same as `CARGO_USE_GITHUB` but for GitLab "
-"instances and `GL_TUPLE`.  |==="
+"| Variable\n"
+"| Default\n"
+"| Description\n"
+"\n"
+"|`CARGO_CRATES`\n"
+"|\n"
+"|List of crates the port depends on. Each entry needs to have a format like "
+"`cratename-semver` for example, `libc-0.2.40`. Port maintainers can generate "
+"this list from [.filename]#Cargo.lock# using `make cargo-crates`. Manually "
+"bumping crate versions is possible but be mindful of transitive "
+"dependencies.\n"
+"\n"
+"|`CARGO_FEATURES`\n"
+"|\n"
+"|List of application features to build (space separated list). To deactivate "
+"all default features add the special token `--no-default-features` to "
+"`CARGO_FEATURES`. Manually passing it to `CARGO_BUILD_ARGS`, "
+"`CARGO_INSTALL_ARGS`, and `CARGO_TEST_ARGS` is not needed.\n"
+"\n"
+"|`CARGO_CARGOTOML`\n"
+"|`${WRKSRC}/Cargo.toml`\n"
+"|The path to the [.filename]#Cargo.toml# to use.\n"
+"\n"
+"|`CARGO_CARGOLOCK`\n"
+"|`${WRKSRC}/Cargo.lock`\n"
+"|The path to the [.filename]#Cargo.lock# to use for `make cargo-crates`. It "
+"is possible to specify more than one lock file when necessary.\n"
+"\n"
+"|`CARGO_ENV`\n"
+"|\n"
+"|A list of environment variables to pass to Cargo similar to `MAKE_ENV`.\n"
+"\n"
+"|`RUSTFLAGS`\n"
+"|\n"
+"|Flags to pass to the Rust compiler.\n"
+"\n"
+"|`CARGO_CONFIGURE`\n"
+"|`yes`\n"
+"|Use the default `do-configure`.\n"
+"\n"
+"|`CARGO_UPDATE_ARGS`\n"
+"|\n"
+"|Extra arguments to pass to Cargo during the configure phase. Valid "
+"arguments can be looked up with `cargo update --help`.\n"
+"\n"
+"|`CARGO_BUILDDEP`\n"
+"|`yes`\n"
+"|Add a build dependency on package:lang/rust[].\n"
+"\n"
+"|`CARGO_CARGO_BIN`\n"
+"|`${LOCALBASE}/bin/cargo`\n"
+"|Location of the `cargo` binary.\n"
+"\n"
+"|`CARGO_BUILD`\n"
+"|`yes`\n"
+"|Use the default `do-build`.\n"
+"\n"
+"|`CARGO_BUILD_ARGS`\n"
+"|\n"
+"|Extra arguments to pass to Cargo during the build phase. Valid arguments "
+"can be looked up with `cargo build --help`.\n"
+"\n"
+"|`CARGO_INSTALL`\n"
+"|`yes`\n"
+"|Use the default `do-install`.\n"
+"\n"
+"|`CARGO_INSTALL_ARGS`\n"
+"|\n"
+"|Extra arguments to pass to Cargo during the install phase. Valid arguments "
+"can be looked up with `cargo install --help`.\n"
+"\n"
+"|`CARGO_INSTALL_PATH`\n"
+"|`.`\n"
+"|Path to the crate to install. This is passed to `cargo install` via its "
+"`--path` argument. When multiple paths are specified `cargo install` is run "
+"multiple times.\n"
+"\n"
+"|`CARGO_TEST`\n"
+"|`yes`\n"
+"|Use the default `do-test`.\n"
+"\n"
+"|`CARGO_TEST_ARGS`\n"
+"|\n"
+"|Extra arguments to pass to Cargo during the test phase. Valid arguments can "
+"be looked up with `cargo test --help`.\n"
+"\n"
+"|`CARGO_TARGET_DIR`\n"
+"|`${WRKDIR}/target`\n"
+"|Location of the cargo output directory.\n"
+"\n"
+"|`CARGO_DIST_SUBDIR`\n"
+"|[.filename]#rust/crates#\n"
+"|Directory relative to `DISTDIR` where the crate distribution files will be "
+"stored.\n"
+"\n"
+"|`CARGO_VENDOR_DIR`\n"
+"|`${WRKSRC}/cargo-crates`\n"
+"|Location of the vendor directory where all crates will be extracted to. Try "
+"to keep this under `PATCH_WRKSRC`, so that patches can be applied easily.\n"
+"\n"
+"|`CARGO_USE_GITHUB`\n"
+"|`no`\n"
+"|Enable fetching of crates locked to specific Git commits on GitHub via "
+"`GH_TUPLE`. This will try to patch all [.filename]#Cargo.toml# under "
+"`WRKDIR` to point to the offline sources instead of fetching them from a Git "
+"repository during the build.\n"
+"\n"
+"|`CARGO_USE_GITLAB`\n"
+"|`no`\n"
+"|Same as `CARGO_USE_GITHUB` but for GitLab instances and `GL_TUPLE`.\n"
 msgstr ""
 
 #. type: Block title
@@ -1196,7 +1134,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:517 documentation/content/en/books/porters-handbook/special/chapter.adoc:561
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:517
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:561
 #, no-wrap
 msgid ""
 "PORTNAME=\ttokei\n"
@@ -1206,7 +1145,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:520 documentation/content/en/books/porters-handbook/special/chapter.adoc:564
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:520
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:564
 #, no-wrap
 msgid ""
 "MAINTAINER=\ttobik@FreeBSD.org\n"
@@ -1214,7 +1154,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:524 documentation/content/en/books/porters-handbook/special/chapter.adoc:568
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:524
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:568
 #, no-wrap
 msgid ""
 "USES=\t\tcargo\n"
@@ -1223,13 +1164,26 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:526 documentation/content/en/books/porters-handbook/special/chapter.adoc:578 documentation/content/en/books/porters-handbook/special/chapter.adoc:733 documentation/content/en/books/porters-handbook/special/chapter.adoc:789 documentation/content/en/books/porters-handbook/special/chapter.adoc:856 documentation/content/en/books/porters-handbook/special/chapter.adoc:976 documentation/content/en/books/porters-handbook/special/chapter.adoc:997 documentation/content/en/books/porters-handbook/special/chapter.adoc:1312 documentation/content/en/books/porters-handbook/special/chapter.adoc:3035 documentation/content/en/books/porters-handbook/special/chapter.adoc:3091 documentation/content/en/books/porters-handbook/special/chapter.adoc:3203 documentation/content/en/books/porters-handbook/special/chapter.adoc:3822 documentation/content/en/books/porters-handbook/special/chapter.adoc:3845
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:526
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:578
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:733
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:789
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:856
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:976
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:997
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1312
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3035
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3091
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3203
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3822
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3845
 #, no-wrap
 msgid ".include <bsd.port.mk>\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:529 documentation/content/en/books/porters-handbook/special/chapter.adoc:736
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:529
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:736
 msgid "Generate an initial [.filename]#distinfo#:"
 msgstr ""
 
@@ -1271,7 +1225,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:554 documentation/content/en/books/porters-handbook/special/chapter.adoc:765
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:554
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:765
 msgid "The output of this command needs to be pasted directly into the Makefile:"
 msgstr ""
 
@@ -1330,7 +1285,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:602 documentation/content/en/books/porters-handbook/special/chapter.adoc:808 documentation/content/en/books/porters-handbook/special/chapter.adoc:927
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:602
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:808
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:927
 msgid ""
 "The port is now ready for a test build and further adjustments like creating "
 "a plist, writing a description, adding license information, options, etc. as "
@@ -1338,7 +1295,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:604 documentation/content/en/books/porters-handbook/special/chapter.adoc:810 documentation/content/en/books/porters-handbook/special/chapter.adoc:929
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:604
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:810
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:929
 msgid ""
 "If you are not testing your port in a clean environment like with Poudriere, "
 "remember to run `make clean` before any testing."
@@ -1476,21 +1435,18 @@ msgstr ""
 msgid "Variables for Ports That Use `meson`"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:685 documentation/content/en/books/porters-handbook/special/chapter.adoc:2058 documentation/content/en/books/porters-handbook/special/chapter.adoc:2078 documentation/content/en/books/porters-handbook/special/chapter.adoc:3262
-msgid "|=== | Variable | Description"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:688
-msgid "|`MESON_ARGS` |Port specific Meson flags to be passed to the `meson` binary."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:692
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:691
+#, no-wrap
 msgid ""
-"|`MESON_BUILD_DIR` |Path to the build directory relative to "
-"`WRKSRC`. Default is `_build`.  |==="
+"| Variable\n"
+"| Description\n"
+"\n"
+"|`MESON_ARGS`\n"
+"|Port specific Meson flags to be passed to the `meson` binary.\n"
+"\n"
+"|`MESON_BUILD_DIR`\n"
+"|Path to the build directory relative to `WRKSRC`. Default is `_build`.\n"
 msgstr ""
 
 #. type: Block title
@@ -1499,7 +1455,7 @@ msgstr ""
 msgid "`USES=meson` Example"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:698
 msgid "This snippet demonstrates the use of Meson for a port."
 msgstr ""
@@ -1539,7 +1495,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:724 documentation/content/en/books/porters-handbook/special/chapter.adoc:772
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:724
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:772
 #, no-wrap
 msgid ""
 "PORTNAME=\tghq\n"
@@ -1549,7 +1506,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:727 documentation/content/en/books/porters-handbook/special/chapter.adoc:775
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:727
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:775
 #, no-wrap
 msgid ""
 "MAINTAINER=\ttobik@FreeBSD.org\n"
@@ -1949,7 +1907,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:968 documentation/content/en/books/porters-handbook/special/chapter.adoc:983
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:968
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:983
 #, no-wrap
 msgid "GNU_CONFIGURE=\t\tyes\n"
 msgstr ""
@@ -2092,51 +2051,36 @@ msgstr ""
 msgid "Read-Only Variables for Ports That Use Perl"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1029
-msgid "|=== | Read only variables | Means"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1032
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1047
+#, no-wrap
 msgid ""
-"|`PERL` |The full path of the Perl 5 interpreter, either in the system or "
-"installed from a port, but without the version number. Use this when the "
-"software needs the path to the Perl interpreter. To replace \"``#!``\"lines "
-"in scripts, use <<uses-shebangfix,`shebangfix`>>."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1035
-msgid "|`PERL_VERSION` |The full version of Perl installed (for example, `5.8.9`)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1038
-msgid ""
-"|`PERL_LEVEL` |The installed Perl version as an integer of the form `MNNNPP` "
-"(for example, `500809`)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1041
-msgid ""
-"|`PERL_ARCH` |Where Perl stores architecture dependent libraries. Defaults "
-"to `${ARCH}-freebsd`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1044
-msgid ""
-"|`PERL_PORT` |Name of the Perl port that is installed (for example, "
-"`perl5`)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1048
-msgid ""
-"|`SITE_PERL` |Directory name where site specific Perl packages go. This "
-"value is added to `PLIST_SUB`.  |==="
+"| Read only variables\n"
+"| Means\n"
+"\n"
+"|`PERL`\n"
+"|The full path of the Perl 5 interpreter, either in the system or installed "
+"from a port, but without the version number. Use this when the software "
+"needs the path to the Perl interpreter. To replace \"``#!``\"lines in "
+"scripts, use <<uses-shebangfix,`shebangfix`>>.\n"
+"\n"
+"|`PERL_VERSION`\n"
+"|The full version of Perl installed (for example, `5.8.9`).\n"
+"\n"
+"|`PERL_LEVEL`\n"
+"|The installed Perl version as an integer of the form `MNNNPP` (for example, "
+"`500809`).\n"
+"\n"
+"|`PERL_ARCH`\n"
+"|Where Perl stores architecture dependent libraries. Defaults to "
+"`${ARCH}-freebsd`.\n"
+"\n"
+"|`PERL_PORT`\n"
+"|Name of the Perl port that is installed (for example, `perl5`).\n"
+"\n"
+"|`SITE_PERL`\n"
+"|Directory name where site specific Perl packages go. This value is added to "
+"`PLIST_SUB`.\n"
 msgstr ""
 
 #. type: delimited block =
@@ -2351,16 +2295,15 @@ msgstr ""
 msgid "Variables for Ports That Use X"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1184
-msgid "|=== |`USES= imake` |The port uses `imake`."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1188
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1187
+#, no-wrap
 msgid ""
-"|`XMKMF` |Set to the path of `xmkmf` if not in the `PATH`. Defaults to "
-"`xmkmf -a`.  |==="
+"|`USES= imake`\n"
+"|The port uses `imake`.\n"
+"\n"
+"|`XMKMF`\n"
+"|Set to the path of `xmkmf` if not in the `PATH`. Defaults to `xmkmf -a`.\n"
 msgstr ""
 
 #. type: Block title
@@ -2576,7 +2519,9 @@ msgid "Using GNOME"
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1274 documentation/content/en/books/porters-handbook/special/chapter.adoc:3367 documentation/content/en/books/porters-handbook/special/chapter.adoc:3654
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1274
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3367
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3654
 #, no-wrap
 msgid "Introduction"
 msgstr ""
@@ -2818,7 +2763,8 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1368 documentation/content/en/books/porters-handbook/special/chapter.adoc:1373
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1368
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1373
 #, no-wrap
 msgid "GNOME Components"
 msgstr ""
@@ -2836,241 +2782,175 @@ msgid ""
 "defaults to adding to both build and run dependencies."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1379 documentation/content/en/books/porters-handbook/special/chapter.adoc:1565
-msgid "|=== | Component | Associated program | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1383
-msgid "|`atk` |accessibility/atk |Accessibility toolkit (ATK)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1387
-msgid "|`atkmm` |accessibility/atkmm |c++ bindings for atk"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1391
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1539
+#, no-wrap
 msgid ""
-"|`cairo` |graphics/cairo |Vector graphics library with cross-device output "
-"support"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1395
-msgid "|`cairomm` |graphics/cairomm |c++ bindings for cairo"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1399
-msgid "|`dconf` |devel/dconf |Configuration database system (both, build, run)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1403
-msgid ""
-"|`evolutiondataserver3` |databases/evolution-data-server |Data backends for "
-"the Evolution integrated mail/PIM suite"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1407
-msgid "|`gdkpixbuf2` |graphics/gdk-pixbuf2 |Graphics library for GTK+"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1411
-msgid "|`glib20` |devel/glib20 |GNOME core library `glib20`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1415
-msgid "|`glibmm` |devel/glibmm |c++ bindings for glib20"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1419
-msgid ""
-"|`gnomecontrolcenter3` |sysutils/gnome-control-center |GNOME 3 Control "
-"Center"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1423
-msgid "|`gnomedesktop3` |x11/gnome-desktop |GNOME 3 desktop UI library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1427
-msgid ""
-"|`gsound` |audio/gsound |GObject library for playing system sounds (both, "
-"build, run)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1431
-msgid ""
-"|`gtk-update-icon-cache` |graphics/gtk-update-icon-cache "
-"|Gtk-update-icon-cache utility from the Gtk+ toolkit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1435
-msgid "|`gtk20` |x11-toolkits/gtk20 |Gtk+ 2 toolkit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1439
-msgid "|`gtk30` |x11-toolkits/gtk30 |Gtk+ 3 toolkit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1443
-msgid "|`gtkmm20` |x11-toolkits/gtkmm20 |c++ bindings 2.0 for the gtk20 toolkit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1447
-msgid "|`gtkmm24` |x11-toolkits/gtkmm24 |c++ bindings 2.4 for the gtk20 toolkit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1451
-msgid "|`gtkmm30` |x11-toolkits/gtkmm30 |c++ bindings 3.0 for the gtk30 toolkit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1455
-msgid ""
-"|`gtksourceview2` |x11-toolkits/gtksourceview2 |Widget that adds syntax "
-"highlighting to GtkTextView"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1459
-msgid ""
-"|`gtksourceview3` |x11-toolkits/gtksourceview3 |Text widget that adds syntax "
-"highlighting to the GtkTextView widget"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1463
-msgid ""
-"|`gtksourceviewmm3` |x11-toolkits/gtksourceviewmm3 |c++ bindings for the "
-"gtksourceview3 library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1467
-msgid "|`gvfs` |devel/gvfs |GNOME virtual file system"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1471
-msgid ""
-"|`intltool` |textproc/intltool |Tool for internationalization (also see "
-"intlhack)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1475
-msgid ""
-"|`introspection` |devel/gobject-introspection |Basic introspection bindings "
-"and tools to generate introspection bindings. Most of the time :build is "
-"enough, :both/:run is only need for applications that use introspection "
-"bindings. (both, build, run)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1479
-msgid ""
-"|`libgda5` |databases/libgda5 |Provides uniform access to different kinds of "
-"data sources"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1483
-msgid "|`libgda5-ui` |databases/libgda5-ui |UI library from the libgda5 library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1487
-msgid "|`libgdamm5` |databases/libgdamm5 |c++ bindings for the libgda5 library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1491
-msgid ""
-"|`libgsf` |devel/libgsf |Extensible I/O abstraction for dealing with "
-"structured file formats"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1495
-msgid ""
-"|`librsvg2` |graphics/librsvg2 |Library for parsing and rendering SVG "
-"vector-graphic files"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1499
-msgid "|`libsigc++20` |devel/libsigc++20 |Callback Framework for C++"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1503
-msgid "|`libxml++26` |textproc/libxml++26 |c++ bindings for the libxml2 library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1507
-msgid "|`libxml2` |textproc/libxml2 |XML parser library (both, build, run)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1511
-msgid "|`libxslt` |textproc/libxslt |XSLT C library (both, build, run)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1515
-msgid "|`metacity` |x11-wm/metacity |Window manager from GNOME"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1519
-msgid "|`nautilus3` |x11-fm/nautilus |GNOME file manager"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1523
-msgid ""
-"|`pango` |x11-toolkits/pango |Open-source framework for the layout and "
-"rendering of i18n text"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1527
-msgid "|`pangomm` |x11-toolkits/pangomm |c++ bindings for the pango library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1531
-msgid "|`py3gobject3` |devel/py3-gobject3 |Python 3, GObject 3.0 bindings"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1535
-msgid "|`pygobject3` |devel/py-gobject3 |Python 2, GObject 3.0 bindings"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1540
-msgid ""
-"|`vte3` |x11-toolkits/vte3 |Terminal widget with improved accessibility and "
-"I18N support |==="
+"| Component\n"
+"| Associated program\n"
+"| Description\n"
+"\n"
+"|`atk`\n"
+"|accessibility/atk\n"
+"|Accessibility toolkit (ATK)\n"
+"\n"
+"|`atkmm`\n"
+"|accessibility/atkmm\n"
+"|c++ bindings for atk\n"
+"\n"
+"|`cairo`\n"
+"|graphics/cairo\n"
+"|Vector graphics library with cross-device output support\n"
+"\n"
+"|`cairomm`\n"
+"|graphics/cairomm\n"
+"|c++ bindings for cairo\n"
+"\n"
+"|`dconf`\n"
+"|devel/dconf\n"
+"|Configuration database system (both, build, run)\n"
+"\n"
+"|`evolutiondataserver3`\n"
+"|databases/evolution-data-server\n"
+"|Data backends for the Evolution integrated mail/PIM suite\n"
+"\n"
+"|`gdkpixbuf2`\n"
+"|graphics/gdk-pixbuf2\n"
+"|Graphics library for GTK+\n"
+"\n"
+"|`glib20`\n"
+"|devel/glib20\n"
+"|GNOME core library `glib20`\n"
+"\n"
+"|`glibmm`\n"
+"|devel/glibmm\n"
+"|c++ bindings for glib20\n"
+"\n"
+"|`gnomecontrolcenter3`\n"
+"|sysutils/gnome-control-center\n"
+"|GNOME 3 Control Center\n"
+"\n"
+"|`gnomedesktop3`\n"
+"|x11/gnome-desktop\n"
+"|GNOME 3 desktop UI library\n"
+"\n"
+"|`gsound`\n"
+"|audio/gsound\n"
+"|GObject library for playing system sounds (both, build, run)\n"
+"\n"
+"|`gtk-update-icon-cache`\n"
+"|graphics/gtk-update-icon-cache\n"
+"|Gtk-update-icon-cache utility from the Gtk+ toolkit\n"
+"\n"
+"|`gtk20`\n"
+"|x11-toolkits/gtk20\n"
+"|Gtk+ 2 toolkit\n"
+"\n"
+"|`gtk30`\n"
+"|x11-toolkits/gtk30\n"
+"|Gtk+ 3 toolkit\n"
+"\n"
+"|`gtkmm20`\n"
+"|x11-toolkits/gtkmm20\n"
+"|c++ bindings 2.0 for the gtk20 toolkit\n"
+"\n"
+"|`gtkmm24`\n"
+"|x11-toolkits/gtkmm24\n"
+"|c++ bindings 2.4 for the gtk20 toolkit\n"
+"\n"
+"|`gtkmm30`\n"
+"|x11-toolkits/gtkmm30\n"
+"|c++ bindings 3.0 for the gtk30 toolkit\n"
+"\n"
+"|`gtksourceview2`\n"
+"|x11-toolkits/gtksourceview2\n"
+"|Widget that adds syntax highlighting to GtkTextView\n"
+"\n"
+"|`gtksourceview3`\n"
+"|x11-toolkits/gtksourceview3\n"
+"|Text widget that adds syntax highlighting to the GtkTextView widget\n"
+"\n"
+"|`gtksourceviewmm3`\n"
+"|x11-toolkits/gtksourceviewmm3\n"
+"|c++ bindings for the gtksourceview3 library\n"
+"\n"
+"|`gvfs`\n"
+"|devel/gvfs\n"
+"|GNOME virtual file system\n"
+"\n"
+"|`intltool`\n"
+"|textproc/intltool\n"
+"|Tool for internationalization (also see intlhack)\n"
+"\n"
+"|`introspection`\n"
+"|devel/gobject-introspection\n"
+"|Basic introspection bindings and tools to generate introspection "
+"bindings. Most of the time :build is enough, :both/:run is only need for "
+"applications that use introspection bindings. (both, build, run)\n"
+"\n"
+"|`libgda5`\n"
+"|databases/libgda5\n"
+"|Provides uniform access to different kinds of data sources\n"
+"\n"
+"|`libgda5-ui`\n"
+"|databases/libgda5-ui\n"
+"|UI library from the libgda5 library\n"
+"\n"
+"|`libgdamm5`\n"
+"|databases/libgdamm5\n"
+"|c++ bindings for the libgda5 library\n"
+"\n"
+"|`libgsf`\n"
+"|devel/libgsf\n"
+"|Extensible I/O abstraction for dealing with structured file formats\n"
+"\n"
+"|`librsvg2`\n"
+"|graphics/librsvg2\n"
+"|Library for parsing and rendering SVG vector-graphic files\n"
+"\n"
+"|`libsigc++20`\n"
+"|devel/libsigc++20\n"
+"|Callback Framework for C++\n"
+"\n"
+"|`libxml++26`\n"
+"|textproc/libxml++26\n"
+"|c++ bindings for the libxml2 library\n"
+"\n"
+"|`libxml2`\n"
+"|textproc/libxml2\n"
+"|XML parser library (both, build, run)\n"
+"\n"
+"|`libxslt`\n"
+"|textproc/libxslt\n"
+"|XSLT C library (both, build, run)\n"
+"\n"
+"|`metacity`\n"
+"|x11-wm/metacity\n"
+"|Window manager from GNOME\n"
+"\n"
+"|`nautilus3`\n"
+"|x11-fm/nautilus\n"
+"|GNOME file manager\n"
+"\n"
+"|`pango`\n"
+"|x11-toolkits/pango\n"
+"|Open-source framework for the layout and rendering of i18n text\n"
+"\n"
+"|`pangomm`\n"
+"|x11-toolkits/pangomm\n"
+"|c++ bindings for the pango library\n"
+"\n"
+"|`py3gobject3`\n"
+"|devel/py3-gobject3\n"
+"|Python 3, GObject 3.0 bindings\n"
+"\n"
+"|`pygobject3`\n"
+"|devel/py-gobject3\n"
+"|Python 2, GObject 3.0 bindings\n"
+"\n"
+"|`vte3`\n"
+"|x11-toolkits/vte3\n"
+"|Terminal widget with improved accessibility and I18N support\n"
 msgstr ""
 
 #. type: Block title
@@ -3079,29 +2959,23 @@ msgstr ""
 msgid "GNOME Macro Components"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1547 documentation/content/en/books/porters-handbook/special/chapter.adoc:1733
-msgid "|=== | Component | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1550
-msgid "|`gnomeprefix` |Supply `configure` with some default locations."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1553
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1556
+#, no-wrap
 msgid ""
-"|`intlhack` |Same as intltool, but patches to make sure "
-"[.filename]#share/locale/# is used. Please only use when `intltool` alone is "
-"not enough."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1557
-msgid ""
-"|`referencehack` |This macro is there to help splitting of the API or "
-"reference documentation into its own port.  |==="
+"| Component\n"
+"| Description\n"
+"\n"
+"|`gnomeprefix`\n"
+"|Supply `configure` with some default locations.\n"
+"\n"
+"|`intlhack`\n"
+"|Same as intltool, but patches to make sure [.filename]#share/locale/# is "
+"used. Please only use when `intltool` alone is not enough.\n"
+"\n"
+"|`referencehack`\n"
+"|This macro is there to help splitting of the API or reference documentation "
+"into its own port.\n"
 msgstr ""
 
 #. type: Block title
@@ -3110,246 +2984,173 @@ msgstr ""
 msgid "GNOME Legacy Components"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1569
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1725
+#, no-wrap
 msgid ""
-"|`atspi` |accessibility/at-spi |Assistive Technology Service Provider "
-"Interface"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1573
-msgid "|`esound` |audio/esound |Enlightenment sound package"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1577
-msgid ""
-"|`gal2` |x11-toolkits/gal2 |Collection of widgets taken from GNOME 2 "
-"gnumeric"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1581
-msgid "|`gconf2` |devel/gconf2 |Configuration database system for GNOME 2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1585
-msgid "|`gconfmm26` |devel/gconfmm26 |c++ bindings for gconf2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1589
-msgid "|`gdkpixbuf` |graphics/gdk-pixbuf |Graphics library for GTK+"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1593
-msgid "|`glib12` |devel/glib12 |glib 1.2 core library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1597
-msgid "|`gnomedocutils` |textproc/gnome-doc-utils |GNOME doc utils"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1601
-msgid ""
-"|`gnomemimedata` |misc/gnome-mime-data |MIME and Application database for "
-"GNOME 2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1605
-msgid ""
-"|`gnomesharp20` |x11-toolkits/gnome-sharp20 |GNOME 2 interfaces for the .NET "
-"runtime"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1609
-msgid "|`gnomespeech` |accessibility/gnome-speech |GNOME 2 text-to-speech API"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1613
-msgid "|`gnomevfs2` |devel/gnome-vfs |GNOME 2 Virtual File System"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1617
-msgid "|`gtk12` |x11-toolkits/gtk12 |Gtk+ 1.2 toolkit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1621
-msgid ""
-"|`gtkhtml3` |www/gtkhtml3 |Lightweight HTML rendering/printing/editing "
-"engine"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1625
-msgid ""
-"|`gtkhtml4` |www/gtkhtml4 |Lightweight HTML rendering/printing/editing "
-"engine"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1629
-msgid ""
-"|`gtksharp20` |x11-toolkits/gtk-sharp20 |GTK+ and GNOME 2 interfaces for the "
-".NET runtime"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1633
-msgid ""
-"|`gtksourceview` |x11-toolkits/gtksourceview |Widget that adds syntax "
-"highlighting to GtkTextView"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1637
-msgid ""
-"|`libartgpl2` |graphics/libart_lgpl |Library for high-performance 2D "
-"graphics"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1641
-msgid ""
-"|`libbonobo` |devel/libbonobo |Component and compound document system for "
-"GNOME 2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1645
-msgid ""
-"|`libbonoboui` |x11-toolkits/libbonoboui |GUI frontend to the libbonobo "
-"component of GNOME 2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1649
-msgid ""
-"|`libgda4` |databases/libgda4 |Provides uniform access to different kinds of "
-"data sources"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1653
-msgid "|`libglade2` |devel/libglade2 |GNOME 2 glade library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1657
-msgid "|`libgnome` |x11/libgnome |Libraries for GNOME 2, a GNU desktop environment"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1661
-msgid "|`libgnomecanvas` |graphics/libgnomecanvas |Graphics library for GNOME 2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1665
-msgid "|`libgnomekbd` |x11/libgnomekbd |GNOME 2 keyboard shared library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1669
-msgid "|`libgnomeprint` |print/libgnomeprint |Gnome 2 print support library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1673
-msgid ""
-"|`libgnomeprintui` |x11-toolkits/libgnomeprintui |Gnome 2 print support "
-"library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1677
-msgid ""
-"|`libgnomeui` |x11-toolkits/libgnomeui |Libraries for the GNOME 2 GUI, a GNU "
-"desktop environment"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1681
-msgid ""
-"|`libgtkhtml` |www/libgtkhtml |Lightweight HTML rendering/printing/editing "
-"engine"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1685
-msgid ""
-"|`libgtksourceviewmm` |x11-toolkits/libgtksourceviewmm |c++ binding of "
-"GtkSourceView"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1689
-msgid "|`libidl` |devel/libIDL |Library for creating trees of CORBA IDL file"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1693
-msgid "|`libsigc++12` |devel/libsigc++12 |Callback Framework for C++"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1697
-msgid ""
-"|`libwnck` |x11-toolkits/libwnck |Library used for writing pagers and "
-"taskslists"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1701
-msgid ""
-"|`libwnck3` |x11-toolkits/libwnck3 |Library used for writing pagers and "
-"taskslists"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1705
-msgid ""
-"|`orbit2` |devel/ORBit2 |High-performance CORBA ORB with support for the C "
-"language"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1709
-msgid "|`pygnome2` |x11-toolkits/py-gnome2 |Python bindings for GNOME 2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1713
-msgid "|`pygobject` |devel/py-gobject |Python 2, GObject 2.0 bindings"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1717
-msgid "|`pygtk2` |x11-toolkits/py-gtk2 |Set of Python bindings for GTK+"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1721
-msgid ""
-"|`pygtksourceview` |x11-toolkits/py-gtksourceview |Python bindings for "
-"GtkSourceView 2"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1726
-msgid ""
-"|`vte` |x11-toolkits/vte |Terminal widget with improved accessibility and "
-"I18N support |==="
+"| Component\n"
+"| Associated program\n"
+"| Description\n"
+"\n"
+"|`atspi`\n"
+"|accessibility/at-spi\n"
+"|Assistive Technology Service Provider Interface\n"
+"\n"
+"|`esound`\n"
+"|audio/esound\n"
+"|Enlightenment sound package\n"
+"\n"
+"|`gal2`\n"
+"|x11-toolkits/gal2\n"
+"|Collection of widgets taken from GNOME 2 gnumeric\n"
+"\n"
+"|`gconf2`\n"
+"|devel/gconf2\n"
+"|Configuration database system for GNOME 2\n"
+"\n"
+"|`gconfmm26`\n"
+"|devel/gconfmm26\n"
+"|c++ bindings for gconf2\n"
+"\n"
+"|`gdkpixbuf`\n"
+"|graphics/gdk-pixbuf\n"
+"|Graphics library for GTK+\n"
+"\n"
+"|`glib12`\n"
+"|devel/glib12\n"
+"|glib 1.2 core library\n"
+"\n"
+"|`gnomedocutils`\n"
+"|textproc/gnome-doc-utils\n"
+"|GNOME doc utils\n"
+"\n"
+"|`gnomemimedata`\n"
+"|misc/gnome-mime-data\n"
+"|MIME and Application database for GNOME 2\n"
+"\n"
+"|`gnomesharp20`\n"
+"|x11-toolkits/gnome-sharp20\n"
+"|GNOME 2 interfaces for the .NET runtime\n"
+"\n"
+"|`gnomespeech`\n"
+"|accessibility/gnome-speech\n"
+"|GNOME 2 text-to-speech API\n"
+"\n"
+"|`gnomevfs2`\n"
+"|devel/gnome-vfs\n"
+"|GNOME 2 Virtual File System\n"
+"\n"
+"|`gtk12`\n"
+"|x11-toolkits/gtk12\n"
+"|Gtk+ 1.2 toolkit\n"
+"\n"
+"|`gtkhtml3`\n"
+"|www/gtkhtml3\n"
+"|Lightweight HTML rendering/printing/editing engine\n"
+"\n"
+"|`gtkhtml4`\n"
+"|www/gtkhtml4\n"
+"|Lightweight HTML rendering/printing/editing engine\n"
+"\n"
+"|`gtksharp20`\n"
+"|x11-toolkits/gtk-sharp20\n"
+"|GTK+ and GNOME 2 interfaces for the .NET runtime\n"
+"\n"
+"|`gtksourceview`\n"
+"|x11-toolkits/gtksourceview\n"
+"|Widget that adds syntax highlighting to GtkTextView\n"
+"\n"
+"|`libartgpl2`\n"
+"|graphics/libart_lgpl\n"
+"|Library for high-performance 2D graphics\n"
+"\n"
+"|`libbonobo`\n"
+"|devel/libbonobo\n"
+"|Component and compound document system for GNOME 2\n"
+"\n"
+"|`libbonoboui`\n"
+"|x11-toolkits/libbonoboui\n"
+"|GUI frontend to the libbonobo component of GNOME 2\n"
+"\n"
+"|`libgda4`\n"
+"|databases/libgda4\n"
+"|Provides uniform access to different kinds of data sources\n"
+"\n"
+"|`libglade2`\n"
+"|devel/libglade2\n"
+"|GNOME 2 glade library\n"
+"\n"
+"|`libgnome`\n"
+"|x11/libgnome\n"
+"|Libraries for GNOME 2, a GNU desktop environment\n"
+"\n"
+"|`libgnomecanvas`\n"
+"|graphics/libgnomecanvas\n"
+"|Graphics library for GNOME 2\n"
+"\n"
+"|`libgnomekbd`\n"
+"|x11/libgnomekbd\n"
+"|GNOME 2 keyboard shared library\n"
+"\n"
+"|`libgnomeprint`\n"
+"|print/libgnomeprint\n"
+"|Gnome 2 print support library\n"
+"\n"
+"|`libgnomeprintui`\n"
+"|x11-toolkits/libgnomeprintui\n"
+"|Gnome 2 print support library\n"
+"\n"
+"|`libgnomeui`\n"
+"|x11-toolkits/libgnomeui\n"
+"|Libraries for the GNOME 2 GUI, a GNU desktop environment\n"
+"\n"
+"|`libgtkhtml`\n"
+"|www/libgtkhtml\n"
+"|Lightweight HTML rendering/printing/editing engine\n"
+"\n"
+"|`libgtksourceviewmm`\n"
+"|x11-toolkits/libgtksourceviewmm\n"
+"|c++ binding of GtkSourceView\n"
+"\n"
+"|`libidl`\n"
+"|devel/libIDL\n"
+"|Library for creating trees of CORBA IDL file\n"
+"\n"
+"|`libsigc++12`\n"
+"|devel/libsigc++12\n"
+"|Callback Framework for C++\n"
+"\n"
+"|`libwnck`\n"
+"|x11-toolkits/libwnck\n"
+"|Library used for writing pagers and taskslists\n"
+"\n"
+"|`libwnck3`\n"
+"|x11-toolkits/libwnck3\n"
+"|Library used for writing pagers and taskslists\n"
+"\n"
+"|`orbit2`\n"
+"|devel/ORBit2\n"
+"|High-performance CORBA ORB with support for the C language\n"
+"\n"
+"|`pygnome2`\n"
+"|x11-toolkits/py-gnome2\n"
+"|Python bindings for GNOME 2\n"
+"\n"
+"|`pygobject`\n"
+"|devel/py-gobject\n"
+"|Python 2, GObject 2.0 bindings\n"
+"\n"
+"|`pygtk2`\n"
+"|x11-toolkits/py-gtk2\n"
+"|Set of Python bindings for GTK+\n"
+"\n"
+"|`pygtksourceview`\n"
+"|x11-toolkits/py-gtksourceview\n"
+"|Python bindings for GtkSourceView 2\n"
+"\n"
+"|`vte`\n"
+"|x11-toolkits/vte\n"
+"|Terminal widget with improved accessibility and I18N support\n"
 msgstr ""
 
 #. type: Block title
@@ -3358,11 +3159,15 @@ msgstr ""
 msgid "Deprecated Components: Do Not Use"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1737
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1736
+#, no-wrap
 msgid ""
-"|`pangox-compat` |pangox-compat has been deprecated and split off from the "
-"pango package.  |==="
+"| Component\n"
+"| Description\n"
+"\n"
+"|`pangox-compat`\n"
+"|pangox-compat has been deprecated and split off from the pango package.\n"
 msgstr ""
 
 #. type: Title ==
@@ -3402,48 +3207,38 @@ msgstr ""
 msgid "Variables Provided to Ports That Use Qt"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1759
-msgid "|=== |`QMAKE` |Full path to `qmake` binary."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1762
-msgid "|`LRELEASE` |Full path to `lrelease` utility."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1765
-msgid "|`MOC` |Full path to `moc`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1768
-msgid "|`RCC` |Full path to `rcc`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1771
-msgid "|`UIC` |Full path to `uic`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1774
-msgid "|`QT_INCDIR` |Qt include directory."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1777
-msgid "|`QT_LIBDIR` |Qt libraries path."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1781
-msgid "|`QT_PLUGINDIR` |Qt plugins path.  |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1780
+#, no-wrap
+msgid ""
+"|`QMAKE`\n"
+"|Full path to `qmake` binary.\n"
+"\n"
+"|`LRELEASE`\n"
+"|Full path to `lrelease` utility.\n"
+"\n"
+"|`MOC`\n"
+"|Full path to `moc`.\n"
+"\n"
+"|`RCC`\n"
+"|Full path to `rcc`.\n"
+"\n"
+"|`UIC`\n"
+"|Full path to `uic`.\n"
+"\n"
+"|`QT_INCDIR`\n"
+"|Qt include directory.\n"
+"\n"
+"|`QT_LIBDIR`\n"
+"|Qt libraries path.\n"
+"\n"
+"|`QT_PLUGINDIR`\n"
+"|Qt plugins path.\n"
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1783 documentation/content/en/books/porters-handbook/special/chapter.adoc:3449
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1783
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3449
 #, no-wrap
 msgid "Component Selection"
 msgstr ""
@@ -3469,365 +3264,222 @@ msgstr ""
 msgid "Available Qt Library Components"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1792 documentation/content/en/books/porters-handbook/special/chapter.adoc:2012 documentation/content/en/books/porters-handbook/special/chapter.adoc:2029 documentation/content/en/books/porters-handbook/special/chapter.adoc:2149 documentation/content/en/books/porters-handbook/special/chapter.adoc:2723 documentation/content/en/books/porters-handbook/special/chapter.adoc:3480 documentation/content/en/books/porters-handbook/special/chapter.adoc:3582 documentation/content/en/books/porters-handbook/special/chapter.adoc:3739 documentation/content/en/books/porters-handbook/special/chapter.adoc:3791
-msgid "|=== | Name | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1795
-msgid "|`3d` |Qt3D module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1798
-msgid "|`assistant` |Qt 5 documentation browser"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1801
-msgid "|`canvas3d` |Qt canvas3d module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1804
-msgid "|`charts` |Qt 5 charts module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1807
-msgid "|`concurrent` |Qt multi-threading module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1810
-msgid "|`connectivity` |Qt connectivity (Bluetooth/NFC) module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1813
-msgid "|`core` |Qt core non-graphical module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1816
-msgid "|`datavis3d` |Qt 5 3D data visualization module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1819
-msgid "|`dbus` |Qt D-Bus inter-process communication module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1822
-msgid "|`declarative` |Qt declarative framework for dynamic user interfaces"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1825
-msgid "|`designer` |Qt 5 graphical user interface designer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1828
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2002
+#, no-wrap
 msgid ""
-"|`diag` |Tool for reporting diagnostic information about Qt and its "
-"environment"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1831
-msgid "|`doc` |Qt 5 documentation"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1834
-msgid "|`examples` |Qt 5 examples sourcecode"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1837
-msgid "|`gamepad` |Qt 5 Gamepad Module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1840
-msgid "|`graphicaleffects` |Qt Quick graphical effects"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1843
-msgid "|`gui` |Qt graphical user interface module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1846
-msgid "|`help` |Qt online help integration module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1849
-msgid "|`l10n` |Qt localized messages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1852
-msgid "|`linguist` |Qt 5 translation tool"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1855
-msgid "|`location` |Qt location module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1858
-msgid "|`multimedia` |Qt audio, video, radio and camera support module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1861
-msgid "|`network` |Qt network module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1864
-msgid "|`networkauth` |Qt network auth module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1867
-msgid "|`opengl` |Qt 5-compatible OpenGL support module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1870
-msgid "|`paths` |Command line client to QStandardPaths"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1873
-msgid "|`phonon4` |KDE multimedia framework"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1876
-msgid "|`pixeltool` |Qt 5 screen magnifier"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1879
-msgid "|`plugininfo` |Qt5 plugin metadata dumper"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1882
-msgid "|`printsupport` |Qt print support module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1885
-msgid "|`qdbus` |Qt command-line interface to D-Bus"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1888
-msgid "|`qdbusviewer` |Qt 5 graphical interface to D-Bus"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1891
-msgid "|`qdoc` |Qt documentation generator"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1894
-msgid "|`qdoc-data` |QDoc configuration files"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1897
-msgid "|`qev` |Qt QWidget events introspection tool"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1900
-msgid "|`qmake` |Qt Makefile generator"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1903
-msgid ""
-"|`quickcontrols` |Set of controls for building complete interfaces in Qt "
-"Quick"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1906
-msgid ""
-"|`quickcontrols2` |Set of controls for building complete interfaces in Qt "
-"Quick"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1909
-msgid "|`remoteobjects` |Qt5 SXCML module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1912
-msgid "|`script` |Qt 4-compatible scripting module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1915
-msgid "|`scripttools` |Qt Script additional components"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1918
-msgid "|`scxml` |Qt5 SXCML module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1921
-msgid "|`sensors` |Qt sensors module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1924
-msgid "|`serialbus` |Qt functions to access industrial bus systems"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1927
-msgid "|`serialport` |Qt functions to access serial ports"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1930
-msgid "|`speech` |Accessibilty features for Qt5"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1933
-msgid "|`sql` |Qt SQL database integration module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1936
-msgid "|`sql-ibase` |Qt InterBase/Firebird database plugin"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1939
-msgid "|`sql-mysql` |Qt MySQL database plugin"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1942
-msgid "|`sql-odbc` |Qt Open Database Connectivity plugin"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1945
-msgid "|`sql-pgsql` |Qt PostgreSQL database plugin"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1948
-msgid "|`sql-sqlite2` |Qt SQLite 2 database plugin"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1951
-msgid "|`sql-sqlite3` |Qt SQLite 3 database plugin"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1954
-msgid "|`sql-tds` |Qt TDS Database Connectivity database plugin"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1957
-msgid "|`svg` |Qt SVG support module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1960
-msgid "|`testlib` |Qt unit testing module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1963
-msgid "|`uiplugin` |Custom Qt widget plugin interface for Qt Designer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1966
-msgid "|`uitools` |Qt Designer UI forms support module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1969
-msgid "|`virtualkeyboard` |Qt 5 Virtual Keyboard Module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1972
-msgid "|`wayland` |Qt5 wrapper for Wayland"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1975
-msgid "|`webchannel` |Qt 5 library for integration of C++/QML with HTML/js clients"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1978
-msgid "|`webengine` |Qt 5 library to render web content"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1981
-msgid "|`webkit` |QtWebKit with a more modern WebKit code base"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1984
-msgid "|`websockets` |Qt implementation of WebSocket protocol"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1987
-msgid "|`websockets-qml` |Qt implementation of WebSocket protocol (QML bindings)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1990
-msgid "|`webview` |Qt component for displaying web content"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1993
-msgid "|`widgets` |Qt C++ widgets module"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1996
-msgid "|`x11extras` |Qt platform-specific features for X11-based systems"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:1999
-msgid "|`xml` |Qt SAX and DOM implementations"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2003
-msgid "|`xmlpatterns` |Qt support for XPath, XQuery, XSLT and XML Schema |==="
+"| Name\n"
+"| Description\n"
+"\n"
+"|`3d`\n"
+"|Qt3D module\n"
+"\n"
+"|`assistant`\n"
+"|Qt 5 documentation browser\n"
+"\n"
+"|`canvas3d`\n"
+"|Qt canvas3d module\n"
+"\n"
+"|`charts`\n"
+"|Qt 5 charts module\n"
+"\n"
+"|`concurrent`\n"
+"|Qt multi-threading module\n"
+"\n"
+"|`connectivity`\n"
+"|Qt connectivity (Bluetooth/NFC) module\n"
+"\n"
+"|`core`\n"
+"|Qt core non-graphical module\n"
+"\n"
+"|`datavis3d`\n"
+"|Qt 5 3D data visualization module\n"
+"\n"
+"|`dbus`\n"
+"|Qt D-Bus inter-process communication module\n"
+"\n"
+"|`declarative`\n"
+"|Qt declarative framework for dynamic user interfaces\n"
+"\n"
+"|`designer`\n"
+"|Qt 5 graphical user interface designer\n"
+"\n"
+"|`diag`\n"
+"|Tool for reporting diagnostic information about Qt and its environment\n"
+"\n"
+"|`doc`\n"
+"|Qt 5 documentation\n"
+"\n"
+"|`examples`\n"
+"|Qt 5 examples sourcecode\n"
+"\n"
+"|`gamepad`\n"
+"|Qt 5 Gamepad Module\n"
+"\n"
+"|`graphicaleffects`\n"
+"|Qt Quick graphical effects\n"
+"\n"
+"|`gui`\n"
+"|Qt graphical user interface module\n"
+"\n"
+"|`help`\n"
+"|Qt online help integration module\n"
+"\n"
+"|`l10n`\n"
+"|Qt localized messages\n"
+"\n"
+"|`linguist`\n"
+"|Qt 5 translation tool\n"
+"\n"
+"|`location`\n"
+"|Qt location module\n"
+"\n"
+"|`multimedia`\n"
+"|Qt audio, video, radio and camera support module\n"
+"\n"
+"|`network`\n"
+"|Qt network module\n"
+"\n"
+"|`networkauth`\n"
+"|Qt network auth module\n"
+"\n"
+"|`opengl`\n"
+"|Qt 5-compatible OpenGL support module\n"
+"\n"
+"|`paths`\n"
+"|Command line client to QStandardPaths\n"
+"\n"
+"|`phonon4`\n"
+"|KDE multimedia framework\n"
+"\n"
+"|`pixeltool`\n"
+"|Qt 5 screen magnifier\n"
+"\n"
+"|`plugininfo`\n"
+"|Qt5 plugin metadata dumper\n"
+"\n"
+"|`printsupport`\n"
+"|Qt print support module\n"
+"\n"
+"|`qdbus`\n"
+"|Qt command-line interface to D-Bus\n"
+"\n"
+"|`qdbusviewer`\n"
+"|Qt 5 graphical interface to D-Bus\n"
+"\n"
+"|`qdoc`\n"
+"|Qt documentation generator\n"
+"\n"
+"|`qdoc-data`\n"
+"|QDoc configuration files\n"
+"\n"
+"|`qev`\n"
+"|Qt QWidget events introspection tool\n"
+"\n"
+"|`qmake`\n"
+"|Qt Makefile generator\n"
+"\n"
+"|`quickcontrols`\n"
+"|Set of controls for building complete interfaces in Qt Quick\n"
+"\n"
+"|`quickcontrols2`\n"
+"|Set of controls for building complete interfaces in Qt Quick\n"
+"\n"
+"|`remoteobjects`\n"
+"|Qt5 SXCML module\n"
+"\n"
+"|`script`\n"
+"|Qt 4-compatible scripting module\n"
+"\n"
+"|`scripttools`\n"
+"|Qt Script additional components\n"
+"\n"
+"|`scxml`\n"
+"|Qt5 SXCML module\n"
+"\n"
+"|`sensors`\n"
+"|Qt sensors module\n"
+"\n"
+"|`serialbus`\n"
+"|Qt functions to access industrial bus systems\n"
+"\n"
+"|`serialport`\n"
+"|Qt functions to access serial ports\n"
+"\n"
+"|`speech`\n"
+"|Accessibilty features for Qt5\n"
+"\n"
+"|`sql`\n"
+"|Qt SQL database integration module\n"
+"\n"
+"|`sql-ibase`\n"
+"|Qt InterBase/Firebird database plugin\n"
+"\n"
+"|`sql-mysql`\n"
+"|Qt MySQL database plugin\n"
+"\n"
+"|`sql-odbc`\n"
+"|Qt Open Database Connectivity plugin\n"
+"\n"
+"|`sql-pgsql`\n"
+"|Qt PostgreSQL database plugin\n"
+"\n"
+"|`sql-sqlite2`\n"
+"|Qt SQLite 2 database plugin\n"
+"\n"
+"|`sql-sqlite3`\n"
+"|Qt SQLite 3 database plugin\n"
+"\n"
+"|`sql-tds`\n"
+"|Qt TDS Database Connectivity database plugin\n"
+"\n"
+"|`svg`\n"
+"|Qt SVG support module\n"
+"\n"
+"|`testlib`\n"
+"|Qt unit testing module\n"
+"\n"
+"|`uiplugin`\n"
+"|Custom Qt widget plugin interface for Qt Designer\n"
+"\n"
+"|`uitools`\n"
+"|Qt Designer UI forms support module\n"
+"\n"
+"|`virtualkeyboard`\n"
+"|Qt 5 Virtual Keyboard Module\n"
+"\n"
+"|`wayland`\n"
+"|Qt5 wrapper for Wayland\n"
+"\n"
+"|`webchannel`\n"
+"|Qt 5 library for integration of C++/QML with HTML/js clients\n"
+"\n"
+"|`webengine`\n"
+"|Qt 5 library to render web content\n"
+"\n"
+"|`webkit`\n"
+"|QtWebKit with a more modern WebKit code base\n"
+"\n"
+"|`websockets`\n"
+"|Qt implementation of WebSocket protocol\n"
+"\n"
+"|`websockets-qml`\n"
+"|Qt implementation of WebSocket protocol (QML bindings)\n"
+"\n"
+"|`webview`\n"
+"|Qt component for displaying web content\n"
+"\n"
+"|`widgets`\n"
+"|Qt C++ widgets module\n"
+"\n"
+"|`x11extras`\n"
+"|Qt platform-specific features for X11-based systems\n"
+"\n"
+"|`xml`\n"
+"|Qt SAX and DOM implementations\n"
+"\n"
+"|`xmlpatterns`\n"
+"|Qt support for XPath, XQuery, XSLT and XML Schema\n"
 msgstr ""
 
 #. type: Plain text
@@ -3843,21 +3495,21 @@ msgstr ""
 msgid "Available Qt Tool Components"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2015
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2021
+#, no-wrap
 msgid ""
-"|`buildtools` |build tools (`moc`, `rcc`), needed for almost every Qt "
-"application."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2018
-msgid "|`linguisttools` |localization tools: `lrelease`, `lupdate`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2022
-msgid "|`qmake` |Makefile generator/build utility |==="
+"| Name\n"
+"| Description\n"
+"\n"
+"|`buildtools`\n"
+"|build tools (`moc`, `rcc`), needed for almost every Qt application.\n"
+"\n"
+"|`linguisttools`\n"
+"|localization tools: `lrelease`, `lupdate`\n"
+"\n"
+"|`qmake`\n"
+"|Makefile generator/build utility\n"
 msgstr ""
 
 #. type: Block title
@@ -3866,9 +3518,15 @@ msgstr ""
 msgid "Available Qt Plugin Components"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2033
-msgid "|`imageformats` |plugins for TGA, TIFF, and MNG image formats |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2032
+#, no-wrap
+msgid ""
+"| Name\n"
+"| Description\n"
+"\n"
+"|`imageformats`\n"
+"|plugins for TGA, TIFF, and MNG image formats\n"
 msgstr ""
 
 #. type: Block title
@@ -3921,31 +3579,29 @@ msgstr ""
 msgid "Possible Arguments for `USES= qmake`"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2061
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2070
+#, no-wrap
 msgid ""
-"|`no_configure` |Do not add the configure target. This is implied by "
-"`HAS_CONFIGURE=yes` and `GNU_CONFIGURE=yes`. It is required when the build "
-"only needs the environment setup from `USES= qmake`, but otherwise runs "
-"`qmake` on its own."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2064
-msgid ""
-"|`no_env` |Suppress modification of the configure and make environments. It "
-"is only required when `qmake` is used to configure the software and the "
-"build fails to understand the environment setup by `USES= qmake`."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2067
-msgid "|`norecursive` |Do not pass the `-recursive` argument to `qmake`."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2071
-msgid "|`outsource` |Perform an out-of-source build.  |==="
+"| Variable\n"
+"| Description\n"
+"\n"
+"|`no_configure`\n"
+"|Do not add the configure target. This is implied by `HAS_CONFIGURE=yes` and "
+"`GNU_CONFIGURE=yes`. It is required when the build only needs the "
+"environment setup from `USES= qmake`, but otherwise runs `qmake` on its "
+"own.\n"
+"\n"
+"|`no_env`\n"
+"|Suppress modification of the configure and make environments. It is only "
+"required when `qmake` is used to configure the software and the build fails "
+"to understand the environment setup by `USES= qmake`.\n"
+"\n"
+"|`norecursive`\n"
+"|Do not pass the `-recursive` argument to `qmake`.\n"
+"\n"
+"|`outsource`\n"
+"|Perform an out-of-source build.\n"
 msgstr ""
 
 #. type: Block title
@@ -3954,27 +3610,26 @@ msgstr ""
 msgid "Variables for Ports That Use `qmake`"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2081
-msgid "|`QMAKE_ARGS` |Port specific qmake flags to be passed to the `qmake` binary."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2084
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2087
+#, no-wrap
 msgid ""
-"|`QMAKE_ENV` |Environment variables to be set for the `qmake` binary. The "
-"default is `${CONFIGURE_ENV}`."
+"| Variable\n"
+"| Description\n"
+"\n"
+"|`QMAKE_ARGS`\n"
+"|Port specific qmake flags to be passed to the `qmake` binary.\n"
+"\n"
+"|`QMAKE_ENV`\n"
+"|Environment variables to be set for the `qmake` binary. The default is "
+"`${CONFIGURE_ENV}`.\n"
+"\n"
+"|`QMAKE_SOURCE_PATH`\n"
+"|Path to qmake project files ([.filename]#.pro#). The default is `${WRKSRC}` "
+"if an out-of-source build is requested, empty otherwise.\n"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2088
-msgid ""
-"|`QMAKE_SOURCE_PATH` |Path to qmake project files ([.filename]#.pro#). The "
-"default is `${WRKSRC}` if an out-of-source build is requested, empty "
-"otherwise.  |==="
-msgstr ""
-
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2090
 msgid "When using `USES= qmake`, these settings are deployed:"
 msgstr ""
@@ -4100,921 +3755,558 @@ msgstr ""
 msgid "Available KDE Components"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2152
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2695
+#, no-wrap
 msgid ""
-"|`activities` |KF5 runtime and library to organize work in separate "
-"activities"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2155
-msgid "|`activities-stats` |KF5 statistics for activities"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2158
-msgid ""
-"|`activitymanagerd` |System service to manage user's activities, track the "
-"usage patterns"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2161
-msgid "|`akonadi` |Storage server for KDE-Pim"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2164
-msgid "|`akonadicalendar` |Akonadi Calendar Integration"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2167
-msgid "|`akonadiconsole` |Akonadi management and debugging console"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2170
-msgid ""
-"|`akonadicontacts` |Libraries and daemons to implement Contact Management in "
-"Akonadi"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2173
-msgid "|`akonadiimportwizard` |Import data from other mail clients to KMail"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2176
-msgid "|`akonadimime` |Libraries and daemons to implement basic email handling"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2179
-msgid "|`akonadinotes` |KDE library for accessing mail storages in MBox format"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2182
-msgid "|`akonadisearch` |Libraries and daemons to implement searching in Akonadi"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2185
-msgid "|`akregator` |A Feed Reader by KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2188
-msgid "|`alarmcalendar` |KDE API for KAlarm alarms"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2191
-msgid "|`apidox` |KF5 API Documentation Tools"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2194
-msgid "|`archive` |KF5 library that provides classes for handling archive formats"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2197
-msgid "|`attica` |Open Collaboration Services API library KDE5 version"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2200
-msgid "|`attica5` |Open Collaboration Services API library KDE5 version"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2203
-msgid "|`auth` |KF5 abstraction to system policy and authentication features"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2206
-msgid "|`baloo` |KF5 Framework for searching and managing user metadata"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2209
-msgid "|`baloo-widgets` |BalooWidgets library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2212
-msgid "|`baloo5` |KF5 Framework for searching and managing user metadata"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2215
-msgid "|`blog` |KDE API for weblogging access"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2218
-msgid "|`bookmarks` |KF5 library for bookmarks and the XBEL format"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2221
-msgid "|`breeze` |Plasma5 artwork, styles and assets for the Breeze visual style"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2224
-msgid "|`breeze-gtk` |Plasma5 Breeze visual style for Gtk"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2227
-msgid "|`breeze-icons` |Breeze icon theme for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2230
-msgid "|`calendarcore` |KDE calendar access library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2233
-msgid "|`calendarsupport` |Calendar support libraries for KDEPim"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2236
-msgid ""
-"|`calendarutils` |KDE utility and user interface functions for accessing "
-"calendar"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2239
-msgid "|`codecs` |KF5 library for string manipulation"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2242
-msgid "|`completion` |KF5 text completion helpers and widgets"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2245
-msgid "|`config` |KF5 widgets for configuration dialogs"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2248
-msgid "|`configwidgets` |KF5 widgets for configuration dialogs"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2251
-msgid "|`contacts` |KDE api to manage contact information"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2254
-msgid "|`coreaddons` |KF5 addons to QtCore"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2257
-msgid "|`crash` |KF5 library to handle crash analysis and bug report from apps"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2260
-msgid "|`dbusaddons` |KF5 addons to QtDBus"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2263
-msgid "|`decoration` |Plasma5 library to create window decorations"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2266
-msgid ""
-"|`designerplugin` |KF5 integration of Frameworks widgets in Qt "
-"Designer/Creator"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2269
-msgid "|`discover` |Plasma5 package management tools"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2272
-msgid "|`dnssd` |KF5 abstraction to system DNSSD features"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2275
-msgid "|`doctools` |KF5 documentation generation from docbook"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2278
-msgid "|`drkonqi` |Plasma5 crash handler"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2281
-msgid "|`ecm` |Extra modules and scripts for CMake"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2284
-msgid "|`emoticons` |KF5 library to convert emoticons"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2287
-msgid "|`eventviews` |Event view libriares for KDEPim"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2290
-msgid "|`filemetadata` |KF5 library for extracting file metadata"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2293
-msgid ""
-"|`frameworkintegration` |KF5 workspace and cross-framework integration "
-"plugins"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2296
-msgid "|`gapi` |KDE based library to access google services"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2299
-msgid "|`globalaccel` |KF5 library to add support for global workspace shortcuts"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2302
-msgid "|`grantlee-editor` |Editor for Grantlee themes"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2305
-msgid "|`grantleetheme` |KDE PIM grantleetheme"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2308
-msgid "|`gravatar` |Library for gravatar support"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2311
-msgid "|`guiaddons` |KF5 addons to QtGui"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2314
-msgid "|`holidays` |KDE library for calendar holidays"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2317
-msgid "|`hotkeys` |Plasma5 library for hotkeys"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2320
-msgid "|`i18n` |KF5 advanced internationalization framework"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2323
-msgid "|`iconthemes` |KF5 library for handling icons in applications"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2326
-msgid "|`identitymanagement` |KDE pim identities"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2329
-msgid "|`idletime` |KF5 library for monitoring user activity"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2332
-msgid "|`imap` |KDE API for IMAP support"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2335
-msgid "|`incidenceeditor` |Incidence editor libriares for KDEPim"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2338
-msgid "|`infocenter` |Plasma5 utility providing system information"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2341
-msgid "|`init` |KF5 process launcher to speed up launching KDE applications"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2344
-msgid "|`itemmodels` |KF5 models for Qt Model/View system"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2347
-msgid "|`itemviews` |KF5 widget addons for Qt Model/View"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2350
-msgid "|`jobwidgets` |KF5 widgets for tracking KJob instance"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2353
-msgid "|`js` |KF5 library providing an ECMAScript interpreter"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2356
-msgid "|`jsembed` |KF5 library for binding JavaScript objects to QObjects"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2359
-msgid "|`kaddressbook` |KDE contact manager"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2362 documentation/content/en/books/porters-handbook/special/chapter.adoc:2365
-msgid "|`kalarm` |Personal alarm scheduler"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2368
-msgid "|`kate` |Basic editor framework for the KDE system"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2371
-msgid "|`kcmutils` |KF5 utilities for working with KCModules"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2374
-msgid "|`kde-cli-tools` |Plasma5 non-interactive system tools"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2377
-msgid "|`kde-gtk-config` |Plasma5 GTK2 and GTK3 configurator"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2380
-msgid "|`kdeclarative` |KF5 library providing integration of QML and KDE Frameworks"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2383
-msgid "|`kded` |KF5 extensible daemon for providing system level services"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2386
-msgid "|`kdelibs4support` |KF5 porting aid from KDELibs4"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2389
-msgid "|`kdepim-addons` |KDE PIM addons"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2392
-msgid "|`kdepim-apps-libs` |KDE PIM mail related libraries"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2395
-msgid "|`kdepim-runtime5` |KDE PIM tools and services"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2398
-msgid "|`kdeplasma-addons` |Plasma5 addons to improve the Plasma experience"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2401
-msgid "|`kdesu` |KF5 integration with su for elevated privileges"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2404
-msgid "|`kdewebkit` |KF5 library providing integration of QtWebKit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2407
-msgid "|`kgamma5` |Plasma5 monitor's gamma settings"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2410
-msgid "|`khtml` |KF5 KTHML rendering engine"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2413
-msgid "|`kimageformats` |KF5 library providing support for additional image formats"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2416
-msgid "|`kio` |KF5 resource and network access abstraction"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2419
-msgid "|`kirigami2` |QtQuick based components set"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2422
-msgid ""
-"|`kitinerary` |Data Model and Extraction System for Travel Reservation "
-"information"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2425 documentation/content/en/books/porters-handbook/special/chapter.adoc:2428
-msgid "|`kmail` |KDE mail client"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2431
-msgid "|`kmail-account-wizard` |KDE mail account wizard"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2434
-msgid "|`kmenuedit` |Plasma5 menu editor"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2437
-msgid "|`knotes` |Popup notes"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2440 documentation/content/en/books/porters-handbook/special/chapter.adoc:2443
-msgid "|`kontact` |KDE Personal Information Manager"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2446
-msgid "|`kontactinterface` |KDE glue for embedding KParts into Kontact"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2449
-msgid "|`korganizer` |Calendar and scheduling Program"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2452
-msgid "|`kpimdav` |A DAV protocol implementation with KJobs"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2455
-msgid "|`kpkpass` |Library to deal with Apple Wallet pass files"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2458
-msgid "|`kross` |KF5 multi-language application scripting"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2461
-msgid "|`kscreen` |Plasma5 screen management library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2464
-msgid "|`kscreenlocker` |Plasma5 secure lock screen architecture"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2467
-msgid "|`ksmtp` |Job-based library to send email through an SMTP server"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2470
-msgid "|`ksshaskpass` |Plasma5 ssh-add frontend"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2473
-msgid "|`ksysguard` |Plasma5 utility to track and control the running processes"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2476
-msgid "|`kwallet-pam` |Plasma5 KWallet PAM Integration"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2479
-msgid "|`kwayland-integration` |Integration plugins for a Wayland-based desktop"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2482
-msgid "|`kwin` |Plasma5 window manager"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2485
-msgid "|`kwrited` |Plasma5 daemon listening for wall and write messages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2488
-msgid "|`ldap` |LDAP access API for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2491
-msgid "|`libkcddb` |KDE CDDB library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2494
-msgid "|`libkcompactdisc` |KDE library for interfacing with audio CDs"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2497
-msgid "|`libkdcraw` |LibRaw interface for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2500
-msgid "|`libkdegames` |Libraries used by KDE games"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2503
-msgid "|`libkdepim` |KDE PIM Libraries"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2506
-msgid "|`libkeduvocdocument` |Library for reading and writing vocabulary files"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2509
-msgid "|`libkexiv2` |Exiv2 library interface for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2512
-msgid "|`libkipi` |KDE Image Plugin Interface"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2515
-msgid "|`libkleo` |Certificate manager for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2518
-msgid "|`libksane` |SANE library interface for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2521
-msgid "|`libkscreen` |Plasma5 screen management library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2524
-msgid "|`libksieve` |Sieve libriares for KDEPim"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2527
-msgid "|`libksysguard` |Plasma5 library to track and control running processes"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2530
-msgid "|`mailcommon` |Common libriares for KDEPim"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2533
-msgid "|`mailimporter` |Import mbox files to KMail"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2536
-msgid "|`mailtransport` |KDE library to managing mail transport"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2539
-msgid "|`marble` |Virtual globe and world atlas for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2542
-msgid "|`mbox` |KDE library for accessing mail storages in MBox format"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2545
-msgid "|`mbox-importer` |Import mbox files to KMail"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2548
-msgid "|`mediaplayer` |KF5 plugin interface for media player features"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2551
-msgid "|`messagelib` |Library for handling messages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2554
-msgid "|`milou` |Plasma5 Plasmoid for search"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2557
-msgid "|`mime` |Library for handling MIME data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2560
-msgid "|`newstuff` |KF5 library for downloading application assets from the network"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2563
-msgid "|`notifications` |KF5 abstraction for system notifications"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2566
-msgid "|`notifyconfig` |KF5 configuration system for KNotify"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2569
-msgid "|`okular` |KDE universal document viewer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2572
-msgid "|`oxygen` |Plasma5 Oxygen style"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2575
-msgid "|`oxygen-icons5` |The Oxygen icon theme for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2578
-msgid "|`package` |KF5 library to load and install packages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2581
-msgid "|`parts` |KF5 document centric plugin system"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2584
-msgid "|`people` |KF5 library providing access to contacts"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2587
-msgid "|`pim-data-exporter` |Import and export KDE PIM settings"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2590
-msgid "|`pimcommon` |Common libriares for KDEPim"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2593
-msgid "|`pimtextedit` |KDE library for PIM-specific text editing utilities"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2596
-msgid ""
-"|`plasma-browser-integration` |Plasma5 components to integrate browsers into "
-"the desktop"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2599
-msgid "|`plasma-desktop` |Plasma5 plasma desktop"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2602
-msgid ""
-"|`plasma-framework` |KF5 plugin based UI runtime used to write user "
-"interfaces"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2605
-msgid ""
-"|`plasma-integration` |Qt Platform Theme integration plugins for the Plasma "
-"workspaces"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2608
-msgid "|`plasma-pa` |Plasma5 Plasma pulse audio mixer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2611
-msgid "|`plasma-sdk` |Plasma5 applications useful for Plasma development"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2614
-msgid "|`plasma-workspace` |Plasma5 Plasma workspace"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2617
-msgid "|`plasma-workspace-wallpapers` |Plasma5 wallpapers"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2620
-msgid "|`plotting` |KF5 lightweight plotting framework"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2623
-msgid "|`polkit-kde-agent-1` |Plasma5 daemon providing a polkit authentication UI"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2626
-msgid "|`powerdevil` |Plasma5 tool to manage the power consumption settings"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2629
-msgid "|`prison` |API to produce barcodes"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2632
-msgid "|`pty` |KF5 pty abstraction"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2635
-msgid "|`purpose` |Offers available actions for a specific purpose"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2638
-msgid "|`qqc2-desktop-style` |Qt QuickControl2 style for KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2641
-msgid "|`runner` |KF5 parallelized query system"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2644
-msgid "|`service` |KF5 advanced plugin and service introspection"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2647
-msgid "|`solid` |KF5 hardware integration and detection"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2650
-msgid "|`sonnet` |KF5 plugin-based spell checking library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2653
-msgid "|`syndication` |KDE RSS feed handling library"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2656
-msgid ""
-"|`syntaxhighlighting` |KF5 syntax highlighting engine for structured text "
-"and code"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2659
-msgid "|`systemsettings` |Plasma5 system settings"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2662
-msgid "|`texteditor` |KF5 advanced embeddable text editor"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2665
-msgid "|`textwidgets` |KF5 advanced text editing widgets"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2668
-msgid "|`threadweaver` |KF5 addons to QtDBus"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2671
-msgid "|`tnef` |KDE API for the handling of TNEF data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2674
-msgid "|`unitconversion` |KF5 library for unit conversion"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2677
-msgid "|`user-manager` |Plasma5 user manager"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2680
-msgid "|`wallet` |KF5 secure and unified container for user passwords"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2683
-msgid "|`wayland` |KF5 Client and Server library wrapper for the Wayland libraries"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2686
-msgid "|`widgetsaddons` |KF5 addons to QtWidgets"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2689
-msgid "|`windowsystem` |KF5 library for access to the windowing system"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2692
-msgid "|`xmlgui` |KF5 user configurable main windows"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2696
-msgid "|`xmlrpcclient` |KF5 interaction with XMLRPC services |==="
+"| Name\n"
+"| Description\n"
+"\n"
+"|`activities`\n"
+"|KF5 runtime and library to organize work in separate activities\n"
+"\n"
+"|`activities-stats`\n"
+"|KF5 statistics for activities\n"
+"\n"
+"|`activitymanagerd`\n"
+"|System service to manage user's activities, track the usage patterns\n"
+"\n"
+"|`akonadi`\n"
+"|Storage server for KDE-Pim\n"
+"\n"
+"|`akonadicalendar`\n"
+"|Akonadi Calendar Integration\n"
+"\n"
+"|`akonadiconsole`\n"
+"|Akonadi management and debugging console\n"
+"\n"
+"|`akonadicontacts`\n"
+"|Libraries and daemons to implement Contact Management in Akonadi\n"
+"\n"
+"|`akonadiimportwizard`\n"
+"|Import data from other mail clients to KMail\n"
+"\n"
+"|`akonadimime`\n"
+"|Libraries and daemons to implement basic email handling\n"
+"\n"
+"|`akonadinotes`\n"
+"|KDE library for accessing mail storages in MBox format\n"
+"\n"
+"|`akonadisearch`\n"
+"|Libraries and daemons to implement searching in Akonadi\n"
+"\n"
+"|`akregator`\n"
+"|A Feed Reader by KDE\n"
+"\n"
+"|`alarmcalendar`\n"
+"|KDE API for KAlarm alarms\n"
+"\n"
+"|`apidox`\n"
+"|KF5 API Documentation Tools\n"
+"\n"
+"|`archive`\n"
+"|KF5 library that provides classes for handling archive formats\n"
+"\n"
+"|`attica`\n"
+"|Open Collaboration Services API library KDE5 version\n"
+"\n"
+"|`attica5`\n"
+"|Open Collaboration Services API library KDE5 version\n"
+"\n"
+"|`auth`\n"
+"|KF5 abstraction to system policy and authentication features\n"
+"\n"
+"|`baloo`\n"
+"|KF5 Framework for searching and managing user metadata\n"
+"\n"
+"|`baloo-widgets`\n"
+"|BalooWidgets library\n"
+"\n"
+"|`baloo5`\n"
+"|KF5 Framework for searching and managing user metadata\n"
+"\n"
+"|`blog`\n"
+"|KDE API for weblogging access\n"
+"\n"
+"|`bookmarks`\n"
+"|KF5 library for bookmarks and the XBEL format\n"
+"\n"
+"|`breeze`\n"
+"|Plasma5 artwork, styles and assets for the Breeze visual style\n"
+"\n"
+"|`breeze-gtk`\n"
+"|Plasma5 Breeze visual style for Gtk\n"
+"\n"
+"|`breeze-icons`\n"
+"|Breeze icon theme for KDE\n"
+"\n"
+"|`calendarcore`\n"
+"|KDE calendar access library\n"
+"\n"
+"|`calendarsupport`\n"
+"|Calendar support libraries for KDEPim\n"
+"\n"
+"|`calendarutils`\n"
+"|KDE utility and user interface functions for accessing calendar\n"
+"\n"
+"|`codecs`\n"
+"|KF5 library for string manipulation\n"
+"\n"
+"|`completion`\n"
+"|KF5 text completion helpers and widgets\n"
+"\n"
+"|`config`\n"
+"|KF5 widgets for configuration dialogs\n"
+"\n"
+"|`configwidgets`\n"
+"|KF5 widgets for configuration dialogs\n"
+"\n"
+"|`contacts`\n"
+"|KDE api to manage contact information\n"
+"\n"
+"|`coreaddons`\n"
+"|KF5 addons to QtCore\n"
+"\n"
+"|`crash`\n"
+"|KF5 library to handle crash analysis and bug report from apps\n"
+"\n"
+"|`dbusaddons`\n"
+"|KF5 addons to QtDBus\n"
+"\n"
+"|`decoration`\n"
+"|Plasma5 library to create window decorations\n"
+"\n"
+"|`designerplugin`\n"
+"|KF5 integration of Frameworks widgets in Qt Designer/Creator\n"
+"\n"
+"|`discover`\n"
+"|Plasma5 package management tools\n"
+"\n"
+"|`dnssd`\n"
+"|KF5 abstraction to system DNSSD features\n"
+"\n"
+"|`doctools`\n"
+"|KF5 documentation generation from docbook\n"
+"\n"
+"|`drkonqi`\n"
+"|Plasma5 crash handler\n"
+"\n"
+"|`ecm`\n"
+"|Extra modules and scripts for CMake\n"
+"\n"
+"|`emoticons`\n"
+"|KF5 library to convert emoticons\n"
+"\n"
+"|`eventviews`\n"
+"|Event view libriares for KDEPim\n"
+"\n"
+"|`filemetadata`\n"
+"|KF5 library for extracting file metadata\n"
+"\n"
+"|`frameworkintegration`\n"
+"|KF5 workspace and cross-framework integration plugins\n"
+"\n"
+"|`gapi`\n"
+"|KDE based library to access google services\n"
+"\n"
+"|`globalaccel`\n"
+"|KF5 library to add support for global workspace shortcuts\n"
+"\n"
+"|`grantlee-editor`\n"
+"|Editor for Grantlee themes\n"
+"\n"
+"|`grantleetheme`\n"
+"|KDE PIM grantleetheme\n"
+"\n"
+"|`gravatar`\n"
+"|Library for gravatar support\n"
+"\n"
+"|`guiaddons`\n"
+"|KF5 addons to QtGui\n"
+"\n"
+"|`holidays`\n"
+"|KDE library for calendar holidays\n"
+"\n"
+"|`hotkeys`\n"
+"|Plasma5 library for hotkeys\n"
+"\n"
+"|`i18n`\n"
+"|KF5 advanced internationalization framework\n"
+"\n"
+"|`iconthemes`\n"
+"|KF5 library for handling icons in applications\n"
+"\n"
+"|`identitymanagement`\n"
+"|KDE pim identities\n"
+"\n"
+"|`idletime`\n"
+"|KF5 library for monitoring user activity\n"
+"\n"
+"|`imap`\n"
+"|KDE API for IMAP support\n"
+"\n"
+"|`incidenceeditor`\n"
+"|Incidence editor libriares for KDEPim\n"
+"\n"
+"|`infocenter`\n"
+"|Plasma5 utility providing system information\n"
+"\n"
+"|`init`\n"
+"|KF5 process launcher to speed up launching KDE applications\n"
+"\n"
+"|`itemmodels`\n"
+"|KF5 models for Qt Model/View system\n"
+"\n"
+"|`itemviews`\n"
+"|KF5 widget addons for Qt Model/View\n"
+"\n"
+"|`jobwidgets`\n"
+"|KF5 widgets for tracking KJob instance\n"
+"\n"
+"|`js`\n"
+"|KF5 library providing an ECMAScript interpreter\n"
+"\n"
+"|`jsembed`\n"
+"|KF5 library for binding JavaScript objects to QObjects\n"
+"\n"
+"|`kaddressbook`\n"
+"|KDE contact manager\n"
+"\n"
+"|`kalarm`\n"
+"|Personal alarm scheduler\n"
+"\n"
+"|`kalarm`\n"
+"|Personal alarm scheduler\n"
+"\n"
+"|`kate`\n"
+"|Basic editor framework for the KDE system\n"
+"\n"
+"|`kcmutils`\n"
+"|KF5 utilities for working with KCModules\n"
+"\n"
+"|`kde-cli-tools`\n"
+"|Plasma5 non-interactive system tools\n"
+"\n"
+"|`kde-gtk-config`\n"
+"|Plasma5 GTK2 and GTK3 configurator\n"
+"\n"
+"|`kdeclarative`\n"
+"|KF5 library providing integration of QML and KDE Frameworks\n"
+"\n"
+"|`kded`\n"
+"|KF5 extensible daemon for providing system level services\n"
+"\n"
+"|`kdelibs4support`\n"
+"|KF5 porting aid from KDELibs4\n"
+"\n"
+"|`kdepim-addons`\n"
+"|KDE PIM addons\n"
+"\n"
+"|`kdepim-apps-libs`\n"
+"|KDE PIM mail related libraries\n"
+"\n"
+"|`kdepim-runtime5`\n"
+"|KDE PIM tools and services\n"
+"\n"
+"|`kdeplasma-addons`\n"
+"|Plasma5 addons to improve the Plasma experience\n"
+"\n"
+"|`kdesu`\n"
+"|KF5 integration with su for elevated privileges\n"
+"\n"
+"|`kdewebkit`\n"
+"|KF5 library providing integration of QtWebKit\n"
+"\n"
+"|`kgamma5`\n"
+"|Plasma5 monitor's gamma settings\n"
+"\n"
+"|`khtml`\n"
+"|KF5 KTHML rendering engine\n"
+"\n"
+"|`kimageformats`\n"
+"|KF5 library providing support for additional image formats\n"
+"\n"
+"|`kio`\n"
+"|KF5 resource and network access abstraction\n"
+"\n"
+"|`kirigami2`\n"
+"|QtQuick based components set\n"
+"\n"
+"|`kitinerary`\n"
+"|Data Model and Extraction System for Travel Reservation information\n"
+"\n"
+"|`kmail`\n"
+"|KDE mail client\n"
+"\n"
+"|`kmail`\n"
+"|KDE mail client\n"
+"\n"
+"|`kmail-account-wizard`\n"
+"|KDE mail account wizard\n"
+"\n"
+"|`kmenuedit`\n"
+"|Plasma5 menu editor\n"
+"\n"
+"|`knotes`\n"
+"|Popup notes\n"
+"\n"
+"|`kontact`\n"
+"|KDE Personal Information Manager\n"
+"\n"
+"|`kontact`\n"
+"|KDE Personal Information Manager\n"
+"\n"
+"|`kontactinterface`\n"
+"|KDE glue for embedding KParts into Kontact\n"
+"\n"
+"|`korganizer`\n"
+"|Calendar and scheduling Program\n"
+"\n"
+"|`kpimdav`\n"
+"|A DAV protocol implementation with KJobs\n"
+"\n"
+"|`kpkpass`\n"
+"|Library to deal with Apple Wallet pass files\n"
+"\n"
+"|`kross`\n"
+"|KF5 multi-language application scripting\n"
+"\n"
+"|`kscreen`\n"
+"|Plasma5 screen management library\n"
+"\n"
+"|`kscreenlocker`\n"
+"|Plasma5 secure lock screen architecture\n"
+"\n"
+"|`ksmtp`\n"
+"|Job-based library to send email through an SMTP server\n"
+"\n"
+"|`ksshaskpass`\n"
+"|Plasma5 ssh-add frontend\n"
+"\n"
+"|`ksysguard`\n"
+"|Plasma5 utility to track and control the running processes\n"
+"\n"
+"|`kwallet-pam`\n"
+"|Plasma5 KWallet PAM Integration\n"
+"\n"
+"|`kwayland-integration`\n"
+"|Integration plugins for a Wayland-based desktop\n"
+"\n"
+"|`kwin`\n"
+"|Plasma5 window manager\n"
+"\n"
+"|`kwrited`\n"
+"|Plasma5 daemon listening for wall and write messages\n"
+"\n"
+"|`ldap`\n"
+"|LDAP access API for KDE\n"
+"\n"
+"|`libkcddb`\n"
+"|KDE CDDB library\n"
+"\n"
+"|`libkcompactdisc`\n"
+"|KDE library for interfacing with audio CDs\n"
+"\n"
+"|`libkdcraw`\n"
+"|LibRaw interface for KDE\n"
+"\n"
+"|`libkdegames`\n"
+"|Libraries used by KDE games\n"
+"\n"
+"|`libkdepim`\n"
+"|KDE PIM Libraries\n"
+"\n"
+"|`libkeduvocdocument`\n"
+"|Library for reading and writing vocabulary files\n"
+"\n"
+"|`libkexiv2`\n"
+"|Exiv2 library interface for KDE\n"
+"\n"
+"|`libkipi`\n"
+"|KDE Image Plugin Interface\n"
+"\n"
+"|`libkleo`\n"
+"|Certificate manager for KDE\n"
+"\n"
+"|`libksane`\n"
+"|SANE library interface for KDE\n"
+"\n"
+"|`libkscreen`\n"
+"|Plasma5 screen management library\n"
+"\n"
+"|`libksieve`\n"
+"|Sieve libriares for KDEPim\n"
+"\n"
+"|`libksysguard`\n"
+"|Plasma5 library to track and control running processes\n"
+"\n"
+"|`mailcommon`\n"
+"|Common libriares for KDEPim\n"
+"\n"
+"|`mailimporter`\n"
+"|Import mbox files to KMail\n"
+"\n"
+"|`mailtransport`\n"
+"|KDE library to managing mail transport\n"
+"\n"
+"|`marble`\n"
+"|Virtual globe and world atlas for KDE\n"
+"\n"
+"|`mbox`\n"
+"|KDE library for accessing mail storages in MBox format\n"
+"\n"
+"|`mbox-importer`\n"
+"|Import mbox files to KMail\n"
+"\n"
+"|`mediaplayer`\n"
+"|KF5 plugin interface for media player features\n"
+"\n"
+"|`messagelib`\n"
+"|Library for handling messages\n"
+"\n"
+"|`milou`\n"
+"|Plasma5 Plasmoid for search\n"
+"\n"
+"|`mime`\n"
+"|Library for handling MIME data\n"
+"\n"
+"|`newstuff`\n"
+"|KF5 library for downloading application assets from the network\n"
+"\n"
+"|`notifications`\n"
+"|KF5 abstraction for system notifications\n"
+"\n"
+"|`notifyconfig`\n"
+"|KF5 configuration system for KNotify\n"
+"\n"
+"|`okular`\n"
+"|KDE universal document viewer\n"
+"\n"
+"|`oxygen`\n"
+"|Plasma5 Oxygen style\n"
+"\n"
+"|`oxygen-icons5`\n"
+"|The Oxygen icon theme for KDE\n"
+"\n"
+"|`package`\n"
+"|KF5 library to load and install packages\n"
+"\n"
+"|`parts`\n"
+"|KF5 document centric plugin system\n"
+"\n"
+"|`people`\n"
+"|KF5 library providing access to contacts\n"
+"\n"
+"|`pim-data-exporter`\n"
+"|Import and export KDE PIM settings\n"
+"\n"
+"|`pimcommon`\n"
+"|Common libriares for KDEPim\n"
+"\n"
+"|`pimtextedit`\n"
+"|KDE library for PIM-specific text editing utilities\n"
+"\n"
+"|`plasma-browser-integration`\n"
+"|Plasma5 components to integrate browsers into the desktop\n"
+"\n"
+"|`plasma-desktop`\n"
+"|Plasma5 plasma desktop\n"
+"\n"
+"|`plasma-framework`\n"
+"|KF5 plugin based UI runtime used to write user interfaces\n"
+"\n"
+"|`plasma-integration`\n"
+"|Qt Platform Theme integration plugins for the Plasma workspaces\n"
+"\n"
+"|`plasma-pa`\n"
+"|Plasma5 Plasma pulse audio mixer\n"
+"\n"
+"|`plasma-sdk`\n"
+"|Plasma5 applications useful for Plasma development\n"
+"\n"
+"|`plasma-workspace`\n"
+"|Plasma5 Plasma workspace\n"
+"\n"
+"|`plasma-workspace-wallpapers`\n"
+"|Plasma5 wallpapers\n"
+"\n"
+"|`plotting`\n"
+"|KF5 lightweight plotting framework\n"
+"\n"
+"|`polkit-kde-agent-1`\n"
+"|Plasma5 daemon providing a polkit authentication UI\n"
+"\n"
+"|`powerdevil`\n"
+"|Plasma5 tool to manage the power consumption settings\n"
+"\n"
+"|`prison`\n"
+"|API to produce barcodes\n"
+"\n"
+"|`pty`\n"
+"|KF5 pty abstraction\n"
+"\n"
+"|`purpose`\n"
+"|Offers available actions for a specific purpose\n"
+"\n"
+"|`qqc2-desktop-style`\n"
+"|Qt QuickControl2 style for KDE\n"
+"\n"
+"|`runner`\n"
+"|KF5 parallelized query system\n"
+"\n"
+"|`service`\n"
+"|KF5 advanced plugin and service introspection\n"
+"\n"
+"|`solid`\n"
+"|KF5 hardware integration and detection\n"
+"\n"
+"|`sonnet`\n"
+"|KF5 plugin-based spell checking library\n"
+"\n"
+"|`syndication`\n"
+"|KDE RSS feed handling library\n"
+"\n"
+"|`syntaxhighlighting`\n"
+"|KF5 syntax highlighting engine for structured text and code\n"
+"\n"
+"|`systemsettings`\n"
+"|Plasma5 system settings\n"
+"\n"
+"|`texteditor`\n"
+"|KF5 advanced embeddable text editor\n"
+"\n"
+"|`textwidgets`\n"
+"|KF5 advanced text editing widgets\n"
+"\n"
+"|`threadweaver`\n"
+"|KF5 addons to QtDBus\n"
+"\n"
+"|`tnef`\n"
+"|KDE API for the handling of TNEF data\n"
+"\n"
+"|`unitconversion`\n"
+"|KF5 library for unit conversion\n"
+"\n"
+"|`user-manager`\n"
+"|Plasma5 user manager\n"
+"\n"
+"|`wallet`\n"
+"|KF5 secure and unified container for user passwords\n"
+"\n"
+"|`wayland`\n"
+"|KF5 Client and Server library wrapper for the Wayland libraries\n"
+"\n"
+"|`widgetsaddons`\n"
+"|KF5 addons to QtWidgets\n"
+"\n"
+"|`windowsystem`\n"
+"|KF5 library for access to the windowing system\n"
+"\n"
+"|`xmlgui`\n"
+"|KF5 user configurable main windows\n"
+"\n"
+"|`xmlrpcclient`\n"
+"|KF5 interaction with XMLRPC services\n"
 msgstr ""
 
 #. type: Block title
@@ -5062,24 +4354,24 @@ msgstr ""
 msgid "Available LXQt Components"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2726
-msgid "|`buildtools` |Helpers for additional CMake modules"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2729
-msgid "|`libfmqt` |Libfm Qt bindings"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2732
-msgid "|`lxqt` |LXQt core library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2736
-msgid "|`qtxdg` |Qt implementation of freedesktop.org XDG specifications |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2735
+#, no-wrap
+msgid ""
+"| Name\n"
+"| Description\n"
+"\n"
+"|`buildtools`\n"
+"|Helpers for additional CMake modules\n"
+"\n"
+"|`libfmqt`\n"
+"|Libfm Qt bindings\n"
+"\n"
+"|`lxqt`\n"
+"|LXQt core library\n"
+"\n"
+"|`qtxdg`\n"
+"|Qt implementation of freedesktop.org XDG specifications\n"
 msgstr ""
 
 #. type: Block title
@@ -5088,7 +4380,7 @@ msgstr ""
 msgid "`USE_LXQT` Example"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2742
 msgid ""
 "This is a simple example, `USE_LXQT` adds a dependency on LXQt "
@@ -5142,53 +4434,40 @@ msgstr ""
 msgid "Variables Which May be Set by Ports That Use Java"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2770
-msgid "|`USE_JAVA` |Define for the remaining variables to have any effect."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2773
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2788
+#, no-wrap
 msgid ""
-"|`JAVA_VERSION` |List of space-separated suitable Java versions for the "
-"port. An optional `\"+\"` allows specifying a range of versions (allowed "
-"values: `7[+] 8[+] 11[+] 12[+] 13[+] 14[+] 15[+]`)."
+"| Variable\n"
+"| Means\n"
+"\n"
+"|`USE_JAVA`\n"
+"|Define for the remaining variables to have any effect.\n"
+"\n"
+"|`JAVA_VERSION`\n"
+"|List of space-separated suitable Java versions for the port. An optional "
+"`\"+\"` allows specifying a range of versions (allowed values: `7[+] 8[+] "
+"11[+] 12[+] 13[+] 14[+] 15[+]`).\n"
+"\n"
+"|`JAVA_OS`\n"
+"|List of space-separated suitable JDK port operating systems for the port "
+"(allowed values: `native linux`).\n"
+"\n"
+"|`JAVA_VENDOR`\n"
+"|List of space-separated suitable JDK port vendors for the port (allowed "
+"values: `freebsd bsdjava sun openjdk`).\n"
+"\n"
+"|`JAVA_BUILD`\n"
+"|When set, add the selected JDK port to the build dependencies.\n"
+"\n"
+"|`JAVA_RUN`\n"
+"|When set, add the selected JDK port to the run dependencies.\n"
+"\n"
+"|`JAVA_EXTRACT`\n"
+"|When set, add the selected JDK port to the extract dependencies.\n"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2776
-msgid ""
-"|`JAVA_OS` |List of space-separated suitable JDK port operating systems for "
-"the port (allowed values: `native linux`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2779
-msgid ""
-"|`JAVA_VENDOR` |List of space-separated suitable JDK port vendors for the "
-"port (allowed values: `freebsd bsdjava sun openjdk`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2782
-msgid ""
-"|`JAVA_BUILD` |When set, add the selected JDK port to the build "
-"dependencies."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2785
-msgid "|`JAVA_RUN` |When set, add the selected JDK port to the run dependencies."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2789
-msgid ""
-"|`JAVA_EXTRACT` |When set, add the selected JDK port to the extract "
-"dependencies.  |==="
-msgstr ""
-
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2791
 msgid ""
 "Below is the list of all settings a port will receive after setting "
@@ -5201,151 +4480,99 @@ msgstr ""
 msgid "Variables Provided to Ports That Use Java"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2798
-msgid "|=== | Variable | Value"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2801
-msgid "|`JAVA_PORT` |The name of the JDK port (for example, `java/openjdk6`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2804
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2864
+#, no-wrap
 msgid ""
-"|`JAVA_PORT_VERSION` |The full version of the JDK port (for example, "
-"`1.6.0`). Only the first two digits of this version number are needed, use "
-"`${JAVA_PORT_VERSION:C/^([0-9])\\.([0-9])(.*)$/\\1.\\2/}`."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2807
-msgid ""
-"|`JAVA_PORT_OS` |The operating system used by the JDK port (for example, "
-"`'native'`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2810
-msgid "|`JAVA_PORT_VENDOR` |The vendor of the JDK port (for example, `'openjdk'`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2813
-msgid ""
-"|`JAVA_PORT_OS_DESCRIPTION` |Description of the operating system used by the "
-"JDK port (for example, `'Native'`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2816
-msgid ""
-"|`JAVA_PORT_VENDOR_DESCRIPTION` |Description of the vendor of the JDK port "
-"(for example, `'OpenJDK BSD Porting Team'`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2819
-msgid ""
-"|`JAVA_HOME` |Path to the installation directory of the JDK (for example, "
-"[.filename]#'/usr/local/openjdk6'#)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2822
-msgid ""
-"|`JAVAC` |Path to the Java compiler to use (for example, "
-"[.filename]#'/usr/local/openjdk6/bin/javac'#)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2825
-msgid ""
-"|`JAR` |Path to the `jar` tool to use (for example, "
+"| Variable\n"
+"| Value\n"
+"\n"
+"|`JAVA_PORT`\n"
+"|The name of the JDK port (for example, `java/openjdk6`).\n"
+"\n"
+"|`JAVA_PORT_VERSION`\n"
+"|The full version of the JDK port (for example, `1.6.0`). Only the first two "
+"digits of this version number are needed, use "
+"`${JAVA_PORT_VERSION:C/^([0-9])\\.([0-9])(.*)$/\\1.\\2/}`.\n"
+"\n"
+"|`JAVA_PORT_OS`\n"
+"|The operating system used by the JDK port (for example, `'native'`).\n"
+"\n"
+"|`JAVA_PORT_VENDOR`\n"
+"|The vendor of the JDK port (for example, `'openjdk'`).\n"
+"\n"
+"|`JAVA_PORT_OS_DESCRIPTION`\n"
+"|Description of the operating system used by the JDK port (for example, "
+"`'Native'`).\n"
+"\n"
+"|`JAVA_PORT_VENDOR_DESCRIPTION`\n"
+"|Description of the vendor of the JDK port (for example, `'OpenJDK BSD "
+"Porting Team'`).\n"
+"\n"
+"|`JAVA_HOME`\n"
+"|Path to the installation directory of the JDK (for example, "
+"[.filename]#'/usr/local/openjdk6'#).\n"
+"\n"
+"|`JAVAC`\n"
+"|Path to the Java compiler to use (for example, "
+"[.filename]#'/usr/local/openjdk6/bin/javac'#).\n"
+"\n"
+"|`JAR`\n"
+"|Path to the `jar` tool to use (for example, "
 "[.filename]#'/usr/local/openjdk6/bin/jar'# or "
-"[.filename]#'/usr/local/bin/fastjar'#)."
+"[.filename]#'/usr/local/bin/fastjar'#).\n"
+"\n"
+"|`APPLETVIEWER`\n"
+"|Path to the `appletviewer` utility (for example, "
+"[.filename]#'/usr/local/openjdk6/bin/appletviewer'#).\n"
+"\n"
+"|`JAVA`\n"
+"|Path to the `java` executable. Use this for executing Java programs (for "
+"example, [.filename]#'/usr/local/openjdk6/bin/java'#).\n"
+"\n"
+"|`JAVADOC`\n"
+"|Path to the `javadoc` utility program.\n"
+"\n"
+"|`JAVAH`\n"
+"|Path to the `javah` program.\n"
+"\n"
+"|`JAVAP`\n"
+"|Path to the `javap` program.\n"
+"\n"
+"|`JAVA_KEYTOOL`\n"
+"|Path to the `keytool` utility program.\n"
+"\n"
+"|`JAVA_N2A`\n"
+"|Path to the `native2ascii` tool.\n"
+"\n"
+"|`JAVA_POLICYTOOL`\n"
+"|Path to the `policytool` program.\n"
+"\n"
+"|`JAVA_SERIALVER`\n"
+"|Path to the `serialver` utility program.\n"
+"\n"
+"|`RMIC`\n"
+"|Path to the RMI stub/skeleton generator, `rmic`.\n"
+"\n"
+"|`RMIREGISTRY`\n"
+"|Path to the RMI registry program, `rmiregistry`.\n"
+"\n"
+"|`RMID`\n"
+"|Path to the RMI daemon program `rmid`.\n"
+"\n"
+"|`JAVA_CLASSES`\n"
+"|Path to the archive that contains the JDK class files, "
+"[.filename]#${JAVA_HOME}/jre/lib/rt.jar#.\n"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2828
-msgid ""
-"|`APPLETVIEWER` |Path to the `appletviewer` utility (for example, "
-"[.filename]#'/usr/local/openjdk6/bin/appletviewer'#)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2831
-msgid ""
-"|`JAVA` |Path to the `java` executable. Use this for executing Java programs "
-"(for example, [.filename]#'/usr/local/openjdk6/bin/java'#)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2834
-msgid "|`JAVADOC` |Path to the `javadoc` utility program."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2837
-msgid "|`JAVAH` |Path to the `javah` program."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2840
-msgid "|`JAVAP` |Path to the `javap` program."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2843
-msgid "|`JAVA_KEYTOOL` |Path to the `keytool` utility program."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2846
-msgid "|`JAVA_N2A` |Path to the `native2ascii` tool."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2849
-msgid "|`JAVA_POLICYTOOL` |Path to the `policytool` program."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2852
-msgid "|`JAVA_SERIALVER` |Path to the `serialver` utility program."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2855
-msgid "|`RMIC` |Path to the RMI stub/skeleton generator, `rmic`."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2858
-msgid "|`RMIREGISTRY` |Path to the RMI registry program, `rmiregistry`."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2861
-msgid "|`RMID` |Path to the RMI daemon program `rmid`."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2865
-msgid ""
-"|`JAVA_CLASSES` |Path to the archive that contains the JDK class files, "
-"[.filename]#${JAVA_HOME}/jre/lib/rt.jar#.  |==="
-msgstr ""
-
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2867
 msgid ""
 "Use the `java-debug` make target to get information for debugging the "
 "port. It will display the value of many of the previously listed variables."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2869
 msgid ""
 "Additionally, these constants are defined so all Java ports may be installed "
@@ -5358,33 +4585,27 @@ msgstr ""
 msgid "Constants Defined for Ports That Use Java"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2876
-msgid "|=== | Constant | Value"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2879
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2885
+#, no-wrap
 msgid ""
-"|`JAVASHAREDIR` |The base directory for everything related to Java. Default: "
-"[.filename]#${PREFIX}/share/java#."
+"| Constant\n"
+"| Value\n"
+"\n"
+"|`JAVASHAREDIR`\n"
+"|The base directory for everything related to Java. Default: "
+"[.filename]#${PREFIX}/share/java#.\n"
+"\n"
+"|`JAVAJARDIR`\n"
+"|The directory where JAR files is installed. Default: "
+"[.filename]#${JAVASHAREDIR}/classes#.\n"
+"\n"
+"|`JAVALIBDIR`\n"
+"|The directory where JAR files installed by other ports are "
+"located. Default: [.filename]#${LOCALBASE}/share/java/classes#.\n"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2882
-msgid ""
-"|`JAVAJARDIR` |The directory where JAR files is installed. Default: "
-"[.filename]#${JAVASHAREDIR}/classes#."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2886
-msgid ""
-"|`JAVALIBDIR` |The directory where JAR files installed by other ports are "
-"located. Default: [.filename]#${LOCALBASE}/share/java/classes#.  |==="
-msgstr ""
-
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2888
 msgid ""
 "The related entries are defined in both `PLIST_SUB` (documented in "
@@ -5397,7 +4618,7 @@ msgstr ""
 msgid "Building with Ant"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2893
 msgid ""
 "When the port is to be built using Apache Ant, it has to define "
@@ -5413,7 +4634,7 @@ msgstr ""
 msgid "Best Practices"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:2898
 msgid ""
 "When porting a Java library, the port has to install the JAR file(s) in "
@@ -5566,52 +4787,38 @@ msgstr ""
 msgid "Variables for Ports That Use Apache"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2947
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2965
+#, no-wrap
 msgid ""
-"|=== |`USE_APACHE` |The port requires Apache. Possible values: `yes` (gets "
-"any version), `22`, `24`, `22-24`, `22+`, etc. The default APACHE version is "
-"`22`. More details are available in [.filename]#ports/Mk/bsd.apache.mk# and "
-"at https://wiki.freebsd.org/Apache/[wiki.freebsd.org/Apache/]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2950
-msgid "|`APXS` |Full path to the `apxs` binary. Can be overridden in the port."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2953
-msgid "|`HTTPD` |Full path to the `httpd` binary. Can be overridden in the port."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2956
-msgid ""
-"|`APACHE_VERSION` |The version of present Apache installation (read-only "
-"variable). This variable is only available after inclusion of "
-"[.filename]#bsd.port.pre.mk#. Possible values: `22`, `24`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2959
-msgid ""
-"|`APACHEMODDIR` |Directory for Apache modules. This variable is "
-"automatically expanded in [.filename]#pkg-plist#."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2962
-msgid ""
-"|`APACHEINCLUDEDIR` |Directory for Apache headers. This variable is "
-"automatically expanded in [.filename]#pkg-plist#."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2966
-msgid ""
-"|`APACHEETCDIR` |Directory for Apache configuration files. This variable is "
-"automatically expanded in [.filename]#pkg-plist#.  |==="
+"|`USE_APACHE`\n"
+"|The port requires Apache. Possible values: `yes` (gets any version), `22`, "
+"`24`, `22-24`, `22+`, etc. The default APACHE version is `22`. More details "
+"are available in [.filename]#ports/Mk/bsd.apache.mk# and at "
+"https://wiki.freebsd.org/Apache/[wiki.freebsd.org/Apache/].\n"
+"\n"
+"|`APXS`\n"
+"|Full path to the `apxs` binary. Can be overridden in the port.\n"
+"\n"
+"|`HTTPD`\n"
+"|Full path to the `httpd` binary. Can be overridden in the port.\n"
+"\n"
+"|`APACHE_VERSION`\n"
+"|The version of present Apache installation (read-only variable). This "
+"variable is only available after inclusion of "
+"[.filename]#bsd.port.pre.mk#. Possible values: `22`, `24`.\n"
+"\n"
+"|`APACHEMODDIR`\n"
+"|Directory for Apache modules. This variable is automatically expanded in "
+"[.filename]#pkg-plist#.\n"
+"\n"
+"|`APACHEINCLUDEDIR`\n"
+"|Directory for Apache headers. This variable is automatically expanded in "
+"[.filename]#pkg-plist#.\n"
+"\n"
+"|`APACHEETCDIR`\n"
+"|Directory for Apache configuration files. This variable is automatically "
+"expanded in [.filename]#pkg-plist#.\n"
 msgstr ""
 
 #. type: Block title
@@ -5620,43 +4827,31 @@ msgstr ""
 msgid "Useful Variables for Porting Apache Modules"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2973
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2991
+#, no-wrap
 msgid ""
-"|=== |`MODULENAME` |Name of the module. Default value is "
-"`PORTNAME`. Example: `mod_hello`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2976
-msgid ""
-"|`SHORTMODNAME` |Short name of the module. Automatically derived from "
-"`MODULENAME`, but can be overridden. Example: `hello`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2979
-msgid "|`AP_FAST_BUILD` |Use `apxs` to compile and install the module."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2982
-msgid "|`AP_GENPLIST` |Also automatically creates a [.filename]#pkg-plist#."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2985
-msgid "|`AP_INC` |Adds a directory to a header search path during compilation."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2988
-msgid "|`AP_LIB` |Adds a directory to a library search path during compilation."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:2992
-msgid "|`AP_EXTRAS` |Additional flags to pass to `apxs`.  |==="
+"|`MODULENAME`\n"
+"|Name of the module. Default value is `PORTNAME`. Example: `mod_hello`\n"
+"\n"
+"|`SHORTMODNAME`\n"
+"|Short name of the module. Automatically derived from `MODULENAME`, but can "
+"be overridden. Example: `hello`\n"
+"\n"
+"|`AP_FAST_BUILD`\n"
+"|Use `apxs` to compile and install the module.\n"
+"\n"
+"|`AP_GENPLIST`\n"
+"|Also automatically creates a [.filename]#pkg-plist#.\n"
+"\n"
+"|`AP_INC`\n"
+"|Adds a directory to a header search path during compilation.\n"
+"\n"
+"|`AP_LIB`\n"
+"|Adds a directory to a library search path during compilation.\n"
+"\n"
+"|`AP_EXTRAS`\n"
+"|Additional flags to pass to `apxs`.\n"
 msgstr ""
 
 #. type: Title ===
@@ -5910,89 +5105,60 @@ msgstr ""
 msgid "Most Useful Variables for Ports That Use Python"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3119
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3146
+#, no-wrap
 msgid ""
-"|=== |`USES=python` |The port needs Python. The minimal required version can "
-"be specified with values such as `2.7+`. Version ranges can also be "
-"specified by separating two version numbers with a dash: "
-"`USES=python:3.2-3.3`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3122
-msgid ""
-"|`USE_PYTHON=distutils` |Use Python distutils for configuring, compiling, "
-"and installing. This is required when the port comes with "
-"[.filename]#setup.py#. This overrides the `do-build` and `do-install` "
-"targets and may also override `do-configure` if `GNU_CONFIGURE` is not "
-"defined. Additionally, it implies `USE_PYTHON=flavors`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3125
-msgid ""
-"|`USE_PYTHON=autoplist` |Create the packaging list automatically. This also "
-"requires `USE_PYTHON=distutils` to be set."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3128
-msgid ""
-"|`USE_PYTHON=concurrent` |The port will use an unique prefix, typically "
-"`PYTHON_PKGNAMEPREFIX` for certain directories, such as `EXAMPLESDIR` and "
-"`DOCSDIR` and also will append a suffix, the python version from "
-"`PYTHON_VER`, to binaries and scripts to be installed. This allows ports to "
-"be installed for different Python versions at the same time, which otherwise "
-"would install conflicting files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3131
-msgid ""
-"|`USE_PYTHON=flavors` |The port does not use distutils but still supports "
-"multiple Python versions. `FLAVORS` will be set to the supported Python "
-"versions. See <<flavors-auto-python,`USES`=python and Flavors>> for more "
-"information."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3134
-msgid ""
-"|`USE_PYTHON=optsuffix` |If the current Python version is not the default "
-"version, the port will gain `PKGNAMESUFFIX=${PYTHON_PKGNAMESUFFIX}`. Only "
-"useful with flavors."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3137
-msgid ""
-"|`PYTHON_PKGNAMEPREFIX` |Used as a `PKGNAMEPREFIX` to distinguish packages "
-"for different Python versions. Example: `py27-`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3140
-msgid ""
-"|`PYTHON_SITELIBDIR` |Location of the site-packages tree, that contains "
-"installation path of Python (usually `LOCALBASE`). `PYTHON_SITELIBDIR` can "
-"be very useful when installing Python modules."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3143
-msgid ""
-"|`PYTHONPREFIX_SITELIBDIR` |The PREFIX-clean variant of "
-"PYTHON_SITELIBDIR. Always use `%%PYTHON_SITELIBDIR%%` in "
-"[.filename]#pkg-plist# when possible. The default value of "
-"`%%PYTHON_SITELIBDIR%%` is `lib/python%%PYTHON_VERSION%%/site-packages`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3147
-msgid ""
-"|`PYTHON_CMD` |Python interpreter command line, including version number.  "
-"|==="
+"|`USES=python`\n"
+"|The port needs Python. The minimal required version can be specified with "
+"values such as `2.7+`. Version ranges can also be specified by separating "
+"two version numbers with a dash: `USES=python:3.2-3.3`\n"
+"\n"
+"|`USE_PYTHON=distutils`\n"
+"|Use Python distutils for configuring, compiling, and installing. This is "
+"required when the port comes with [.filename]#setup.py#. This overrides the "
+"`do-build` and `do-install` targets and may also override `do-configure` if "
+"`GNU_CONFIGURE` is not defined. Additionally, it implies "
+"`USE_PYTHON=flavors`.\n"
+"\n"
+"|`USE_PYTHON=autoplist`\n"
+"|Create the packaging list automatically. This also requires "
+"`USE_PYTHON=distutils` to be set.\n"
+"\n"
+"|`USE_PYTHON=concurrent`\n"
+"|The port will use an unique prefix, typically `PYTHON_PKGNAMEPREFIX` for "
+"certain directories, such as `EXAMPLESDIR` and `DOCSDIR` and also will "
+"append a suffix, the python version from `PYTHON_VER`, to binaries and "
+"scripts to be installed. This allows ports to be installed for different "
+"Python versions at the same time, which otherwise would install conflicting "
+"files.\n"
+"\n"
+"|`USE_PYTHON=flavors`\n"
+"|The port does not use distutils but still supports multiple Python "
+"versions. `FLAVORS` will be set to the supported Python versions. See "
+"<<flavors-auto-python,`USES`=python and Flavors>> for more information.\n"
+"\n"
+"|`USE_PYTHON=optsuffix`\n"
+"|If the current Python version is not the default version, the port will "
+"gain `PKGNAMESUFFIX=${PYTHON_PKGNAMESUFFIX}`. Only useful with flavors.\n"
+"\n"
+"|`PYTHON_PKGNAMEPREFIX`\n"
+"|Used as a `PKGNAMEPREFIX` to distinguish packages for different Python "
+"versions. Example: `py27-`\n"
+"\n"
+"|`PYTHON_SITELIBDIR`\n"
+"|Location of the site-packages tree, that contains installation path of "
+"Python (usually `LOCALBASE`). `PYTHON_SITELIBDIR` can be very useful when "
+"installing Python modules.\n"
+"\n"
+"|`PYTHONPREFIX_SITELIBDIR`\n"
+"|The PREFIX-clean variant of PYTHON_SITELIBDIR. Always use "
+"`%%PYTHON_SITELIBDIR%%` in [.filename]#pkg-plist# when possible. The default "
+"value of `%%PYTHON_SITELIBDIR%%` is "
+"`lib/python%%PYTHON_VERSION%%/site-packages`\n"
+"\n"
+"|`PYTHON_CMD`\n"
+"|Python interpreter command line, including version number.\n"
 msgstr ""
 
 #. type: Block title
@@ -6001,58 +5167,40 @@ msgstr ""
 msgid "Python Module Dependency Helpers"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3154
-msgid "|=== |`PYNUMERIC` |Dependency line for numeric extension."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3157
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3175
+#, no-wrap
 msgid ""
-"|`PYNUMPY` |Dependency line for the new numeric extension, numpy. (PYNUMERIC "
-"is deprecated by upstream vendor)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3160
-msgid ""
-"|`PYXML` |Dependency line for XML extension (not needed for Python 2.0 and "
-"higher as it is also in base distribution)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3163
-msgid ""
-"|`PY_ENUM34` |Conditional dependency on package:devel/py-enum34[] depending "
-"on the Python version."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3166
-msgid ""
-"|`PY_ENUM_COMPAT` |Conditional dependency on package:devel/py-enum-compat[] "
-"depending on the Python version."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3169
-msgid ""
-"|`PY_PATHLIB` |Conditional dependency on package:devel/py-pathlib[] "
-"depending on the Python version."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3172
-msgid ""
-"|`PY_IPADDRESS` |Conditional dependency on package:net/py-ipaddress[] "
-"depending on the Python version."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3176
-msgid ""
-"|`PY_FUTURES` |Conditional dependency on package:devel/py-futures[] "
-"depending on the Python version.  |==="
+"|`PYNUMERIC`\n"
+"|Dependency line for numeric extension.\n"
+"\n"
+"|`PYNUMPY`\n"
+"|Dependency line for the new numeric extension, numpy. (PYNUMERIC is "
+"deprecated by upstream vendor).\n"
+"\n"
+"|`PYXML`\n"
+"|Dependency line for XML extension (not needed for Python 2.0 and higher as "
+"it is also in base distribution).\n"
+"\n"
+"|`PY_ENUM34`\n"
+"|Conditional dependency on package:devel/py-enum34[] depending on the Python "
+"version.\n"
+"\n"
+"|`PY_ENUM_COMPAT`\n"
+"|Conditional dependency on package:devel/py-enum-compat[] depending on the "
+"Python version.\n"
+"\n"
+"|`PY_PATHLIB`\n"
+"|Conditional dependency on package:devel/py-pathlib[] depending on the "
+"Python version.\n"
+"\n"
+"|`PY_IPADDRESS`\n"
+"|Conditional dependency on package:net/py-ipaddress[] depending on the "
+"Python version.\n"
+"\n"
+"|`PY_FUTURES`\n"
+"|Conditional dependency on package:devel/py-futures[] depending on the "
+"Python version.\n"
 msgstr ""
 
 #. type: Plain text
@@ -6159,44 +5307,33 @@ msgstr ""
 msgid "The Most Useful Read-Only Variables for Ports That Use Tcl/Tk"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3228
-msgid "|=== |`TCL_VER` | chosen major.minor version of Tcl"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3231
-msgid "|`TCLSH` | full path of the Tcl interpreter"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3234
-msgid "|`TCL_LIBDIR` | path of the Tcl libraries"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3237
-msgid "|`TCL_INCLUDEDIR` | path of the Tcl C header files"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3240
-msgid "|`TK_VER` | chosen major.minor version of Tk"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3243
-msgid "|`WISH` | full path of the Tk interpreter"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3246
-msgid "|`TK_LIBDIR` | path of the Tk libraries"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3250
-msgid "|`TK_INCLUDEDIR` | path of the Tk C header files |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3249
+#, no-wrap
+msgid ""
+"|`TCL_VER`\n"
+"| chosen major.minor version of Tcl\n"
+"\n"
+"|`TCLSH`\n"
+"| full path of the Tcl interpreter\n"
+"\n"
+"|`TCL_LIBDIR`\n"
+"| path of the Tcl libraries\n"
+"\n"
+"|`TCL_INCLUDEDIR`\n"
+"| path of the Tcl C header files\n"
+"\n"
+"|`TK_VER`\n"
+"| chosen major.minor version of Tk\n"
+"\n"
+"|`WISH`\n"
+"| full path of the Tk interpreter\n"
+"\n"
+"|`TK_LIBDIR`\n"
+"| path of the Tk libraries\n"
+"\n"
+"|`TK_INCLUDEDIR`\n"
+"| path of the Tk C header files\n"
 msgstr ""
 
 #. type: Plain text
@@ -6219,27 +5356,25 @@ msgstr ""
 msgid "Useful Variables for Ports That Use Ruby"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3265
-msgid "|`USE_RUBY` |Adds build and run dependencies on Ruby."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3268
-msgid "|`USE_RUBY_EXTCONF` |The port uses [.filename]#extconf.rb# to configure."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3271
-msgid "|`USE_RUBY_SETUP` |The port uses [.filename]#setup.rb# to configure."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3275
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3274
+#, no-wrap
 msgid ""
-"|`RUBY_SETUP` |Override the name of the setup script from "
-"[.filename]#setup.rb#. Another common value is [.filename]#install.rb#.  "
-"|==="
+"| Variable\n"
+"| Description\n"
+"\n"
+"|`USE_RUBY`\n"
+"|Adds build and run dependencies on Ruby.\n"
+"\n"
+"|`USE_RUBY_EXTCONF`\n"
+"|The port uses [.filename]#extconf.rb# to configure.\n"
+"\n"
+"|`USE_RUBY_SETUP`\n"
+"|The port uses [.filename]#setup.rb# to configure.\n"
+"\n"
+"|`RUBY_SETUP`\n"
+"|Override the name of the setup script from [.filename]#setup.rb#. Another "
+"common value is [.filename]#install.rb#.\n"
 msgstr ""
 
 #. type: Plain text
@@ -6257,51 +5392,38 @@ msgstr ""
 msgid "Selected Read-Only Variables for Ports That Use Ruby"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3284
-msgid "|=== | Variable | Description | Example value"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3288
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3308
+#, no-wrap
 msgid ""
-"|`RUBY_PKGNAMEPREFIX` |Used as a `PKGNAMEPREFIX` to distinguish packages for "
-"different Ruby versions.  |`ruby19-`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3292
-msgid ""
-"|`RUBY_VERSION` |Full version of Ruby in the form of `x.y.z[.p]`.  "
-"|`1.9.3.484`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3296
-msgid ""
-"|`RUBY_SITELIBDIR` |Architecture independent libraries installation path.  "
-"|`/usr/local/lib/ruby/site_ruby/1.9`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3300
-msgid ""
-"|`RUBY_SITEARCHLIBDIR` |Architecture dependent libraries installation path.  "
-"|`/usr/local/lib/ruby/site_ruby/1.9/amd64-freebsd10`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3304
-msgid ""
-"|`RUBY_MODDOCDIR` |Module documentation installation path.  "
-"|`/usr/local/share/doc/ruby19/patsy`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3309
-msgid ""
-"|`RUBY_MODEXAMPLESDIR` |Module examples installation path.  "
-"|`/usr/local/share/examples/ruby19/patsy` |==="
+"| Variable\n"
+"| Description\n"
+"| Example value\n"
+"\n"
+"|`RUBY_PKGNAMEPREFIX`\n"
+"|Used as a `PKGNAMEPREFIX` to distinguish packages for different Ruby "
+"versions.\n"
+"|`ruby19-`\n"
+"\n"
+"|`RUBY_VERSION`\n"
+"|Full version of Ruby in the form of `x.y.z[.p]`.\n"
+"|`1.9.3.484`\n"
+"\n"
+"|`RUBY_SITELIBDIR`\n"
+"|Architecture independent libraries installation path.\n"
+"|`/usr/local/lib/ruby/site_ruby/1.9`\n"
+"\n"
+"|`RUBY_SITEARCHLIBDIR`\n"
+"|Architecture dependent libraries installation path.\n"
+"|`/usr/local/lib/ruby/site_ruby/1.9/amd64-freebsd10`\n"
+"\n"
+"|`RUBY_MODDOCDIR`\n"
+"|Module documentation installation path.\n"
+"|`/usr/local/share/doc/ruby19/patsy`\n"
+"\n"
+"|`RUBY_MODEXAMPLESDIR`\n"
+"|Module examples installation path.\n"
+"|`/usr/local/share/examples/ruby19/patsy`\n"
 msgstr ""
 
 #. type: Plain text
@@ -6452,7 +5574,8 @@ msgid "Add the variable `SDL_CONFIG` to `CONFIGURE_ENV`"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3353 documentation/content/en/books/porters-handbook/special/chapter.adoc:3359
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3353
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3359
 msgid "Add the dependencies of the selected libraries to `LIB_DEPENDS`"
 msgstr ""
 
@@ -6506,7 +5629,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3374 documentation/content/en/books/porters-handbook/special/chapter.adoc:3663
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3374
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3663
 #, no-wrap
 msgid "Version Selection"
 msgstr ""
@@ -6525,19 +5649,21 @@ msgstr ""
 msgid "Variables to Select wxWidgets Versions"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3385
-msgid "|=== | Variable | Description | Default value"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3389
-msgid "|`USE_WX` |List of versions the port can use |All available versions"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3394
-msgid "|`USE_WX_NOT` |List of versions the port cannot use |None |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3393
+#, no-wrap
+msgid ""
+"| Variable\n"
+"| Description\n"
+"| Default value\n"
+"\n"
+"|`USE_WX`\n"
+"|List of versions the port can use\n"
+"|All available versions\n"
+"\n"
+"|`USE_WX_NOT`\n"
+"|List of versions the port cannot use\n"
+"|None\n"
 msgstr ""
 
 #. type: Plain text
@@ -6553,19 +5679,18 @@ msgstr ""
 msgid "Available wxWidgets Versions"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3403
-msgid "|=== | Version | Port"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3406
-msgid "|`2.8` |package:x11-toolkits/wxgtk28[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3410
-msgid "|`3.0` |package:x11-toolkits/wxgtk30[] |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3409
+#, no-wrap
+msgid ""
+"| Version\n"
+"| Port\n"
+"\n"
+"|`2.8`\n"
+"|package:x11-toolkits/wxgtk28[]\n"
+"\n"
+"|`3.0`\n"
+"|package:x11-toolkits/wxgtk30[]\n"
 msgstr ""
 
 #. type: Plain text
@@ -6581,29 +5706,24 @@ msgstr ""
 msgid "wxWidgets Version Specifications"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3419
-msgid "|=== | Description | Example"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3422
-msgid "|Single version |`2.8`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3425
-msgid "|Ascending range |`2.8+`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3428
-msgid "|Descending range |`3.0-`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3432
-msgid "|Full range (must be ascending)  |`2.8-3.0` |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3431
+#, no-wrap
+msgid ""
+"| Description\n"
+"| Example\n"
+"\n"
+"|Single version\n"
+"|`2.8`\n"
+"\n"
+"|Ascending range\n"
+"|`2.8+`\n"
+"\n"
+"|Descending range\n"
+"|`3.0-`\n"
+"\n"
+"|Full range (must be ascending)\n"
+"|`2.8-3.0`\n"
 msgstr ""
 
 #. type: Plain text
@@ -6620,19 +5740,18 @@ msgstr ""
 msgid "Variables to Select Preferred wxWidgets Versions"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3440
-msgid "|=== | Name | Designed for"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3443
-msgid "|`WANT_WX_VER` |the port"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3447
-msgid "|`WITH_WX_VER` |the user |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3446
+#, no-wrap
+msgid ""
+"| Name\n"
+"| Designed for\n"
+"\n"
+"|`WANT_WX_VER`\n"
+"|the port\n"
+"\n"
+"|`WITH_WX_VER`\n"
+"|the user\n"
 msgstr ""
 
 #. type: Plain text
@@ -6649,24 +5768,25 @@ msgstr ""
 msgid "Available wxWidgets Components"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3459
-msgid "|=== | Name | Description | Version restriction"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3463
-msgid "|`wx` |main library |none"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3467
-msgid "|`contrib` |contributed libraries |`none`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3472
-msgid "|`python` |wxPython (Python bindings)  |`2.8-3.0` |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3471
+#, no-wrap
+msgid ""
+"| Name\n"
+"| Description\n"
+"| Version restriction\n"
+"\n"
+"|`wx`\n"
+"|main library\n"
+"|none\n"
+"\n"
+"|`contrib`\n"
+"|contributed libraries\n"
+"|`none`\n"
+"\n"
+"|`python`\n"
+"|wxPython (Python bindings)\n"
+"|`2.8-3.0`\n"
 msgstr ""
 
 #. type: Plain text
@@ -6683,21 +5803,22 @@ msgstr ""
 msgid "Available wxWidgets Dependency Types"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3483
-msgid "|`build` |Component is required for building, equivalent to `BUILD_DEPENDS`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3486
-msgid "|`run` |Component is required for running, equivalent to `RUN_DEPENDS`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3490
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3489
+#, no-wrap
 msgid ""
-"|`lib` |Component is required for building and running, equivalent to "
-"`LIB_DEPENDS` |==="
+"| Name\n"
+"| Description\n"
+"\n"
+"|`build`\n"
+"|Component is required for building, equivalent to `BUILD_DEPENDS`\n"
+"\n"
+"|`run`\n"
+"|Component is required for running, equivalent to `RUN_DEPENDS`\n"
+"\n"
+"|`lib`\n"
+"|Component is required for building and running, equivalent to "
+"`LIB_DEPENDS`\n"
 msgstr ""
 
 #. type: Plain text
@@ -6711,34 +5832,27 @@ msgstr ""
 msgid "Default wxWidgets Dependency Types"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3499
-msgid "|=== | Component | Dependency type"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3502
-msgid "|`wx` |`lib`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3505
-msgid "|`contrib` |`lib`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3508
-msgid "|`python` |`run`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3511
-msgid "|`mozilla` |`lib`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3515
-msgid "|`svg` |`lib` |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3514
+#, no-wrap
+msgid ""
+"| Component\n"
+"| Dependency type\n"
+"\n"
+"|`wx`\n"
+"|`lib`\n"
+"\n"
+"|`contrib`\n"
+"|`lib`\n"
+"\n"
+"|`python`\n"
+"|`run`\n"
+"\n"
+"|`mozilla`\n"
+"|`lib`\n"
+"\n"
+"|`svg`\n"
+"|`lib`\n"
 msgstr ""
 
 #. type: Block title
@@ -6796,7 +5910,10 @@ msgid "WANT_WX=\tyes\n"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3546 documentation/content/en/books/porters-handbook/special/chapter.adoc:3562 documentation/content/en/books/porters-handbook/special/chapter.adoc:3615 documentation/content/en/books/porters-handbook/special/chapter.adoc:3948
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3546
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3562
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3615
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3948
 #, no-wrap
 msgid ".include <bsd.port.pre.mk>\n"
 msgstr ""
@@ -6841,7 +5958,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3572 documentation/content/en/books/porters-handbook/special/chapter.adoc:3729
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3572
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3729
 #, no-wrap
 msgid "Defined Variables"
 msgstr ""
@@ -6859,23 +5977,21 @@ msgstr ""
 msgid "Variables Defined for Ports That Use wxWidgets"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3585
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3591
+#, no-wrap
 msgid ""
-"|`WX_CONFIG` |The path to the wxWidgets`wx-config` script (with different "
-"name)"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3588
-msgid "|`WXRC_CMD` |The path to the wxWidgets`wxrc` program (with different name)"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3592
-msgid ""
-"|`WX_VERSION` |The wxWidgets version that is going to be used (for example, "
-"`2.6`)  |==="
+"| Name\n"
+"| Description\n"
+"\n"
+"|`WX_CONFIG`\n"
+"|The path to the wxWidgets`wx-config` script (with different name)\n"
+"\n"
+"|`WXRC_CMD`\n"
+"|The path to the wxWidgets`wxrc` program (with different name)\n"
+"\n"
+"|`WX_VERSION`\n"
+"|The wxWidgets version that is going to be used (for example, `2.6`)\n"
 msgstr ""
 
 #. type: Title ===
@@ -6884,14 +6000,14 @@ msgstr ""
 msgid "Processing in [.filename]#bsd.port.pre.mk#"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3597
 msgid ""
 "Define `WX_PREMK` to be able to use the variables right after including "
 "[.filename]#bsd.port.pre.mk#."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3601
 msgid ""
 "When defining `WX_PREMK`, then the version, dependencies, components and "
@@ -6905,7 +6021,7 @@ msgstr ""
 msgid "Using wxWidgets Variables in Commands"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3608
 msgid ""
 "This fragment illustrates the use of `WX_PREMK` by running the `wx-config` "
@@ -6964,19 +6080,18 @@ msgstr ""
 msgid "Legal Values for `WX_CONF_ARGS`"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3640
-msgid "|=== | Possible value | Resulting argument"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3643
-msgid "|`absolute` |`--with-wx-config=${WX_CONFIG}`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3647
-msgid "|`relative` |`--with-wx=${LOCALBASE} --with-wx-config=${WX_CONFIG:T}` |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3646
+#, no-wrap
+msgid ""
+"| Possible value\n"
+"| Resulting argument\n"
+"\n"
+"|`absolute`\n"
+"|`--with-wx-config=${WX_CONFIG}`\n"
+"\n"
+"|`relative`\n"
+"|`--with-wx=${LOCALBASE} --with-wx-config=${WX_CONFIG:T}`\n"
 msgstr ""
 
 #. type: Title ==
@@ -6985,14 +6100,14 @@ msgstr ""
 msgid "Using Lua"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3652
 msgid ""
 "This section describes the status of the Lua libraries in the ports tree and "
 "its integration with the ports system."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3657
 msgid ""
 "There are many versions of the Lua libraries and corresponding interpreters, "
@@ -7001,7 +6116,7 @@ msgid ""
 "different name using version number suffixes."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3659
 msgid ""
 "The obvious disadvantage of this is that each application has to be modified "
@@ -7009,7 +6124,7 @@ msgid ""
 "flags to the compiler and linker."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3661
 msgid ""
 "Applications that use Lua should normally build for just one "
@@ -7019,7 +6134,7 @@ msgid ""
 "origin."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3666
 msgid "A port using Lua should have a line of this form:"
 msgstr ""
@@ -7197,88 +6312,60 @@ msgstr ""
 msgid "Variables Defined for Ports That Use Lua"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3742
-msgid "|`LUA_VER` |The Lua version that is going to be used (for example, `5.1`)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3745
-msgid "|`LUA_VER_STR` |The Lua version without the dots (for example, `51`)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3748
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3781
+#, no-wrap
 msgid ""
-"|`LUA_FLAVOR` |The flavor name corresponding to the selected Lua version, to "
-"be used for specifying dependencies"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3751
-msgid ""
-"|`LUA_BASE` |The prefix that should be used to locate Lua (and components) "
-"that are already installed"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3754
-msgid ""
-"|`LUA_PREFIX` |The prefix where Lua (and components) are to be installed by "
-"this port"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3757
-msgid "|`LUA_INCDIR` |The directory where Lua header files are installed"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3760
-msgid "|`LUA_LIBDIR` |The directory where Lua libraries are installed"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3763
-msgid ""
-"|`LUA_REFMODLIBDIR` |The directory where Lua module libraries "
-"([.filename]#.so#) that are already installed are to be found"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3766
-msgid ""
-"|`LUA_REFMODSHAREDIR` |The directory where Lua modules ([.filename]#.lua#) "
-"that are already installed are to be found"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3769
-msgid ""
-"|`LUA_MODLIBDIR` |The directory where Lua module libraries "
-"([.filename]#.so#) are to be installed by this port"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3772
-msgid ""
-"|`LUA_MODSHAREDIR` |The directory where Lua modules ([.filename]#.lua#) are "
-"to be installed by this port"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3775
-msgid "|`LUA_PKGNAMEPREFIX` |The package name prefix used by Lua modules"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3778
-msgid "|`LUA_CMD` |The name of the Lua interpreter (e.g. `lua53`)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3782
-msgid "|`LUAC_CMD` |The name of the Lua compiler (e.g. `luac53`)  |==="
+"| Name\n"
+"| Description\n"
+"\n"
+"|`LUA_VER`\n"
+"|The Lua version that is going to be used (for example, `5.1`)\n"
+"\n"
+"|`LUA_VER_STR`\n"
+"|The Lua version without the dots (for example, `51`)\n"
+"\n"
+"|`LUA_FLAVOR`\n"
+"|The flavor name corresponding to the selected Lua version, to be used for "
+"specifying dependencies\n"
+"\n"
+"|`LUA_BASE`\n"
+"|The prefix that should be used to locate Lua (and components) that are "
+"already installed\n"
+"\n"
+"|`LUA_PREFIX`\n"
+"|The prefix where Lua (and components) are to be installed by this port\n"
+"\n"
+"|`LUA_INCDIR`\n"
+"|The directory where Lua header files are installed\n"
+"\n"
+"|`LUA_LIBDIR`\n"
+"|The directory where Lua libraries are installed\n"
+"\n"
+"|`LUA_REFMODLIBDIR`\n"
+"|The directory where Lua module libraries ([.filename]#.so#) that are "
+"already installed are to be found\n"
+"\n"
+"|`LUA_REFMODSHAREDIR`\n"
+"|The directory where Lua modules ([.filename]#.lua#) that are already "
+"installed are to be found\n"
+"\n"
+"|`LUA_MODLIBDIR`\n"
+"|The directory where Lua module libraries ([.filename]#.so#) are to be "
+"installed by this port\n"
+"\n"
+"|`LUA_MODSHAREDIR`\n"
+"|The directory where Lua modules ([.filename]#.lua#) are to be installed by "
+"this port\n"
+"\n"
+"|`LUA_PKGNAMEPREFIX`\n"
+"|The package name prefix used by Lua modules\n"
+"\n"
+"|`LUA_CMD`\n"
+"|The name of the Lua interpreter (e.g. `lua53`)\n"
+"\n"
+"|`LUAC_CMD`\n"
+"|The name of the Lua compiler (e.g. `luac53`)\n"
 msgstr ""
 
 #. type: Plain text
@@ -7294,18 +6381,18 @@ msgstr ""
 msgid "Variables Defined for Lua Module Ports"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3794
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3797
+#, no-wrap
 msgid ""
-"|`LUA_DOCSDIR` |the directory to which the module's documentation should be "
-"installed."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3798
-msgid ""
-"|`LUA_EXAMPLESDIR` |the directory to which the module's example files should "
-"be installed.  |==="
+"| Name\n"
+"| Description\n"
+"\n"
+"|`LUA_DOCSDIR`\n"
+"|the directory to which the module's documentation should be installed.\n"
+"\n"
+"|`LUA_EXAMPLESDIR`\n"
+"|the directory to which the module's example files should be installed.\n"
 msgstr ""
 
 #. type: Block title
@@ -7331,7 +6418,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3816 documentation/content/en/books/porters-handbook/special/chapter.adoc:3839
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3816
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3839
 #, no-wrap
 msgid ""
 "MAINTAINER=\tjohn@doe.tld\n"
@@ -7409,49 +6497,44 @@ msgstr ""
 msgid "When a port defines `USES=iconv`, these variables will be available:"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3865
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3891
+#, no-wrap
 msgid ""
-"|=== | Variable name | Purpose | Value before FreeBSD 10-CURRENT 254273 "
-"(2013-08-13)  | Value after FreeBSD 10-CURRENT 254273 (2013-08-13)"
+"| Variable name\n"
+"| Purpose\n"
+"| Value before FreeBSD 10-CURRENT 254273 (2013-08-13)\n"
+"| Value after FreeBSD 10-CURRENT 254273 (2013-08-13)\n"
+"\n"
+"\n"
+"|`ICONV_CMD`\n"
+"|Directory where the `iconv` binary resides\n"
+"|`${LOCALBASE}/bin/iconv`\n"
+"|[.filename]#/usr/bin/iconv#\n"
+"\n"
+"|`ICONV_LIB`\n"
+"|`ld` argument to link to [.filename]#libiconv# (if needed)\n"
+"|`-liconv`\n"
+"|(empty)\n"
+"\n"
+"|`ICONV_PREFIX`\n"
+"|Directory where the `iconv` implementation resides (useful for configure "
+"scripts)\n"
+"|`${LOCALBASE}`\n"
+"|[.filename]#/usr#\n"
+"\n"
+"|`ICONV_CONFIGURE_ARG`\n"
+"|Preconstructed configure argument for configure scripts\n"
+"|`--with-libiconv-prefix=${LOCALBASE}`\n"
+"|(empty)\n"
+"\n"
+"|`ICONV_CONFIGURE_BASE`\n"
+"|Preconstructed configure argument for configure scripts\n"
+"|`--with-libiconv=${LOCALBASE}`\n"
+"|(empty)\n"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3871
-msgid ""
-"|`ICONV_CMD` |Directory where the `iconv` binary resides "
-"|`${LOCALBASE}/bin/iconv` |[.filename]#/usr/bin/iconv#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3876
-msgid ""
-"|`ICONV_LIB` |`ld` argument to link to [.filename]#libiconv# (if needed)  "
-"|`-liconv` |(empty)"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3881
-msgid ""
-"|`ICONV_PREFIX` |Directory where the `iconv` implementation resides (useful "
-"for configure scripts)  |`${LOCALBASE}` |[.filename]#/usr#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3886
-msgid ""
-"|`ICONV_CONFIGURE_ARG` |Preconstructed configure argument for configure "
-"scripts |`--with-libiconv-prefix=${LOCALBASE}` |(empty)"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3892
-msgid ""
-"|`ICONV_CONFIGURE_BASE` |Preconstructed configure argument for configure "
-"scripts |`--with-libiconv=${LOCALBASE}` |(empty)  |==="
-msgstr ""
-
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/special/chapter.adoc:3894
 msgid ""
 "These two examples automatically populate the variables with the correct "
@@ -7509,7 +6592,8 @@ msgid "Fixing Hardcoded `-liconv`"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3930 documentation/content/en/books/porters-handbook/special/chapter.adoc:3946
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3930
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:3946
 #, no-wrap
 msgid "USES=\t\ticonv\n"
 msgstr ""
@@ -7759,29 +6843,24 @@ msgstr ""
 msgid "Database `USES` Macros"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4052
-msgid "|=== | Database | USES Macro"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4055
-msgid "|Berkeley DB |<<uses-bdb,`bdb`>>"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4058
-msgid "|MariaDB, MySQL, Percona |<<uses-mysql,`mysql`>>"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4061
-msgid "|PostgreSQL |<<uses-pgsql,`pgsql`>>"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4065
-msgid "|SQLite |<<uses-sqlite,`sqlite`>> |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4064
+#, no-wrap
+msgid ""
+"| Database\n"
+"| USES Macro\n"
+"\n"
+"|Berkeley DB\n"
+"|<<uses-bdb,`bdb`>>\n"
+"\n"
+"|MariaDB, MySQL, Percona\n"
+"|<<uses-mysql,`mysql`>>\n"
+"\n"
+"|PostgreSQL\n"
+"|<<uses-pgsql,`pgsql`>>\n"
+"\n"
+"|SQLite\n"
+"|<<uses-sqlite,`sqlite`>>\n"
 msgstr ""
 
 #. type: Block title
@@ -8377,14 +7456,15 @@ msgstr ""
 msgid "Shell completion file paths"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4294
-msgid "|=== |`bash` |[.filename]#${PREFIX}/etc/bash_completion.d#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4298
-msgid "|`zsh` |[.filename]#${PREFIX}/share/zsh/site-functions# |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/special/chapter.adoc:4297
+#, no-wrap
+msgid ""
+"|`bash`\n"
+"|[.filename]#${PREFIX}/etc/bash_completion.d#\n"
+"\n"
+"|`zsh`\n"
+"|[.filename]#${PREFIX}/share/zsh/site-functions#\n"
 msgstr ""
 
 #. type: Plain text

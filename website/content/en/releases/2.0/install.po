@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -23,8 +23,8 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/2.0/install.adoc:5
-msgid "title: \"FreeBSD 2.0 Installation Guide\" sidenav: download ---"
+#: website/content/en/releases/2.0/install.adoc:4
+msgid "title: \"FreeBSD 2.0 Installation Guide\" sidenav: download"
 msgstr ""
 
 #. type: Title =
@@ -249,7 +249,10 @@ msgid "Enter Command>\n"
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:111 website/content/en/releases/2.0/install.adoc:152 website/content/en/releases/2.0/install.adoc:222 website/content/en/releases/2.0/install.adoc:272
+#: website/content/en/releases/2.0/install.adoc:111
+#: website/content/en/releases/2.0/install.adoc:152
+#: website/content/en/releases/2.0/install.adoc:222
+#: website/content/en/releases/2.0/install.adoc:272
 #, no-wrap
 msgid "------------------------------------------------------------------------------\n"
 msgstr ""
@@ -294,7 +297,8 @@ msgid "This now brings us to the FDISK editor screen, which looks like this:\n"
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:130 website/content/en/releases/2.0/install.adoc:197
+#: website/content/en/releases/2.0/install.adoc:130
+#: website/content/en/releases/2.0/install.adoc:197
 #, no-wrap
 msgid ""
 "------------------------------------------------------------------------------\n"
@@ -302,13 +306,15 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:132 website/content/en/releases/2.0/install.adoc:199
+#: website/content/en/releases/2.0/install.adoc:132
+#: website/content/en/releases/2.0/install.adoc:199
 #, no-wrap
 msgid "Disk: sd0   Geometry:  2006 Cyl * 32 Hd * 64 Sect = 2006Mb = 4108600 Sect\n"
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:136 website/content/en/releases/2.0/install.adoc:203
+#: website/content/en/releases/2.0/install.adoc:136
+#: website/content/en/releases/2.0/install.adoc:203
 #, no-wrap
 msgid ""
 "1 Boot?=\"No\"    Type=\"Primary\" 'big' DOS (> 32MB)\n"
@@ -323,19 +329,22 @@ msgid "2 Unused\n"
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:141 website/content/en/releases/2.0/install.adoc:209
+#: website/content/en/releases/2.0/install.adoc:141
+#: website/content/en/releases/2.0/install.adoc:209
 #, no-wrap
 msgid "3 Unused\n"
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:144 website/content/en/releases/2.0/install.adoc:213
+#: website/content/en/releases/2.0/install.adoc:144
+#: website/content/en/releases/2.0/install.adoc:213
 #, no-wrap
 msgid "4 Unused\n"
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:150 website/content/en/releases/2.0/install.adoc:220
+#: website/content/en/releases/2.0/install.adoc:150
+#: website/content/en/releases/2.0/install.adoc:220
 #, no-wrap
 msgid ""
 "Commands available:\n"
@@ -491,7 +500,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: website/content/en/releases/2.0/install.adoc:257 website/content/en/releases/2.0/install.adoc:344
+#: website/content/en/releases/2.0/install.adoc:257
+#: website/content/en/releases/2.0/install.adoc:344
 #, no-wrap
 msgid ""
 "Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/virtualization/_index.adoc:9
 #, no-wrap
 msgid "Virtualization"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:27 documentation/content/en/books/handbook/virtualization/_index.adoc:31 documentation/content/en/books/handbook/virtualization/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -222,7 +197,8 @@ msgid "parallels-freebsd7.png"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:93 documentation/content/en/books/handbook/virtualization/_index.adoc:162
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:93
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:162
 msgid "Save and finish the configuration:"
 msgstr ""
 
@@ -313,7 +289,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:121 documentation/content/en/books/handbook/virtualization/_index.adoc:196 documentation/content/en/books/handbook/virtualization/_index.adoc:282
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:121
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:196
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:282
 msgid "Set Boot Loader Variables"
 msgstr ""
 
@@ -326,7 +304,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:127 documentation/content/en/books/handbook/virtualization/_index.adoc:202 documentation/content/en/books/handbook/virtualization/_index.adoc:288
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:127
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:202
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:288
 #, no-wrap
 msgid "kern.hz=100\n"
 msgstr ""
@@ -340,7 +320,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:131 documentation/content/en/books/handbook/virtualization/_index.adoc:206 documentation/content/en/books/handbook/virtualization/_index.adoc:292
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:131
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:206
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:292
 msgid "Create a New Kernel Configuration File"
 msgstr ""
 
@@ -354,7 +336,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:134 documentation/content/en/books/handbook/virtualization/_index.adoc:209 documentation/content/en/books/handbook/virtualization/_index.adoc:295
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:134
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:209
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:295
 msgid "Configure Networking"
 msgstr ""
 
@@ -1253,7 +1237,8 @@ msgid "Then, restart devfs:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:515 documentation/content/en/books/handbook/virtualization/_index.adoc:548
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:515
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:548
 #, no-wrap
 msgid "# service devfs restart\n"
 msgstr ""
@@ -1583,7 +1568,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/virtualization/_index.adoc:667 documentation/content/en/books/handbook/virtualization/_index.adoc:699
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:667
+#: documentation/content/en/books/handbook/virtualization/_index.adoc:699
 #, no-wrap
 msgid "# bhyvectl --destroy --vm=linuxguest\n"
 msgstr ""

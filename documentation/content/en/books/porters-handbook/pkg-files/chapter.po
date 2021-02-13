@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:8
 #, no-wrap
 msgid "[.filename]#pkg-*#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -390,7 +385,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:202 documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:214
+#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:202
+#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:214
 msgid ""
 "This script is here to help you set up the package so that it is as ready to "
 "use as possible. It _must not_ be abused to start services, stop services, "
@@ -443,34 +439,27 @@ msgid ""
 "defaults to `${MASTERDIR}`.)"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:228
-msgid "|=== | Variable | Default value"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:231
-msgid "|`DESCR` |`${PKGDIR}/pkg-descr`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:234
-msgid "|`PLIST` |`${PKGDIR}/pkg-plist`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:237
-msgid "|`PKGINSTALL` |`${PKGDIR}/pkg-install`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:240
-msgid "|`PKGDEINSTALL` |`${PKGDIR}/pkg-deinstall`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:244
-msgid "|`PKGMESSAGE` |`${PKGDIR}/pkg-message` |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:243
+#, no-wrap
+msgid ""
+"| Variable\n"
+"| Default value\n"
+"\n"
+"|`DESCR`\n"
+"|`${PKGDIR}/pkg-descr`\n"
+"\n"
+"|`PLIST`\n"
+"|`${PKGDIR}/pkg-plist`\n"
+"\n"
+"|`PKGINSTALL`\n"
+"|`${PKGDIR}/pkg-install`\n"
+"\n"
+"|`PKGDEINSTALL`\n"
+"|`${PKGDIR}/pkg-deinstall`\n"
+"\n"
+"|`PKGMESSAGE`\n"
+"|`${PKGDIR}/pkg-message`\n"
 msgstr ""
 
 #. type: Title ==
@@ -479,14 +468,14 @@ msgstr ""
 msgid "Making Use of `SUB_FILES` and `SUB_LIST`"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:249
 msgid ""
 "`SUB_FILES` and `SUB_LIST` are useful for dynamic values in port files, such "
 "as the installation `PREFIX` in [.filename]#pkg-message#."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:251
 msgid ""
 "`SUB_FILES` specifies a list of files to be automatically modified. Each "
@@ -499,7 +488,7 @@ msgid ""
 "automatically set to point to the processed version."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:253
 msgid ""
 "`SUB_LIST` is a list of `VAR=VALUE` pairs. For each pair, `%%VAR%%` will be "
@@ -510,7 +499,7 @@ msgid ""
 "variable substitution."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/pkg-files/chapter.adoc:255
 msgid ""
 "This example replaces `%%ARCH%%` with the system architecture in a "

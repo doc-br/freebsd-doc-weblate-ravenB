@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -64,11 +64,6 @@ msgstr ""
 msgid "'''"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/fonts/_index.adoc:29
-msgid "toc::[]"
-msgstr ""
-
 #. type: Title ==
 #: documentation/content/en/articles/fonts/_index.adoc:31
 #, no-wrap
@@ -99,38 +94,73 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/articles/fonts/_index.adoc:40
+#: documentation/content/en/articles/fonts/_index.adoc:80
+#, no-wrap
+msgid "[.filename]#.pfa#, [.filename]#.pfb#"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/articles/fonts/_index.adoc:42
 msgid ""
-"[.filename]#.pfa#, [.filename]#.pfb#:: PostScript(R) type 1 fonts. The "
-"[.filename]#.pfa# is the __A__scii form and [.filename]#.pfb# the __B__inary "
-"form."
+"PostScript(R) type 1 fonts. The [.filename]#.pfa# is the __A__scii form and "
+"[.filename]#.pfb# the __B__inary form."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/fonts/_index.adoc:43
+#, no-wrap
+msgid "[.filename]#.afm#"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/fonts/_index.adoc:45
-msgid "[.filename]#.afm#:: The font metrics associated with a type 1 font."
+msgid "The font metrics associated with a type 1 font."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/fonts/_index.adoc:46
+#, no-wrap
+msgid "[.filename]#.pfm#"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/fonts/_index.adoc:48
-msgid "[.filename]#.pfm#:: The printer font metrics associated with a type 1 font."
+msgid "The printer font metrics associated with a type 1 font."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/fonts/_index.adoc:49
+#: documentation/content/en/articles/fonts/_index.adoc:86
+#, no-wrap
+msgid "[.filename]#.ttf#"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/fonts/_index.adoc:51
-msgid "[.filename]#.ttf#:: A TrueType(R) font"
+msgid "A TrueType(R) font"
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/fonts/_index.adoc:52
+#, no-wrap
+msgid "[.filename]#.fot#"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/fonts/_index.adoc:54
-msgid ""
-"[.filename]#.fot#:: An indirect reference to a TrueType font (not an actual "
-"font)"
+msgid "An indirect reference to a TrueType font (not an actual font)"
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/fonts/_index.adoc:55
+#, no-wrap
+msgid "[.filename]#.fon#, [.filename]#.fnt#"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/fonts/_index.adoc:57
-msgid "[.filename]#.fon#, [.filename]#.fnt#:: Bitmapped screen fonts"
+msgid "Bitmapped screen fonts"
 msgstr ""
 
 #. type: Plain text
@@ -208,11 +238,6 @@ msgstr ""
 msgid "X11:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/fonts/_index.adoc:80
-msgid "[.filename]#.pfa#, [.filename]#.pfb#"
-msgstr ""
-
 #. type: Labeled list
 #: documentation/content/en/articles/fonts/_index.adoc:81
 #, no-wrap
@@ -228,11 +253,6 @@ msgstr ""
 #: documentation/content/en/articles/fonts/_index.adoc:84
 #, no-wrap
 msgid "Povray:"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/fonts/_index.adoc:86
-msgid "[.filename]#.ttf#"
 msgstr ""
 
 #. type: Plain text
@@ -915,12 +935,18 @@ msgid "The files of interest are:"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/articles/fonts/_index.adoc:411
+msgid "[.filename]#GS_TTF.PS#"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/fonts/_index.adoc:412
+msgid "[.filename]#PF2AFM.PS#"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/articles/fonts/_index.adoc:413
-#, no-wrap
-msgid ""
-"** [.filename]#GS_TTF.PS#\n"
-"** [.filename]#PF2AFM.PS#\n"
-"** [.filename]#ttf2pf.ps#\n"
+msgid "[.filename]#ttf2pf.ps#"
 msgstr ""
 
 #. type: Plain text

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -181,19 +181,18 @@ msgstr ""
 msgid "Security Advisories"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/13.0R/relnotes.adoc:67
-msgid "|=== | Advisory | Date | Topic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/13.0R/relnotes.adoc:71
-msgid "|No advisories.  | |"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/13.0R/relnotes.adoc:73 website/content/en/releases/13.0R/relnotes.adoc:90
-msgid "|==="
+#. type: Table
+#: website/content/en/releases/13.0R/relnotes.adoc:72
+#, no-wrap
+msgid ""
+"| Advisory\n"
+"| Date\n"
+"| Topic\n"
+"\n"
+"|No advisories.\n"
+"|\n"
+"|\n"
+"\n"
 msgstr ""
 
 #. type: Title ===
@@ -202,14 +201,19 @@ msgstr ""
 msgid "Errata Notices"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/13.0R/relnotes.adoc:83
-msgid "|=== | Errata | Date | Topic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/13.0R/relnotes.adoc:87
-msgid "|No notices.  | |"
+#. type: Table
+#: website/content/en/releases/13.0R/relnotes.adoc:89
+#, no-wrap
+msgid ""
+"| Errata\n"
+"| Date\n"
+"| Topic\n"
+"\n"
+"|No notices.\n"
+"|\n"
+"|\n"
+"\n"
+"\n"
 msgstr ""
 
 #.  Sample release notes entry.
@@ -315,7 +319,8 @@ msgid "General Storage"
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/13.0R/relnotes.adoc:147 website/content/en/releases/13.0R/relnotes.adoc:152
+#: website/content/en/releases/13.0R/relnotes.adoc:147
+#: website/content/en/releases/13.0R/relnotes.adoc:152
 #, no-wrap
 msgid "Boot Loader Changes"
 msgstr ""

@@ -7,17 +7,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: delimited block .
-#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:1 documentation/content/en/books/fdp-primer/examples/chapter.adoc:35 documentation/content/en/books/fdp-primer/examples/chapter.adoc:105
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:1
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:35
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:105
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -37,11 +39,6 @@ msgstr ""
 msgid "Examples"
 msgstr ""
 
-#. type: delimited block .
-#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:24 documentation/content/en/books/fdp-primer/examples/chapter.adoc:83 documentation/content/en/books/fdp-primer/examples/chapter.adoc:126
-msgid "toc::[]"
-msgstr ""
-
 #. type: Plain text
 #: documentation/content/en/books/fdp-primer/examples/chapter.adoc:26
 msgid ""
@@ -54,7 +51,8 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:28 documentation/content/en/books/fdp-primer/examples/chapter.adoc:30
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:28
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:30
 #, no-wrap
 msgid "AsciiDoctor `book`"
 msgstr ""
@@ -115,8 +113,15 @@ msgid "Abstract section"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:81 documentation/content/en/books/fdp-primer/examples/chapter.adoc:124
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:81
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:124
 msgid "'''"
+msgstr ""
+
+#. type: delimited block .
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:83
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:126
+msgid "toc::[]"
 msgstr ""
 
 #. type: delimited block .
@@ -145,7 +150,8 @@ msgid "\\include::{chapters-path}chapter-name/_index.adoc[leveloffset=+1]"
 msgstr ""
 
 #. type: Block title
-#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:98 documentation/content/en/books/fdp-primer/examples/chapter.adoc:100
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:98
+#: documentation/content/en/books/fdp-primer/examples/chapter.adoc:100
 #, no-wrap
 msgid "AsciiDoctor `article`"
 msgstr ""

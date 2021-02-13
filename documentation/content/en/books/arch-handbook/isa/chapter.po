@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:8
 #, no-wrap
 msgid "ISA Device Drivers"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -723,13 +718,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:248
+msgid "dev - driver's device"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:249
+msgid "type - type of resource, SYS_RES_*"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:250
+msgid "rid - resource number (ID) within type"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:251
-#, no-wrap
-msgid ""
-"** dev - driver's device\n"
-"** type - type of resource, SYS_RES_* \n"
-"** rid - resource number (ID) within type \n"
-"** start, count - resource range \n"
+msgid "start, count - resource range"
 msgstr ""
 
 #. type: Plain text
@@ -883,22 +888,46 @@ msgid "  flags - the interrupt priority level, one of:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:287
-#, no-wrap
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:282
 msgid ""
-"** `INTR_TYPE_TTY` - terminals and other likewise character-type devices. To "
-"mask them use `spltty()`.\n"
-"** `(INTR_TYPE_TTY | INTR_TYPE_FAST)` - terminal type devices with small "
-"input buffer, critical to the data loss on input (such as the old-fashioned "
-"serial ports). To mask them use `spltty()`.\n"
-"** `INTR_TYPE_BIO` - block-type devices, except those on the CAM "
-"controllers. To mask them use `splbio()`.\n"
-"** `INTR_TYPE_CAM` - CAM (Common Access Method) bus controllers. To mask "
-"them use `splcam()`.\n"
-"** `INTR_TYPE_NET` - network interface controllers. To mask them use "
-"`splimp()`.\n"
-"** `INTR_TYPE_MISC` - miscellaneous devices. There is no other way to mask "
-"them than by `splhigh()` which masks all interrupts.\n"
+"`INTR_TYPE_TTY` - terminals and other likewise character-type devices. To "
+"mask them use `spltty()`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:283
+msgid ""
+"`(INTR_TYPE_TTY | INTR_TYPE_FAST)` - terminal type devices with small input "
+"buffer, critical to the data loss on input (such as the old-fashioned serial "
+"ports). To mask them use `spltty()`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:284
+msgid ""
+"`INTR_TYPE_BIO` - block-type devices, except those on the CAM "
+"controllers. To mask them use `splbio()`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:285
+msgid ""
+"`INTR_TYPE_CAM` - CAM (Common Access Method) bus controllers. To mask them "
+"use `splcam()`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:286
+msgid ""
+"`INTR_TYPE_NET` - network interface controllers. To mask them use "
+"`splimp()`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:287
+msgid ""
+"`INTR_TYPE_MISC` - miscellaneous devices. There is no other way to mask them "
+"than by `splhigh()` which masks all interrupts."
 msgstr ""
 
 #. type: Plain text
@@ -1094,101 +1123,134 @@ msgid "  Create a new tag. Returns 0 on success, the error code otherwise."
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:336
-#, no-wrap
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:333
+msgid "_parent_ - parent tag, or NULL to create a top-level tag."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:334
 msgid ""
-"** _parent_ - parent tag, or NULL to create a top-level tag.\n"
-"** _alignment_ - required physical alignment of the memory area to be "
-"allocated for this tag. Use value 1 for \"no specific alignment\". Applies "
-"only to the future `bus_dmamem_alloc()` but not `bus_dmamap_create()` "
-"calls.\n"
-"** _boundary_ - physical address boundary that must not be crossed when "
+"_alignment_ - required physical alignment of the memory area to be allocated "
+"for this tag. Use value 1 for \"no specific alignment\". Applies only to the "
+"future `bus_dmamem_alloc()` but not `bus_dmamap_create()` calls."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:335
+msgid ""
+"_boundary_ - physical address boundary that must not be crossed when "
 "allocating the memory. Use value 0 for \"no boundary\". Applies only to the "
 "future `bus_dmamem_alloc()` but not `bus_dmamap_create()` calls. Must be "
 "power of 2. If the memory is planned to be used in non-cascaded DMA mode "
 "(i.e., the DMA addresses will be supplied not by the device itself but by "
 "the ISA DMA controller) then the boundary must be no larger than 64KB "
-"(64*1024) due to the limitations of the DMA hardware.\n"
-"** _lowaddr, highaddr_ - the names are slightly misleading; these values are "
+"(64*1024) due to the limitations of the DMA hardware."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:336
+msgid ""
+"_lowaddr, highaddr_ - the names are slightly misleading; these values are "
 "used to limit the permitted range of physical addresses used to allocate the "
-"memory. The exact meaning varies depending on the planned future use:\n"
+"memory. The exact meaning varies depending on the planned future use:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:338
+msgid ""
+"For `bus_dmamem_alloc()` all the addresses from 0 to lowaddr-1 are "
+"considered permitted, the higher ones are forbidden."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:339
+msgid ""
+"For `bus_dmamap_create()` all the addresses outside the inclusive range "
+"[lowaddr; highaddr] are considered accessible. The addresses of pages inside "
+"the range are passed to the filter function which decides if they are "
+"accessible. If no filter function is supplied then all the range is "
+"considered unaccessible."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:340
-#, no-wrap
-msgid ""
-"*** For `bus_dmamem_alloc()` all the addresses from 0 to lowaddr-1 are "
-"considered permitted, the higher ones are forbidden.\n"
-"*** For `bus_dmamap_create()` all the addresses outside the inclusive range "
-"[lowaddr; highaddr] are considered accessible. The addresses of pages inside "
-"the range are passed to the filter function which decides if they are "
-"accessible. If no filter function is supplied then all the range is "
-"considered unaccessible.\n"
-"*** For the ISA devices the normal values (with no filter function) are:\n"
+msgid "For the ISA devices the normal values (with no filter function) are:"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:342
-#, no-wrap
-msgid ""
-"\n"
-"lowaddr = BUS_SPACE_MAXADDR_24BIT\n"
+msgid "  lowaddr = BUS_SPACE_MAXADDR_24BIT"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:344
-#, no-wrap
-msgid ""
-"\n"
-"highaddr = BUS_SPACE_MAXADDR\n"
+msgid "  highaddr = BUS_SPACE_MAXADDR"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:350
-#, no-wrap
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:346
 msgid ""
-"** _filter, filterarg_ - the filter function and its argument. If NULL is "
+"_filter, filterarg_ - the filter function and its argument. If NULL is "
 "passed for filter then the whole range [lowaddr, highaddr] is considered "
 "unaccessible when doing `bus_dmamap_create()`. Otherwise the physical "
 "address of each attempted page in range [lowaddr; highaddr] is passed to the "
 "filter function which decides if it is accessible. The prototype of the "
 "filter function is: `int filterfunc(void *arg, bus_addr_t paddr)`. It must "
-"return 0 if the page is accessible, non-zero otherwise.\n"
-"** _maxsize_ - the maximal size of memory (in bytes) that may be allocated "
+"return 0 if the page is accessible, non-zero otherwise."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:347
+msgid ""
+"_maxsize_ - the maximal size of memory (in bytes) that may be allocated "
 "through this tag. In case it is difficult to estimate or could be "
 "arbitrarily big, the value for ISA devices would be "
-"`BUS_SPACE_MAXSIZE_24BIT`.\n"
-"** _nsegments_ - maximal number of scatter-gather segments supported by the "
+"`BUS_SPACE_MAXSIZE_24BIT`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:348
+msgid ""
+"_nsegments_ - maximal number of scatter-gather segments supported by the "
 "device. If unrestricted then the value `BUS_SPACE_UNRESTRICTED` should be "
 "used. This value is recommended for the parent tags, the actual restrictions "
 "would then be specified for the descendant tags. Tags with nsegments equal "
 "to `BUS_SPACE_UNRESTRICTED` may not be used to actually load maps, they may "
 "be used only as parent tags. The practical limit for nsegments seems to be "
 "about 250-300, higher values will cause kernel stack overflow (the hardware "
-"can not normally support that many scatter-gather buffers anyway).\n"
-"** _maxsegsz_ - maximal size of a scatter-gather segment supported by the "
-"device. The maximal value for ISA device would be "
-"`BUS_SPACE_MAXSIZE_24BIT`.\n"
-"** _flags_ - a bitmap of flags. The only interesting flags are:\n"
+"can not normally support that many scatter-gather buffers anyway)."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:349
+msgid ""
+"_maxsegsz_ - maximal size of a scatter-gather segment supported by the "
+"device. The maximal value for ISA device would be `BUS_SPACE_MAXSIZE_24BIT`."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:350
+msgid "_flags_ - a bitmap of flags. The only interesting flags are:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:352
+msgid ""
+"_BUS_DMA_ALLOCNOW_ - requests to allocate all the potentially needed bounce "
+"pages when creating the tag."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:353
-#, no-wrap
 msgid ""
-"*** _BUS_DMA_ALLOCNOW_ - requests to allocate all the potentially needed "
-"bounce pages when creating the tag.\n"
-"*** _BUS_DMA_ISA_ - mysterious flag used only on Alpha machines. It is not "
+"_BUS_DMA_ISA_ - mysterious flag used only on Alpha machines. It is not "
 "defined for the i386 machines. Probably it should be used by all the ISA "
-"drivers for Alpha machines but it looks like there are no such drivers "
-"yet.\n"
+"drivers for Alpha machines but it looks like there are no such drivers yet."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:355
-#, no-wrap
-msgid "** _dmat_ - pointer to the storage for the new tag to be returned.\n"
+msgid "_dmat_ - pointer to the storage for the new tag to be returned."
 msgstr ""
 
 #. type: Plain text
@@ -1223,28 +1285,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:368
-#, no-wrap
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:366
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:378
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:386
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:401
+msgid "_dmat_ - the tag"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:367
 msgid ""
-"** _dmat_ - the tag \n"
-"** _vaddr_ - pointer to the storage for the kernel virtual address of the "
-"allocated area to be returned. \n"
-"** flags - a bitmap of flags. The only interesting flag is: \n"
+"_vaddr_ - pointer to the storage for the kernel virtual address of the "
+"allocated area to be returned."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:368
+msgid "flags - a bitmap of flags. The only interesting flag is:"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:370
-#, no-wrap
 msgid ""
-"*** _BUS_DMA_NOWAIT_ - if the memory is not immediately available return the "
+"_BUS_DMA_NOWAIT_ - if the memory is not immediately available return the "
 "error. If this flag is not set then the routine is allowed to sleep until "
-"the memory becomes available. \n"
+"the memory becomes available."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:372
-#, no-wrap
-msgid "** _mapp_ - pointer to the storage for the new map to be returned. \n"
+msgid "_mapp_ - pointer to the storage for the new map to be returned."
 msgstr ""
 
 #. type: Plain text
@@ -1264,12 +1334,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:379
+msgid "_vaddr_ - the kernel virtual address of the memory"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:380
-#, no-wrap
-msgid ""
-"** _dmat_ - the tag \n"
-"** _vaddr_ - the kernel virtual address of the memory \n"
-"** _map_ - the map of the memory (as returned from `bus_dmamem_alloc()`) \n"
+msgid "_map_ - the map of the memory (as returned from `bus_dmamem_alloc()`)"
 msgstr ""
 
 #. type: Plain text
@@ -1285,13 +1356,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:388
-#, no-wrap
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:387
 msgid ""
-"** _dmat_ - the tag \n"
-"** _flags_ - theoretically, a bit map of flags. But no flags are defined "
-"yet, so at present it will be always 0. \n"
-"** _mapp_ - pointer to the storage for the new map to be returned \n"
+"_flags_ - theoretically, a bit map of flags. But no flags are defined yet, "
+"so at present it will be always 0."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:388
+msgid "_mapp_ - pointer to the storage for the new map to be returned"
 msgstr ""
 
 #. type: Plain text
@@ -1305,11 +1378,13 @@ msgid "  Destroy a map. Returns 0 on success, the error code otherwise."
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:394
+msgid "dmat - the tag to which the map is associated"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:395
-#, no-wrap
-msgid ""
-"** dmat - the tag to which the map is associated \n"
-"** map - the map to be destroyed \n"
+msgid "map - the map to be destroyed"
 msgstr ""
 
 #. type: Plain text
@@ -1338,54 +1413,71 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:402
+msgid "_map_ - the map"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:403
+msgid "_buf_ - kernel virtual address of the buffer"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:404
+msgid "_buflen_ - length of the buffer"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:405
-#, no-wrap
-msgid ""
-"** _dmat_ - the tag \n"
-"** _map_ - the map \n"
-"** _buf_ - kernel virtual address of the buffer \n"
-"** _buflen_ - length of the buffer \n"
-"** _callback_, `callback_arg` - the callback function and its argument \n"
+msgid "_callback_, `callback_arg` - the callback function and its argument"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:407
-#, no-wrap
 msgid ""
-"\n"
-"The prototype of callback function is: `void callback(void *arg, "
-"bus_dma_segment_t *seg, int nseg, int error)`\n"
+"  The prototype of callback function is: `void callback(void *arg, "
+"bus_dma_segment_t *seg, int nseg, int error)`"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:409
+msgid "_arg_ - the same as callback_arg passed to `bus_dmamap_load()`"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:410
+msgid "_seg_ - array of the segment descriptors"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:411
+msgid "_nseg_ - number of descriptors in array"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:412
-#, no-wrap
 msgid ""
-"** _arg_ - the same as callback_arg passed to `bus_dmamap_load()`\n"
-"** _seg_ - array of the segment descriptors \n"
-"** _nseg_ - number of descriptors in array \n"
-"** _error_ - indication of the segment number overflow: if it is set to "
-"`EFBIG` then the buffer did not fit into the maximal number of segments "
-"permitted by the tag. In this case only the permitted number of descriptors "
-"will be in the array. Handling of this situation is up to the driver: "
-"depending on the desired semantics it can either consider this an error or "
-"split the buffer in two and handle the second part separately \n"
+"_error_ - indication of the segment number overflow: if it is set to `EFBIG` "
+"then the buffer did not fit into the maximal number of segments permitted by "
+"the tag. In this case only the permitted number of descriptors will be in "
+"the array. Handling of this situation is up to the driver: depending on the "
+"desired semantics it can either consider this an error or split the buffer "
+"in two and handle the second part separately"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:414
-#, no-wrap
-msgid ""
-"\n"
-"Each entry in the segments array contains the fields: \n"
+msgid "  Each entry in the segments array contains the fields:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:416
+msgid "_ds_addr_ - physical bus address of the segment"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:417
-#, no-wrap
-msgid ""
-"** _ds_addr_ - physical bus address of the segment \n"
-"** _ds_len_ - length of the segment \n"
+msgid "_ds_len_ - length of the segment"
 msgstr ""
 
 #. type: Plain text
@@ -1399,11 +1491,15 @@ msgid "  unload the map."
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:423
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:430
+msgid "_dmat_ - tag"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:424
-#, no-wrap
-msgid ""
-"** _dmat_ - tag \n"
-"** _map_ - loaded map \n"
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:431
+msgid "_map_ - loaded map"
 msgstr ""
 
 #. type: Plain text
@@ -1425,21 +1521,27 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:432
-#, no-wrap
-msgid ""
-"** _dmat_ - tag \n"
-"** _map_ - loaded map \n"
-"** _op_ - type of synchronization operation to perform: \n"
+msgid "_op_ - type of synchronization operation to perform:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:434
+msgid "`BUS_DMASYNC_PREREAD` - before reading from device into buffer"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:435
+msgid "`BUS_DMASYNC_POSTREAD` - after reading from device into buffer"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:436
+msgid "`BUS_DMASYNC_PREWRITE` - before writing the buffer to device"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:437
-#, no-wrap
-msgid ""
-"** `BUS_DMASYNC_PREREAD` - before reading from device into buffer \n"
-"** `BUS_DMASYNC_POSTREAD` - after reading from device into buffer \n"
-"** `BUS_DMASYNC_PREWRITE` - before writing the buffer to device \n"
-"** `BUS_DMASYNC_POSTWRITE` - after writing the buffer to device \n"
+msgid "`BUS_DMASYNC_POSTWRITE` - after writing the buffer to device"
 msgstr ""
 
 #. type: Plain text
@@ -1780,11 +1882,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:565
+msgid "_chan_ - channel number"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:566
-#, no-wrap
-msgid ""
-"** _chan_ - channel number \n"
-"** _bouncebufsize_ - size of the bounce buffer in bytes \n"
+msgid "_bouncebufsize_ - size of the bounce buffer in bytes"
 msgstr ""
 
 #. type: Plain text
@@ -1812,18 +1916,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:573
+msgid "B_READ - read from the ISA bus into memory"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:574
+msgid "B_WRITE - write from the memory to the ISA bus"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/isa/chapter.adoc:575
-#, no-wrap
 msgid ""
-"** B_READ - read from the ISA bus into memory \n"
-"** B_WRITE - write from the memory to the ISA bus \n"
-"** B_RAW - if set then the DMA controller will remember the buffer and after "
+"B_RAW - if set then the DMA controller will remember the buffer and after "
 "the end of transfer will automatically re-initialize itself to repeat "
 "transfer of the same buffer again (of course, the driver may change the data "
 "in the buffer before initiating another transfer in the device). If not set "
 "then the parameters will work only for one transfer, and `isa_dmastart()` "
 "will have to be called again before initiating the next transfer. Using "
-"B_RAW makes sense only if the bounce buffer is not used. \n"
+"B_RAW makes sense only if the bounce buffer is not used."
 msgstr ""
 
 #. type: Plain text
@@ -2369,7 +2480,8 @@ msgid "If all went well then release all the resources and return success."
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:805 documentation/content/en/books/arch-handbook/isa/chapter.adoc:1068
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:805
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:1068
 #, no-wrap
 msgid ""
 "          xxx_free_resources(sc);\n"
@@ -2386,7 +2498,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:812 documentation/content/en/books/arch-handbook/isa/chapter.adoc:1029
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:812
+#: documentation/content/en/books/arch-handbook/isa/chapter.adoc:1029
 #, no-wrap
 msgid "          bad:\n"
 msgstr ""

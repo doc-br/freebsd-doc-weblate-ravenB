@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,33 +42,8 @@ msgid "The vinum Volume Manager"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:20
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:22 documentation/content/en/articles/vinum/_index.adoc:26 documentation/content/en/articles/vinum/_index.adoc:30
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:24
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:28
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
 #: documentation/content/en/articles/vinum/_index.adoc:32
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:34
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -485,25 +460,28 @@ msgstr ""
 msgid "[.filename]#vinum# Plex Organizations"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:138
+#. type: Table
+#: documentation/content/en/articles/vinum/_index.adoc:150
+#, no-wrap
 msgid ""
-"|=== | Plex type | Minimum subdisks | Can add subdisks | Must be equal size "
-"| Application"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:144
-msgid ""
-"|concatenated |1 |yes |no |Large data storage with maximum placement "
-"flexibility and moderate performance"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/vinum/_index.adoc:151
-msgid ""
-"|striped |2 |no |yes |High performance in combination with highly concurrent "
-"access |==="
+"| Plex type\n"
+"| Minimum subdisks\n"
+"| Can add subdisks\n"
+"| Must be equal size\n"
+"| Application\n"
+"\n"
+"|concatenated\n"
+"|1\n"
+"|yes\n"
+"|no\n"
+"|Large data storage with maximum placement flexibility and moderate "
+"performance\n"
+"\n"
+"|striped\n"
+"|2\n"
+"|no\n"
+"|yes\n"
+"|High performance in combination with highly concurrent access\n"
 msgstr ""
 
 #. type: Title ==

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/zfs/_index.adoc:9
 #, no-wrap
 msgid "The Z File System (ZFS)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:27 documentation/content/en/books/handbook/zfs/_index.adoc:31 documentation/content/en/books/handbook/zfs/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -670,7 +645,23 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:351 documentation/content/en/books/handbook/zfs/_index.adoc:385 documentation/content/en/books/handbook/zfs/_index.adoc:425 documentation/content/en/books/handbook/zfs/_index.adoc:459 documentation/content/en/books/handbook/zfs/_index.adoc:482 documentation/content/en/books/handbook/zfs/_index.adoc:508 documentation/content/en/books/handbook/zfs/_index.adoc:577 documentation/content/en/books/handbook/zfs/_index.adoc:623 documentation/content/en/books/handbook/zfs/_index.adoc:659 documentation/content/en/books/handbook/zfs/_index.adoc:685 documentation/content/en/books/handbook/zfs/_index.adoc:758 documentation/content/en/books/handbook/zfs/_index.adoc:824 documentation/content/en/books/handbook/zfs/_index.adoc:853 documentation/content/en/books/handbook/zfs/_index.adoc:938 documentation/content/en/books/handbook/zfs/_index.adoc:975 documentation/content/en/books/handbook/zfs/_index.adoc:999 documentation/content/en/books/handbook/zfs/_index.adoc:1019
+#: documentation/content/en/books/handbook/zfs/_index.adoc:351
+#: documentation/content/en/books/handbook/zfs/_index.adoc:385
+#: documentation/content/en/books/handbook/zfs/_index.adoc:425
+#: documentation/content/en/books/handbook/zfs/_index.adoc:459
+#: documentation/content/en/books/handbook/zfs/_index.adoc:482
+#: documentation/content/en/books/handbook/zfs/_index.adoc:508
+#: documentation/content/en/books/handbook/zfs/_index.adoc:577
+#: documentation/content/en/books/handbook/zfs/_index.adoc:623
+#: documentation/content/en/books/handbook/zfs/_index.adoc:659
+#: documentation/content/en/books/handbook/zfs/_index.adoc:685
+#: documentation/content/en/books/handbook/zfs/_index.adoc:758
+#: documentation/content/en/books/handbook/zfs/_index.adoc:824
+#: documentation/content/en/books/handbook/zfs/_index.adoc:853
+#: documentation/content/en/books/handbook/zfs/_index.adoc:938
+#: documentation/content/en/books/handbook/zfs/_index.adoc:975
+#: documentation/content/en/books/handbook/zfs/_index.adoc:999
+#: documentation/content/en/books/handbook/zfs/_index.adoc:1019
 #, no-wrap
 msgid "errors: No known data errors\n"
 msgstr ""
@@ -720,7 +711,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:383 documentation/content/en/books/handbook/zfs/_index.adoc:423
+#: documentation/content/en/books/handbook/zfs/_index.adoc:383
+#: documentation/content/en/books/handbook/zfs/_index.adoc:423
 #, no-wrap
 msgid ""
 "\tNAME        STATE     READ WRITE CKSUM\n"
@@ -939,7 +931,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:506 documentation/content/en/books/handbook/zfs/_index.adoc:683 documentation/content/en/books/handbook/zfs/_index.adoc:851
+#: documentation/content/en/books/handbook/zfs/_index.adoc:506
+#: documentation/content/en/books/handbook/zfs/_index.adoc:683
+#: documentation/content/en/books/handbook/zfs/_index.adoc:851
 #, no-wrap
 msgid ""
 "        NAME        STATE     READ WRITE CKSUM\n"
@@ -1003,7 +997,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:528 documentation/content/en/books/handbook/zfs/_index.adoc:706
+#: documentation/content/en/books/handbook/zfs/_index.adoc:528
+#: documentation/content/en/books/handbook/zfs/_index.adoc:706
 #, no-wrap
 msgid ""
 "# zpool status\n"
@@ -1040,7 +1035,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:542 documentation/content/en/books/handbook/zfs/_index.adoc:722
+#: documentation/content/en/books/handbook/zfs/_index.adoc:542
+#: documentation/content/en/books/handbook/zfs/_index.adoc:722
 #, no-wrap
 msgid ""
 "Assuming you use GPT partitioning and 'da0' is your new boot disk\n"
@@ -1090,7 +1086,10 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:575 documentation/content/en/books/handbook/zfs/_index.adoc:600 documentation/content/en/books/handbook/zfs/_index.adoc:657 documentation/content/en/books/handbook/zfs/_index.adoc:712
+#: documentation/content/en/books/handbook/zfs/_index.adoc:575
+#: documentation/content/en/books/handbook/zfs/_index.adoc:600
+#: documentation/content/en/books/handbook/zfs/_index.adoc:657
+#: documentation/content/en/books/handbook/zfs/_index.adoc:712
 #, no-wrap
 msgid ""
 "        NAME        STATE     READ WRITE CKSUM\n"
@@ -1360,7 +1359,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:756 documentation/content/en/books/handbook/zfs/_index.adoc:822
+#: documentation/content/en/books/handbook/zfs/_index.adoc:756
+#: documentation/content/en/books/handbook/zfs/_index.adoc:822
 #, no-wrap
 msgid ""
 "        NAME        STATE     READ WRITE CKSUM\n"
@@ -1571,7 +1571,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:878 documentation/content/en/books/handbook/zfs/_index.adoc:1017
+#: documentation/content/en/books/handbook/zfs/_index.adoc:878
+#: documentation/content/en/books/handbook/zfs/_index.adoc:1017
 #, no-wrap
 msgid ""
 "    NAME        STATE     READ WRITE CKSUM\n"
@@ -1972,7 +1973,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:1095 documentation/content/en/books/handbook/zfs/_index.adoc:1144
+#: documentation/content/en/books/handbook/zfs/_index.adoc:1095
+#: documentation/content/en/books/handbook/zfs/_index.adoc:1144
 #, no-wrap
 msgid ""
 "        NAME        STATE     READ WRITE CKSUM\n"
@@ -1983,7 +1985,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/zfs/_index.adoc:1099 documentation/content/en/books/handbook/zfs/_index.adoc:1148
+#: documentation/content/en/books/handbook/zfs/_index.adoc:1099
+#: documentation/content/en/books/handbook/zfs/_index.adoc:1148
 #, no-wrap
 msgid ""
 "errors: No known data errors\n"
@@ -2941,29 +2944,21 @@ msgid ""
 "first column shows the type of change:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:1612 documentation/content/en/books/handbook/zfs/_index.adoc:2285
-msgid "|==="
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:1615
-msgid "|+ |The path or file was added."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:1618
-msgid "|- |The path or file was deleted."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:1621
-msgid "|M |The path or file was modified."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:1625
-msgid "|R |The path or file was renamed.  |==="
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:1624
+#, no-wrap
+msgid ""
+"|+\n"
+"|The path or file was added.\n"
+"\n"
+"|-\n"
+"|The path or file was deleted.\n"
+"\n"
+"|M\n"
+"|The path or file was modified.\n"
+"\n"
+"|R\n"
+"|The path or file was renamed.\n"
 msgstr ""
 
 #. type: Plain text
@@ -4761,49 +4756,59 @@ msgid ""
 "across the partitions."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2288
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2292
+#, no-wrap
 msgid ""
-"|[[zfs-term-pool]]pool |A storage _pool_ is the most basic building block of "
-"ZFS. A pool is made up of one or more vdevs, the underlying devices that "
-"store the data. A pool is then used to create one or more file systems "
-"(datasets) or block devices (volumes). These datasets and volumes share the "
-"pool of remaining free space. Each pool is uniquely identified by a name and "
-"a GUID. The features available are determined by the ZFS version number on "
-"the pool."
+"|[[zfs-term-pool]]pool\n"
+"|A storage _pool_ is the most basic building block of ZFS. A pool is made up "
+"of one or more vdevs, the underlying devices that store the data. A pool is "
+"then used to create one or more file systems (datasets) or block devices "
+"(volumes). These datasets and volumes share the pool of remaining free "
+"space. Each pool is uniquely identified by a name and a GUID. The features "
+"available are determined by the ZFS version number on the pool.\n"
+"\n"
+"|[[zfs-term-vdev]]vdev Types\n"
+"a|A pool is made up of one or more vdevs, which themselves can be a single "
+"disk or a group of disks, in the case of a RAID transform. When multiple "
+"vdevs are used, ZFS spreads data across the vdevs to increase performance "
+"and maximize usable space. \n"
+"\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2291
-msgid ""
-"|[[zfs-term-vdev]]vdev Types a|A pool is made up of one or more vdevs, which "
-"themselves can be a single disk or a group of disks, in the case of a RAID "
-"transform. When multiple vdevs are used, ZFS spreads data across the vdevs "
-"to increase performance and maximize usable space."
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2293
+#, no-wrap
 msgid ""
 "[[zfs-term-vdev-disk]] _Disk_ - The most basic type of vdev is a standard "
 "block device. This can be an entire disk (such as [.filename]#/dev/ada0# or "
 "[.filename]#/dev/da0#) or a partition ([.filename]#/dev/ada0p3#). On "
 "FreeBSD, there is no performance penalty for using a partition rather than "
 "the entire disk. This differs from recommendations made by the Solaris "
-"documentation."
+"documentation.\n"
 msgstr ""
 
-#. type: delimited block =
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2295
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2304
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2391
+#, no-wrap
+msgid "====\n"
+msgstr ""
+
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2298
+#, no-wrap
 msgid ""
 "Using an entire disk as part of a bootable pool is strongly discouraged, as "
 "this may render the pool unbootable. Likewise, you should not use an entire "
 "disk as part of a mirror or RAID-Z vdev. These are because it is impossible "
 "to reliably determine the size of an unpartitioned disk at boot time and "
-"because there's no place to put in boot code."
+"because there's no place to put in boot code.\n"
+"====\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2301
 msgid ""
 "[[zfs-term-vdev-file]] _File_ - In addition to disks, ZFS pools can be "
@@ -4812,7 +4817,7 @@ msgid ""
 "create`. All vdevs must be at least 128 MB in size."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2302
 msgid ""
 "[[zfs-term-vdev-mirror]] _Mirror_ - When creating a mirror, specify the "
@@ -4823,14 +4828,16 @@ msgid ""
 "members without losing any data."
 msgstr ""
 
-#. type: delimited block =
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2306
+#, no-wrap
 msgid ""
 "A regular single disk vdev can be upgraded to a mirror vdev at any time with "
-"`zpool <<zfs-zpool-attach,attach>>`."
+"`zpool <<zfs-zpool-attach,attach>>`.\n"
+"====\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2309
 msgid ""
 "[[zfs-term-vdev-raidz]] _RAID-Z_ - ZFS implements RAID-Z, a variation on "
@@ -4843,7 +4850,7 @@ msgid ""
 "can fail while the pool remains operational."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2311
 msgid ""
 "  In a RAID-Z1 configuration with four disks, each 1 TB, usable storage is 3 "
@@ -4852,7 +4859,7 @@ msgid ""
 "replaced and resilvered, all data in the pool can be lost."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2313
 msgid ""
 "  In a RAID-Z3 configuration with eight disks of 1 TB, the volume will "
@@ -4862,7 +4869,7 @@ msgid ""
 "vdevs and the pool data will be striped across them."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2315
 msgid ""
 "  A configuration of two RAID-Z2 vdevs consisting of 8 disks each would "
@@ -4873,7 +4880,7 @@ msgid ""
 "yield 5 TB of usable space."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2316
 msgid ""
 "[[zfs-term-vdev-spare]] _Spare_ - ZFS has a special pseudo-vdev type for "
@@ -4882,7 +4889,7 @@ msgid ""
 "failed device using `zfs replace`."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2317
 msgid ""
 "[[zfs-term-vdev-log]] _Log_ - ZFS Log Devices, also known as ZFS Intent Log "
@@ -4894,27 +4901,21 @@ msgid ""
 "load balanced across them."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2318
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2322
 msgid ""
 "[[zfs-term-vdev-cache]] _Cache_ - Adding a cache vdev to a pool will add the "
 "storage of the cache to the <<zfs-term-l2arc,L2ARC>>. Cache devices cannot "
 "be mirrored. Since a cache device only stores additional copies of existing "
-"data, there is no risk of data loss."
+"data, there is no risk of data loss.  |[[zfs-term-txg]] Transaction Group "
+"(TXG)  |Transaction Groups are the way changed blocks are grouped together "
+"and eventually written to the pool. Transaction groups are the atomic unit "
+"that ZFS uses to assert consistency. Each transaction group is assigned a "
+"unique 64-bit consecutive identifier. There can be up to three active "
+"transaction groups at a time, one in each of these three states:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2321
-msgid ""
-"|[[zfs-term-txg]] Transaction Group (TXG)  |Transaction Groups are the way "
-"changed blocks are grouped together and eventually written to the "
-"pool. Transaction groups are the atomic unit that ZFS uses to assert "
-"consistency. Each transaction group is assigned a unique 64-bit consecutive "
-"identifier. There can be up to three active transaction groups at a time, "
-"one in each of these three states:"
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2323
 msgid ""
 "_Open_ - When a new transaction group is created, it is in the open state, "
@@ -4925,7 +4926,7 @@ msgid ""
 "the transaction group advances to the next state."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2324
 msgid ""
 "_Quiescing_ - A short state that allows any pending operations to finish "
@@ -4934,7 +4935,7 @@ msgid ""
 "to the final state."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2325
 msgid ""
 "_Syncing_ - All of the data in the transaction group is written to stable "
@@ -4951,39 +4952,28 @@ msgid ""
 "quiescing state is advanced to the syncing state."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2326
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2357
 msgid ""
 "All administrative functions, such as <<zfs-term-snapshot,`snapshot`>> are "
 "written as part of the transaction group. When a synctask is created, it is "
 "added to the currently open transaction group, and that group is advanced as "
 "quickly as possible to the syncing state to reduce the latency of "
-"administrative commands."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2329
-msgid ""
-"|[[zfs-term-arc]]Adaptive Replacement Cache (ARC)  |ZFS uses an Adaptive "
-"Replacement Cache (ARC), rather than a more traditional Least Recently Used "
-"(LRU) cache. An LRU cache is a simple list of items in the cache, sorted by "
-"when each object was most recently used. New items are added to the top of "
-"the list. When the cache is full, items from the bottom of the list are "
-"evicted to make room for more active objects. An ARC consists of four lists; "
-"the Most Recently Used (MRU) and Most Frequently Used (MFU) objects, plus a "
-"ghost list for each. These ghost lists track recently evicted objects to "
-"prevent them from being added back to the cache. This increases the cache "
-"hit ratio by avoiding objects that have a history of only being used "
-"occasionally. Another advantage of using both an MRU and MFU is that "
-"scanning an entire file system would normally evict all data from an MRU or "
-"LRU cache in favor of this freshly accessed content. With ZFS, there is also "
-"an MFU that only tracks the most frequently used objects, and the cache of "
-"the most commonly accessed blocks remains."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2332
-msgid ""
+"administrative commands.  |[[zfs-term-arc]]Adaptive Replacement Cache (ARC)  "
+"|ZFS uses an Adaptive Replacement Cache (ARC), rather than a more "
+"traditional Least Recently Used (LRU) cache. An LRU cache is a simple list "
+"of items in the cache, sorted by when each object was most recently "
+"used. New items are added to the top of the list. When the cache is full, "
+"items from the bottom of the list are evicted to make room for more active "
+"objects. An ARC consists of four lists; the Most Recently Used (MRU) and "
+"Most Frequently Used (MFU) objects, plus a ghost list for each. These ghost "
+"lists track recently evicted objects to prevent them from being added back "
+"to the cache. This increases the cache hit ratio by avoiding objects that "
+"have a history of only being used occasionally. Another advantage of using "
+"both an MRU and MFU is that scanning an entire file system would normally "
+"evict all data from an MRU or LRU cache in favor of this freshly accessed "
+"content. With ZFS, there is also an MFU that only tracks the most frequently "
+"used objects, and the cache of the most commonly accessed blocks remains.  "
 "|[[zfs-term-l2arc]]L2ARC |L2ARC is the second level of the ZFS caching "
 "system. The primary ARC is stored in RAM. Since the amount of available RAM "
 "is often limited, ZFS can also use <<zfs-term-vdev-cache,cache "
@@ -5003,12 +4993,7 @@ msgid ""
 "limits. <<zfs-advanced-tuning-l2arc_write_max,`vfs.zfs.l2arc_write_max`>> "
 "controls how many bytes are written to the cache per second, while "
 "<<zfs-advanced-tuning-l2arc_write_boost,`vfs.zfs.l2arc_write_boost`>> adds "
-"to this limit during the \"Turbo Warmup Phase\" (Write Boost)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2335
-msgid ""
+"to this limit during the \"Turbo Warmup Phase\" (Write Boost).  "
 "|[[zfs-term-zil]]ZIL |ZIL accelerates synchronous transactions by using "
 "storage devices like SSDs that are faster than those used in the main "
 "storage pool. When an application requests a synchronous write (a guarantee "
@@ -5017,25 +5002,14 @@ msgid ""
 "flushed out to the regular disks. This greatly reduces latency and improves "
 "performance. Only synchronous workloads like databases will benefit from a "
 "ZIL. Regular asynchronous writes such as copying files will not use the ZIL "
-"at all."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2338
-msgid ""
-"|[[zfs-term-cow]]Copy-On-Write |Unlike a traditional file system, when data "
-"is overwritten on ZFS, the new data is written to a different block rather "
-"than overwriting the old data in place. Only when this write is complete is "
-"the metadata then updated to point to the new location. In the event of a "
-"shorn write (a system crash or power loss in the middle of writing a file), "
-"the entire original contents of the file are still available and the "
-"incomplete write is discarded. This also means that ZFS does not require a "
-"man:fsck[8] after an unexpected shutdown."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2341
-msgid ""
+"at all.  |[[zfs-term-cow]]Copy-On-Write |Unlike a traditional file system, "
+"when data is overwritten on ZFS, the new data is written to a different "
+"block rather than overwriting the old data in place. Only when this write is "
+"complete is the metadata then updated to point to the new location. In the "
+"event of a shorn write (a system crash or power loss in the middle of "
+"writing a file), the entire original contents of the file are still "
+"available and the incomplete write is discarded. This also means that ZFS "
+"does not require a man:fsck[8] after an unexpected shutdown.  "
 "|[[zfs-term-dataset]]Dataset |_Dataset_ is the generic term for a ZFS file "
 "system, volume, snapshot or clone. Each dataset has a unique name in the "
 "format _poolname/path@snapshot_. The root of the pool is technically a "
@@ -5046,31 +5020,15 @@ msgid ""
 "from the parent and grandparent. Properties on a child can be set to "
 "override the defaults inherited from the parents and "
 "grandparents. Administration of datasets and their children can be "
-"<<zfs-zfs-allow,delegated>>."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2344
-msgid ""
-"|[[zfs-term-filesystem]]File system |A ZFS dataset is most often used as a "
-"file system. Like most other file systems, a ZFS file system is mounted "
-"somewhere in the systems directory hierarchy and contains files and "
-"directories of its own with permissions, flags, and other metadata."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2347
-msgid ""
-"|[[zfs-term-volume]]Volume |In additional to regular file system datasets, "
-"ZFS can also create volumes, which are block devices. Volumes have many of "
-"the same features, including copy-on-write, snapshots, clones, and "
+"<<zfs-zfs-allow,delegated>>.  |[[zfs-term-filesystem]]File system |A ZFS "
+"dataset is most often used as a file system. Like most other file systems, a "
+"ZFS file system is mounted somewhere in the systems directory hierarchy and "
+"contains files and directories of its own with permissions, flags, and other "
+"metadata.  |[[zfs-term-volume]]Volume |In additional to regular file system "
+"datasets, ZFS can also create volumes, which are block devices. Volumes have "
+"many of the same features, including copy-on-write, snapshots, clones, and "
 "checksumming. Volumes can be useful for running other file system formats on "
-"top of ZFS, such as UFS virtualization, or exporting iSCSI extents."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2350
-msgid ""
+"top of ZFS, such as UFS virtualization, or exporting iSCSI extents.  "
 "|[[zfs-term-snapshot]]Snapshot |The <<zfs-term-cow,copy-on-write>> (COW) "
 "design of ZFS allows for nearly instantaneous, consistent snapshots with "
 "arbitrary names. After taking a snapshot of a dataset, or a recursive "
@@ -5093,12 +5051,7 @@ msgid ""
 "it will return an `EBUSY` error. Each snapshot can have multiple holds, each "
 "with a unique name. The <<zfs-zfs-snapshot,release>> command removes the "
 "hold so the snapshot can deleted. Snapshots can be taken on volumes, but "
-"they can only be cloned or rolled back, not mounted independently."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2353
-msgid ""
+"they can only be cloned or rolled back, not mounted independently.  "
 "|[[zfs-term-clone]]Clone |Snapshots can also be cloned. A clone is a "
 "writable version of a snapshot, allowing the file system to be forked as a "
 "new dataset. As with a snapshot, a clone initially consumes no additional "
@@ -5110,12 +5063,7 @@ msgid ""
 "is the child. Clones can be _promoted_, reversing this dependency and making "
 "the clone the parent and the previous parent the child. This operation "
 "requires no additional space. Since the amount of space used by the parent "
-"and child is reversed, existing quotas and reservations might be affected."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2356
-msgid ""
+"and child is reversed, existing quotas and reservations might be affected.  "
 "|[[zfs-term-checksum]]Checksum |Every block that is allocated is also "
 "checksummed. The checksum algorithm used is a per-dataset property, see "
 "<<zfs-zfs-set,`set`>>. The checksum of each block is transparently validated "
@@ -5126,32 +5074,27 @@ msgid ""
 "algorithms include:"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2358
 msgid "`fletcher2`"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2359
 msgid "`fletcher4`"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2360
 msgid "`sha256`"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2361
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2365
 msgid ""
 "The `fletcher` algorithms are faster, but `sha256` is a strong cryptographic "
 "hash and has a much lower chance of collisions at the cost of some "
-"performance. Checksums can be disabled, but it is not recommended."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2364
-msgid ""
+"performance. Checksums can be disabled, but it is not recommended.  "
 "|[[zfs-term-compression]]Compression |Each dataset has a compression "
 "property, which defaults to off. This property can be set to one of a number "
 "of compression algorithms. This will cause all new data that is written to "
@@ -5159,7 +5102,7 @@ msgid ""
 "write throughput often increases because fewer blocks are read or written."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2367
 msgid ""
 "_LZ4_ - Added in ZFS pool version 5000 (feature flags), LZ4 is now the "
@@ -5170,7 +5113,7 @@ msgid ""
 "at over 500 MB/s, and decompress at over 1.5 GB/s (per single CPU core)."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2369
 msgid ""
 "_LZJB_ - The default compression algorithm. Created by Jeff Bonwick (one of "
@@ -5179,7 +5122,7 @@ msgid ""
 "will likely change to LZ4."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2371
 msgid ""
 "_GZIP_ - A popular stream compression algorithm available in ZFS. One of the "
@@ -5190,17 +5133,12 @@ msgid ""
 "control over how much CPU time to trade for saved disk space."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2373
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2390
 msgid ""
 "_ZLE_ - Zero Length Encoding is a special compression algorithm that only "
 "compresses continuous runs of zeros. This compression algorithm is only "
-"useful when the dataset contains large blocks of zeros."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2376
-msgid ""
+"useful when the dataset contains large blocks of zeros.  "
 "|[[zfs-term-copies]]Copies |When set to a value greater than 1, the `copies` "
 "property instructs ZFS to maintain multiple copies of each block in the "
 "<<zfs-term-filesystem,File System>> or <<zfs-term-volume,Volume>>. Setting "
@@ -5209,39 +5147,28 @@ msgid ""
 "redundancy, the copies feature is the only form of redundancy. The copies "
 "feature can recover from a single bad sector or other forms of minor "
 "corruption, but it does not protect the pool from the loss of an entire "
-"disk."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2379
-msgid ""
-"|[[zfs-term-deduplication]]Deduplication |Checksums make it possible to "
-"detect duplicate blocks of data as they are written. With deduplication, the "
-"reference count of an existing, identical block is increased, saving storage "
-"space. To detect duplicate blocks, a deduplication table (DDT) is kept in "
-"memory. The table contains a list of unique checksums, the location of those "
-"blocks, and a reference count. When new data is written, the checksum is "
-"calculated and compared to the list. If a match is found, the existing block "
-"is used. The SHA256 checksum algorithm is used with deduplication to provide "
-"a secure cryptographic hash. Deduplication is tunable. If `dedup` is `on`, "
-"then a matching checksum is assumed to mean that the data is identical. If "
-"`dedup` is set to `verify`, then the data in the two blocks will be checked "
-"byte-for-byte to ensure it is actually identical. If the data is not "
-"identical, the hash collision will be noted and the two blocks will be "
-"stored separately. As DDT must store the hash of each unique block, it "
-"consumes a very large amount of memory. A general rule of thumb is 5-6 GB of "
-"ram per 1 TB of deduplicated data). In situations where it is not practical "
-"to have enough RAM to keep the entire DDT in memory, performance will suffer "
-"greatly as the DDT must be read from disk before each new block is "
-"written. Deduplication can use L2ARC to store the DDT, providing a middle "
-"ground between fast system memory and slower disks. Consider using "
-"compression instead, which often provides nearly as much space savings "
-"without the additional memory requirement."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2382
-msgid ""
+"disk.  |[[zfs-term-deduplication]]Deduplication |Checksums make it possible "
+"to detect duplicate blocks of data as they are written. With deduplication, "
+"the reference count of an existing, identical block is increased, saving "
+"storage space. To detect duplicate blocks, a deduplication table (DDT) is "
+"kept in memory. The table contains a list of unique checksums, the location "
+"of those blocks, and a reference count. When new data is written, the "
+"checksum is calculated and compared to the list. If a match is found, the "
+"existing block is used. The SHA256 checksum algorithm is used with "
+"deduplication to provide a secure cryptographic hash. Deduplication is "
+"tunable. If `dedup` is `on`, then a matching checksum is assumed to mean "
+"that the data is identical. If `dedup` is set to `verify`, then the data in "
+"the two blocks will be checked byte-for-byte to ensure it is actually "
+"identical. If the data is not identical, the hash collision will be noted "
+"and the two blocks will be stored separately. As DDT must store the hash of "
+"each unique block, it consumes a very large amount of memory. A general rule "
+"of thumb is 5-6 GB of ram per 1 TB of deduplicated data). In situations "
+"where it is not practical to have enough RAM to keep the entire DDT in "
+"memory, performance will suffer greatly as the DDT must be read from disk "
+"before each new block is written. Deduplication can use L2ARC to store the "
+"DDT, providing a middle ground between fast system memory and slower "
+"disks. Consider using compression instead, which often provides nearly as "
+"much space savings without the additional memory requirement.  "
 "|[[zfs-term-scrub]]Scrub |Instead of a consistency check like man:fsck[8], "
 "ZFS has `scrub`. `scrub` reads all data blocks stored on the pool and "
 "verifies their checksums against the known good checksums stored in the "
@@ -5254,154 +5181,85 @@ msgid ""
 "especially in archival storage situations. The relative priority of `scrub` "
 "can be adjusted with "
 "<<zfs-advanced-tuning-scrub_delay,`vfs.zfs.scrub_delay`>> to prevent the "
-"scrub from degrading the performance of other workloads on the pool."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2385
-msgid ""
+"scrub from degrading the performance of other workloads on the pool.  "
 "|[[zfs-term-quota]]Dataset Quota a|ZFS provides very fast and accurate "
 "dataset, user, and group space accounting in addition to quotas and space "
 "reservations. This gives the administrator fine grained control over how "
 "space is allocated and allows space to be reserved for critical file "
-"systems."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2387
-msgid ""
-"ZFS supports different types of quotas: the dataset quota, the "
+"systems.  ZFS supports different types of quotas: the dataset quota, the "
 "<<zfs-term-refquota,reference quota (refquota)>>, the "
 "<<zfs-term-userquota,user quota>>, and the <<zfs-term-groupquota,group "
-"quota>>."
+"quota>>.  Quotas limit the amount of space that a dataset and all of its "
+"descendants, including snapshots of the dataset, child datasets, and the "
+"snapshots of those datasets, can consume."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2389
-msgid ""
-"Quotas limit the amount of space that a dataset and all of its descendants, "
-"including snapshots of the dataset, child datasets, and the snapshots of "
-"those datasets, can consume."
-msgstr ""
-
-#. type: delimited block =
+#. type: Table
 #: documentation/content/en/books/handbook/zfs/_index.adoc:2393
+#, no-wrap
 msgid ""
 "Quotas cannot be set on volumes, as the `volsize` property acts as an "
-"implicit quota."
+"implicit quota.\n"
+"====\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2397
+#. type: Table
+#: documentation/content/en/books/handbook/zfs/_index.adoc:2426
 msgid ""
 "|[[zfs-term-refquota]]Reference Quota |A reference quota limits the amount "
 "of space a dataset can consume by enforcing a hard limit. However, this hard "
 "limit includes only space that the dataset references and does not include "
-"space used by descendants, such as file systems or snapshots."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2400
-msgid ""
+"space used by descendants, such as file systems or snapshots.  "
 "|[[zfs-term-userquota]]User Quota |User quotas are useful to limit the "
-"amount of space that can be used by the specified user."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2403
-msgid ""
+"amount of space that can be used by the specified user.  "
 "|[[zfs-term-groupquota]]Group Quota |The group quota limits the amount of "
-"space that a specified group can consume."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2406
-msgid ""
-"|[[zfs-term-reservation]]Dataset Reservation |The `reservation` property "
-"makes it possible to guarantee a minimum amount of space for a specific "
-"dataset and its descendants. If a 10 GB reservation is set on "
-"[.filename]#storage/home/bob#, and another dataset tries to use all of the "
-"free space, at least 10 GB of space is reserved for this dataset. If a "
-"snapshot is taken of [.filename]#storage/home/bob#, the space used by that "
-"snapshot is counted against the reservation. The "
+"space that a specified group can consume.  |[[zfs-term-reservation]]Dataset "
+"Reservation |The `reservation` property makes it possible to guarantee a "
+"minimum amount of space for a specific dataset and its descendants. If a 10 "
+"GB reservation is set on [.filename]#storage/home/bob#, and another dataset "
+"tries to use all of the free space, at least 10 GB of space is reserved for "
+"this dataset. If a snapshot is taken of [.filename]#storage/home/bob#, the "
+"space used by that snapshot is counted against the reservation. The "
 "<<zfs-term-refreservation,`refreservation`>> property works in a similar "
-"way, but it _excludes_ descendants like snapshots."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2408
-msgid ""
-"Reservations of any sort are useful in many situations, such as planning and "
-"testing the suitability of disk space allocation in a new system, or "
-"ensuring that enough space is available on file systems for audio logs or "
-"system recovery procedures and files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2411
-msgid ""
-"|[[zfs-term-refreservation]]Reference Reservation |The `refreservation` "
-"property makes it possible to guarantee a minimum amount of space for the "
-"use of a specific dataset _excluding_ its descendants. This means that if a "
-"10 GB reservation is set on [.filename]#storage/home/bob#, and another "
-"dataset tries to use all of the free space, at least 10 GB of space is "
-"reserved for this dataset. In contrast to a regular "
+"way, but it _excludes_ descendants like snapshots.  Reservations of any sort "
+"are useful in many situations, such as planning and testing the suitability "
+"of disk space allocation in a new system, or ensuring that enough space is "
+"available on file systems for audio logs or system recovery procedures and "
+"files.  |[[zfs-term-refreservation]]Reference Reservation |The "
+"`refreservation` property makes it possible to guarantee a minimum amount of "
+"space for the use of a specific dataset _excluding_ its descendants. This "
+"means that if a 10 GB reservation is set on [.filename]#storage/home/bob#, "
+"and another dataset tries to use all of the free space, at least 10 GB of "
+"space is reserved for this dataset. In contrast to a regular "
 "<<zfs-term-reservation,reservation>>, space used by snapshots and descendant "
 "datasets is not counted against the reservation. For example, if a snapshot "
 "is taken of [.filename]#storage/home/bob#, enough disk space must exist "
 "outside of the `refreservation` amount for the operation to "
 "succeed. Descendants of the main data set are not counted in the "
-"`refreservation` amount and so do not encroach on the space set."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2414
-msgid ""
+"`refreservation` amount and so do not encroach on the space set.  "
 "|[[zfs-term-resilver]]Resilver |When a disk fails and is replaced, the new "
 "disk must be filled with the data that was lost. The process of using the "
 "parity information distributed across the remaining drives to calculate and "
-"write the missing data to the new drive is called _resilvering_."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2417
-msgid ""
+"write the missing data to the new drive is called _resilvering_.  "
 "|[[zfs-term-online]]Online |A pool or vdev in the `Online` state has all of "
 "its member devices connected and fully operational. Individual devices in "
-"the `Online` state are functioning normally."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2420
-msgid ""
-"|[[zfs-term-offline]]Offline |Individual devices can be put in an `Offline` "
-"state by the administrator if there is sufficient redundancy to avoid "
-"putting the pool or vdev into a <<zfs-term-faulted,Faulted>> state. An "
-"administrator may choose to offline a disk in preparation for replacing it, "
-"or to make it easier to identify."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2423
-msgid ""
+"the `Online` state are functioning normally.  |[[zfs-term-offline]]Offline "
+"|Individual devices can be put in an `Offline` state by the administrator if "
+"there is sufficient redundancy to avoid putting the pool or vdev into a "
+"<<zfs-term-faulted,Faulted>> state. An administrator may choose to offline a "
+"disk in preparation for replacing it, or to make it easier to identify.  "
 "|[[zfs-term-degraded]]Degraded |A pool or vdev in the `Degraded` state has "
 "one or more disks that have been disconnected or have failed. The pool is "
 "still usable, but if additional devices fail, the pool could become "
 "unrecoverable. Reconnecting the missing devices or replacing the failed "
 "disks will return the pool to an <<zfs-term-online,Online>> state after the "
 "reconnected or new device has completed the <<zfs-term-resilver,Resilver>> "
-"process."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/zfs/_index.adoc:2426
-msgid ""
-"|[[zfs-term-faulted]]Faulted |A pool or vdev in the `Faulted` state is no "
-"longer operational. The data on it can no longer be accessed. A pool or vdev "
-"enters the `Faulted` state when the number of missing or failed devices "
-"exceeds the level of redundancy in the vdev. If missing devices can be "
-"reconnected, the pool will return to a <<zfs-term-online,Online>> state. If "
-"there is insufficient redundancy to compensate for the number of failed "
-"disks, then the contents of the pool are lost and must be restored from "
-"backups.  |==="
+"process.  |[[zfs-term-faulted]]Faulted |A pool or vdev in the `Faulted` "
+"state is no longer operational. The data on it can no longer be accessed. A "
+"pool or vdev enters the `Faulted` state when the number of missing or failed "
+"devices exceeds the level of redundancy in the vdev. If missing devices can "
+"be reconnected, the pool will return to a <<zfs-term-online,Online>> "
+"state. If there is insufficient redundancy to compensate for the number of "
+"failed disks, then the contents of the pool are lost and must be restored "
+"from backups."
 msgstr ""

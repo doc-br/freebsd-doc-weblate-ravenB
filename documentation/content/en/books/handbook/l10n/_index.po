@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/l10n/_index.adoc:9
 #, no-wrap
 msgid "Localization - i18n/L10n Usage and Setup"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:27 documentation/content/en/books/handbook/l10n/_index.adoc:31 documentation/content/en/books/handbook/l10n/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -173,24 +148,21 @@ msgstr ""
 msgid "Common Language and Country Codes"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:82
-msgid "|=== | LanguageCode_Country Code | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:85
-msgid "|en_US |English, United States"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:88
-msgid "|ru_RU |Russian, Russia"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:92
-msgid "|zh_TW |Traditional Chinese, Taiwan |==="
+#. type: Table
+#: documentation/content/en/books/handbook/l10n/_index.adoc:91
+#, no-wrap
+msgid ""
+"| LanguageCode_Country Code\n"
+"| Description\n"
+"\n"
+"|en_US\n"
+"|English, United States\n"
+"\n"
+"|ru_RU\n"
+"|Russian, Russia\n"
+"\n"
+"|zh_TW\n"
+"|Traditional Chinese, Taiwan\n"
 msgstr ""
 
 #. type: Plain text
@@ -642,44 +614,33 @@ msgstr ""
 msgid "Defined Terminal Types for Character Sets"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:304
-msgid "|=== | Character Set | Terminal Type"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:307
-msgid "|ISO8859-1 or ISO8859-15 |`cons25l1`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:310
-msgid "|ISO8859-2 |`cons25l2`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:313
-msgid "|ISO8859-7 |`cons25l7`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:316
-msgid "|KOI8-R |`cons25r`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:319
-msgid "|KOI8-U |`cons25u`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:322
-msgid "|CP437 (VGA default)  |`cons25`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:326
-msgid "|US-ASCII |`cons25w` |==="
+#. type: Table
+#: documentation/content/en/books/handbook/l10n/_index.adoc:325
+#, no-wrap
+msgid ""
+"| Character Set\n"
+"| Terminal Type\n"
+"\n"
+"|ISO8859-1 or ISO8859-15\n"
+"|`cons25l1`\n"
+"\n"
+"|ISO8859-2\n"
+"|`cons25l2`\n"
+"\n"
+"|ISO8859-7\n"
+"|`cons25l7`\n"
+"\n"
+"|KOI8-R\n"
+"|`cons25r`\n"
+"\n"
+"|KOI8-U\n"
+"|`cons25u`\n"
+"\n"
+"|CP437 (VGA default)\n"
+"|`cons25`\n"
+"\n"
+"|US-ASCII\n"
+"|`cons25w`\n"
 msgstr ""
 
 #. type: Plain text
@@ -698,39 +659,30 @@ msgstr ""
 msgid "Available Console from Ports Collection"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:335
-msgid "|=== | Language | Port Location"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:338
-msgid "|Traditional Chinese (BIG-5)  |package:chinese/big5con[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:341
-msgid "|Chinese/Japanese/Korean |package:chinese/cce[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:344
-msgid "|Chinese/Japanese/Korean |package:chinese/zhcon[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:347
-msgid "|Japanese |package:chinese/kon2[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:350
-msgid "|Japanese |package:japanese/kon2-14dot[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:354
-msgid "|Japanese |package:japanese/kon2-16dot[] |==="
+#. type: Table
+#: documentation/content/en/books/handbook/l10n/_index.adoc:353
+#, no-wrap
+msgid ""
+"| Language\n"
+"| Port Location\n"
+"\n"
+"|Traditional Chinese (BIG-5)\n"
+"|package:chinese/big5con[]\n"
+"\n"
+"|Chinese/Japanese/Korean\n"
+"|package:chinese/cce[]\n"
+"\n"
+"|Chinese/Japanese/Korean\n"
+"|package:chinese/zhcon[]\n"
+"\n"
+"|Japanese\n"
+"|package:chinese/kon2[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/kon2-14dot[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/kon2-16dot[]\n"
 msgstr ""
 
 #. type: Plain text
@@ -781,169 +733,108 @@ msgstr ""
 msgid "Available Input Methods"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:374
-msgid "|=== | Language | Input Method"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:377
-msgid "|Chinese |package:chinese/gcin[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:380
-msgid "|Chinese |package:chinese/ibus-chewing[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:383
-msgid "|Chinese |package:chinese/ibus-pinyin[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:386
-msgid "|Chinese |package:chinese/oxim[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:389
-msgid "|Chinese |package:chinese/scim-fcitx[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:392
-msgid "|Chinese |package:chinese/scim-pinyin[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:395
-msgid "|Chinese |package:chinese/scim-tables[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:398
-msgid "|Japanese |package:japanese/ibus-anthy[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:401
-msgid "|Japanese |package:japanese/ibus-mozc[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:404
-msgid "|Japanese |package:japanese/ibus-skk[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:407
-msgid "|Japanese |package:japanese/im-ja[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:410
-msgid "|Japanese |package:japanese/kinput2[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:413
-msgid "|Japanese |package:japanese/scim-anthy[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:416
-msgid "|Japanese |package:japanese/scim-canna[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:419
-msgid "|Japanese |package:japanese/scim-honoka[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:422
-msgid "|Japanese |package:japanese/scim-honoka-plugin-romkan[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:425
-msgid "|Japanese |package:japanese/scim-honoka-plugin-wnn[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:428
-msgid "|Japanese |package:japanese/scim-prime[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:431
-msgid "|Japanese |package:japanese/scim-skk[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:434
-msgid "|Japanese |package:japanese/scim-tables[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:437
-msgid "|Japanese |package:japanese/scim-tomoe[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:440
-msgid "|Japanese |package:japanese/scim-uim[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:443
-msgid "|Japanese |package:japanese/skkinput[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:446
-msgid "|Japanese |package:japanese/skkinput3[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:449
-msgid "|Japanese |package:japanese/uim-anthy[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:452
-msgid "|Korean |package:korean/ibus-hangul[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:455
-msgid "|Korean |package:korean/imhangul[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:458
-msgid "|Korean |package:korean/nabi[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:461
-msgid "|Korean |package:korean/scim-hangul[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:464
-msgid "|Korean |package:korean/scim-tables[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:467
-msgid "|Vietnamese |package:vietnamese/xvnkb[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/l10n/_index.adoc:471
-msgid "|Vietnamese |package:vietnamese/x-unikey[] |==="
+#. type: Table
+#: documentation/content/en/books/handbook/l10n/_index.adoc:470
+#, no-wrap
+msgid ""
+"| Language\n"
+"| Input Method\n"
+"\n"
+"|Chinese\n"
+"|package:chinese/gcin[]\n"
+"\n"
+"|Chinese\n"
+"|package:chinese/ibus-chewing[]\n"
+"\n"
+"|Chinese\n"
+"|package:chinese/ibus-pinyin[]\n"
+"\n"
+"|Chinese\n"
+"|package:chinese/oxim[]\n"
+"\n"
+"|Chinese\n"
+"|package:chinese/scim-fcitx[]\n"
+"\n"
+"|Chinese\n"
+"|package:chinese/scim-pinyin[]\n"
+"\n"
+"|Chinese\n"
+"|package:chinese/scim-tables[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/ibus-anthy[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/ibus-mozc[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/ibus-skk[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/im-ja[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/kinput2[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-anthy[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-canna[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-honoka[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-honoka-plugin-romkan[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-honoka-plugin-wnn[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-prime[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-skk[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-tables[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-tomoe[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/scim-uim[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/skkinput[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/skkinput3[]\n"
+"\n"
+"|Japanese\n"
+"|package:japanese/uim-anthy[]\n"
+"\n"
+"|Korean\n"
+"|package:korean/ibus-hangul[]\n"
+"\n"
+"|Korean\n"
+"|package:korean/imhangul[]\n"
+"\n"
+"|Korean\n"
+"|package:korean/nabi[]\n"
+"\n"
+"|Korean\n"
+"|package:korean/scim-hangul[]\n"
+"\n"
+"|Korean\n"
+"|package:korean/scim-tables[]\n"
+"\n"
+"|Vietnamese\n"
+"|package:vietnamese/xvnkb[]\n"
+"\n"
+"|Vietnamese\n"
+"|package:vietnamese/x-unikey[]\n"
 msgstr ""
 
 #. type: Title ==

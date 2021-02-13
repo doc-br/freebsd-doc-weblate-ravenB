@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,62 +70,143 @@ msgid "<<upgrade,Upgrading from Previous Releases of FreeBSD>>"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:17
+msgid "<<security-errata,Security and Errata>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:18
+msgid "<<security,Security Advisories>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:19
-msgid ""
-"<<security-errata,Security and Errata>> ** <<security,Security Advisories>> "
-"** <<errata,Errata Notices>>"
+msgid "<<errata,Errata Notices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:20
+msgid "<<userland,Userland>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:21
+msgid "<<userland-config,Userland Configuration Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:22
+msgid "<<userland-programs,Userland Application Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:23
+msgid "<<userland-contrib,Contributed Software>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:24
+msgid "<<userland-installer,Installation and Configuration Tools>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:25
+msgid "<<userland-libraries,Runtime Libraries and API>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:26
+msgid "<<userland-abi,ABI Compatibility>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:27
-msgid ""
-"<<userland,Userland>> ** <<userland-config,Userland Configuration Changes>> "
-"** <<userland-programs,Userland Application Changes>> ** "
-"<<userland-contrib,Contributed Software>> ** "
-"<<userland-installer,Installation and Configuration Tools>> ** "
-"<<userland-libraries,Runtime Libraries and API>> ** <<userland-abi,ABI "
-"Compatibility>> ** <<userland-debug, Userland Debugging>>"
+msgid "<<userland-debug, Userland Debugging>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:28
+msgid "<<kernel,Kernel>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:29
+msgid "<<kernel-misc,Miscellaneous Kernel Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:30
+msgid "<<kernel-bugfix,Kernel Bug Fixes>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:31
-msgid ""
-"<<kernel,Kernel>> ** <<kernel-misc,Miscellaneous Kernel Changes>> ** "
-"<<kernel-bugfix,Kernel Bug Fixes>> ** <<kernel-sysctl,System Tuning and "
-"Controls>>"
+msgid "<<kernel-sysctl,System Tuning and Controls>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:32
+msgid "<<drivers,Devices and Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:33
+msgid "<<drivers-device, Device Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:34
+msgid "<<drivers-storage,Storage Drivers>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:35
-msgid ""
-"<<drivers,Devices and Drivers>> ** <<drivers-device, Device Drivers>> ** "
-"<<drivers-storage,Storage Drivers>> ** <<drivers-network,Network Drivers>>"
+msgid "<<drivers-network,Network Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:36
+msgid "<<hardware,Hardware Support>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:37
-msgid ""
-"<<hardware,Hardware Support>> ** <<hardware-virtualization,Virtualization "
-"Support>>"
+msgid "<<hardware-virtualization,Virtualization Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:38
+msgid "<<storage,Storage>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:39
-msgid "<<storage,Storage>> ** <<storage-net,Networked Storage>>"
+msgid "<<storage-net,Networked Storage>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:40
+msgid "<<network,Networking>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:41
+msgid "<<network-general, General Networking Changes>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:42
-msgid ""
-"<<network,Networking>> ** <<network-general, General Networking Changes>> ** "
-"<<network-protocols,Network Protocols>>"
+msgid "<<network-protocols,Network Protocols>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/relnotes.adoc:43
+msgid "<<ports,Ports Collection and Package Infrastructure>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/relnotes.adoc:44
-msgid ""
-"<<ports,Ports Collection and Package Infrastructure>> ** "
-"<<ports-packages,Packaging Changes>>"
+msgid "<<ports-packages,Packaging Changes>>"
 msgstr ""
 
 #. type: Title ==
@@ -237,69 +318,70 @@ msgstr ""
 msgid "Security Advisories"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/10.4R/relnotes.adoc:107
+#. type: Table
+#: website/content/en/releases/10.4R/relnotes.adoc:106
+#, no-wrap
 msgid ""
-"|=== |Advisory |Date |Topic "
+"|Advisory |Date |Topic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:09.ntp.asc[FreeBSD-SA-16:09.ntp] "
-"|29 April 2016 |Multiple ntp vulnerabilities.  "
+"|29 April 2016 |Multiple ntp vulnerabilities.\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:17.openssl.asc[FreeBSD-SA-16:17.openssl] "
-"|29 April 2016 |Multiple OpenSSL vulnerabilities.  "
+"|29 April 2016 |Multiple OpenSSL vulnerabilities.\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:18.atkbd.asc[FreeBSD-SA-16:18.atkbd] "
-"|17 May 2016 |Keyboard driver buffer overflow "
+"|17 May 2016 |Keyboard driver buffer overflow\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:19.sendmsg.asc[FreeBSD-SA-16:19.sendmsg] "
 "|17 May 2016 |Incorrect argument handling in "
-"https://www.FreeBSD.org/cgi/man.cgi?query=sendmsg&sektion=2&manpath=freebsd-release-ports[sendmsg(2)] "
+"https://www.FreeBSD.org/cgi/man.cgi?query=sendmsg&sektion=2&manpath=freebsd-release-ports[sendmsg(2)]\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:20.linux.asc[FreeBSD-SA-16:20.linux] "
-"|31 May 2016 |Kernel stack disclosure in Linux compatibility layer "
+"|31 May 2016 |Kernel stack disclosure in Linux compatibility layer\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:21.43bsd.asc[FreeBSD-SA-16:21.43bsd] "
-"|31 May 2016 |Kernel stack disclosure in 4.3BSD compatibility layer "
+"|31 May 2016 |Kernel stack disclosure in 4.3BSD compatibility layer\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:22.libarchive.asc[FreeBSD-SA-16:22.libarchive] "
-"|31 May 2016 |Absolute path traversal vulnerability "
+"|31 May 2016 |Absolute path traversal vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:23.libarchive.asc[FreeBSD-SA-16:23.libarchive] "
-"|31 May 2016 |Absolute path traversal vulnerability "
+"|31 May 2016 |Absolute path traversal vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:24.ntp.asc[FreeBSD-SA-16:24.ntp] "
-"|3 June 2016 |Multiple ntp vulnerabilties "
+"|3 June 2016 |Multiple ntp vulnerabilties\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:25.bspatch.asc[FreeBSD-SA-16:25.bspatch] "
-"|25 July 2016 |heap overflow vulnerability "
+"|25 July 2016 |heap overflow vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:26.openssl.asc[FreeBSD-SA-16:26.openssl] "
-"|23 September 2016 |Multiple vulnerabilities "
+"|23 September 2016 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:27.openssl.asc[FreeBSD-SA-16:27.openssl] "
-"|26 September 2016 |Regression in OpenSSL suite "
+"|26 September 2016 |Regression in OpenSSL suite\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:29.bspatch.asc[FreeBSD-SA-16:29.bspatch] "
-"|10 October 2016 |Heap overflow vulnerability "
+"|10 October 2016 |Heap overflow vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:30.portsnap.asc[FreeBSD-SA-16:30.portsnap] "
-"|10 October 2016 |Multiple vulnerabilities "
+"|10 October 2016 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:31.libarchive.asc[FreeBSD-SA-16:31.libarchive] "
-"|10 October 2016 |Multiple vulnerabilities "
+"|10 October 2016 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:33.openssh.asc[FreeBSD-SA-16:33.openssh] "
-"|2 November 2016 |Remote Denial of Service vulnerability "
+"|2 November 2016 |Remote Denial of Service vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:35.openssl.asc[FreeBSD-SA-16:35.openssl] "
-"|2 November 2016 |Remote Denial of Service vulnerability "
+"|2 November 2016 |Remote Denial of Service vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:36.telnetd.asc[FreeBSD-SA-16:36.telnetd] "
 "|6 December 2016 |Possible "
 "https://www.FreeBSD.org/cgi/man.cgi?query=login&sektion=1&manpath=freebsd-release-ports[login(1)] "
-"argument injection "
+"argument injection\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:37.libc.asc[FreeBSD-SA-16:37.libc] "
 "|6 December 2016 "
 "|https://www.FreeBSD.org/cgi/man.cgi?query=link_ntoa&sektion=3&manpath=freebsd-release-ports[link_ntoa(3)] "
-"buffer overflow "
+"buffer overflow\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:38.bhyve.asc[FreeBSD-SA-16:38.bhyve] "
 "|6 December 2016 |Possible escape from "
 "https://www.FreeBSD.org/cgi/man.cgi?query=bhyve&sektion=8&manpath=freebsd-release-ports[bhyve(8)] "
-"virtual machine "
+"virtual machine\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:39.ntp.asc[FreeBSD-SA-16:39.ntp] "
-"|22 December 2016 |Multiple vulnerabilities "
+"|22 December 2016 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:01.openssh.asc[FreeBSD-SA-17:01.openssh] "
-"|10 January 2017 |Multiple vulnerabilities "
+"|10 January 2017 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:02.openssl.asc[FreeBSD-SA-17:02.openssl] "
-"|23 February 2017 |Fix OpenSSL RC4_MD5 cipher vulnerability "
+"|23 February 2017 |Fix OpenSSL RC4_MD5 cipher vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:03.ntp.asc[FreeBSD-SA-17:03.ntp] "
-"|12 April 2017 |Multiple vulnerabilities "
+"|12 April 2017 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:04.ipfilter.asc[FreeBSD-SA-17:04.ipfilter] "
-"|27 April 2017 |Fix fragment handling panic "
+"|27 April 2017 |Fix fragment handling panic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:05.heimdal.asc[FreeBSD-SA-17:05.heimdal] "
-"|12 July 2017 |Fix KDC-REP service name validation vulnerability |==="
+"|12 July 2017 |Fix KDC-REP service name validation vulnerability\n"
 msgstr ""
 
 #. type: Title ==
@@ -308,47 +390,49 @@ msgstr ""
 msgid "Errata Notices"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/10.4R/relnotes.adoc:131
+#. type: Table
+#: website/content/en/releases/10.4R/relnotes.adoc:130
+#, no-wrap
 msgid ""
-"|=== |Errata |Date |Topic "
+"|Errata |Date |Topic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:06.libc.asc[FreeBSD-EN-16:06.libc] "
 "|4 May 2016 |Performance regression in libc "
-"https://www.FreeBSD.org/cgi/man.cgi?query=hash&sektion=3&manpath=freebsd-release-ports[hash(3)] "
+"https://www.FreeBSD.org/cgi/man.cgi?query=hash&sektion=3&manpath=freebsd-release-ports[hash(3)]\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:07.ipi.asc[FreeBSD-EN-16:07.ipi] "
-"|4 May 2016 |Excessive latency in x86 IPI delivery "
+"|4 May 2016 |Excessive latency in x86 IPI delivery\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:08.zfs.asc[FreeBSD-EN-16:08.zfs] "
-"|4 May 2016 |Memory leak in ZFS "
+"|4 May 2016 |Memory leak in ZFS\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:09.freebsd-update.asc[FreeBSD-EN-16:09.freebsd-update] "
 "|25 July 2016 |Fix "
 "https://www.FreeBSD.org/cgi/man.cgi?query=freebsd-update&sektion=8&manpath=freebsd-release-ports[freebsd-update(8)] "
-"support of FreeBSD 11.0-RELEASE "
+"support of FreeBSD 11.0-RELEASE\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:10.dhclient.asc[FreeBSD-EN-16:10.dhclient] "
-"|11 August 2016 |Better handle unknown options received from aDHCP server "
+"|11 August 2016 |Better handle unknown options received from aDHCP server\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:11.vmbus.asc[FreeBSD-EN-16:11.vmbus] "
-"|11 August 2016 |Avoid using spin locks for channel message locks "
+"|11 August 2016 |Avoid using spin locks for channel message locks\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:12.hv_storvsc.asc[FreeBSD-EN-16:12.hv_storvsc] "
-"|11 August 2016 |Enable INQUIRY result check only on Windows 10 host systems "
+"|11 August 2016 |Enable INQUIRY result check only on Windows 10 host "
+"systems\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:13.vmbus.asc[FreeBSD-EN-16:13.vmbus] "
-"|11 August 2016 |Register time counter early enough for TSC freq calibration "
+"|11 August 2016 |Register time counter early enough for TSC freq "
+"calibration\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:14.hv_storvsc.asc[FreeBSD-EN-16:14.hv_storvsc] "
 "|11 August 2016 |Disable incorrect callout in "
-"https://www.FreeBSD.org/cgi/man.cgi?query=hv_storvsc&sektion=4&manpath=freebsd-release-ports[hv_storvsc(4)] "
+"https://www.FreeBSD.org/cgi/man.cgi?query=hv_storvsc&sektion=4&manpath=freebsd-release-ports[hv_storvsc(4)]\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:15.vmbus.asc[FreeBSD-EN-16:15.vmbus] "
-"|11 August 2016 |Better handle the GPADL setup failure in Hyper-V "
+"|11 August 2016 |Better handle the GPADL setup failure in Hyper-V\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:16.hv_storvsc.asc[FreeBSD-EN-16:16.hv_storvsc] "
-"|11 August 2016 |Fix SCSI INQUIRY checks and error handling "
+"|11 August 2016 |Fix SCSI INQUIRY checks and error handling\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:17.vm.asc[FreeBSD-EN-16:17.vm] "
-"|25 October 2016 |Several virtual memory issues "
+"|25 October 2016 |Several virtual memory issues\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:19.tzcode.asc[FreeBSD-EN-16:19.tzcode] "
-"|6 December 2016 |Fix warnings about invalid timezone abbreviations "
+"|6 December 2016 |Fix warnings about invalid timezone abbreviations\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:20.tzdata.asc[FreeBSD-EN-16:20.tzdata] "
-"|6 December 2016 |Update timezone database information "
+"|6 December 2016 |Update timezone database information\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:05.xen.asc[FreeBSD-EN-17:05.xen] "
-"|23 February 2017 |Xen migration enhancements "
+"|23 February 2017 |Xen migration enhancements\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:06.hyperv.asc[FreeBSD-EN-17:06.hyperv] "
-"|12 July 2017 |Boot compatibility improvements with Azure virtual machines "
-"|==="
+"|12 July 2017 |Boot compatibility improvements with Azure virtual machines\n"
 msgstr ""
 
 #. type: Title ==

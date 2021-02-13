@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -68,11 +68,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/contributing/_index.adoc:30
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/contributing/_index.adoc:32
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -935,29 +930,49 @@ msgid "  Thoroughly review and test your changes:"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/articles/contributing/_index.adoc:263
-#, no-wrap
+#: documentation/content/en/articles/contributing/_index.adoc:259
 msgid ""
-"** Build, install and test your port on as many platforms and architectures "
-"as you can. It is common for a port to work on one branch or platform and "
-"fail on another.\n"
-"** Make sure your port's dependencies are complete. The recommended way of "
+"Build, install and test your port on as many platforms and architectures as "
+"you can. It is common for a port to work on one branch or platform and fail "
+"on another."
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:260
+msgid ""
+"Make sure your port's dependencies are complete. The recommended way of "
 "doing this is by installing your own ports tinderbox. See <<resources>> for "
-"more information.\n"
-"** Check that the packing list is up to date. This involves adding in any "
-"new files and directories and removing unused entries.\n"
-"** Verify your port using man:portlint[1] as a guide. See <<resources>> for "
-"important information about using portlint.\n"
-"** Consider whether changes to your port might cause any other ports to "
+"more information."
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:261
+msgid ""
+"Check that the packing list is up to date. This involves adding in any new "
+"files and directories and removing unused entries."
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:262
+msgid ""
+"Verify your port using man:portlint[1] as a guide. See <<resources>> for "
+"important information about using portlint."
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:263
+msgid ""
+"Consider whether changes to your port might cause any other ports to "
 "break. If this is the case, coordinate the changes with the maintainers of "
 "those ports. This is especially important if your update changes the shared "
 "library version; in this case, at the very least, the dependent ports will "
 "need to get a `PORTREVISION` bump so that they will automatically be "
-"upgraded by automated tools such as portmaster or man:portupgrade[1].\n"
+"upgraded by automated tools such as portmaster or man:portupgrade[1]."
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/articles/contributing/_index.adoc:265 documentation/content/en/articles/contributing/_index.adoc:318
+#: documentation/content/en/articles/contributing/_index.adoc:265
+#: documentation/content/en/articles/contributing/_index.adoc:318
 msgid "Submit changes"
 msgstr ""
 
@@ -1081,7 +1096,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/articles/contributing/_index.adoc:304 documentation/content/en/articles/contributing/_index.adoc:343
+#: documentation/content/en/articles/contributing/_index.adoc:304
+#: documentation/content/en/articles/contributing/_index.adoc:343
 msgid "Collect information"
 msgstr ""
 
@@ -1096,17 +1112,35 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/articles/contributing/_index.adoc:313
-#, no-wrap
+#: documentation/content/en/articles/contributing/_index.adoc:308
+msgid "Build logs"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:309
 msgid ""
-"** Build logs\n"
-"** The commands and options used to build the port (including options set in "
-"[.filename]#/etc/make.conf#)\n"
-"** A list of packages installed on their system as shown by "
-"man:pkg-info[8]\n"
-"** The version of FreeBSD they are running as shown by man:uname[1] `-a`\n"
-"** When their ports collection was last updated\n"
-"** When their ports tree and [.filename]#INDEX# was last updated\n"
+"The commands and options used to build the port (including options set in "
+"[.filename]#/etc/make.conf#)"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:310
+msgid "A list of packages installed on their system as shown by man:pkg-info[8]"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:311
+msgid "The version of FreeBSD they are running as shown by man:uname[1] `-a`"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:312
+msgid "When their ports collection was last updated"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:313
+msgid "When their ports tree and [.filename]#INDEX# was last updated"
 msgstr ""
 
 #. type: delimited block =
@@ -1217,16 +1251,32 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/articles/contributing/_index.adoc:353
-#, no-wrap
+#: documentation/content/en/articles/contributing/_index.adoc:349
 msgid ""
-"** A detailed description of their actions, expected program behavior and "
-"actual behavior\n"
-"** Copies of input data used to trigger the bug\n"
-"** Information about their build and execution environment - for example, a "
-"list of installed packages and the output of man:env[1]\n"
-"** Core dumps\n"
-"** Stack traces\n"
+"A detailed description of their actions, expected program behavior and "
+"actual behavior"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:350
+msgid "Copies of input data used to trigger the bug"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:351
+msgid ""
+"Information about their build and execution environment - for example, a "
+"list of installed packages and the output of man:env[1]"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:352
+msgid "Core dumps"
+msgstr ""
+
+#. type: delimited block =
+#: documentation/content/en/articles/contributing/_index.adoc:353
+msgid "Stack traces"
 msgstr ""
 
 #. type: delimited block =

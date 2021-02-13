@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:8
 #, no-wrap
 msgid "Flavors"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -393,7 +388,8 @@ msgid "This will generate package for all the supported versions:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:196 documentation/content/en/books/porters-handbook/flavors/chapter.adoc:207
+#: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:196
+#: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:207
 #, no-wrap
 msgid ""
 "PORTNAME=\tsome-ext\n"
@@ -496,7 +492,8 @@ msgid "Simple `USES=python`"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:256 documentation/content/en/books/porters-handbook/flavors/chapter.adoc:279
+#: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:256
+#: documentation/content/en/books/porters-handbook/flavors/chapter.adoc:279
 msgid ""
 "Supposing the current Python supported versions are 2.7, 3.4, 3.5, and 3.6, "
 "and the default Python 2 and 3 versions are 2.7 and 3.6, a port with:"

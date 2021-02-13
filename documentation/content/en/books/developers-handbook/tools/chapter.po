@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/tools/chapter.adoc:11
 #, no-wrap
 msgid "Programming Tools"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:36
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -790,7 +785,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:232 documentation/content/en/books/developers-handbook/tools/chapter.adoc:259
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:232
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:259
 #, no-wrap
 msgid "% cc -o foobar foobar.c -lm\n"
 msgstr ""
@@ -857,7 +853,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:266 documentation/content/en/books/developers-handbook/tools/chapter.adoc:664 documentation/content/en/books/developers-handbook/tools/chapter.adoc:912
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:266
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:664
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:912
 #, no-wrap
 msgid "#include <stdio.h>\n"
 msgstr ""
@@ -1379,7 +1377,8 @@ msgid "Here is a very simple make file:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:478 documentation/content/en/books/developers-handbook/tools/chapter.adoc:494
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:478
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:494
 #, no-wrap
 msgid ""
 "foo: foo.c\n"
@@ -1922,13 +1921,15 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:666 documentation/content/en/books/developers-handbook/tools/chapter.adoc:914
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:666
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:914
 #, no-wrap
 msgid "int bazz(int anint);\n"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:669 documentation/content/en/books/developers-handbook/tools/chapter.adoc:917
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:669
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:917
 #, no-wrap
 msgid ""
 "main() {\n"
@@ -1936,7 +1937,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:674 documentation/content/en/books/developers-handbook/tools/chapter.adoc:922
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:674
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:922
 #, no-wrap
 msgid ""
 "\tprintf(\"This is my program\\n\");\n"
@@ -1946,7 +1948,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:679 documentation/content/en/books/developers-handbook/tools/chapter.adoc:927
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:679
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:927
 #, no-wrap
 msgid ""
 "int bazz(int anint) {\n"
@@ -1956,14 +1959,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:682 documentation/content/en/books/developers-handbook/tools/chapter.adoc:930
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:682
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:930
 msgid ""
 "This program sets i to be `5` and passes it to a function `bazz()` which "
 "prints out the number we gave it."
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:684 documentation/content/en/books/developers-handbook/tools/chapter.adoc:932
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:684
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:932
 msgid "Compiling and running the program displays"
 msgstr ""
 
@@ -2066,12 +2071,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:759 documentation/content/en/books/developers-handbook/tools/chapter.adoc:974
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:759
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:974
 msgid "Oh dear! Looking at the code, we forgot to initialize i. We meant to put"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:765 documentation/content/en/books/developers-handbook/tools/chapter.adoc:980
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:765
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:980
 #, no-wrap
 msgid ""
 "...\n"
@@ -2080,7 +2087,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:769 documentation/content/en/books/developers-handbook/tools/chapter.adoc:984
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:769
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:984
 #, no-wrap
 msgid ""
 "\ti = 5;\n"
@@ -2114,7 +2122,8 @@ msgid "Examining a Core File with lldb"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:781 documentation/content/en/books/developers-handbook/tools/chapter.adoc:996
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:781
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:996
 msgid ""
 "A core file is basically a file which contains the complete state of the "
 "process when it crashed. In \"the good old days\", programmers had to print "
@@ -2215,14 +2224,16 @@ msgid "in `lldb`, and then debug as usual."
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:822 documentation/content/en/books/developers-handbook/tools/chapter.adoc:1052
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:822
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:1052
 msgid ""
 "For that to work well, the code that calls `fork` to create the child needs "
 "to do something like the following (courtesy of the `gdb` info pages):"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:830 documentation/content/en/books/developers-handbook/tools/chapter.adoc:1060
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:830
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:1060
 #, no-wrap
 msgid ""
 "...\n"
@@ -2233,7 +2244,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:836 documentation/content/en/books/developers-handbook/tools/chapter.adoc:1066
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:836
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:1066
 #, no-wrap
 msgid ""
 "\twhile (PauseMode)\n"
@@ -2817,7 +2829,8 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:1116 documentation/content/en/books/developers-handbook/tools/chapter.adoc:1134
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:1116
+#: documentation/content/en/books/developers-handbook/tools/chapter.adoc:1134
 #, no-wrap
 msgid "A Sample [.filename]#.emacs#"
 msgstr ""

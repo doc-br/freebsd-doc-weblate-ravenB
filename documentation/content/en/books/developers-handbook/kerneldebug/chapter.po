@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,11 +51,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:12
 #, no-wrap
 msgid "Kernel Debugging"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:35
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -1310,29 +1305,21 @@ msgstr ""
 msgid "The following key combinations can be used once man:dconschat[8] is running:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:635
-msgid "|==="
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:638
-msgid "|kbd:[~+.] |Disconnect"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:641
-msgid "|kbd:[~] |ALT BREAK"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:644
-msgid "|kbd:[~] |RESET target"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:648
-msgid "|kbd:[~] |Suspend dconschat |==="
+#. type: Table
+#: documentation/content/en/books/developers-handbook/kerneldebug/chapter.adoc:647
+#, no-wrap
+msgid ""
+"|kbd:[~+.]\n"
+"|Disconnect\n"
+"\n"
+"|kbd:[~]\n"
+"|ALT BREAK\n"
+"\n"
+"|kbd:[~]\n"
+"|RESET target\n"
+"\n"
+"|kbd:[~]\n"
+"|Suspend dconschat\n"
 msgstr ""
 
 #. type: Plain text

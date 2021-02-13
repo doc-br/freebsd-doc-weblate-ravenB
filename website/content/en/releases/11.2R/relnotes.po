@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -70,67 +70,133 @@ msgid "<<upgrade,Upgrading from Previous Releases of FreeBSD>>"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:19
+msgid "<<security-errata,Security and Errata>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:20
+msgid "<<security,Security Advisories>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:21
-msgid ""
-"<<security-errata,Security and Errata>> ** <<security,Security Advisories>> "
-"** <<errata,Errata Notices>>"
+msgid "<<errata,Errata Notices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:22
+msgid "<<userland,Userland>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:23
+msgid "<<userland-programs,Userland Application Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:24
+msgid "<<userland-contrib,Contributed Software>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:25
-msgid ""
-"<<userland,Userland>> ** <<userland-programs,Userland Application Changes>> "
-"** <<userland-contrib,Contributed Software>> ** "
-"<<userland-installer,Installation and Configuration Tools>>"
+msgid "<<userland-installer,Installation and Configuration Tools>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:26
+msgid "<<kernel,Kernel>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:27
+msgid "<<kernel-general,General Kernel Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:28
+msgid "<<kernel-bugfix,Kernel Bug Fixes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:29
+msgid "<<kernel-config,Kernel Configuration>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:30
-msgid ""
-"<<kernel,Kernel>> ** <<kernel-general,General Kernel Changes>> ** "
-"<<kernel-bugfix,Kernel Bug Fixes>> ** <<kernel-config,Kernel Configuration>> "
-"** <<kernel-sysctl,System Tuning and Controls>>"
+msgid "<<kernel-sysctl,System Tuning and Controls>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:31
+msgid "<<drivers,Devices and Drivers>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:32
-msgid "<<drivers,Devices and Drivers>> ** <<drivers-device,Device Drivers>>"
+msgid "<<drivers-device,Device Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:33
+msgid "<<hardware,Hardware Support>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:34
-msgid ""
-"<<hardware,Hardware Support>> ** <<hardware-virtualization,Virtualization "
-"Support>>"
+msgid "<<hardware-virtualization,Virtualization Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:35
+msgid "<<storage,Storage>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:36
-msgid "<<storage,Storage>> ** <<storage-geom,`geom(4)`>>"
+msgid "<<storage-geom,`geom(4)`>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:37
+msgid "<<boot,Boot Loader Changes>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:38
-msgid "<<boot,Boot Loader Changes>> ** <<boot-loader,Boot Loader Changes>>"
+msgid "<<boot-loader,Boot Loader Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:39
+msgid "<<network,Networking>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:40
-msgid "<<network,Networking>> ** <<network-general,General Network Changes>>"
+msgid "<<network-general,General Network Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:41
+msgid "<<ports,Ports Collection and Package Infrastructure>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:42
-msgid ""
-"<<ports,Ports Collection and Package Infrastructure>> ** "
-"<<ports-packages,Packaging Changes>>"
+msgid "<<ports-packages,Packaging Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.2R/relnotes.adoc:43
+msgid "<<releng,Release Engineering and Integration>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.2R/relnotes.adoc:44
-msgid ""
-"<<releng,Release Engineering and Integration>> ** "
-"<<releng-changes,Integration Changes>>"
+msgid "<<releng-changes,Integration Changes>>"
 msgstr ""
 
 #. type: Title ==
@@ -243,32 +309,34 @@ msgstr ""
 msgid "Security Advisories"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/releases/11.2R/relnotes.adoc:90
+#, no-wrap
 msgid ""
-"|=== |Advisory |Date |Topic "
+"|Advisory |Date |Topic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:06.openssh.asc[FreeBSD-SA-17:06.openssh] "
-"|10 August 2017 |Denial of Service vulnerability "
+"|10 August 2017 |Denial of Service vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:07.wpa.asc[FreeBSD-SA-17:07.wpa] "
-"|16 October 2017 |WPA2 protocol vulnerability "
+"|16 October 2017 |WPA2 protocol vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:08.ptrace.asc[FreeBSD-SA-17:08.ptrace] "
-"|15 November 2017 |Kernel data leak via `ptrace(PT_LWPINFO)` "
+"|15 November 2017 |Kernel data leak via `ptrace(PT_LWPINFO)`\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:10.kldstat.asc[FreeBSD-SA-17:10.kldstat] "
-"|15 November 2017 |Information leak "
+"|15 November 2017 |Information leak\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:11.openssl.asc[FreeBSD-SA-17:11.openssl] "
-"|29 November 2017 |Multiple vulnerabilities "
+"|29 November 2017 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:12.openssl.asc[FreeBSD-SA-17:12.openssl] "
-"|09 December 2017 |Multiple vulnerabilities "
+"|09 December 2017 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-18:01.ipsec.asc[FreeBSD-SA-18:01.ipsec] "
-"|07 March 2018 |Fix IPSEC validation and use-after-free "
+"|07 March 2018 |Fix IPSEC validation and use-after-free\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-18:02.ntp.asc[FreeBSD-SA-18:02.ntp] "
-"|07 March 2018 |Multiple vulnerabilities "
+"|07 March 2018 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-18:03.speculative_execution.asc[FreeBSD-SA-18:03.speculative_execution] "
-"|14 March 2018 a| Speculative Execution Vulnerabilities"
+"|14 March 2018 a|\n"
+"Speculative Execution Vulnerabilities\n"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.2R/relnotes.adoc:98
+#. type: Table
+#: website/content/en/releases/11.2R/relnotes.adoc:97
 #, no-wrap
 msgid ""
 "*Note*:\n"
@@ -285,7 +353,6 @@ msgid ""
 "|08 May 2018 |Mishandling of x86 debug exceptions\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-18:07.lazyfpu.asc[FreeBSD-SA-18:07.lazyfpu] "
 "|21 June 2018 |Fix Lazy FPU information disclosure\n"
-"|===\n"
 msgstr ""
 
 #. type: Title ==
@@ -294,30 +361,31 @@ msgstr ""
 msgid "Errata Notices"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.2R/relnotes.adoc:115
+#. type: Table
+#: website/content/en/releases/11.2R/relnotes.adoc:114
+#, no-wrap
 msgid ""
-"|=== |Errata |Date |Topic "
+"|Errata |Date |Topic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:07.vnet.asc[FreeBSD-EN-17:07.vnet] "
-"|10 August 2017 |VNET kernel panic with asynchronous I/O "
+"|10 August 2017 |VNET kernel panic with asynchronous I/O\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:08.pf.asc[FreeBSD-EN-17:08.pf] "
 "|10 August 2017 "
 "|https://www.FreeBSD.org/cgi/man.cgi?query=pf&sektion=4&manpath=freebsd-release-ports[pf(4)] "
-"housekeeping thread causes kernel panic "
+"housekeeping thread causes kernel panic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:09.tzdata.asc[FreeBSD-EN-17:09.tzdata] "
-"|2 November 2017 |Timezone database information update "
+"|2 November 2017 |Timezone database information update\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-18:01.tzdata.asc[FreeBSD-EN-18:01.tzdata] "
-"|07 March 2018 |Timezone database information update "
+"|07 March 2018 |Timezone database information update\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-18:02.file.asc[FreeBSD-EN-18:02.file] "
-"|07 March 2018 |Stack-based buffer overflow "
+"|07 March 2018 |Stack-based buffer overflow\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-18:03.tzdata.asc[FreeBSD-EN-18:03.tzdata] "
-"|04 April 2018 |Update timezone database information "
+"|04 April 2018 |Update timezone database information\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-18:04.mem.asc[FreeBSD-EN-18:04.mem] "
-"|04 April 2018 |Multiple small kernel memory disclosures "
+"|04 April 2018 |Multiple small kernel memory disclosures\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-18:05.mem.asc[FreeBSD-EN-18:05.mem] "
-"|08 May 2018 |Multiple small kernel memory disclosures "
+"|08 May 2018 |Multiple small kernel memory disclosures\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-18:06.tzdata.asc[FreeBSD-EN-18:06.tzdata] "
-"|08 May 2018 |Update timezone database information |==="
+"|08 May 2018 |Update timezone database information\n"
 msgstr ""
 
 #. type: Title ==
@@ -1358,7 +1426,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: website/content/en/releases/11.2R/relnotes.adoc:340 website/content/en/releases/11.2R/relnotes.adoc:345
+#: website/content/en/releases/11.2R/relnotes.adoc:340
+#: website/content/en/releases/11.2R/relnotes.adoc:345
 #, no-wrap
 msgid "Boot Loader Changes"
 msgstr ""

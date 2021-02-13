@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,11 +65,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/pr-guidelines/_index.adoc:29
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -362,36 +357,33 @@ msgstr ""
 msgid "Default Assignees - most common"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:117 documentation/content/en/articles/pr-guidelines/_index.adoc:146
-msgid "|=== | Type | Categories | Default Assignee"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:121
-msgid "|base system |bin, conf, gnu, kern, misc |freebsd-bugs"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:125
+#. type: Table
+#: documentation/content/en/articles/pr-guidelines/_index.adoc:137
+#, no-wrap
 msgid ""
-"|architecture-specific |alpha, amd64, arm, i386, ia64, powerpc, sparc64 "
-"|freebsd-_arch_"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:129
-msgid "|ports collection |ports |freebsd-ports-bugs"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:133
-msgid "|documentation shipped with the system |docs |freebsd-doc"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:138
-msgid "|FreeBSD web pages (not including docs)  |Website |freebsd-www |==="
+"| Type\n"
+"| Categories\n"
+"| Default Assignee\n"
+"\n"
+"|base system\n"
+"|bin, conf, gnu, kern, misc\n"
+"|freebsd-bugs\n"
+"\n"
+"|architecture-specific\n"
+"|alpha, amd64, arm, i386, ia64, powerpc, sparc64\n"
+"|freebsd-_arch_\n"
+"\n"
+"|ports collection\n"
+"|ports\n"
+"|freebsd-ports-bugs\n"
+"\n"
+"|documentation shipped with the system\n"
+"|docs\n"
+"|freebsd-doc\n"
+"\n"
+"|FreeBSD web pages (not including docs)\n"
+"|Website\n"
+"|freebsd-www\n"
 msgstr ""
 
 #. type: Block title
@@ -400,29 +392,33 @@ msgstr ""
 msgid "Default Assignees - other"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:150
-msgid "|advocacy efforts |advocacy |freebsd-advocacy"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:154
-msgid "|Java Virtual Machine(TM) problems |java |freebsd-java"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:158
-msgid "|standards compliance |standards |freebsd-standards"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:162
-msgid "|threading libraries |threads |freebsd-threads"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:167
-msgid "|man:usb[4] subsystem |usb |freebsd-usb |==="
+#. type: Table
+#: documentation/content/en/articles/pr-guidelines/_index.adoc:166
+#, no-wrap
+msgid ""
+"| Type\n"
+"| Categories\n"
+"| Default Assignee\n"
+"\n"
+"|advocacy efforts\n"
+"|advocacy\n"
+"|freebsd-advocacy\n"
+"\n"
+"|Java Virtual Machine(TM) problems\n"
+"|java\n"
+"|freebsd-java\n"
+"\n"
+"|standards compliance\n"
+"|standards\n"
+"|freebsd-standards\n"
+"\n"
+"|threading libraries\n"
+"|threads\n"
+"|freebsd-threads\n"
+"\n"
+"|man:usb[4] subsystem\n"
+"|usb\n"
+"|freebsd-usb\n"
 msgstr ""
 
 #. type: Plain text
@@ -471,143 +467,125 @@ msgstr ""
 msgid "Common Assignees - base system"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:189 documentation/content/en/articles/pr-guidelines/_index.adoc:309 documentation/content/en/articles/pr-guidelines/_index.adoc:417
-msgid "|=== | Type | Suggested Category | Suggested Assignee | Assignee Type"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:194
-msgid "|problem specific to the ARM(R) architecture |arm |freebsd-arm |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:199
+#. type: Table
+#: documentation/content/en/articles/pr-guidelines/_index.adoc:299
+#, no-wrap
 msgid ""
-"|problem specific to the MIPS(R) architecture |kern |freebsd-mips |mailing "
-"list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:204
-msgid ""
-"|problem specific to the PowerPC(R) architecture |kern |freebsd-ppc |mailing "
-"list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:209
-msgid ""
-"|problem with Advanced Configuration and Power Management (man:acpi[4])  "
-"|kern |freebsd-acpi |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:214
-msgid ""
-"|problem with Asynchronous Transfer Mode (ATM) drivers |kern |freebsd-atm "
-"|mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:219
-msgid ""
+"| Type\n"
+"| Suggested Category\n"
+"| Suggested Assignee\n"
+"| Assignee Type\n"
+"\n"
+"|problem specific to the ARM(R) architecture\n"
+"|arm\n"
+"|freebsd-arm\n"
+"|mailing list\n"
+"\n"
+"|problem specific to the MIPS(R) architecture\n"
+"|kern\n"
+"|freebsd-mips\n"
+"|mailing list\n"
+"\n"
+"|problem specific to the PowerPC(R) architecture\n"
+"|kern\n"
+"|freebsd-ppc\n"
+"|mailing list\n"
+"\n"
+"|problem with Advanced Configuration and Power Management (man:acpi[4])\n"
+"|kern\n"
+"|freebsd-acpi\n"
+"|mailing list\n"
+"\n"
+"|problem with Asynchronous Transfer Mode (ATM) drivers\n"
+"|kern\n"
+"|freebsd-atm\n"
+"|mailing list\n"
+"\n"
 "|problem with embedded or small-footprint FreeBSD systems (e.g., "
-"NanoBSD/PicoBSD/FreeBSD-arm)  |kern |freebsd-embedded |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:224
-msgid "|problem with FireWire(R) drivers |kern |freebsd-firewire |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:229
-msgid "|problem with the filesystem code |kern |freebsd-fs |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:234
-msgid "|problem with the man:geom[4] subsystem |kern |freebsd-geom |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:239
-msgid "|problem with the man:ipfw[4] subsystem |kern |freebsd-ipfw |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:244
-msgid ""
-"|problem with Integrated Services Digital Network (ISDN) drivers |kern "
-"|freebsd-isdn |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:249
-msgid "|man:jail[8] subsystem |kern |freebsd-jail |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:254
-msgid ""
-"|problem with Linux(R) or SVR4 emulation |kern |freebsd-emulation |mailing "
-"list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:259
-msgid "|problem with the networking stack |kern |freebsd-net |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:264
-msgid "|problem with the man:pf[4] subsystem |kern |freebsd-pf |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:269
-msgid "|problem with the man:scsi[4] subsystem |kern |freebsd-scsi |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:274
-msgid ""
-"|problem with the man:sound[4] subsystem |kern |freebsd-multimedia |mailing "
-"list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:279
-msgid ""
-"|problems with the man:wlan[4] subsystem and wireless drivers |kern "
-"|freebsd-wireless |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:284
-msgid ""
-"|problem with man:sysinstall[8] or man:bsdinstall[8] |bin "
-"|freebsd-sysinstall |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:289
-msgid ""
-"|problem with the system startup scripts (man:rc[8])  |kern |freebsd-rc "
-"|mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:294
-msgid ""
-"|problem with VIMAGE or VNET functionality and related code |kern "
-"|freebsd-virtualization |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:300
-msgid "|problem with Xen emulation |kern |freebsd-xen |mailing list |==="
+"NanoBSD/PicoBSD/FreeBSD-arm)\n"
+"|kern\n"
+"|freebsd-embedded\n"
+"|mailing list\n"
+"\n"
+"|problem with FireWire(R) drivers\n"
+"|kern\n"
+"|freebsd-firewire\n"
+"|mailing list\n"
+"\n"
+"|problem with the filesystem code\n"
+"|kern\n"
+"|freebsd-fs\n"
+"|mailing list\n"
+"\n"
+"|problem with the man:geom[4] subsystem\n"
+"|kern\n"
+"|freebsd-geom\n"
+"|mailing list\n"
+"\n"
+"|problem with the man:ipfw[4] subsystem\n"
+"|kern\n"
+"|freebsd-ipfw\n"
+"|mailing list\n"
+"\n"
+"|problem with Integrated Services Digital Network (ISDN) drivers\n"
+"|kern\n"
+"|freebsd-isdn\n"
+"|mailing list\n"
+"\n"
+"|man:jail[8] subsystem\n"
+"|kern\n"
+"|freebsd-jail\n"
+"|mailing list\n"
+"\n"
+"|problem with Linux(R) or SVR4 emulation\n"
+"|kern\n"
+"|freebsd-emulation\n"
+"|mailing list\n"
+"\n"
+"|problem with the networking stack\n"
+"|kern\n"
+"|freebsd-net\n"
+"|mailing list\n"
+"\n"
+"|problem with the man:pf[4] subsystem\n"
+"|kern\n"
+"|freebsd-pf\n"
+"|mailing list\n"
+"\n"
+"|problem with the man:scsi[4] subsystem\n"
+"|kern\n"
+"|freebsd-scsi\n"
+"|mailing list\n"
+"\n"
+"|problem with the man:sound[4] subsystem\n"
+"|kern\n"
+"|freebsd-multimedia\n"
+"|mailing list\n"
+"\n"
+"|problems with the man:wlan[4] subsystem and wireless drivers\n"
+"|kern\n"
+"|freebsd-wireless\n"
+"|mailing list\n"
+"\n"
+"|problem with man:sysinstall[8] or man:bsdinstall[8]\n"
+"|bin\n"
+"|freebsd-sysinstall\n"
+"|mailing list\n"
+"\n"
+"|problem with the system startup scripts (man:rc[8])\n"
+"|kern\n"
+"|freebsd-rc\n"
+"|mailing list\n"
+"\n"
+"|problem with VIMAGE or VNET functionality and related code\n"
+"|kern\n"
+"|freebsd-virtualization\n"
+"|mailing list\n"
+"\n"
+"|problem with Xen emulation\n"
+"|kern\n"
+"|freebsd-xen\n"
+"|mailing list\n"
 msgstr ""
 
 #. type: Block title
@@ -616,113 +594,109 @@ msgstr ""
 msgid "Common Assignees - Ports Collection"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:314
+#. type: Table
+#: documentation/content/en/articles/pr-guidelines/_index.adoc:404
+#, no-wrap
 msgid ""
-"|problem with the ports framework (__not__ with an individual port!)  |ports "
-"|portmgr |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:319
-msgid "|port which is maintained by apache@FreeBSD.org |ports |apache |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:324
-msgid "|port which is maintained by autotools@FreeBSD.org |ports |autotools |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:329
-msgid "|port which is maintained by doceng@FreeBSD.org |ports |doceng |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:334
-msgid ""
-"|port which is maintained by eclipse@FreeBSD.org |ports |freebsd-eclipse "
-"|mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:339
-msgid "|port which is maintained by gecko@FreeBSD.org |ports |gecko |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:344
-msgid "|port which is maintained by gnome@FreeBSD.org |ports |gnome |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:349
-msgid "|port which is maintained by hamradio@FreeBSD.org |ports |hamradio |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:354
-msgid "|port which is maintained by haskell@FreeBSD.org |ports |haskell |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:359
-msgid ""
-"|port which is maintained by java@FreeBSD.org |ports |freebsd-java |mailing "
-"list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:364
-msgid "|port which is maintained by kde@FreeBSD.org |ports |kde |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:369
-msgid "|port which is maintained by mono@FreeBSD.org |ports |mono |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:374
-msgid ""
-"|port which is maintained by office@FreeBSD.org |ports |freebsd-office "
-"|mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:379
-msgid "|port which is maintained by perl@FreeBSD.org |ports |perl |mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:384
-msgid ""
-"|port which is maintained by python@FreeBSD.org |ports |freebsd-python "
-"|mailing list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:389
-msgid ""
-"|port which is maintained by ruby@FreeBSD.org |ports |freebsd-ruby |mailing "
-"list"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:394
-msgid "|port which is maintained by secteam@FreeBSD.org |ports |secteam |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:399
-msgid "|port which is maintained by vbox@FreeBSD.org |ports |vbox |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:405
-msgid ""
-"|port which is maintained by x11@FreeBSD.org |ports |freebsd-x11 |mailing "
-"list |==="
+"| Type\n"
+"| Suggested Category\n"
+"| Suggested Assignee\n"
+"| Assignee Type\n"
+"\n"
+"|problem with the ports framework (__not__ with an individual port!)\n"
+"|ports\n"
+"|portmgr\n"
+"|alias\n"
+"\n"
+"|port which is maintained by apache@FreeBSD.org\n"
+"|ports\n"
+"|apache\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by autotools@FreeBSD.org\n"
+"|ports\n"
+"|autotools\n"
+"|alias\n"
+"\n"
+"|port which is maintained by doceng@FreeBSD.org\n"
+"|ports\n"
+"|doceng\n"
+"|alias\n"
+"\n"
+"|port which is maintained by eclipse@FreeBSD.org\n"
+"|ports\n"
+"|freebsd-eclipse\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by gecko@FreeBSD.org\n"
+"|ports\n"
+"|gecko\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by gnome@FreeBSD.org\n"
+"|ports\n"
+"|gnome\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by hamradio@FreeBSD.org\n"
+"|ports\n"
+"|hamradio\n"
+"|alias\n"
+"\n"
+"|port which is maintained by haskell@FreeBSD.org\n"
+"|ports\n"
+"|haskell\n"
+"|alias\n"
+"\n"
+"|port which is maintained by java@FreeBSD.org\n"
+"|ports\n"
+"|freebsd-java\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by kde@FreeBSD.org\n"
+"|ports\n"
+"|kde\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by mono@FreeBSD.org\n"
+"|ports\n"
+"|mono\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by office@FreeBSD.org\n"
+"|ports\n"
+"|freebsd-office\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by perl@FreeBSD.org\n"
+"|ports\n"
+"|perl\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by python@FreeBSD.org\n"
+"|ports\n"
+"|freebsd-python\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by ruby@FreeBSD.org\n"
+"|ports\n"
+"|freebsd-ruby\n"
+"|mailing list\n"
+"\n"
+"|port which is maintained by secteam@FreeBSD.org\n"
+"|ports\n"
+"|secteam\n"
+"|alias\n"
+"\n"
+"|port which is maintained by vbox@FreeBSD.org\n"
+"|ports\n"
+"|vbox\n"
+"|alias\n"
+"\n"
+"|port which is maintained by x11@FreeBSD.org\n"
+"|ports\n"
+"|freebsd-x11\n"
+"|mailing list\n"
 msgstr ""
 
 #. type: Plain text
@@ -749,16 +723,24 @@ msgstr ""
 msgid "Common Assignees - Other"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:422
-msgid "|problem with PR database |bin |bugmeister |alias"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pr-guidelines/_index.adoc:428
+#. type: Table
+#: documentation/content/en/articles/pr-guidelines/_index.adoc:427
+#, no-wrap
 msgid ""
-"|problem with Bugzilla https://bugs.freebsd.org/submit/[web form].  |doc "
-"|bugmeister |alias |==="
+"| Type\n"
+"| Suggested Category\n"
+"| Suggested Assignee\n"
+"| Assignee Type\n"
+"\n"
+"|problem with PR database\n"
+"|bin\n"
+"|bugmeister\n"
+"|alias\n"
+"\n"
+"|problem with Bugzilla https://bugs.freebsd.org/submit/[web form].\n"
+"|doc\n"
+"|bugmeister\n"
+"|alias\n"
 msgstr ""
 
 #. type: Title ==

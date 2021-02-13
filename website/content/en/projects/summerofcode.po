@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -23,8 +23,8 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/projects/summerofcode.adoc:5
-msgid "title: \"FreeBSD Summer Projects\" sidenav: developers ---"
+#: website/content/en/projects/summerofcode.adoc:4
+msgid "title: \"FreeBSD Summer Projects\" sidenav: developers"
 msgstr ""
 
 #. type: Title =
@@ -518,31 +518,59 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/projects/summerofcode.adoc:125
+#: website/content/en/projects/summerofcode.adoc:121
+#, no-wrap
+msgid "*12 March* - Student application period opens.\n"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/projects/summerofcode.adoc:122
+#, no-wrap
+msgid "*27 March 18:00 UTC* - Student application period closes.\n"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/projects/summerofcode.adoc:123
 #, no-wrap
 msgid ""
-"** *12 March* - Student application period opens.\n"
-"** *27 March 18:00 UTC* - Student application period closes.\n"
-"** *23 April* - Accepted students announced, students start creating their "
-"work plans. Community bonding period starts.\n"
-"** *14 May* - Coding starts.\n"
-"** *6 August* - Suggested end of coding.\n"
+"*23 April* - Accepted students announced, students start creating their work "
+"plans. Community bonding period starts.\n"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/projects/summerofcode.adoc:124
+#, no-wrap
+msgid "*14 May* - Coding starts.\n"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/projects/summerofcode.adoc:125
+#, no-wrap
+msgid "*6 August* - Suggested end of coding.\n"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/projects/summerofcode.adoc:127
+msgid ""
+"Note that these dates may change, and the Google FAQ timeline is the "
+"authoritative source of detailed schedule information:"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/projects/summerofcode.adoc:128
+msgid "https://summerofcode.withgoogle.com/how-it-works/[GSoC Timeline]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/projects/summerofcode.adoc:130
 msgid ""
-"Note that these dates may change, and the Google FAQ timeline is the "
-"authoritative source of detailed schedule information: ** "
-"https://summerofcode.withgoogle.com/how-it-works/[GSoC Timeline]"
+"All students must register with, and submit applications via, the Google "
+"Summer of Code home page:"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/projects/summerofcode.adoc:131
-msgid ""
-"All students must register with, and submit applications via, the Google "
-"Summer of Code home page: ** https://summerofcode.withgoogle.com/[Google "
-"Summer of Code Home Page]"
+msgid "https://summerofcode.withgoogle.com/[Google Summer of Code Home Page]"
 msgstr ""
 
 #. type: Plain text

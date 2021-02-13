@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -82,99 +82,109 @@ msgid ""
 "earliest date on which that branch is likely to be dropped."
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:24
+#, no-wrap
 msgid ""
-"|=== |Branch |Release |Package Branch |Package Set |Estimated EoL |stable/11 "
-"|n/a |releng/11.4 | |September 30, 2021 |releng/11.4 |11.4-RELEASE "
-"|releng/11.4 a|"
+"|Branch |Release |Package Branch |Package Set |Estimated EoL\n"
+"|stable/11 |n/a |releng/11.4 | |September 30, 2021\n"
+"|releng/11.4 |11.4-RELEASE |releng/11.4 a|\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:25
-msgid "FreeBSD:11:amd64"
+#, no-wrap
+msgid "FreeBSD:11:amd64\n"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/portmgr/policies_eol.adoc:26
-msgid "FreeBSD:11:i386"
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:30
+#, no-wrap
 msgid ""
-"|September 30, 2021 |stable/12 |n/a |releng/12.2 | |June 30, 2024 "
-"|releng/12.2 |12.2-RELEASE |releng/12.2 a|"
+"FreeBSD:11:i386\n"
+"\n"
+"|September 30, 2021\n"
+"|stable/12 |n/a |releng/12.2 | |June 30, 2024\n"
+"|releng/12.2 |12.2-RELEASE |releng/12.2 a|\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:31
-msgid "FreeBSD:12:aarch64"
+#, no-wrap
+msgid "FreeBSD:12:aarch64\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:32
-msgid "FreeBSD:12:amd64"
+#, no-wrap
+msgid "FreeBSD:12:amd64\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:33
-msgid "FreeBSD:12:i386"
+#, no-wrap
+msgid "FreeBSD:12:i386\n"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/portmgr/policies_eol.adoc:34
-msgid "FreeBSD:12:powerpc64"
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:37
-msgid "|12.3-RELEASE + 3 months |main |n/a |main a|"
+#, no-wrap
+msgid ""
+"FreeBSD:12:powerpc64\n"
+"\n"
+"|12.3-RELEASE + 3 months\n"
+"|main |n/a |main a|\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:38
-msgid "FreeBSD:13:aarch64"
+#, no-wrap
+msgid "FreeBSD:13:aarch64\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:39
-msgid "FreeBSD:13:amd64"
+#, no-wrap
+msgid "FreeBSD:13:amd64\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:40
-msgid "FreeBSD:13:armv6"
+#, no-wrap
+msgid "FreeBSD:13:armv6\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:41
-msgid "FreeBSD:12:armv7"
+#, no-wrap
+msgid "FreeBSD:12:armv7\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:42
-msgid "FreeBSD:13:i386"
+#, no-wrap
+msgid "FreeBSD:13:i386\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:43
-msgid "FreeBSD:13:mips"
+#, no-wrap
+msgid "FreeBSD:13:mips\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/portmgr/policies_eol.adoc:44
-msgid "FreeBSD:13:mips64"
+#, no-wrap
+msgid "FreeBSD:13:mips64\n"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/portmgr/policies_eol.adoc:45
-msgid "FreeBSD:13:powerpc64"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/portmgr/policies_eol.adoc:48
-msgid "|Best Effort |==="
+#. type: Table
+#: website/content/en/portmgr/policies_eol.adoc:47
+#, no-wrap
+msgid ""
+"FreeBSD:13:powerpc64\n"
+"\n"
+"|Best Effort\n"
 msgstr ""
 
 #. type: Plain text

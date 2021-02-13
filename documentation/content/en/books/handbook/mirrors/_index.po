@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1499,16 +1499,30 @@ msgid "rsync://ftp.cz.FreeBSD.org/"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/mirrors/_index.adoc:537 documentation/content/en/books/handbook/mirrors/_index.adoc:545 documentation/content/en/books/handbook/mirrors/_index.adoc:552 documentation/content/en/books/handbook/mirrors/_index.adoc:560 documentation/content/en/books/handbook/mirrors/_index.adoc:571 documentation/content/en/books/handbook/mirrors/_index.adoc:578 documentation/content/en/books/handbook/mirrors/_index.adoc:587 documentation/content/en/books/handbook/mirrors/_index.adoc:594
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:537
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:545
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:552
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:560
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:571
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:578
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:587
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:594
 msgid "Available collections:"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:539
+msgid "ftp: A partial mirror of the FreeBSD FTP server."
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/handbook/mirrors/_index.adoc:540
-#, no-wrap
-msgid ""
-"** ftp: A partial mirror of the FreeBSD FTP server.\n"
-"** FreeBSD: A full mirror of the FreeBSD FTP server.\n"
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:547
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:554
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:562
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:573
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:596
+msgid "FreeBSD: A full mirror of the FreeBSD FTP server."
 msgstr ""
 
 #. type: Labeled list
@@ -1520,12 +1534,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/books/handbook/mirrors/_index.adoc:543
 msgid "rsync://ftp.nl.FreeBSD.org/"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/mirrors/_index.adoc:547 documentation/content/en/books/handbook/mirrors/_index.adoc:562 documentation/content/en/books/handbook/mirrors/_index.adoc:573 documentation/content/en/books/handbook/mirrors/_index.adoc:596
-#, no-wrap
-msgid "** FreeBSD: A full mirror of the FreeBSD FTP server.\n"
 msgstr ""
 
 #. type: Labeled list
@@ -1541,10 +1549,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/mirrors/_index.adoc:555
-#, no-wrap
-msgid ""
-"** FreeBSD: A full mirror of the FreeBSD FTP server.\n"
-"** FreeBSD-Archive: The mirror of FreeBSD Archive FTP server.\n"
+msgid "FreeBSD-Archive: The mirror of FreeBSD Archive FTP server."
 msgstr ""
 
 #. type: Labeled list
@@ -1592,8 +1597,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/mirrors/_index.adoc:580
-#, no-wrap
-msgid "** ftp.freebsd.org: A full mirror of the FreeBSD FTP server.\n"
+msgid "ftp.freebsd.org: A full mirror of the FreeBSD FTP server."
 msgstr ""
 
 #. type: Labeled list
@@ -1613,11 +1617,13 @@ msgid "This server may only be used by FreeBSD primary mirror sites."
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/handbook/mirrors/_index.adoc:589
+msgid "FreeBSD: The master archive of the FreeBSD FTP server."
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/handbook/mirrors/_index.adoc:590
-#, no-wrap
-msgid ""
-"** FreeBSD: The master archive of the FreeBSD FTP server.\n"
-"** acl: The FreeBSD master ACL list.\n"
+msgid "acl: The FreeBSD master ACL list."
 msgstr ""
 
 #. type: Plain text

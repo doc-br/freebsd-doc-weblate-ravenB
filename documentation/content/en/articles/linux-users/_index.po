@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,11 +60,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/linux-users/_index.adoc:28
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:30
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -161,7 +156,8 @@ msgid "No need to install a compiler."
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/articles/linux-users/_index.adoc:57 documentation/content/en/articles/linux-users/_index.adoc:78
+#: documentation/content/en/articles/linux-users/_index.adoc:57
+#: documentation/content/en/articles/linux-users/_index.adoc:78
 #, no-wrap
 msgid "Ports"
 msgstr ""
@@ -667,48 +663,41 @@ msgstr ""
 msgid "Some common command equivalents are as follows:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:283
-msgid "|=== | Linux(R) command (Red Hat/Debian)  | FreeBSD equivalent | Purpose"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:287
+#. type: Table
+#: documentation/content/en/articles/linux-users/_index.adoc:311
+#, no-wrap
 msgid ""
-"|`yum install _package_` / `apt-get install _package_` |`pkg install "
-"_package_` |Install package from remote repository"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:291
-msgid ""
-"|`rpm -ivh _package_` / `dpkg -i _package_` |`pkg add _package_` |Install "
-"local package"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:295
-msgid "|`rpm -qa` / `dpkg -l` |`pkg info` |List installed packages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:299
-msgid "|`lspci` |`pciconf` |List PCI devices"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:303
-msgid "|`lsmod` |`kldstat` |List loaded kernel modules"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:307
-msgid "|`modprobe` |`kldload` / `kldunload` |Load/Unload kernel modules"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-users/_index.adoc:312
-msgid "|`strace` |`truss` |Trace system calls |==="
+"| Linux(R) command (Red Hat/Debian)\n"
+"| FreeBSD equivalent\n"
+"| Purpose\n"
+"\n"
+"|`yum install _package_` / `apt-get install _package_`\n"
+"|`pkg install _package_`\n"
+"|Install package from remote repository\n"
+"\n"
+"|`rpm -ivh _package_` / `dpkg -i _package_`\n"
+"|`pkg add _package_`\n"
+"|Install local package\n"
+"\n"
+"|`rpm -qa` / `dpkg -l`\n"
+"|`pkg info`\n"
+"|List installed packages\n"
+"\n"
+"|`lspci`\n"
+"|`pciconf`\n"
+"|List PCI devices\n"
+"\n"
+"|`lsmod`\n"
+"|`kldstat`\n"
+"|List loaded kernel modules\n"
+"\n"
+"|`modprobe`\n"
+"|`kldload` / `kldunload`\n"
+"|Load/Unload kernel modules\n"
+"\n"
+"|`strace`\n"
+"|`truss`\n"
+"|Trace system calls\n"
 msgstr ""
 
 #. type: Title ==

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.1R/relnotes-detailed.adoc:13 website/content/en/releases/9.1R/relnotes-detailed.adoc:44 website/content/en/releases/9.1R/relnotes-detailed.adoc:53 website/content/en/releases/9.1R/relnotes-detailed.adoc:74 website/content/en/releases/9.1R/relnotes-detailed.adoc:107 website/content/en/releases/9.1R/relnotes-detailed.adoc:140 website/content/en/releases/9.1R/relnotes-detailed.adoc:179 website/content/en/releases/9.1R/relnotes-detailed.adoc:192 website/content/en/releases/9.1R/relnotes-detailed.adoc:254 website/content/en/releases/9.1R/relnotes-detailed.adoc:290 website/content/en/releases/9.1R/relnotes-detailed.adoc:364 website/content/en/releases/9.1R/relnotes-detailed.adoc:407 website/content/en/releases/9.1R/relnotes-detailed.adoc:474 website/content/en/releases/9.1R/relnotes-detailed.adoc:483 website/content/en/releases/9.1R/relnotes-detailed.adoc:492 website/content/en/releases/9.1R/relnotes-detailed.adoc:525 website/content/en/releases/9.1R/relnotes-detailed.adoc:533 website/content/en/releases/9.1R/relnotes-detailed.adoc:550
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:13
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:44
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:53
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:74
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:107
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:140
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:179
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:192
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:254
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:290
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:364
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:407
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:474
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:483
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:492
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:525
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:533
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:550
 msgid "'''''"
 msgstr ""
 
@@ -74,18 +91,48 @@ msgid "<<security,Security Advisories>>"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:20
+msgid "<<kernel,Kernel Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:21
+msgid "<<boot,Boot Loader Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:22
+msgid "<<proc,Hardware Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:23
+msgid "<<net-proto,Network Protocols>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:24
+msgid "<<disks,Disks and Storage>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/9.1R/relnotes-detailed.adoc:25
-msgid ""
-"<<kernel,Kernel Changes>> ... <<boot,Boot Loader Changes>> "
-"... <<proc,Hardware Support>> ... <<net-proto,Network Protocols>> "
-"... <<disks,Disks and Storage>> ... <<fs,File Systems>>"
+msgid "<<fs,File Systems>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:26
+msgid "<<userland,Userland Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:27
+msgid "<<periodic-scripts,man:periodic[8] Scripts>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/9.1R/relnotes-detailed.adoc:28
-msgid ""
-"<<userland,Userland Changes>> ... <<periodic-scripts,man:periodic[8] "
-"Scripts>> ... <<rc-scripts,man:rc[8] Scripts>>"
+msgid "<<rc-scripts,man:rc[8] Scripts>>"
 msgstr ""
 
 #. type: Plain text
@@ -189,29 +236,30 @@ msgid ""
 "http://security.FreeBSD.org/."
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/9.1R/relnotes-detailed.adoc:72
+#. type: Table
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:71
+#, no-wrap
 msgid ""
-"|=== |Advisory |Date |Topic "
+"|Advisory |Date |Topic\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:01.openssl.asc[SA-12:01.openssl] "
-"|3 May 2012 |OpenSSL multiple vulnerabilities "
+"|3 May 2012 |OpenSSL multiple vulnerabilities\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:02.crypt.asc[SA-12:02.crypt] "
-"|30 May 2012 |Incorrect `crypt()` hashing "
+"|30 May 2012 |Incorrect `crypt()` hashing\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:03.bind.asc[SA-12:03.bind] "
 "|12 June 2012 |Incorrect handling of zero-length RDATA fields in "
-"man:named[8] "
+"man:named[8]\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:04.sysret.asc[SA-12:04.sysret] "
-"|12 June 2012 |Privilege escalation when returning from kernel "
+"|12 June 2012 |Privilege escalation when returning from kernel\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:05.bind.asc[SA-12:05.bind] "
-"|6 August 2012 |man:named[8] DNSSEC validation Denial of Service "
+"|6 August 2012 |man:named[8] DNSSEC validation Denial of Service\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:06.bind.asc[SA-12:06.bind] "
 "|22 November 2012 |Multiple Denial of Service vulnerabilities with "
-"man:named[8] "
+"man:named[8]\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:07.hostapd.asc[SA-12:07.hostapd] "
 "|22 November 2012 |Insufficient message length validation for EAP-TLS "
-"messages "
+"messages\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:08.linux.asc[SA-12:08.linux] "
-"|22 November 2012 |Linux compatibility layer input validation error |==="
+"|22 November 2012 |Linux compatibility layer input validation error\n"
 msgstr ""
 
 #. type: Title ===
@@ -981,14 +1029,17 @@ msgid ""
 "supported:[http://svn.freebsd.org/viewvc/base?view=revision&revision=236677[r236677]"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/9.1R/relnotes-detailed.adoc:321
+#. type: Table
+#: website/content/en/releases/9.1R/relnotes-detailed.adoc:320
+#, no-wrap
 msgid ""
-"|=== |Value |Method |NONE |no provisioning support reported by the device "
-"|DISABLE |provisioning support was disabled because of errors |ZERO |WRITE "
-"SAME (10) command to write zeroes |WS10 |WRITE SAME (10) command with UNMAP "
-"bit set |WS16 |use WRITE SAME (16) command with UNMAP bit set |UNMAP |use "
-"UNMAP command (equivalent of the ATA DSM TRIM command)  |==="
+"|Value |Method\n"
+"|NONE |no provisioning support reported by the device\n"
+"|DISABLE |provisioning support was disabled because of errors\n"
+"|ZERO |WRITE SAME (10) command to write zeroes\n"
+"|WS10 |WRITE SAME (10) command with UNMAP bit set\n"
+"|WS16 |use WRITE SAME (16) command with UNMAP bit set\n"
+"|UNMAP |use UNMAP command (equivalent of the ATA DSM TRIM command)\n"
 msgstr ""
 
 #. type: Plain text

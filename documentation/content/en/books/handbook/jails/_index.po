@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/jails/_index.adoc:9
 #, no-wrap
 msgid "Jails"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/jails/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/jails/_index.adoc:27 documentation/content/en/books/handbook/jails/_index.adoc:31 documentation/content/en/books/handbook/jails/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/jails/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/jails/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/jails/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -1182,7 +1157,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/jails/_index.adoc:474 documentation/content/en/books/handbook/jails/_index.adoc:568
+#: documentation/content/en/books/handbook/jails/_index.adoc:474
+#: documentation/content/en/books/handbook/jails/_index.adoc:568
 #, no-wrap
 msgid ""
 "# mount -a\n"
@@ -1399,7 +1375,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/jails/_index.adoc:591 documentation/content/en/books/handbook/jails/_index.adoc:962
+#: documentation/content/en/books/handbook/jails/_index.adoc:591
+#: documentation/content/en/books/handbook/jails/_index.adoc:962
 #, no-wrap
 msgid "cloned_interfaces=\"lo1\"\n"
 msgstr ""
@@ -1412,7 +1389,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/jails/_index.adoc:600 documentation/content/en/books/handbook/jails/_index.adoc:970
+#: documentation/content/en/books/handbook/jails/_index.adoc:600
+#: documentation/content/en/books/handbook/jails/_index.adoc:970
 #, no-wrap
 msgid ""
 "# service netif cloneup\n"

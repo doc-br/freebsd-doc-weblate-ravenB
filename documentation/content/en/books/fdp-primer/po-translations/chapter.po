@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,107 +258,112 @@ msgstr ""
 msgid "Language Names"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:136
-msgid "|=== | Language | Region | Translated Directory Name | PO File Name"
+#. type: Table
+#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:231
+#, no-wrap
+msgid ""
+"| Language\n"
+"| Region\n"
+"| Translated Directory Name\n"
+"| PO File Name\n"
+"\n"
+"|English\n"
+"|United States\n"
+"|[.filename]#en#\n"
+"|[.filename]#en.po#\n"
+"\n"
+"|Bengali\n"
+"|Bangladesh\n"
+"|[.filename]#bn#\n"
+"|[.filename]#bn.po#\n"
+"\n"
+"|Danish\n"
+"|Denmark\n"
+"|[.filename]#da#\n"
+"|[.filename]#da.po#\n"
+"\n"
+"|German\n"
+"|Germany\n"
+"|[.filename]#de#\n"
+"|[.filename]#de.po#\n"
+"\n"
+"|Greek\n"
+"|Greece\n"
+"|[.filename]#el#\n"
+"|[.filename]#el.po#\n"
+"\n"
+"|Spanish\n"
+"|Spain\n"
+"|[.filename]#es#\n"
+"|[.filename]#es.po#\n"
+"\n"
+"|French\n"
+"|France\n"
+"|[.filename]#fr#\n"
+"|[.filename]#fr.po#\n"
+"\n"
+"|Hungarian\n"
+"|Hungary\n"
+"|[.filename]#hu#\n"
+"|[.filename]#hu.po#\n"
+"\n"
+"|Italian\n"
+"|Italy\n"
+"|[.filename]#it#\n"
+"|[.filename]#it.po#\n"
+"\n"
+"|Japanese\n"
+"|Japan\n"
+"|[.filename]#ja#\n"
+"|[.filename]#ja.po#\n"
+"\n"
+"|Korean\n"
+"|Korea\n"
+"|[.filename]#ko#\n"
+"|[.filename]#ko.po#\n"
+"\n"
+"|Mongolian\n"
+"|Mongolia\n"
+"|[.filename]#mn#\n"
+"|[.filename]#mn.po#\n"
+"\n"
+"|Dutch\n"
+"|Netherlands\n"
+"|[.filename]#nl#\n"
+"|[.filename]#nl.po#\n"
+"\n"
+"|Polish\n"
+"|Poland\n"
+"|[.filename]#pl#\n"
+"|[.filename]#pl.po#\n"
+"\n"
+"|Portuguese\n"
+"|Brazil\n"
+"|[.filename]#pt_BR#\n"
+"|[.filename]#pt_BR.po#\n"
+"\n"
+"|Russian\n"
+"|Russia\n"
+"|[.filename]#ru#\n"
+"|[.filename]#ru.po#\n"
+"\n"
+"|Turkish\n"
+"|Turkey\n"
+"|[.filename]#tr#\n"
+"|[.filename]#tr.po#\n"
+"\n"
+"|Chinese\n"
+"|China\n"
+"|[.filename]#zh_CN#\n"
+"|[.filename]#zh_CN.po#\n"
+"\n"
+"|Chinese\n"
+"|Taiwan\n"
+"|[.filename]#zh_TW#\n"
+"|[.filename]#zh_TW.po#\n"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:141
-msgid "|English |United States |[.filename]#en# |[.filename]#en.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:146
-msgid "|Bengali |Bangladesh |[.filename]#bn# |[.filename]#bn.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:151
-msgid "|Danish |Denmark |[.filename]#da# |[.filename]#da.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:156
-msgid "|German |Germany |[.filename]#de# |[.filename]#de.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:161
-msgid "|Greek |Greece |[.filename]#el# |[.filename]#el.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:166
-msgid "|Spanish |Spain |[.filename]#es# |[.filename]#es.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:171
-msgid "|French |France |[.filename]#fr# |[.filename]#fr.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:176
-msgid "|Hungarian |Hungary |[.filename]#hu# |[.filename]#hu.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:181
-msgid "|Italian |Italy |[.filename]#it# |[.filename]#it.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:186
-msgid "|Japanese |Japan |[.filename]#ja# |[.filename]#ja.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:191
-msgid "|Korean |Korea |[.filename]#ko# |[.filename]#ko.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:196
-msgid "|Mongolian |Mongolia |[.filename]#mn# |[.filename]#mn.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:201
-msgid "|Dutch |Netherlands |[.filename]#nl# |[.filename]#nl.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:206
-msgid "|Polish |Poland |[.filename]#pl# |[.filename]#pl.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:211
-msgid "|Portuguese |Brazil |[.filename]#pt_BR# |[.filename]#pt_BR.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:216
-msgid "|Russian |Russia |[.filename]#ru# |[.filename]#ru.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:221
-msgid "|Turkish |Turkey |[.filename]#tr# |[.filename]#tr.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:226
-msgid "|Chinese |China |[.filename]#zh_CN# |[.filename]#zh_CN.po#"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:232
-msgid "|Chinese |Taiwan |[.filename]#zh_TW# |[.filename]#zh_TW.po# |==="
-msgstr ""
-
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:234
 msgid ""
 "The translations are in subdirectories of the main documentation directory, "
@@ -368,14 +373,14 @@ msgid ""
 "[.filename]#~/doc/fr/#."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:236
 msgid ""
 "Each language directory contains separate subdirectories named for the type "
 "of documents, usually [.filename]#articles/# and [.filename]#books/#."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:238
 msgid ""
 "Combining these directory names gives the complete path to an article or "
@@ -384,7 +389,7 @@ msgid ""
 "the Handbook is in [.filename]#~/doc/mn/books/handbook/#."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:240
 msgid ""
 "A new language directory must be created when translating a document to a "
@@ -398,7 +403,7 @@ msgstr ""
 msgid "Creating a Spanish Translation of the Porter's Handbook"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:246
 msgid ""
 "Create a new Spanish translation of the link:{porters-handbook}[Porter's "
@@ -406,7 +411,7 @@ msgid ""
 "[.filename]#~/doc/en/books/porters-handbook/#."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:251
 msgid ""
 "The Spanish language books directory [.filename]#~/doc/es/books/# already "
@@ -526,7 +531,8 @@ msgid "Tips for Translators"
 msgstr ""
 
 #. type: Block title
-#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:311 documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:315
+#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:311
+#: documentation/content/en/books/fdp-primer/po-translations/chapter.adoc:315
 #, no-wrap
 msgid "Preserving AsciiDoc macros"
 msgstr ""

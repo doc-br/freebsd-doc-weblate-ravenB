@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -332,11 +332,13 @@ msgid "The following new topics are covered in this second edition:"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/handbook/preface/_index.adoc:79
+msgid "crossref:config[config-tuning,Configuration and Tuning]."
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/handbook/preface/_index.adoc:80
-#, no-wrap
-msgid ""
-"** crossref:config[config-tuning,Configuration and Tuning].\n"
-"** crossref:multimedia[multimedia,Multimedia].\n"
+msgid "crossref:multimedia[multimedia,Multimedia]."
 msgstr ""
 
 #. type: Title ==

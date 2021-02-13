@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:8
 #, no-wrap
 msgid "Writing Style"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:26
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -367,57 +362,49 @@ msgid ""
 "{freebsd-doc}."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:135
-msgid "|=== | Name | Syntax | Rendered"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:140
-msgid "| Copyright | +(C)+ | (C)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:144
-msgid "| Registered | +(R)+ | (R)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:148
-msgid "| Trademark | +(TM)+ | (TM)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:152
-msgid "| Em dash | +--+ | --"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:156
-msgid "| Ellipses | +...+ | ..."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:160
-msgid "| Single right arrow | +->+ | ->"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:164
-msgid "| Double right arrow | +=>+ | =>"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:168
-msgid "| Single left arrow | +<-+ | <-"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:172
-msgid "| Double left arrow | +<=+ | <="
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/writing-style/chapter.adoc:173
-msgid "|==="
+#, no-wrap
+msgid ""
+"| Name\n"
+"| Syntax\n"
+"| Rendered\n"
+"\n"
+"\n"
+"| Copyright\n"
+"| +(C)+\n"
+"| (C)\n"
+"\n"
+"| Registered\n"
+"| +(R)+\n"
+"| (R)\n"
+"\n"
+"| Trademark\n"
+"| +(TM)+\n"
+"| (TM)\n"
+"\n"
+"| Em dash\n"
+"| +--+\n"
+"| --\n"
+"\n"
+"| Ellipses\n"
+"| +...+\n"
+"| ...\n"
+"\n"
+"| Single right arrow\n"
+"| +->+\n"
+"| ->\n"
+"\n"
+"| Double right arrow\n"
+"| +=>+\n"
+"| =>\n"
+"\n"
+"| Single left arrow\n"
+"| +<-+\n"
+"| <-\n"
+"\n"
+"| Double left arrow\n"
+"| +<=+\n"
+"| <=\n"
+"\n"
 msgstr ""

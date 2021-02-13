@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,26 +47,6 @@ msgid "Frequently Asked Questions for FreeBSD {rel2-relx} and {rel-relx}"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:40
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:47 documentation/content/en/books/faq/_index.adoc:56 documentation/content/en/books/faq/_index.adoc:65
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:49
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:58
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
 #: documentation/content/en/books/faq/_index.adoc:68
 msgid "Abstract"
 msgstr ""
@@ -92,11 +72,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/books/faq/_index.adoc:74
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:76
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -710,104 +685,69 @@ msgid ""
 "languages and encodings are as follows:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:244
-msgid "|=== | Name | Meaning"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:247
-msgid "|`en_US.ISO8859-1` |English (United States)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:250
-msgid "|`bn_BD.ISO10646-1` |Bengali or Bangla (Bangladesh)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:253
-msgid "|`da_DK.ISO8859-1` |Danish (Denmark)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:256
-msgid "|`de_DE.ISO8859-1` |German (Germany)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:259
-msgid "|`el_GR.ISO8859-7` |Greek (Greece)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:262
-msgid "|`es_ES.ISO8859-1` |Spanish (Spain)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:265
-msgid "|`fr_FR.ISO8859-1` |French (France)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:268
-msgid "|`hu_HU.ISO8859-2` |Hungarian (Hungary)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:271
-msgid "|`it_IT.ISO8859-15` |Italian (Italy)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:274
-msgid "|`ja_JP.eucJP` |Japanese (Japan, EUC encoding)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:277
-msgid "|`ko_KR.UTF-8` |Korean (Korea, UTF-8 encoding)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:280
-msgid "|`mn_MN.UTF-8` |Mongolian (Mongolia, UTF-8 encoding)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:283
-msgid "|`nl_NL.ISO8859-1` |Dutch (Netherlands)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:286
-msgid "|`pl_PL.ISO8859-2` |Polish (Poland)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:289
-msgid "|`pt_BR.ISO8859-1` |Portuguese (Brazil)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:292
-msgid "|`ru_RU.KOI8-R` |Russian (Russia, KOI8-R encoding)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:295
-msgid "|`tr_TR.ISO8859-9` |Turkish (Turkey)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:298
-msgid "|`zh_CN.UTF-8` |Simplified Chinese (China, UTF-8 encoding)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:302
-msgid "|`zh_TW.UTF-8` |Traditional Chinese (Taiwan, UTF-8 encoding)  |==="
+#. type: Table
+#: documentation/content/en/books/faq/_index.adoc:301
+#, no-wrap
+msgid ""
+"| Name\n"
+"| Meaning\n"
+"\n"
+"|`en_US.ISO8859-1`\n"
+"|English (United States)\n"
+"\n"
+"|`bn_BD.ISO10646-1`\n"
+"|Bengali or Bangla (Bangladesh)\n"
+"\n"
+"|`da_DK.ISO8859-1`\n"
+"|Danish (Denmark)\n"
+"\n"
+"|`de_DE.ISO8859-1`\n"
+"|German (Germany)\n"
+"\n"
+"|`el_GR.ISO8859-7`\n"
+"|Greek (Greece)\n"
+"\n"
+"|`es_ES.ISO8859-1`\n"
+"|Spanish (Spain)\n"
+"\n"
+"|`fr_FR.ISO8859-1`\n"
+"|French (France)\n"
+"\n"
+"|`hu_HU.ISO8859-2`\n"
+"|Hungarian (Hungary)\n"
+"\n"
+"|`it_IT.ISO8859-15`\n"
+"|Italian (Italy)\n"
+"\n"
+"|`ja_JP.eucJP`\n"
+"|Japanese (Japan, EUC encoding)\n"
+"\n"
+"|`ko_KR.UTF-8`\n"
+"|Korean (Korea, UTF-8 encoding)\n"
+"\n"
+"|`mn_MN.UTF-8`\n"
+"|Mongolian (Mongolia, UTF-8 encoding)\n"
+"\n"
+"|`nl_NL.ISO8859-1`\n"
+"|Dutch (Netherlands)\n"
+"\n"
+"|`pl_PL.ISO8859-2`\n"
+"|Polish (Poland)\n"
+"\n"
+"|`pt_BR.ISO8859-1`\n"
+"|Portuguese (Brazil)\n"
+"\n"
+"|`ru_RU.KOI8-R`\n"
+"|Russian (Russia, KOI8-R encoding)\n"
+"\n"
+"|`tr_TR.ISO8859-9`\n"
+"|Turkish (Turkey)\n"
+"\n"
+"|`zh_CN.UTF-8`\n"
+"|Simplified Chinese (China, UTF-8 encoding)\n"
+"\n"
+"|`zh_TW.UTF-8`\n"
+"|Traditional Chinese (Taiwan, UTF-8 encoding)\n"
 msgstr ""
 
 #. type: delimited block =
@@ -827,64 +767,66 @@ msgid ""
 "after printing the documents. The currently available formats are:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:315
-msgid "|=== | Format | Meaning"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:318
-msgid "|`html-split` |A collection of small, linked, HTML files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:321
-msgid "|`html` |One large HTML file containing the entire document"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:324
-msgid "|`pdf` |Adobe's Portable Document Format"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:328
-msgid "|`txt` |Plain text |==="
+#. type: Table
+#: documentation/content/en/books/faq/_index.adoc:327
+#, no-wrap
+msgid ""
+"| Format\n"
+"| Meaning\n"
+"\n"
+"|`html-split`\n"
+"|A collection of small, linked, HTML files.\n"
+"\n"
+"|`html`\n"
+"|One large HTML file containing the entire document\n"
+"\n"
+"|`pdf`\n"
+"|Adobe's Portable Document Format\n"
+"\n"
+"|`txt`\n"
+"|Plain text\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/faq/_index.adoc:329
-msgid "The compression and packaging scheme."
+#, no-wrap
+msgid "The compression and packaging scheme.\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/faq/_index.adoc:330
+#, no-wrap
 msgid ""
 "Where the format is `html-split`, the files are bundled up using "
 "man:tar[1]. The resulting [.filename]#.tar# is then compressed using the "
-"compression schemes detailed in the next point."
+"compression schemes detailed in the next point.\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/faq/_index.adoc:331
+#, no-wrap
 msgid ""
 "All the other formats generate one file. For example, "
-"[.filename]#article.pdf#, [.filename]#book.html#, and so on."
+"[.filename]#article.pdf#, [.filename]#book.html#, and so on.\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/faq/_index.adoc:333
+#, no-wrap
 msgid ""
-"  These files are then compressed using either the `zip` or `bz2` "
-"compression schemes. man:tar[1] can be used to uncompress these files."
+"\n"
+"These files are then compressed using either the `zip` or `bz2` compression "
+"schemes. man:tar[1] can be used to uncompress these files.\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/faq/_index.adoc:335
+#, no-wrap
 msgid ""
-"  So the PDF version of the Handbook, compressed using `bzip2` will be "
-"stored in a file called [.filename]#book.pdf.bz2# in the "
-"[.filename]#handbook/# directory."
+"\n"
+"So the PDF version of the Handbook, compressed using `bzip2` will be stored "
+"in a file called [.filename]#book.pdf.bz2# in the [.filename]#handbook/# "
+"directory.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1101,37 +1043,25 @@ msgstr ""
 msgid "Any of the following can be used:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:403
-msgid "|=== | file | description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:406
+#. type: Table
+#: documentation/content/en/books/faq/_index.adoc:415
+#, no-wrap
 msgid ""
-"|[.filename]#disc1.iso# |Contains enough to install FreeBSD and a minimal "
-"set of packages."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:409
-msgid ""
-"|[.filename]#dvd1.iso# |Similar to [.filename]#disc1.iso# but with "
-"additional packages."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:412
-msgid ""
-"|[.filename]#memstick.img# |A bootable image sufficient for writing to a USB "
-"stick."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:416
-msgid ""
-"|[.filename]#bootonly.iso# |A minimal image that requires network access "
-"during installation to completely install FreeBSD.  |==="
+"| file\n"
+"| description\n"
+"\n"
+"|[.filename]#disc1.iso#\n"
+"|Contains enough to install FreeBSD and a minimal set of packages.\n"
+"\n"
+"|[.filename]#dvd1.iso#\n"
+"|Similar to [.filename]#disc1.iso# but with additional packages.\n"
+"\n"
+"|[.filename]#memstick.img#\n"
+"|A bootable image sufficient for writing to a USB stick.\n"
+"\n"
+"|[.filename]#bootonly.iso#\n"
+"|A minimal image that requires network access during installation to "
+"completely install FreeBSD.\n"
 msgstr ""
 
 #. type: Plain text
@@ -3089,7 +3019,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: documentation/content/en/books/faq/_index.adoc:1062 documentation/content/en/books/faq/_index.adoc:1259
+#: documentation/content/en/books/faq/_index.adoc:1062
+#: documentation/content/en/books/faq/_index.adoc:1259
 #, no-wrap
 msgid "ZFS"
 msgstr ""
@@ -3982,24 +3913,21 @@ msgstr ""
 msgid "Put the quota file on the file system that the quotas are to be enforced on:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:1414
-msgid "|=== | File System | Quota file"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:1417
-msgid "|[.filename]#/usr# |[.filename]#/usr/admin/quotas#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:1420
-msgid "|[.filename]#/home# |[.filename]#/home/admin/quotas#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/faq/_index.adoc:1424
-msgid "|...  |...  |==="
+#. type: Table
+#: documentation/content/en/books/faq/_index.adoc:1423
+#, no-wrap
+msgid ""
+"| File System\n"
+"| Quota file\n"
+"\n"
+"|[.filename]#/usr#\n"
+"|[.filename]#/usr/admin/quotas#\n"
+"\n"
+"|[.filename]#/home#\n"
+"|[.filename]#/home/admin/quotas#\n"
+"\n"
+"|...\n"
+"|...\n"
 msgstr ""
 
 #. type: Title ===
@@ -4260,7 +4188,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/faq/_index.adoc:1525 documentation/content/en/books/faq/_index.adoc:1539
+#: documentation/content/en/books/faq/_index.adoc:1525
+#: documentation/content/en/books/faq/_index.adoc:1539
 #, no-wrap
 msgid "# sysctl kern.securelevel\n"
 msgstr ""
@@ -4635,7 +4564,16 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/faq/_index.adoc:1653 documentation/content/en/books/faq/_index.adoc:1660 documentation/content/en/books/faq/_index.adoc:1691 documentation/content/en/books/faq/_index.adoc:1714 documentation/content/en/books/faq/_index.adoc:1726 documentation/content/en/books/faq/_index.adoc:1775 documentation/content/en/books/faq/_index.adoc:1867 documentation/content/en/books/faq/_index.adoc:1876 documentation/content/en/books/faq/_index.adoc:1887 documentation/content/en/books/faq/_index.adoc:2197
+#: documentation/content/en/books/faq/_index.adoc:1653
+#: documentation/content/en/books/faq/_index.adoc:1660
+#: documentation/content/en/books/faq/_index.adoc:1691
+#: documentation/content/en/books/faq/_index.adoc:1714
+#: documentation/content/en/books/faq/_index.adoc:1726
+#: documentation/content/en/books/faq/_index.adoc:1775
+#: documentation/content/en/books/faq/_index.adoc:1867
+#: documentation/content/en/books/faq/_index.adoc:1876
+#: documentation/content/en/books/faq/_index.adoc:1887
+#: documentation/content/en/books/faq/_index.adoc:2197
 #, no-wrap
 msgid "[.programlisting]\n"
 msgstr ""
@@ -4670,7 +4608,14 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/faq/_index.adoc:1667 documentation/content/en/books/faq/_index.adoc:1860 documentation/content/en/books/faq/_index.adoc:1939 documentation/content/en/books/faq/_index.adoc:2043 documentation/content/en/books/faq/_index.adoc:2050 documentation/content/en/books/faq/_index.adoc:2122 documentation/content/en/books/faq/_index.adoc:2268 documentation/content/en/books/faq/_index.adoc:2598
+#: documentation/content/en/books/faq/_index.adoc:1667
+#: documentation/content/en/books/faq/_index.adoc:1860
+#: documentation/content/en/books/faq/_index.adoc:1939
+#: documentation/content/en/books/faq/_index.adoc:2043
+#: documentation/content/en/books/faq/_index.adoc:2050
+#: documentation/content/en/books/faq/_index.adoc:2122
+#: documentation/content/en/books/faq/_index.adoc:2268
+#: documentation/content/en/books/faq/_index.adoc:2598
 #, no-wrap
 msgid "[source,bash]\n"
 msgstr ""
@@ -4701,7 +4646,17 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/faq/_index.adoc:1677 documentation/content/en/books/faq/_index.adoc:1707 documentation/content/en/books/faq/_index.adoc:1756 documentation/content/en/books/faq/_index.adoc:1802 documentation/content/en/books/faq/_index.adoc:1818 documentation/content/en/books/faq/_index.adoc:1830 documentation/content/en/books/faq/_index.adoc:2006 documentation/content/en/books/faq/_index.adoc:2023 documentation/content/en/books/faq/_index.adoc:2190 documentation/content/en/books/faq/_index.adoc:2504 documentation/content/en/books/faq/_index.adoc:2631
+#: documentation/content/en/books/faq/_index.adoc:1677
+#: documentation/content/en/books/faq/_index.adoc:1707
+#: documentation/content/en/books/faq/_index.adoc:1756
+#: documentation/content/en/books/faq/_index.adoc:1802
+#: documentation/content/en/books/faq/_index.adoc:1818
+#: documentation/content/en/books/faq/_index.adoc:1830
+#: documentation/content/en/books/faq/_index.adoc:2006
+#: documentation/content/en/books/faq/_index.adoc:2023
+#: documentation/content/en/books/faq/_index.adoc:2190
+#: documentation/content/en/books/faq/_index.adoc:2504
+#: documentation/content/en/books/faq/_index.adoc:2631
 msgid "[.programlisting]"
 msgstr ""
 
@@ -4825,7 +4780,15 @@ msgid "To enable this feature, start X with the optional `-listen_tcp` argument:
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/faq/_index.adoc:1738 documentation/content/en/books/faq/_index.adoc:1932 documentation/content/en/books/faq/_index.adoc:1951 documentation/content/en/books/faq/_index.adoc:1978 documentation/content/en/books/faq/_index.adoc:1992 documentation/content/en/books/faq/_index.adoc:2072 documentation/content/en/books/faq/_index.adoc:2165 documentation/content/en/books/faq/_index.adoc:2228 documentation/content/en/books/faq/_index.adoc:2254
+#: documentation/content/en/books/faq/_index.adoc:1738
+#: documentation/content/en/books/faq/_index.adoc:1932
+#: documentation/content/en/books/faq/_index.adoc:1951
+#: documentation/content/en/books/faq/_index.adoc:1978
+#: documentation/content/en/books/faq/_index.adoc:1992
+#: documentation/content/en/books/faq/_index.adoc:2072
+#: documentation/content/en/books/faq/_index.adoc:2165
+#: documentation/content/en/books/faq/_index.adoc:2228
+#: documentation/content/en/books/faq/_index.adoc:2254
 msgid "[source,bash]"
 msgstr ""
 
@@ -6012,7 +5975,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/faq/_index.adoc:2134 documentation/content/en/books/faq/_index.adoc:2264
+#: documentation/content/en/books/faq/_index.adoc:2134
+#: documentation/content/en/books/faq/_index.adoc:2264
 #, no-wrap
 msgid ""
 "[WARNING]\n"

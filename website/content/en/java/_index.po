@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,7 +139,9 @@ msgid "`pkg install openjdk[version]`"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/java/_index.adoc:42 website/content/en/java/_index.adoc:52 website/content/en/java/_index.adoc:64
+#: website/content/en/java/_index.adoc:42
+#: website/content/en/java/_index.adoc:52
+#: website/content/en/java/_index.adoc:64
 msgid "or"
 msgstr ""
 
@@ -149,7 +151,9 @@ msgid "`cd /usr/ports/java/openjdk[version]`"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/java/_index.adoc:46 website/content/en/java/_index.adoc:56 website/content/en/java/_index.adoc:68
+#: website/content/en/java/_index.adoc:46
+#: website/content/en/java/_index.adoc:56
+#: website/content/en/java/_index.adoc:68
 msgid "`make install clean`"
 msgstr ""
 

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -70,11 +70,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:43
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:45
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -137,52 +132,96 @@ msgstr ""
 msgid "The following sections of this article describe:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:65
-msgid ""
-"<<releng-prep>>:: General information and preparation before starting the "
-"release cycle."
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:63
+#, no-wrap
+msgid "<<releng-prep>>"
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:65
+msgid "General information and preparation before starting the release cycle."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:66
+#, no-wrap
+msgid "<<releng-website>>"
+msgstr ""
+
+#. type: Title ==
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:68
-msgid "<<releng-website>>:: Website Changes During the Release Cycle"
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:250
+#, no-wrap
+msgid "Website Changes During the Release Cycle"
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:69
+#, no-wrap
+msgid "<<releng-terms>>"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:71
 msgid ""
-"<<releng-terms>>:: Terminology and general information, such as the \"code "
-"slush\" and \"code freeze\", used throughout this document."
+"Terminology and general information, such as the \"code slush\" and \"code "
+"freeze\", used throughout this document."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:72
+#, no-wrap
+msgid "<<releng-head>>"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:74
-msgid ""
-"<<releng-head>>:: The Release Engineering process for a \"dot-zero\" "
-"release."
+msgid "The Release Engineering process for a \"dot-zero\" release."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:75
+#, no-wrap
+msgid "<<releng-stable>>"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:77
-msgid "<<releng-stable>>:: The Release Engineering process for a \"point\" release."
+msgid "The Release Engineering process for a \"point\" release."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:78
+#, no-wrap
+msgid "<<releng-building>>"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:80
-msgid ""
-"<<releng-building>>:: Information related to the specific procedures to "
-"build installation medium."
+msgid "Information related to the specific procedures to build installation medium."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:81
+#, no-wrap
+msgid "<<releng-mirrors>>"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:83
-msgid "<<releng-mirrors>>:: Procedures to publish installation medium."
+msgid "Procedures to publish installation medium."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:84
+#, no-wrap
+msgid "<<releng-wrapup>>"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:86
-msgid "<<releng-wrapup>>:: Wrapping up the release cycle."
+msgid "Wrapping up the release cycle."
 msgstr ""
 
 #. type: Title ==
@@ -200,109 +239,72 @@ msgid ""
 "and build dates. For example:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:97
-msgid "|=== | Milestone | Anticipated Date"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:100
-msgid "|{branchHead} slush: |May 27, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:103
-msgid "|{branchHead} freeze: |June 10, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:106
-msgid "|{branchHead} KBI freeze: |June 24, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:109
-msgid "|`doc/` tree slush [1]: |June 24, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:112
-msgid "|Ports quarterly branch [2]: |July 1, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:115
-msgid "|{branchStablex} branch: |July 8, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:118
-msgid "|`doc/` tree tag [3]: |July 8, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:121
-msgid "|BETA1 build starts: |July 8, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:124
-msgid "|{branchHead} thaw: |July 9, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:127
-msgid "|BETA2 build starts: |July 15, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:130
-msgid "|BETA3 build starts [*]: |July 22, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:133
-msgid "|{branchRelengx} branch: |July 29, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:136
-msgid "|RC1 build starts: |July 29, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:139
-msgid "|{branchStablex} thaw: |July 30, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:142
-msgid "|RC2 build starts: |August 5, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:145
-msgid "|Final Ports package builds [4]: |August 6, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:148
-msgid "|Ports release tag: |August 12, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:151
-msgid "|RC3 build starts [*]: |August 12, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:154
-msgid "|RELEASE build starts: |August 19, 2016"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:158
-msgid "|RELEASE announcement: |September 2, 2016 |==="
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:157
+#, no-wrap
+msgid ""
+"| Milestone\n"
+"| Anticipated Date\n"
+"\n"
+"|{branchHead} slush:\n"
+"|May 27, 2016\n"
+"\n"
+"|{branchHead} freeze:\n"
+"|June 10, 2016\n"
+"\n"
+"|{branchHead} KBI freeze:\n"
+"|June 24, 2016\n"
+"\n"
+"|`doc/` tree slush [1]:\n"
+"|June 24, 2016\n"
+"\n"
+"|Ports quarterly branch [2]:\n"
+"|July 1, 2016\n"
+"\n"
+"|{branchStablex} branch:\n"
+"|July 8, 2016\n"
+"\n"
+"|`doc/` tree tag [3]:\n"
+"|July 8, 2016\n"
+"\n"
+"|BETA1 build starts:\n"
+"|July 8, 2016\n"
+"\n"
+"|{branchHead} thaw:\n"
+"|July 9, 2016\n"
+"\n"
+"|BETA2 build starts:\n"
+"|July 15, 2016\n"
+"\n"
+"|BETA3 build starts [*]:\n"
+"|July 22, 2016\n"
+"\n"
+"|{branchRelengx} branch:\n"
+"|July 29, 2016\n"
+"\n"
+"|RC1 build starts:\n"
+"|July 29, 2016\n"
+"\n"
+"|{branchStablex} thaw:\n"
+"|July 30, 2016\n"
+"\n"
+"|RC2 build starts:\n"
+"|August 5, 2016\n"
+"\n"
+"|Final Ports package builds [4]:\n"
+"|August 6, 2016\n"
+"\n"
+"|Ports release tag:\n"
+"|August 12, 2016\n"
+"\n"
+"|RC3 build starts [*]:\n"
+"|August 12, 2016\n"
+"\n"
+"|RELEASE build starts:\n"
+"|August 19, 2016\n"
+"\n"
+"|RELEASE announcement:\n"
+"|September 2, 2016\n"
 msgstr ""
 
 #. type: delimited block =
@@ -573,12 +575,6 @@ msgid ""
 "branch is broken."
 msgstr ""
 
-#. type: Title ==
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:250
-#, no-wrap
-msgid "Website Changes During the Release Cycle"
-msgstr ""
-
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:253
 msgid ""
@@ -606,37 +602,24 @@ msgid ""
 "to enable various different functionalities on the FreeBSD Project website:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:269 documentation/content/en/articles/freebsd-releng/_index.adoc:293 documentation/content/en/articles/freebsd-releng/_index.adoc:361 documentation/content/en/articles/freebsd-releng/_index.adoc:416 documentation/content/en/articles/freebsd-releng/_index.adoc:463 documentation/content/en/articles/freebsd-releng/_index.adoc:517 documentation/content/en/articles/freebsd-releng/_index.adoc:688
-msgid "|=== | File to Edit | What to Change"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:272
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:281
+#, no-wrap
 msgid ""
-"|[.filename]#share/xml/release.ent# |Change `beta.upcoming` from `IGNORE` to "
-"`INCLUDE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:275
-msgid ""
-"|[.filename]#share/xml/release.ent# |Change `% beta.upcoming` from `IGNORE` "
-"to `INCLUDE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:278
-msgid ""
-"|[.filename]#share/xml/release.ent# |Change `beta.testing` from `IGNORE` to "
-"`INCLUDE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:282
-msgid ""
-"|[.filename]#share/xml/release.ent# |Change `% beta.testing` from `IGNORE` "
-"to `INCLUDE` |==="
+"| File to Edit\n"
+"| What to Change\n"
+"\n"
+"|[.filename]#share/xml/release.ent#\n"
+"|Change `beta.upcoming` from `IGNORE` to `INCLUDE`\n"
+"\n"
+"|[.filename]#share/xml/release.ent#\n"
+"|Change `% beta.upcoming` from `IGNORE` to `INCLUDE`\n"
+"\n"
+"|[.filename]#share/xml/release.ent#\n"
+"|Change `beta.testing` from `IGNORE` to `INCLUDE`\n"
+"\n"
+"|[.filename]#share/xml/release.ent#\n"
+"|Change `% beta.testing` from `IGNORE` to `INCLUDE`\n"
 msgstr ""
 
 #. type: Title ===
@@ -653,35 +636,27 @@ msgid ""
 "are relative to [.filename]#head/# in the `doc` repository:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:296
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:308
+#, no-wrap
 msgid ""
-"|[.filename]#en_US.ISO8859-1/htdocs/releases/12.0R/schedule.xml# |Change `% "
-"beta.local.where` `IGNORE` to `INCLUDE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:299
-msgid "|[.filename]#share/xml/release.ent# |Update `% betarel.vers` to `BETA__1__`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:302
-msgid "|[.filename]#share/xml/news.xml# |Add an entry announcing the `BETA`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:305
-msgid ""
-"|[.filename]#en_US.ISO8859-1/htdocs/security/advisory-template.txt# |Add the "
-"new `BETA`, `RC`, or final `RELEASE` to the template"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:309
-msgid ""
-"|[.filename]#en_US.ISO8859-1/htdocs/security/errata-template.txt# |Add the "
-"new `BETA`, `RC`, or final `RELEASE` to the template |==="
+"| File to Edit\n"
+"| What to Change\n"
+"\n"
+"|[.filename]#en_US.ISO8859-1/htdocs/releases/12.0R/schedule.xml#\n"
+"|Change `% beta.local.where` `IGNORE` to `INCLUDE`\n"
+"\n"
+"|[.filename]#share/xml/release.ent#\n"
+"|Update `% betarel.vers` to `BETA__1__`\n"
+"\n"
+"|[.filename]#share/xml/news.xml#\n"
+"|Add an entry announcing the `BETA`\n"
+"\n"
+"|[.filename]#en_US.ISO8859-1/htdocs/security/advisory-template.txt#\n"
+"|Add the new `BETA`, `RC`, or final `RELEASE` to the template\n"
+"\n"
+"|[.filename]#en_US.ISO8859-1/htdocs/security/errata-template.txt#\n"
+"|Add the new `BETA`, `RC`, or final `RELEASE` to the template\n"
 msgstr ""
 
 #. type: Plain text
@@ -813,95 +788,41 @@ msgid ""
 "edits:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:364
-msgid ""
-"|[.filename]#stable/12/UPDATING# |Update the FreeBSD version, and remove the "
-"notice about `WITNESS`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:367
-msgid ""
-"|[.filename]#stable/12/contrib/jemalloc/include/jemalloc/jemalloc_FreeBSD.h# "
-"a|"
-msgstr ""
-
-#. type: delimited block .
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:373
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:368
 #, no-wrap
 msgid ""
-"#ifndef MALLOC_PRODUCTION\n"
-"#define MALLOC_PRODUCTION\n"
-"#endif\n"
+"| File to Edit\n"
+"| What to Change\n"
+"\n"
+"|[.filename]#stable/12/UPDATING#\n"
+"|Update the FreeBSD version, and remove the notice about `WITNESS`\n"
+"\n"
+"|[.filename]#stable/12/contrib/jemalloc/include/jemalloc/jemalloc_FreeBSD.h#\n"
+"a|\n"
+"\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:377
-msgid "|[.filename]#stable/12/lib/clang/llvm.build.mk# |Uncomment `-DNDEBUG`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:380
-msgid "|[.filename]#stable/12/sys/\\*/conf/GENERIC*# |Remove debugging support"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:383
-msgid "|[.filename]#stable/12/sys/*/conf/MINIMAL# |Remove debugging support"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:386
-msgid "|[.filename]#stable/12/release/release.conf.sample# |Update `SRCBRANCH`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:389
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:407
 msgid ""
+"....  #ifndef MALLOC_PRODUCTION #define MALLOC_PRODUCTION #endif ....  "
+"|[.filename]#stable/12/lib/clang/llvm.build.mk# |Uncomment `-DNDEBUG` "
+"|[.filename]#stable/12/sys/\\*/conf/GENERIC*# |Remove debugging support "
+"|[.filename]#stable/12/sys/*/conf/MINIMAL# |Remove debugging support "
+"|[.filename]#stable/12/release/release.conf.sample# |Update `SRCBRANCH` "
 "|[.filename]#stable/12/sys/*/conf/GENERIC-NODEBUG# |Remove these kernel "
-"configurations"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:392
-msgid "|[.filename]#stable/12/sys/arm/conf/std.arm*# |Remove debugging options"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:395
-msgid ""
-"|[.filename]#stable/12/sys/conf/newvers.sh# |Update the `BRANCH` value to "
-"reflect `BETA1`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:398
-msgid ""
+"configurations |[.filename]#stable/12/sys/arm/conf/std.arm*# |Remove "
+"debugging options |[.filename]#stable/12/sys/conf/newvers.sh# |Update the "
+"`BRANCH` value to reflect `BETA1` "
 "|[.filename]#stable/12/shared/mk/src.opts.mk# |Move `REPRODUCIBLE_BUILD` "
-"from `\\__DEFAULT_NO_OPTIONS` to `__DEFAULT_YES_OPTIONS`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:401
-msgid ""
+"from `\\__DEFAULT_NO_OPTIONS` to `__DEFAULT_YES_OPTIONS` "
 "|[.filename]#stable/12/shared/mk/src.opts.mk# |Move `LLVM_ASSERTIONS` from "
 "`\\__DEFAULT_YES_OPTIONS` to `__DEFAULT_NO_OPTIONS` (FreeBSD 13.x and later "
-"only)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:404
-msgid ""
-"|[.filename]#stable/12/libexec/rc/rc.conf# |Set `dumpdev` from `AUTO` to "
-"`NO` (it is configurable via for those that want it enabled by default)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:408
-msgid ""
+"only)  |[.filename]#stable/12/libexec/rc/rc.conf# |Set `dumpdev` from `AUTO` "
+"to `NO` (it is configurable via for those that want it enabled by default)  "
 "|[.filename]#stable/12/release/Makefile# |Remove the `debug.witness.trace` "
-"entries |==="
+"entries"
 msgstr ""
 
 #. type: Plain text
@@ -909,66 +830,42 @@ msgstr ""
 msgid "Then in the {branchHead} branch, which will now become a new major version:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:419
-msgid "|[.filename]#head/UPDATING# |Update the FreeBSD version"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:422
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:446
+#, no-wrap
 msgid ""
-"|[.filename]#head/sys/conf/newvers.sh# |Update the `BRANCH` value to reflect "
-"`CURRENT`, and increment `REVISION`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:425
-msgid ""
-"|[.filename]#head/Makefile.inc1# |Update `TARGET_TRIPLE` and "
-"`MACHINE_TRIPLE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:428
-msgid "|[.filename]#head/sys/sys/param.h# |Update `__FreeBSD_version`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:431
-msgid ""
-"|[.filename]#head/gnu/usr.bin/cc/cc_tools/freebsd-native.h# |Update "
-"`FBSD_MAJOR` and `FBSD_CC_VER`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:434
-msgid ""
-"|[.filename]#head/contrib/gcc/config.gcc# |Append the `freebsdversion.h` "
-"section"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:437
-msgid "|[.filename]#head/lib/clang/llvm.build.mk# |Update the value of `OS_VERSION`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:440
-msgid ""
-"|[.filename]#head/lib/clang/freebsd_cc_version.h# |Update "
-"`FREEBSD_CC_VERSION`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:443
-msgid ""
-"|[.filename]#head/lib/clang/include/lld/Common/Version.inc# |Update "
-"`LLD_REVISION_STRING`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:447
-msgid "|[.filename]#head/Makefile.libcompat# |Update `LIB32CPUFLAGS` |==="
+"| File to Edit\n"
+"| What to Change\n"
+"\n"
+"|[.filename]#head/UPDATING#\n"
+"|Update the FreeBSD version\n"
+"\n"
+"|[.filename]#head/sys/conf/newvers.sh#\n"
+"|Update the `BRANCH` value to reflect `CURRENT`, and increment `REVISION`\n"
+"\n"
+"|[.filename]#head/Makefile.inc1#\n"
+"|Update `TARGET_TRIPLE` and `MACHINE_TRIPLE`\n"
+"\n"
+"|[.filename]#head/sys/sys/param.h#\n"
+"|Update `__FreeBSD_version`\n"
+"\n"
+"|[.filename]#head/gnu/usr.bin/cc/cc_tools/freebsd-native.h#\n"
+"|Update `FBSD_MAJOR` and `FBSD_CC_VER`\n"
+"\n"
+"|[.filename]#head/contrib/gcc/config.gcc#\n"
+"|Append the `freebsdversion.h` section\n"
+"\n"
+"|[.filename]#head/lib/clang/llvm.build.mk#\n"
+"|Update the value of `OS_VERSION`\n"
+"\n"
+"|[.filename]#head/lib/clang/freebsd_cc_version.h#\n"
+"|Update `FREEBSD_CC_VERSION`\n"
+"\n"
+"|[.filename]#head/lib/clang/include/lld/Common/Version.inc#\n"
+"|Update `LLD_REVISION_STRING`\n"
+"\n"
+"|[.filename]#head/Makefile.libcompat#\n"
+"|Update `LIB32CPUFLAGS`\n"
 msgstr ""
 
 #. type: Title ==
@@ -998,34 +895,28 @@ msgid ""
 "files are all relative to the top-most level of the stable branch:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:466
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:478
+#, no-wrap
 msgid ""
-"|[.filename]#sys/conf/newvers.sh# |Update the `BRANCH` value to reflect "
-"`PRERELEASE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:469
-msgid "|[.filename]#Makefile.inc1# |Update `TARGET_TRIPLE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:472
-msgid "|[.filename]#lib/clang/llvm.build.mk# |Update `OS_VERSION`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:475
-msgid "|[.filename]#Makefile.libcompat# |Update `LIB32CPUFLAGS`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:479
-msgid ""
-"|[.filename]#gnu/usr.bin/groff/tmac/mdoc.local.in# |Add a new `.ds` entry "
-"for the FreeBSD version, and update `doc-default-operating-system` (FreeBSD "
-"11.x and earlier only)  |==="
+"| File to Edit\n"
+"| What to Change\n"
+"\n"
+"|[.filename]#sys/conf/newvers.sh#\n"
+"|Update the `BRANCH` value to reflect `PRERELEASE`\n"
+"\n"
+"|[.filename]#Makefile.inc1#\n"
+"|Update `TARGET_TRIPLE`\n"
+"\n"
+"|[.filename]#lib/clang/llvm.build.mk#\n"
+"|Update `OS_VERSION`\n"
+"\n"
+"|[.filename]#Makefile.libcompat#\n"
+"|Update `LIB32CPUFLAGS`\n"
+"\n"
+"|[.filename]#gnu/usr.bin/groff/tmac/mdoc.local.in#\n"
+"|Add a new `.ds` entry for the FreeBSD version, and update "
+"`doc-default-operating-system` (FreeBSD 11.x and earlier only)\n"
 msgstr ""
 
 #. type: Plain text
@@ -1110,47 +1001,36 @@ msgstr ""
 msgid "% svn cp ^/{branchStablex} {branchRelengx}\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:520
-msgid "|[.filename]#releng/12.0/sys/conf/newvers.sh# |Change `BETA__X__` to `RC1`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:523
-msgid "|[.filename]#releng/12.0/sys/sys/param.h# |Update `__FreeBSD_version`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:526
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:538
+#, no-wrap
 msgid ""
-"|[.filename]#releng/12.0/etc/pkg/FreeBSD.conf# |Replace `latest` with "
-"`quarterly` as the default package repository location"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:529
-msgid ""
-"|[.filename]#releng/12.0/release/pkg_repos/release-dvd.conf# |Replace "
-"`latest` with `quarterly` as the default package repository location"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:532
-msgid ""
-"|[.filename]#stable/12/sys/conf/newvers.sh# |Update `BETA__X__` with "
-"`PRERELEASE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:535
-msgid "|[.filename]#stable/12/sys/sys/param.h# |Update `__FreeBSD_version`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:539
-msgid ""
-"|[.filename]#svnadmin/conf/approvers# |Add a new approvers line for the "
-"releng branch as was done for the stable branch |==="
+"| File to Edit\n"
+"| What to Change\n"
+"\n"
+"|[.filename]#releng/12.0/sys/conf/newvers.sh#\n"
+"|Change `BETA__X__` to `RC1`\n"
+"\n"
+"|[.filename]#releng/12.0/sys/sys/param.h#\n"
+"|Update `__FreeBSD_version`\n"
+"\n"
+"|[.filename]#releng/12.0/etc/pkg/FreeBSD.conf#\n"
+"|Replace `latest` with `quarterly` as the default package repository "
+"location\n"
+"\n"
+"|[.filename]#releng/12.0/release/pkg_repos/release-dvd.conf#\n"
+"|Replace `latest` with `quarterly` as the default package repository "
+"location\n"
+"\n"
+"|[.filename]#stable/12/sys/conf/newvers.sh#\n"
+"|Update `BETA__X__` with `PRERELEASE`\n"
+"\n"
+"|[.filename]#stable/12/sys/sys/param.h#\n"
+"|Update `__FreeBSD_version`\n"
+"\n"
+"|[.filename]#svnadmin/conf/approvers#\n"
+"|Add a new approvers line for the releng branch as was done for the stable "
+"branch\n"
 msgstr ""
 
 #. type: delimited block .
@@ -1544,21 +1424,22 @@ msgstr ""
 msgid "In preparation for the release build, several files need to be updated:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:691
-msgid "|[.filename]#sys/conf/newvers.sh# |Update the `BRANCH` value to `RELEASE`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:694
-msgid "|[.filename]#UPDATING# |Add the anticipated announcement date"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:698
+#. type: Table
+#: documentation/content/en/articles/freebsd-releng/_index.adoc:697
+#, no-wrap
 msgid ""
-"|[.filename]#lib/csu/common/crtbrand.c# |Replace `__FreeBSD_version` with "
-"the value in [.filename]#sys/sys/param.h# |==="
+"| File to Edit\n"
+"| What to Change\n"
+"\n"
+"|[.filename]#sys/conf/newvers.sh#\n"
+"|Update the `BRANCH` value to `RELEASE`\n"
+"\n"
+"|[.filename]#UPDATING#\n"
+"|Add the anticipated announcement date\n"
+"\n"
+"|[.filename]#lib/csu/common/crtbrand.c#\n"
+"|Replace `__FreeBSD_version` with the value in "
+"[.filename]#sys/sys/param.h#\n"
 msgstr ""
 
 #. type: Plain text
@@ -1815,64 +1696,37 @@ msgid ""
 "removed and/or updated on the website:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:805
-msgid "|=== | File | What to Change"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:809
-msgid ""
-"|[.filename]#head/en_US.ISO8859-1/htdocs/index.xsl# |Remove "
-"`&u.relXXX.announce;` and `&u.relXXX.current;` references."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:812
-msgid ""
-"|[.filename]#head/en_US.ISO8859-1/htdocs/releases/index.xml# |Move the "
-"&u.relXXX.*; macros from the supported release list to the Legacy Releases "
-"list."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:815
-msgid ""
-"|[.filename]#head/en_US.ISO8859-1/htdocs/releng/index.xml# |Update the "
-"appropriate releng branch to refelect the branch is no longer supported."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:818
-msgid ""
-"|[.filename]#head/en_US.ISO8859-1/htdocs/security/security.xml# |Remove the "
-"branch from the supported branch list."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:821
-msgid ""
-"|[.filename]#head/en_US.ISO8859-1/htdocs/where.xml# |Remove the URLs for the "
-"release."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:824
-msgid ""
-"|[.filename]#head/share/xml/navibar.ent# |Remove `&u.relXXX.announce;` and "
-"`&u.relXXX.current;` references."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-releng/_index.adoc:827
-msgid ""
-"|[.filename]#head/en_US.ISO8859-1/htdocs/security/advisory-template.txt# "
-"|Remove references to the release and releng branch."
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/articles/freebsd-releng/_index.adoc:830
+#, no-wrap
 msgid ""
-"|[.filename]#head/en_US.ISO8859-1/htdocs/security/errata-template.txt# "
-"|Remove references to the release and releng branch.  |==="
+"| File\n"
+"| What to Change\n"
+"\n"
+"\n"
+"|[.filename]#head/en_US.ISO8859-1/htdocs/index.xsl#\n"
+"|Remove `&u.relXXX.announce;` and `&u.relXXX.current;` references.\n"
+"\n"
+"|[.filename]#head/en_US.ISO8859-1/htdocs/releases/index.xml#\n"
+"|Move the &u.relXXX.*; macros from the supported release list to the Legacy "
+"Releases list.\n"
+"\n"
+"|[.filename]#head/en_US.ISO8859-1/htdocs/releng/index.xml#\n"
+"|Update the appropriate releng branch to refelect the branch is no longer "
+"supported.\n"
+"\n"
+"|[.filename]#head/en_US.ISO8859-1/htdocs/security/security.xml#\n"
+"|Remove the branch from the supported branch list.\n"
+"\n"
+"|[.filename]#head/en_US.ISO8859-1/htdocs/where.xml#\n"
+"|Remove the URLs for the release.\n"
+"\n"
+"|[.filename]#head/share/xml/navibar.ent#\n"
+"|Remove `&u.relXXX.announce;` and `&u.relXXX.current;` references.\n"
+"\n"
+"|[.filename]#head/en_US.ISO8859-1/htdocs/security/advisory-template.txt#\n"
+"|Remove references to the release and releng branch.\n"
+"\n"
+"|[.filename]#head/en_US.ISO8859-1/htdocs/security/errata-template.txt#\n"
+"|Remove references to the release and releng branch.\n"
 msgstr ""

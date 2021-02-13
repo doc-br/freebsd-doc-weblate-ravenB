@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:8
 #, no-wrap
 msgid "Common Access Method SCSI Controllers"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -777,56 +772,86 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:283
-#, no-wrap
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:275
+msgid "_cdb_io_ - pointer to the SCSI command buffer or the buffer itself"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:276
+msgid "_cdb_len_ - SCSI command length"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:277
 msgid ""
-"** _cdb_io_ - pointer to the SCSI command buffer or the buffer itself\n"
-"** _cdb_len_ - SCSI command length\n"
-"** _data_ptr_ - pointer to the data buffer (gets a bit complicated if "
-"scatter/gather is used)\n"
-"** _dxfer_len_ - length of the data to transfer\n"
-"** _sglist_cnt_ - counter of the scatter/gather segments\n"
-"** _scsi_status_ - place to return the SCSI status\n"
-"** _sense_data_ - buffer for the SCSI sense information if the command "
-"returns an error (the SIM driver is supposed to run the REQUEST SENSE "
-"command automatically in this case if the CCB flag CAM_DIS_AUTOSENSE is not "
-"set)\n"
-"** _sense_len_ - the length of that buffer (if it happens to be higher than "
+"_data_ptr_ - pointer to the data buffer (gets a bit complicated if "
+"scatter/gather is used)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:278
+msgid "_dxfer_len_ - length of the data to transfer"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:279
+msgid "_sglist_cnt_ - counter of the scatter/gather segments"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:280
+msgid "_scsi_status_ - place to return the SCSI status"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:281
+msgid ""
+"_sense_data_ - buffer for the SCSI sense information if the command returns "
+"an error (the SIM driver is supposed to run the REQUEST SENSE command "
+"automatically in this case if the CCB flag CAM_DIS_AUTOSENSE is not set)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:282
+msgid ""
+"_sense_len_ - the length of that buffer (if it happens to be higher than "
 "size of sense_data the SIM driver must silently assume the smaller value) "
 "resid, sense_resid - if the transfer of data or SCSI sense returned an error "
 "these are the returned counters of the residual (not transferred) data. They "
 "do not seem to be especially meaningful, so in a case when they are "
 "difficult to compute (say, counting bytes in the SCSI controller's FIFO "
 "buffer) an approximate value will do as well. For a successfully completed "
-"transfer they must be set to zero.\n"
-"** _tag_action_ - the kind of tag to use:\n"
+"transfer they must be set to zero."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:283
+msgid "_tag_action_ - the kind of tag to use:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:285
+msgid "CAM_TAG_ACTION_NONE - do not use tags for this transaction"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:286
-#, no-wrap
 msgid ""
-"*** CAM_TAG_ACTION_NONE - do not use tags for this transaction\n"
-"*** MSG_SIMPLE_Q_TAG, MSG_HEAD_OF_Q_TAG, MSG_ORDERED_Q_TAG - value equal to "
-"the appropriate tag message (see /sys/cam/scsi/scsi_message.h); this gives "
-"only the tag type, the SIM driver must assign the tag value itself\n"
+"MSG_SIMPLE_Q_TAG, MSG_HEAD_OF_Q_TAG, MSG_ORDERED_Q_TAG - value equal to the "
+"appropriate tag message (see /sys/cam/scsi/scsi_message.h); this gives only "
+"the tag type, the SIM driver must assign the tag value itself"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:288
-#, no-wrap
-msgid ""
-"\n"
-"The general logic of handling this request is the following:\n"
+msgid "  The general logic of handling this request is the following:"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:290
-#, no-wrap
 msgid ""
-"\n"
-"The first thing to do is to check for possible races, to make sure that the "
-"command did not get aborted when it was sitting in the queue:\n"
+"  The first thing to do is to check for possible races, to make sure that "
+"the command did not get aborted when it was sitting in the queue:"
 msgstr ""
 
 #. type: delimited block .
@@ -1595,105 +1620,127 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:688
+msgid "_valid_ - a bitmask showing which settings should be updated:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:689
+msgid "_CCB_TRANS_SYNC_RATE_VALID_ - synchronous transfer rate"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:690
+msgid "_CCB_TRANS_SYNC_OFFSET_VALID_ - synchronous offset"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:691
+msgid "_CCB_TRANS_BUS_WIDTH_VALID_ - bus width"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:692
+msgid "_CCB_TRANS_DISC_VALID_ - set enable/disable disconnection"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:693
+msgid "_CCB_TRANS_TQ_VALID_ - set enable/disable tagged queuing"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:694
-#, no-wrap
 msgid ""
-"** _valid_ - a bitmask showing which settings should be updated:\n"
-"** _CCB_TRANS_SYNC_RATE_VALID_ - synchronous transfer rate\n"
-"** _CCB_TRANS_SYNC_OFFSET_VALID_ - synchronous offset\n"
-"** _CCB_TRANS_BUS_WIDTH_VALID_ - bus width\n"
-"** _CCB_TRANS_DISC_VALID_ - set enable/disable disconnection\n"
-"** _CCB_TRANS_TQ_VALID_ - set enable/disable tagged queuing\n"
-"** _flags_ - consists of two parts, binary arguments and identification of "
-"sub-operations. The binary arguments are:\n"
+"_flags_ - consists of two parts, binary arguments and identification of "
+"sub-operations. The binary arguments are:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:696
+msgid "_CCB_TRANS_DISC_ENB_ - enable disconnection"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:697
-#, no-wrap
-msgid ""
-"*** _CCB_TRANS_DISC_ENB_ - enable disconnection\n"
-"*** _CCB_TRANS_TAG_ENB_ - enable tagged queuing\n"
+msgid "_CCB_TRANS_TAG_ENB_ - enable tagged queuing"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:699
-#, no-wrap
-msgid "** the sub-operations are:\n"
+msgid "the sub-operations are:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:701
+msgid "_CCB_TRANS_CURRENT_SETTINGS_ - change the current negotiations"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:702
-#, no-wrap
 msgid ""
-"*** _CCB_TRANS_CURRENT_SETTINGS_ - change the current negotiations\n"
-"*** _CCB_TRANS_USER_SETTINGS_ - remember the desired user values "
-"sync_period, sync_offset - self-explanatory, if sync_offset==0 then the "
-"asynchronous mode is requested bus_width - bus width, in bits (not bytes)\n"
+"_CCB_TRANS_USER_SETTINGS_ - remember the desired user values sync_period, "
+"sync_offset - self-explanatory, if sync_offset==0 then the asynchronous mode "
+"is requested bus_width - bus width, in bits (not bytes)"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:704
-#, no-wrap
 msgid ""
-"\n"
-"Two sets of negotiated parameters are supported, the user settings and the "
+"  Two sets of negotiated parameters are supported, the user settings and the "
 "current settings. The user settings are not really used much in the SIM "
 "drivers, this is mostly just a piece of memory where the upper levels can "
 "store (and later recall) its ideas about the parameters. Setting the user "
 "parameters does not cause re-negotiation of the transfer rates. But when the "
 "SCSI controller does a negotiation it must never set the values higher than "
-"the user parameters, so it is essentially the top boundary.\n"
+"the user parameters, so it is essentially the top boundary."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:706
-#, no-wrap
 msgid ""
-"\n"
-"The current settings are, as the name says, current. Changing them means "
+"  The current settings are, as the name says, current. Changing them means "
 "that the parameters must be re-negotiated on the next transfer. Again, these "
 "\"new current settings\" are not supposed to be forced on the device, just "
 "they are used as the initial step of negotiations. Also they must be limited "
 "by actual capabilities of the SCSI controller: for example, if the SCSI "
 "controller has 8-bit bus and the request asks to set 16-bit wide transfers "
 "this parameter must be silently truncated to 8-bit transfers before sending "
-"it to the device.\n"
+"it to the device."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:708
-#, no-wrap
 msgid ""
-"\n"
-"One caveat is that the bus width and synchronous parameters are per target "
-"while the disconnection and tag enabling parameters are per lun.\n"
+"  One caveat is that the bus width and synchronous parameters are per target "
+"while the disconnection and tag enabling parameters are per lun."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:710
-#, no-wrap
 msgid ""
-"\n"
-"The recommended implementation is to keep 3 sets of negotiated (bus width "
-"and synchronous transfer) parameters:\n"
+"  The recommended implementation is to keep 3 sets of negotiated (bus width "
+"and synchronous transfer) parameters:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:712
+msgid "_user_ - the user set, as above"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:713
+msgid "_current_ - those actually in effect"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:714
-#, no-wrap
-msgid ""
-"** _user_ - the user set, as above\n"
-"** _current_ - those actually in effect\n"
-"** _goal_ - those requested by setting of the \"current\" parameters\n"
+msgid "_goal_ - those requested by setting of the \"current\" parameters"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:716
-#, no-wrap
-msgid ""
-"\n"
-"The code looks like:\n"
+msgid "  The code looks like:"
 msgstr ""
 
 #. type: delimited block .
@@ -1840,25 +1887,37 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:798
+msgid "_block_size_ - input, block (A.K.A sector) size in bytes"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:799
+msgid "_volume_size_ - input, volume size in bytes"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:800
+msgid "_cylinders_ - output, logical cylinders"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:801
+msgid "_heads_ - output, logical heads"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:802
-#, no-wrap
-msgid ""
-"** _block_size_ - input, block (A.K.A sector) size in bytes\n"
-"** _volume_size_ - input, volume size in bytes\n"
-"** _cylinders_ - output, logical cylinders\n"
-"** _heads_ - output, logical heads\n"
-"** _secs_per_track_ - output, logical sectors per track\n"
+msgid "_secs_per_track_ - output, logical sectors per track"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:804
-#, no-wrap
 msgid ""
-"\n"
-"If the returned geometry differs much enough from what the SCSI controller "
+"  If the returned geometry differs much enough from what the SCSI controller "
 "BIOS thinks and a disk on this SCSI controller is used as bootable the "
 "system may not be able to boot. The typical calculation example taken from "
-"the aic7xxx driver is:\n"
+"the aic7xxx driver is:"
 msgstr ""
 
 #. type: delimited block .
@@ -1940,53 +1999,164 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:872
-#, no-wrap
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:845
+msgid "version_num - the SIM driver version number, now all drivers use 1"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:846
+msgid "hba_inquiry - bitmask of features supported by the controller:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:847
+msgid "PI_MDP_ABLE - supports MDP message (something from SCSI3?)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:848
+msgid "PI_WIDE_32 - supports 32 bit wide SCSI"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:849
+msgid "PI_WIDE_16 - supports 16 bit wide SCSI"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:850
+msgid "PI_SDTR_ABLE - can negotiate synchronous transfer rate"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:851
+msgid "PI_LINKED_CDB - supports linked commands"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:852
+msgid "PI_TAG_ABLE - supports tagged commands"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:853
 msgid ""
-"** version_num - the SIM driver version number, now all drivers use 1\n"
-"** hba_inquiry - bitmask of features supported by the controller:\n"
-"** PI_MDP_ABLE - supports MDP message (something from SCSI3?)\n"
-"** PI_WIDE_32 - supports 32 bit wide SCSI\n"
-"** PI_WIDE_16 - supports 16 bit wide SCSI\n"
-"** PI_SDTR_ABLE - can negotiate synchronous transfer rate\n"
-"** PI_LINKED_CDB - supports linked commands\n"
-"** PI_TAG_ABLE - supports tagged commands\n"
-"** PI_SOFT_RST - supports soft reset alternative (hard reset and soft reset "
-"are mutually exclusive within a SCSI bus)\n"
-"** target_sprt - flags for target mode support, 0 if unsupported\n"
-"** hba_misc - miscellaneous controller features:\n"
-"** PIM_SCANHILO - bus scans from high ID to low ID\n"
-"** PIM_NOREMOVE - removable devices not included in scan\n"
-"** PIM_NOINITIATOR - initiator role not supported\n"
-"** PIM_NOBUSRESET - user has disabled initial BUS RESET\n"
-"** hba_eng_cnt - mysterious HBA engine count, something related to "
-"compression, now is always set to 0\n"
-"** vuhba_flags - vendor-unique flags, unused now\n"
-"** max_target - maximal supported target ID (7 for 8-bit bus, 15 for 16-bit "
-"bus, 127 for Fibre Channel)\n"
-"** max_lun - maximal supported LUN ID (7 for older SCSI controllers, 63 for "
-"newer ones)\n"
-"** async_flags - bitmask of installed Async handler, unused now\n"
-"** hpath_id - highest Path ID in the subsystem, unused now\n"
-"** unit_number - the controller unit number, cam_sim_unit(sim)\n"
-"** bus_id - the bus number, cam_sim_bus(sim)\n"
-"** initiator_id - the SCSI ID of the controller itself\n"
-"** base_transfer_speed - nominal transfer speed in KB/s for asynchronous "
-"narrow transfers, equals to 3300 for SCSI\n"
-"** sim_vid - SIM driver's vendor id, a zero-terminated string of maximal "
-"length SIM_IDLEN including the terminating zero\n"
-"** hba_vid - SCSI controller's vendor id, a zero-terminated string of "
-"maximal length HBA_IDLEN including the terminating zero\n"
-"** dev_name - device driver name, a zero-terminated string of maximal length "
-"DEV_IDLEN including the terminating zero, equal to cam_sim_name(sim)\n"
+"PI_SOFT_RST - supports soft reset alternative (hard reset and soft reset are "
+"mutually exclusive within a SCSI bus)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:854
+msgid "target_sprt - flags for target mode support, 0 if unsupported"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:855
+msgid "hba_misc - miscellaneous controller features:"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:856
+msgid "PIM_SCANHILO - bus scans from high ID to low ID"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:857
+msgid "PIM_NOREMOVE - removable devices not included in scan"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:858
+msgid "PIM_NOINITIATOR - initiator role not supported"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:859
+msgid "PIM_NOBUSRESET - user has disabled initial BUS RESET"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:860
+msgid ""
+"hba_eng_cnt - mysterious HBA engine count, something related to compression, "
+"now is always set to 0"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:861
+msgid "vuhba_flags - vendor-unique flags, unused now"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:862
+msgid ""
+"max_target - maximal supported target ID (7 for 8-bit bus, 15 for 16-bit "
+"bus, 127 for Fibre Channel)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:863
+msgid ""
+"max_lun - maximal supported LUN ID (7 for older SCSI controllers, 63 for "
+"newer ones)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:864
+msgid "async_flags - bitmask of installed Async handler, unused now"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:865
+msgid "hpath_id - highest Path ID in the subsystem, unused now"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:866
+msgid "unit_number - the controller unit number, cam_sim_unit(sim)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:867
+msgid "bus_id - the bus number, cam_sim_bus(sim)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:868
+msgid "initiator_id - the SCSI ID of the controller itself"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:869
+msgid ""
+"base_transfer_speed - nominal transfer speed in KB/s for asynchronous narrow "
+"transfers, equals to 3300 for SCSI"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:870
+msgid ""
+"sim_vid - SIM driver's vendor id, a zero-terminated string of maximal length "
+"SIM_IDLEN including the terminating zero"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:871
+msgid ""
+"hba_vid - SCSI controller's vendor id, a zero-terminated string of maximal "
+"length HBA_IDLEN including the terminating zero"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:872
+msgid ""
+"dev_name - device driver name, a zero-terminated string of maximal length "
+"DEV_IDLEN including the terminating zero, equal to cam_sim_name(sim)"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/scsi/chapter.adoc:874
-#, no-wrap
-msgid ""
-"\n"
-"The recommended way of setting the string fields is using strncpy, like:\n"
+msgid "  The recommended way of setting the string fields is using strncpy, like:"
 msgstr ""
 
 #. type: delimited block .

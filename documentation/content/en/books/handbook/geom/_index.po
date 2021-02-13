@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/geom/_index.adoc:9
 #, no-wrap
 msgid "GEOM: Modular Disk Transformation Framework"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/geom/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/geom/_index.adoc:27 documentation/content/en/books/handbook/geom/_index.adoc:31 documentation/content/en/books/handbook/geom/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/geom/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/geom/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/geom/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -462,7 +437,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/geom/_index.adoc:201 documentation/content/en/books/handbook/geom/_index.adoc:314
+#: documentation/content/en/books/handbook/geom/_index.adoc:201
+#: documentation/content/en/books/handbook/geom/_index.adoc:314
 #, no-wrap
 msgid "# gmirror load\n"
 msgstr ""
@@ -539,14 +515,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/geom/_index.adoc:247 documentation/content/en/books/handbook/geom/_index.adoc:445
+#: documentation/content/en/books/handbook/geom/_index.adoc:247
+#: documentation/content/en/books/handbook/geom/_index.adoc:445
 msgid ""
 "Make the mirror bootable by installing bootcode in the MBR and bsdlabel and "
 "setting the active slice:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/geom/_index.adoc:253 documentation/content/en/books/handbook/geom/_index.adoc:451
+#: documentation/content/en/books/handbook/geom/_index.adoc:253
+#: documentation/content/en/books/handbook/geom/_index.adoc:451
 #, no-wrap
 msgid ""
 "# gpart bootcode -b /boot/mbr mirror/gm0\n"
@@ -616,7 +594,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/geom/_index.adoc:296 documentation/content/en/books/handbook/geom/_index.adoc:478 documentation/content/en/books/handbook/geom/_index.adoc:581
+#: documentation/content/en/books/handbook/geom/_index.adoc:296
+#: documentation/content/en/books/handbook/geom/_index.adoc:478
+#: documentation/content/en/books/handbook/geom/_index.adoc:581
 #, no-wrap
 msgid "geom_mirror_load=\"YES\"\n"
 msgstr ""
@@ -1521,7 +1501,8 @@ msgid "A status check shows the new mirror is ready for use:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/geom/_index.adoc:748 documentation/content/en/books/handbook/geom/_index.adoc:902
+#: documentation/content/en/books/handbook/geom/_index.adoc:748
+#: documentation/content/en/books/handbook/geom/_index.adoc:902
 #, no-wrap
 msgid ""
 "# graid status\n"
@@ -1796,7 +1777,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/geom/_index.adoc:867 documentation/content/en/books/handbook/geom/_index.adoc:909
+#: documentation/content/en/books/handbook/geom/_index.adoc:867
+#: documentation/content/en/books/handbook/geom/_index.adoc:909
 #, no-wrap
 msgid "# graid delete raid/r0\n"
 msgstr ""

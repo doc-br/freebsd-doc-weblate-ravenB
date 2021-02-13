@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -152,7 +152,8 @@ msgid "Target Audience"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.0R/readme.adoc:47 website/content/en/releases/12.0R/readme.adoc:53
+#: website/content/en/releases/12.0R/readme.adoc:47
+#: website/content/en/releases/12.0R/readme.adoc:53
 msgid ""
 "This {{% param releaseType %}} is aimed primarily at early adopters and "
 "various other users who want to get involved with the ongoing development of "
@@ -162,7 +163,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.0R/readme.adoc:49 website/content/en/releases/12.0R/readme.adoc:55
+#: website/content/en/releases/12.0R/readme.adoc:49
+#: website/content/en/releases/12.0R/readme.adoc:55
 msgid ""
 "The basic requirements for using this {{% param releaseType %}} are "
 "technical proficiency with FreeBSD and an understanding of the ongoing "
@@ -171,7 +173,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.0R/readme.adoc:51 website/content/en/releases/12.0R/readme.adoc:57
+#: website/content/en/releases/12.0R/readme.adoc:51
+#: website/content/en/releases/12.0R/readme.adoc:57
 msgid ""
 "For those more interested in doing business with FreeBSD than in "
 "experimenting with new FreeBSD technology, formal releases (such as {{% "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/donations/donors.adoc:5
-msgid "title: \"Hardware Donors Page\" sidenav: about ---"
+#: website/content/en/donations/donors.adoc:4
+msgid "title: \"Hardware Donors Page\" sidenav: about"
 msgstr ""
 
 #. type: Title =
@@ -44,11 +44,10 @@ msgid ""
 "donations@FreeBSD.org as well."
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/donations/donors.adoc:201
+#. type: Table
+#: website/content/en/donations/donors.adoc:426
 #, no-wrap
 msgid ""
-"|===\n"
 "|FROM |ITEM |TO |STATUS\n"
 "|`nsayer` |4-port Zynx 'dc' NIC |jlemon |Unknown\n"
 "|`Sebastian Trahm <inthisdefiance@gmx.net>` |Packet Engines G-NICII "
@@ -414,41 +413,21 @@ msgid ""
 "|`Daniel <DS@praxisvermittlung24.de>,          Seuffert & Waidmann` a|\n"
 "Hardware for laptop: Pentium III Mobile 600MHz CPU, 2 128MB PC100 SODIMM "
 "RAM, new battery, Netgear WG511T CardBus adapter\n"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/donations/donors.adoc:203
-msgid ""
+"\n"
 "AMD64 desktop: ASUS SK8N motherboard, AMD Opteron 240 CPU, Arctic Cooling "
 "Silencer 64 Ultra TC, 2 512MB ECC RAM (Kingston), AOpen Combo drive "
 "(COM4824), 4 80GB IDE PATA, NVIDIA GeForce4 MX 440 AGP 8X video, 3.5\" "
 "floppy, Athena CM03 case, 350 Watt Be Quiet! power supply, S/PDIF out "
-"module, 17\" LCD monitor Acer AL1715"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/donations/donors.adoc:205
-msgid ""
+"module, 17\" LCD monitor Acer AL1715\n"
+"\n"
 "Hardware for Alpha: 4 128MB ECC RAM (Samsung), 18GB SCSI (Fujitsu MAA3182SC) "
-"with cable"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/donations/donors.adoc:207
-msgid ""
+"with cable\n"
+"\n"
 "RTL8139 Ethernet CardBus adapter, 2 Intel PRO/1000 MT desktop adapters, "
-"5-port 100Mbps Ethernet switch"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/donations/donors.adoc:209
-msgid "Flight to Germany and entrance fee for the EuroBSDCon 2004"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/donations/donors.adoc:426
-#, no-wrap
-msgid ""
+"5-port 100Mbps Ethernet switch\n"
+"\n"
+"Flight to Germany and entrance fee for the EuroBSDCon 2004\n"
+"\n"
 "|ru |Received\n"
 "|`Daniel <DS@praxisvermittlung24.de>,          Seuffert & Waidmann` |2 512MB "
 "ECC RAM (Kingston), 2 80GB SATA (Maxtor DiamondMax Plus 9) for RAID1, 2 80GB "
@@ -777,13 +756,13 @@ msgid ""
 "|`Greg Larkin` |Belkin #F1D066 OmniView PS/2 KVM Switch +\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/donations/donors.adoc:427
 #, no-wrap
 msgid "6 foot VGA cables +\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/donations/donors.adoc:431
 #, no-wrap
 msgid ""
@@ -794,7 +773,7 @@ msgid ""
 "|`Tim Kientzle` |Dell PowerEdge R510 server +\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/donations/donors.adoc:451
 #, no-wrap
 msgid ""
@@ -827,5 +806,4 @@ msgid ""
 "|`Peter Sagerson <psagers@ignorare.net>` |High-end motherboard/CPU/RAM combo "
 "|bcran |received\n"
 "|`Neel Chauhan <neel@neelc.org>` |1x complete workstation |pfg |received\n"
-"|===\n"
 msgstr ""

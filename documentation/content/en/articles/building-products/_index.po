@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -49,26 +49,6 @@ msgid "Building Products with FreeBSD"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/building-products/_index.adoc:27
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/building-products/_index.adoc:29 documentation/content/en/articles/building-products/_index.adoc:33 documentation/content/en/articles/building-products/_index.adoc:37
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/building-products/_index.adoc:31
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/building-products/_index.adoc:35
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
 #: documentation/content/en/articles/building-products/_index.adoc:40
 msgid "Abstract"
 msgstr ""
@@ -98,11 +78,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/building-products/_index.adoc:46
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/building-products/_index.adoc:48
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -707,12 +682,15 @@ msgid "The goals of the FreeBSD project are <<Hub1994>>:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/building-products/_index.adoc:191
-#, no-wrap
+#: documentation/content/en/articles/building-products/_index.adoc:190
 msgid ""
-"** To develop a high-quality operating system for popular computer hardware, "
-"and,\n"
-"** To make our work available to all under a liberal license.\n"
+"To develop a high-quality operating system for popular computer hardware, "
+"and,"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/building-products/_index.adoc:191
+msgid "To make our work available to all under a liberal license."
 msgstr ""
 
 #. type: Plain text

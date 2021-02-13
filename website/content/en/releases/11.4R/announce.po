@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -287,7 +287,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.4R/announce.adoc:80 website/content/en/releases/11.4R/announce.adoc:92 website/content/en/releases/11.4R/announce.adoc:106
+#: website/content/en/releases/11.4R/announce.adoc:80
+#: website/content/en/releases/11.4R/announce.adoc:92
+#: website/content/en/releases/11.4R/announce.adoc:106
 msgid "Be careful to make sure you get the target (of=) correct."
 msgstr ""
 
@@ -547,19 +549,23 @@ msgid ""
 "the release engineering activities for FreeBSD {thisRelease} including:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.4R/announce.adoc:203
+#. type: Table
+#: website/content/en/releases/11.4R/announce.adoc:202
+#, no-wrap
 msgid ""
-"|=== |https://www.freebsdfoundation.org[The FreeBSD Foundation] "
-"|https://www.netgate.com[Rubicon Communications, LLC (netgate.com)] "
-"|https://www.netapp.com[NetApp] |https://www.isc.org[Internet Systems "
-"Consortium] |https://bytemark.co.uk[ByteMark Hosting] "
-"|https://www.cyberonedata.com[CyberOne Data] |https://www.sentex.ca[Sentex "
-"Data Communications] |https://www.nyi.net[New York Internet] "
-"|https://www.juniper.net[Juniper Networks] "
-"|https://www.netactuate.com[NetActuate] |https://www.cs.nctu.edu.tw[National "
-"Chiao Tung University] |https://www.nlnetlabs.nl[NLNet Labs] "
-"|https://www.ixsystems.com[iXsystems] |==="
+"|https://www.freebsdfoundation.org[The FreeBSD Foundation]\n"
+"|https://www.netgate.com[Rubicon Communications, LLC (netgate.com)]\n"
+"|https://www.netapp.com[NetApp]\n"
+"|https://www.isc.org[Internet Systems Consortium]\n"
+"|https://bytemark.co.uk[ByteMark Hosting]\n"
+"|https://www.cyberonedata.com[CyberOne Data]\n"
+"|https://www.sentex.ca[Sentex Data Communications]\n"
+"|https://www.nyi.net[New York Internet]\n"
+"|https://www.juniper.net[Juniper Networks]\n"
+"|https://www.netactuate.com[NetActuate]\n"
+"|https://www.cs.nctu.edu.tw[National Chiao Tung University]\n"
+"|https://www.nlnetlabs.nl[NLNet Labs]\n"
+"|https://www.ixsystems.com[iXsystems]\n"
 msgstr ""
 
 #. type: Plain text
@@ -567,20 +573,24 @@ msgstr ""
 msgid "The release engineering team for {thisRelease}-RELEASE includes:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.4R/announce.adoc:220
+#. type: Table
+#: website/content/en/releases/11.4R/announce.adoc:219
+#, no-wrap
 msgid ""
-"|=== |Glen Barber <gjb@FreeBSD.org> |Release Engineering Lead, "
-"{thisRelease}-RELEASE Release Engineer |Konstantin Belousov "
-"<kib@FreeBSD.org> |Release Engineering |Antoine Brodin <antoine@FreeBSD.org> "
-"|Package Building |Bryan Drewery <bdrewery@FreeBSD.org> |Release "
-"Engineering, Package Building |Marc Fonvieille <blackend@FreeBSD.org> "
-"|Release Engineering, Documentation |Xin Li <delphij@FreeBSD.org> |Release "
-"Engineering, Security Team Liaison |Ed Maste <emaste@FreeBSD.org> |Security "
-"Officer Deputy |Hiroki Sato <hrs@FreeBSD.org> |Release Engineering, "
-"Documentation |Gleb Smirnoff <glebius@FreeBSD.org> |Release Engineering "
-"|Marius Strobl <marius@FreeBSD.org> |Release Engineering Deputy Lead |Gordon "
-"Tetlow <gordon@FreeBSD.org> |Security Officer |==="
+"|Glen Barber <gjb@FreeBSD.org> |Release Engineering Lead, "
+"{thisRelease}-RELEASE Release Engineer\n"
+"|Konstantin Belousov <kib@FreeBSD.org> |Release Engineering\n"
+"|Antoine Brodin <antoine@FreeBSD.org> |Package Building\n"
+"|Bryan Drewery <bdrewery@FreeBSD.org> |Release Engineering, Package "
+"Building\n"
+"|Marc Fonvieille <blackend@FreeBSD.org> |Release Engineering, "
+"Documentation\n"
+"|Xin Li <delphij@FreeBSD.org> |Release Engineering, Security Team Liaison\n"
+"|Ed Maste <emaste@FreeBSD.org> |Security Officer Deputy\n"
+"|Hiroki Sato <hrs@FreeBSD.org> |Release Engineering, Documentation\n"
+"|Gleb Smirnoff <glebius@FreeBSD.org> |Release Engineering\n"
+"|Marius Strobl <marius@FreeBSD.org> |Release Engineering Deputy Lead\n"
+"|Gordon Tetlow <gordon@FreeBSD.org> |Security Officer\n"
 msgstr ""
 
 #. type: Title ==
@@ -601,7 +611,8 @@ msgid "ISO Image Checksums"
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/11.4R/announce.adoc:227 website/content/en/releases/11.4R/announce.adoc:429
+#: website/content/en/releases/11.4R/announce.adoc:227
+#: website/content/en/releases/11.4R/announce.adoc:429
 #, no-wrap
 msgid "amd64 (x86_64):"
 msgstr ""
@@ -659,7 +670,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/11.4R/announce.adoc:253 website/content/en/releases/11.4R/announce.adoc:443
+#: website/content/en/releases/11.4R/announce.adoc:253
+#: website/content/en/releases/11.4R/announce.adoc:443
 #, no-wrap
 msgid "i386 (x86):"
 msgstr ""

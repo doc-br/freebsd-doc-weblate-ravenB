@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,7 +175,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:45 website/content/en/releases/9.2R/hardware.adoc:88
+#: website/content/en/releases/9.2R/hardware.adoc:45
+#: website/content/en/releases/9.2R/hardware.adoc:88
 msgid ""
 "Both Uniprocessor (UP) and Symmetric Multi-processor (SMP) configurations "
 "are supported."
@@ -914,7 +915,19 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: website/content/en/releases/9.2R/hardware.adoc:222 website/content/en/releases/9.2R/hardware.adoc:652 website/content/en/releases/9.2R/hardware.adoc:813 website/content/en/releases/9.2R/hardware.adoc:2451 website/content/en/releases/9.2R/hardware.adoc:2457 website/content/en/releases/9.2R/hardware.adoc:2463 website/content/en/releases/9.2R/hardware.adoc:2469 website/content/en/releases/9.2R/hardware.adoc:2475 website/content/en/releases/9.2R/hardware.adoc:2481 website/content/en/releases/9.2R/hardware.adoc:2786 website/content/en/releases/9.2R/hardware.adoc:2790 website/content/en/releases/9.2R/hardware.adoc:3121 website/content/en/releases/9.2R/hardware.adoc:3139
+#: website/content/en/releases/9.2R/hardware.adoc:222
+#: website/content/en/releases/9.2R/hardware.adoc:652
+#: website/content/en/releases/9.2R/hardware.adoc:813
+#: website/content/en/releases/9.2R/hardware.adoc:2451
+#: website/content/en/releases/9.2R/hardware.adoc:2457
+#: website/content/en/releases/9.2R/hardware.adoc:2463
+#: website/content/en/releases/9.2R/hardware.adoc:2469
+#: website/content/en/releases/9.2R/hardware.adoc:2475
+#: website/content/en/releases/9.2R/hardware.adoc:2481
+#: website/content/en/releases/9.2R/hardware.adoc:2786
+#: website/content/en/releases/9.2R/hardware.adoc:2790
+#: website/content/en/releases/9.2R/hardware.adoc:3121
+#: website/content/en/releases/9.2R/hardware.adoc:3139
 #, no-wrap
 msgid "Note:"
 msgstr ""
@@ -1873,7 +1886,8 @@ msgid "NEC SV-98/2-B03 (PC-98)"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:431 website/content/en/releases/9.2R/hardware.adoc:444
+#: website/content/en/releases/9.2R/hardware.adoc:431
+#: website/content/en/releases/9.2R/hardware.adoc:444
 msgid "Many motherboards with on-board SCSI support"
 msgstr ""
 
@@ -1978,17 +1992,20 @@ msgid "[i386,pc98,amd64] Controllers supported by the man:amd[4] driver include:
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:460 website/content/en/releases/9.2R/hardware.adoc:659
+#: website/content/en/releases/9.2R/hardware.adoc:460
+#: website/content/en/releases/9.2R/hardware.adoc:659
 msgid "MELCO IFC-DP (PC-98)"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:461 website/content/en/releases/9.2R/hardware.adoc:662
+#: website/content/en/releases/9.2R/hardware.adoc:461
+#: website/content/en/releases/9.2R/hardware.adoc:662
 msgid "Tekram DC390"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:462 website/content/en/releases/9.2R/hardware.adoc:663
+#: website/content/en/releases/9.2R/hardware.adoc:462
+#: website/content/en/releases/9.2R/hardware.adoc:663
 msgid "Tekram DC390T"
 msgstr ""
 
@@ -2526,7 +2543,8 @@ msgid "BusLogic BT-540CF"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:576 website/content/en/releases/9.2R/hardware.adoc:577
+#: website/content/en/releases/9.2R/hardware.adoc:576
+#: website/content/en/releases/9.2R/hardware.adoc:577
 msgid "BusLogic BT-542B"
 msgstr ""
 
@@ -2551,7 +2569,8 @@ msgid "BusLogic/BusTek BT-640"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:582 website/content/en/releases/9.2R/hardware.adoc:583
+#: website/content/en/releases/9.2R/hardware.adoc:582
+#: website/content/en/releases/9.2R/hardware.adoc:583
 msgid "BusLogic BT-742A"
 msgstr ""
 
@@ -2865,7 +2884,8 @@ msgid "Smart RAID IV"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:655 website/content/en/releases/9.2R/hardware.adoc:816
+#: website/content/en/releases/9.2R/hardware.adoc:655
+#: website/content/en/releases/9.2R/hardware.adoc:816
 msgid ""
 "[amd64, i386] Booting from these controllers is supported. EISA adapters are "
 "not supported."
@@ -3506,7 +3526,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:812 website/content/en/releases/9.2R/hardware.adoc:826
+#: website/content/en/releases/9.2R/hardware.adoc:812
+#: website/content/en/releases/9.2R/hardware.adoc:826
 msgid ""
 "Compatible Mylex controllers not listed should work, but have not been "
 "verified."
@@ -3799,17 +3820,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:894 website/content/en/releases/9.2R/hardware.adoc:952
+#: website/content/en/releases/9.2R/hardware.adoc:894
+#: website/content/en/releases/9.2R/hardware.adoc:952
 msgid "53C810"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:895 website/content/en/releases/9.2R/hardware.adoc:953
+#: website/content/en/releases/9.2R/hardware.adoc:895
+#: website/content/en/releases/9.2R/hardware.adoc:953
 msgid "53C810A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:896 website/content/en/releases/9.2R/hardware.adoc:954
+#: website/content/en/releases/9.2R/hardware.adoc:896
+#: website/content/en/releases/9.2R/hardware.adoc:954
 msgid "53C815"
 msgstr ""
 
@@ -3819,17 +3843,20 @@ msgid "53C820"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:898 website/content/en/releases/9.2R/hardware.adoc:956
+#: website/content/en/releases/9.2R/hardware.adoc:898
+#: website/content/en/releases/9.2R/hardware.adoc:956
 msgid "53C825A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:899 website/content/en/releases/9.2R/hardware.adoc:957
+#: website/content/en/releases/9.2R/hardware.adoc:899
+#: website/content/en/releases/9.2R/hardware.adoc:957
 msgid "53C860"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:900 website/content/en/releases/9.2R/hardware.adoc:958
+#: website/content/en/releases/9.2R/hardware.adoc:900
+#: website/content/en/releases/9.2R/hardware.adoc:958
 msgid "53C875"
 msgstr ""
 
@@ -3844,22 +3871,26 @@ msgid "53C885"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:903 website/content/en/releases/9.2R/hardware.adoc:960
+#: website/content/en/releases/9.2R/hardware.adoc:903
+#: website/content/en/releases/9.2R/hardware.adoc:960
 msgid "53C895"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:904 website/content/en/releases/9.2R/hardware.adoc:961
+#: website/content/en/releases/9.2R/hardware.adoc:904
+#: website/content/en/releases/9.2R/hardware.adoc:961
 msgid "53C895A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:905 website/content/en/releases/9.2R/hardware.adoc:962
+#: website/content/en/releases/9.2R/hardware.adoc:905
+#: website/content/en/releases/9.2R/hardware.adoc:962
 msgid "53C896"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:906 website/content/en/releases/9.2R/hardware.adoc:968
+#: website/content/en/releases/9.2R/hardware.adoc:906
+#: website/content/en/releases/9.2R/hardware.adoc:968
 msgid "53C1510D"
 msgstr ""
 
@@ -8397,7 +8428,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:1991 website/content/en/releases/9.2R/hardware.adoc:1992
+#: website/content/en/releases/9.2R/hardware.adoc:1991
+#: website/content/en/releases/9.2R/hardware.adoc:1992
 msgid "Apple Airport Extreme"
 msgstr ""
 
@@ -8868,7 +8900,8 @@ msgid "SMC SMCWPCI-GM"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:2091 website/content/en/releases/9.2R/hardware.adoc:2256
+#: website/content/en/releases/9.2R/hardware.adoc:2091
+#: website/content/en/releases/9.2R/hardware.adoc:2256
 msgid "SparkLAN WL-685R"
 msgstr ""
 
@@ -11069,7 +11102,8 @@ msgid "NVIDIA nForce2 400"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/hardware.adoc:2635 website/content/en/releases/9.2R/hardware.adoc:2803
+#: website/content/en/releases/9.2R/hardware.adoc:2635
+#: website/content/en/releases/9.2R/hardware.adoc:2803
 msgid "NVIDIA nForce3"
 msgstr ""
 

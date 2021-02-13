@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -139,35 +139,21 @@ msgstr ""
 msgid "Security Advisories"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:43
-msgid "|=== |Advisory |Date |Topic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:45
+#. type: Table
+#: website/content/en/releases/12.2R/errata.adoc:50
+#, no-wrap
 msgid ""
+"|Advisory |Date |Topic\n"
+"\n"
 "|link:https://www.freebsd.org/security/advisories/FreeBSD-SA-20:31.icmp6.asc[FreeBSD-SA-20:31.icmp6] "
-"|1 December 2019 |Use-after-free in error message handling"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:47
-msgid ""
+"|1 December 2019 |Use-after-free in error message handling\n"
+"\n"
 "|link:https://www.freebsd.org/security/advisories/FreeBSD-SA-20:32.rtsold.asc[FreeBSD-SA-20:32.rtsold] "
-"|1 December 2019 |Multiple vulnerabilities"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:49
-msgid ""
+"|1 December 2019 |Multiple vulnerabilities\n"
+"\n"
 "|link:https://www.freebsd.org/security/advisories/FreeBSD-SA-20:33.openssl.asc[FreeBSD-SA-20:33.openssl] "
-"|8 December 2019 |NULL pointer de-reference"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:51 website/content/en/releases/12.2R/errata.adoc:68
-msgid "|==="
+"|8 December 2019 |NULL pointer de-reference\n"
+"\n"
 msgstr ""
 
 #. type: Title ==
@@ -176,37 +162,24 @@ msgstr ""
 msgid "Errata Notices"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:58
-msgid "|=== |Errata |Date |Topic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:60
+#. type: Table
+#: website/content/en/releases/12.2R/errata.adoc:67
+#, no-wrap
 msgid ""
+"|Errata |Date |Topic\n"
+"\n"
 "|link:https://www.freebsd.org/security/advisories/FreeBSD-EN-20:19.audit.asc[FreeBSD-EN-20:19.audit] "
-"|1 December 2020 |execve/fexecve system call auditing"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:62
-msgid ""
+"|1 December 2020 |execve/fexecve system call auditing\n"
+"\n"
 "|link:https://www.freebsd.org/security/advisories/FreeBSD-EN-20:20.tzdata.asc[FreeBSD-EN-20:20.tzdata] "
-"|1 December 2020 |Timezone database information update"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:64
-msgid ""
+"|1 December 2020 |Timezone database information update\n"
+"\n"
 "|link:https://www.freebsd.org/security/advisories/FreeBSD-EN-20:21.ipfw.asc[FreeBSD-EN-20:21.ipfw] "
-"|1 December 2020 |Uninitialized variable"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/errata.adoc:66
-msgid ""
+"|1 December 2020 |Uninitialized variable\n"
+"\n"
 "|link:https://www.freebsd.org/security/advisories/FreeBSD-EN-20:22.callout.asc[FreeBSD-EN-20:22.callout] "
-"|1 December 2020 |Race condition in callout CPU migration"
+"|1 December 2020 |Race condition in callout CPU migration\n"
+"\n"
 msgstr ""
 
 #. type: Title ==

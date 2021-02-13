@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -155,21 +155,22 @@ msgid ""
 "http://security.FreeBSD.org/[FreeBSD Security Information]."
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/10.0R/relnotes.adoc:52
+#. type: Table
+#: website/content/en/releases/10.0R/relnotes.adoc:51
+#, no-wrap
 msgid ""
-"|=== |Advisory |Date |Topic "
+"|Advisory |Date |Topic\n"
 "|http://www.freebsd.org/security/advisories/FreeBSD-SA-13:14.openssh.asc[SA-13:14.openssh] "
-"|19 November 2013 |OpenSSH AES-GCM memory corruption vulnerability "
+"|19 November 2013 |OpenSSH AES-GCM memory corruption vulnerability\n"
 "|http://www.freebsd.org/security/advisories/FreeBSD-SA-14:01.bsnmpd.asc[SA-14:01.bsnmpd] "
-"|14 January 2014 |bsnmpd remote denial of service vulnerability "
+"|14 January 2014 |bsnmpd remote denial of service vulnerability\n"
 "|http://www.freebsd.org/security/advisories/FreeBSD-SA-14:02.ntpd.asc[SA-14:02.ntpd] "
 "|14 January 2014 |ntpd distributed reflection Denial of Service "
-"vulnerability "
+"vulnerability\n"
 "|http://www.freebsd.org/security/advisories/FreeBSD-SA-14:03.openssl.asc[SA-14:03.openssl] "
-"|14 January 2014 |OpenSSL multiple vulnerabilities "
+"|14 January 2014 |OpenSSL multiple vulnerabilities\n"
 "|http://www.freebsd.org/security/advisories/FreeBSD-SA-14:04.bind.asc[SA-14:04.bind] "
-"|14 January 2014 |BIND remote denial of service vulnerability |==="
+"|14 January 2014 |BIND remote denial of service vulnerability\n"
 msgstr ""
 
 #. type: Title ==
@@ -985,19 +986,23 @@ msgid ""
 "scripts have been added:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/10.0R/relnotes.adoc:270
+#. type: Table
+#: website/content/en/releases/10.0R/relnotes.adoc:269
+#, no-wrap
 msgid ""
-"|=== |http://www.FreeBSD.org/cgi/man.cgi?query=rc&sektion=8[rc(8)] Script "
-"|Function |[.filename]`ctld` |iSCSI target daemon startup script "
-"|[.filename]`iscsictl` |iSCSI initiator management utility startup script "
-"|[.filename]`iscsid` |iSCSI initiatior daemon startup script "
-"|[.filename]`kfd` |Kerberos ticket forwarding daemon startup script "
+"|http://www.FreeBSD.org/cgi/man.cgi?query=rc&sektion=8[rc(8)] Script "
+"|Function\n"
+"|[.filename]`ctld` |iSCSI target daemon startup script\n"
+"|[.filename]`iscsictl` |iSCSI initiator management utility startup script\n"
+"|[.filename]`iscsid` |iSCSI initiatior daemon startup script\n"
+"|[.filename]`kfd` |Kerberos ticket forwarding daemon startup script\n"
 "|[.filename]`local_unbound` |Unbound startup script for the local caching "
-"resolver |[.filename]`postrandom` |Generates a new entropy file at system "
-"boot |[.filename]`swap` |Replaces [.filename]`swap1`; enable swap at system "
-"boot |[.filename]`swaplate` |Enables swap with \"late\" set at system boot "
-"|[.filename]`utx` |User accounting database startup and shutdown script |==="
+"resolver\n"
+"|[.filename]`postrandom` |Generates a new entropy file at system boot\n"
+"|[.filename]`swap` |Replaces [.filename]`swap1`; enable swap at system "
+"boot\n"
+"|[.filename]`swaplate` |Enables swap with \"late\" set at system boot\n"
+"|[.filename]`utx` |User accounting database startup and shutdown script\n"
 msgstr ""
 
 #. type: Plain text
@@ -1007,14 +1012,17 @@ msgid ""
 "scripts have been removed:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/10.0R/relnotes.adoc:280
+#. type: Table
+#: website/content/en/releases/10.0R/relnotes.adoc:279
+#, no-wrap
 msgid ""
-"|=== |http://www.FreeBSD.org/cgi/man.cgi?query=rc&sektion=8[rc(8)] Script "
-"|Reason |[.filename]`encswap` |Replaced by [.filename]`swap` and "
-"[.filename]`swaplate` |[.filename]`named` |Removed with BIND# "
-"|[.filename]`swap1` |Replaced by [.filename]`swap` and [.filename]`swaplate` "
-"|==="
+"|http://www.FreeBSD.org/cgi/man.cgi?query=rc&sektion=8[rc(8)] Script "
+"|Reason\n"
+"|[.filename]`encswap` |Replaced by [.filename]`swap` and "
+"[.filename]`swaplate`\n"
+"|[.filename]`named` |Removed with BIND#\n"
+"|[.filename]`swap1` |Replaced by [.filename]`swap` and "
+"[.filename]`swaplate`\n"
 msgstr ""
 
 #. type: Title ==

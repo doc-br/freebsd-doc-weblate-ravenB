@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/boot/_index.adoc:9
 #, no-wrap
 msgid "The FreeBSD Booting Process"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:27 documentation/content/en/books/handbook/boot/_index.adoc:31 documentation/content/en/books/handbook/boot/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -436,106 +411,67 @@ msgstr ""
 msgid "Loader Built-In Commands"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:175
-msgid "|=== | Variable | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:178
+#. type: Table
+#: documentation/content/en/books/handbook/boot/_index.adoc:214
+#, no-wrap
 msgid ""
-"|autoboot _seconds_ |Proceeds to boot the kernel if not interrupted within "
-"the time span given, in seconds. It displays a countdown, and the default "
-"time span is 10 seconds."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:181
-msgid ""
-"|boot [`-options`] [`kernelname`] |Immediately proceeds to boot the kernel, "
-"with any specified options or kernel name. Providing a kernel name on the "
-"command-line is only applicable after an `unload` has been "
-"issued. Otherwise, the previously-loaded kernel will be used. If "
-"_kernelname_ is not qualified, it will be searched under _/boot/kernel_ and "
-"_/boot/modules_."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:184
-msgid ""
-"|boot-conf |Goes through the same automatic configuration of modules based "
-"on specified variables, most commonly `kernel`. This only makes sense if "
-"`unload` is used first, before changing some variables."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:187
-msgid ""
-"|help [`_topic_`] |Shows help messages read from "
-"[.filename]#/boot/loader.help#. If the topic given is `index`, the list of "
-"available topics is displayed."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:190
-msgid ""
-"|include `_filename_` ...  |Reads the specified file and interprets it line "
-"by line. An error immediately stops the `include`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:193
-msgid ""
-"|load [-t ``_type_``] `_filename_` |Loads the kernel, kernel module, or file "
-"of the type given, with the specified filename. Any arguments after "
-"_filename_ are passed to the file. If _filename_ is not qualified, it will "
-"be searched under _/boot/kernel_ and _/boot/modules_."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:196
-msgid ""
-"|ls [-l] [``_path_``] |Displays a listing of files in the given path, or the "
-"root directory, if the path is not specified. If `-l` is specified, file "
-"sizes will also be shown."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:199
-msgid ""
-"|lsdev [`-v`] |Lists all of the devices from which it may be possible to "
-"load modules. If `-v` is specified, more details are printed."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:202
-msgid ""
-"|lsmod [`-v`] |Displays loaded modules. If `-v` is specified, more details "
-"are shown."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:205
-msgid ""
-"|more `_filename_` |Displays the files specified, with a pause at each "
-"`LINES` displayed."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:208
-msgid "|reboot |Immediately reboots the system."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:211
-msgid ""
-"|set `_variable_`, set `_variable=value_` |Sets the specified environment "
-"variables."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:215
-msgid "|unload |Removes all loaded modules.  |==="
+"| Variable\n"
+"| Description\n"
+"\n"
+"|autoboot _seconds_\n"
+"|Proceeds to boot the kernel if not interrupted within the time span given, "
+"in seconds. It displays a countdown, and the default time span is 10 "
+"seconds.\n"
+"\n"
+"|boot [`-options`] [`kernelname`]\n"
+"|Immediately proceeds to boot the kernel, with any specified options or "
+"kernel name. Providing a kernel name on the command-line is only applicable "
+"after an `unload` has been issued. Otherwise, the previously-loaded kernel "
+"will be used. If _kernelname_ is not qualified, it will be searched under "
+"_/boot/kernel_ and _/boot/modules_.\n"
+"\n"
+"|boot-conf\n"
+"|Goes through the same automatic configuration of modules based on specified "
+"variables, most commonly `kernel`. This only makes sense if `unload` is used "
+"first, before changing some variables.\n"
+"\n"
+"|help [`_topic_`]\n"
+"|Shows help messages read from [.filename]#/boot/loader.help#. If the topic "
+"given is `index`, the list of available topics is displayed.\n"
+"\n"
+"|include `_filename_` ...\n"
+"|Reads the specified file and interprets it line by line. An error "
+"immediately stops the `include`.\n"
+"\n"
+"|load [-t ``_type_``] `_filename_`\n"
+"|Loads the kernel, kernel module, or file of the type given, with the "
+"specified filename. Any arguments after _filename_ are passed to the "
+"file. If _filename_ is not qualified, it will be searched under "
+"_/boot/kernel_ and _/boot/modules_.\n"
+"\n"
+"|ls [-l] [``_path_``]\n"
+"|Displays a listing of files in the given path, or the root directory, if "
+"the path is not specified. If `-l` is specified, file sizes will also be "
+"shown.\n"
+"\n"
+"|lsdev [`-v`]\n"
+"|Lists all of the devices from which it may be possible to load modules. If "
+"`-v` is specified, more details are printed.\n"
+"\n"
+"|lsmod [`-v`]\n"
+"|Displays loaded modules. If `-v` is specified, more details are shown.\n"
+"\n"
+"|more `_filename_`\n"
+"|Displays the files specified, with a pause at each `LINES` displayed.\n"
+"\n"
+"|reboot\n"
+"|Immediately reboots the system.\n"
+"\n"
+"|set `_variable_`, set `_variable=value_`\n"
+"|Sets the specified environment variables.\n"
+"\n"
+"|unload\n"
+"|Removes all loaded modules.\n"
 msgstr ""
 
 #. type: Plain text
@@ -623,31 +559,25 @@ msgstr ""
 msgid "Kernel Interaction During Boot"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:260
-msgid "|=== | Option | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:263
+#. type: Table
+#: documentation/content/en/books/handbook/boot/_index.adoc:272
+#, no-wrap
 msgid ""
-"|`-a` |During kernel initialization, ask for the device to mount as the root "
-"file system."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:266
-msgid "|`-C` |Boot the root file system from a CDROM."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:269
-msgid "|`-s` |Boot into single-user mode."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/boot/_index.adoc:273
-msgid "|`-v` |Be more verbose during kernel startup.  |==="
+"| Option\n"
+"| Description\n"
+"\n"
+"|`-a`\n"
+"|During kernel initialization, ask for the device to mount as the root file "
+"system.\n"
+"\n"
+"|`-C`\n"
+"|Boot the root file system from a CDROM.\n"
+"\n"
+"|`-s`\n"
+"|Boot into single-user mode.\n"
+"\n"
+"|`-v`\n"
+"|Be more verbose during kernel startup.\n"
 msgstr ""
 
 #. type: Plain text

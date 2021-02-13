@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,11 +71,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/linux-emulation/_index.adoc:28
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/linux-emulation/_index.adoc:30
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -160,7 +155,9 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: documentation/content/en/articles/linux-emulation/_index.adoc:51 documentation/content/en/articles/linux-emulation/_index.adoc:109 documentation/content/en/articles/linux-emulation/_index.adoc:158
+#: documentation/content/en/articles/linux-emulation/_index.adoc:51
+#: documentation/content/en/articles/linux-emulation/_index.adoc:109
+#: documentation/content/en/articles/linux-emulation/_index.adoc:158
 #, no-wrap
 msgid "Technical details"
 msgstr ""
@@ -418,7 +415,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: documentation/content/en/articles/linux-emulation/_index.adoc:119 documentation/content/en/articles/linux-emulation/_index.adoc:163
+#: documentation/content/en/articles/linux-emulation/_index.adoc:119
+#: documentation/content/en/articles/linux-emulation/_index.adoc:163
 #, no-wrap
 msgid "Syscalls"
 msgstr ""
@@ -450,7 +448,9 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/articles/linux-emulation/_index.adoc:126 documentation/content/en/articles/linux-emulation/_index.adoc:177 documentation/content/en/articles/linux-emulation/_index.adoc:519
+#: documentation/content/en/articles/linux-emulation/_index.adoc:126
+#: documentation/content/en/articles/linux-emulation/_index.adoc:177
+#: documentation/content/en/articles/linux-emulation/_index.adoc:519
 #, no-wrap
 msgid "Traps"
 msgstr ""
@@ -468,7 +468,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: documentation/content/en/articles/linux-emulation/_index.adoc:131 documentation/content/en/articles/linux-emulation/_index.adoc:182
+#: documentation/content/en/articles/linux-emulation/_index.adoc:131
+#: documentation/content/en/articles/linux-emulation/_index.adoc:182
 #, no-wrap
 msgid "Exits"
 msgstr ""
@@ -483,7 +484,8 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: documentation/content/en/articles/linux-emulation/_index.adoc:136 documentation/content/en/articles/linux-emulation/_index.adoc:187
+#: documentation/content/en/articles/linux-emulation/_index.adoc:136
+#: documentation/content/en/articles/linux-emulation/_index.adoc:187
 #, no-wrap
 msgid "UNIX(R) primitives"
 msgstr ""

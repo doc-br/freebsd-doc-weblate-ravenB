@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/audit/_index.adoc:9
 #, no-wrap
 msgid "Security Event Auditing"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:27 documentation/content/en/books/handbook/audit/_index.adoc:31 documentation/content/en/books/handbook/audit/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -309,128 +284,99 @@ msgstr ""
 msgid "Default Audit Event Classes"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:121
-msgid "|=== | Class Name | Description | Action"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:125
-msgid "|all |all |Match all event classes."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:129
-msgid "|aa |authentication and authorization |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:133
+#. type: Table
+#: documentation/content/en/books/handbook/audit/_index.adoc:201
+#, no-wrap
 msgid ""
-"|ad |administrative |Administrative actions performed on the system as a "
-"whole."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:137
-msgid "|ap |application |Application defined action."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:141
-msgid "|cl |file close |Audit calls to the `close` system call."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:145
-msgid ""
-"|ex |exec |Audit program execution. Auditing of command line arguments and "
+"| Class Name\n"
+"| Description\n"
+"| Action\n"
+"\n"
+"|all\n"
+"|all\n"
+"|Match all event classes.\n"
+"\n"
+"|aa\n"
+"|authentication and authorization\n"
+"|\n"
+"\n"
+"|ad\n"
+"|administrative\n"
+"|Administrative actions performed on the system as a whole.\n"
+"\n"
+"|ap\n"
+"|application\n"
+"|Application defined action.\n"
+"\n"
+"|cl\n"
+"|file close\n"
+"|Audit calls to the `close` system call.\n"
+"\n"
+"|ex\n"
+"|exec\n"
+"|Audit program execution. Auditing of command line arguments and "
 "environmental variables is controlled via man:audit_control[5] using the "
-"`argv` and `envv` parameters to the `policy` setting."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:149
-msgid ""
-"|fa |file attribute access |Audit the access of object attributes such as "
-"man:stat[1] and man:pathconf[2]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:153
-msgid "|fc |file create |Audit events where a file is created as a result."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:157
-msgid "|fd |file delete |Audit events where file deletion occurs."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:161
-msgid ""
-"|fm |file attribute modify |Audit events where file attribute modification "
-"occurs, such as by man:chown[8], man:chflags[1], and man:flock[2]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:165
-msgid ""
-"|fr |file read |Audit events in which data is read or files are opened for "
-"reading."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:169
-msgid ""
-"|fw |file write |Audit events in which data is written or files are written "
-"or modified."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:173
-msgid "|io |ioctl |Audit use of the `ioctl` system call."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:177
-msgid ""
-"|ip |ipc |Audit various forms of Inter-Process Communication, including "
-"POSIX pipes and System V IPC operations."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:181
-msgid "|lo |login_logout |Audit man:login[1] and man:logout[1] events."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:185
-msgid "|na |non attributable |Audit non-attributable events."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:189
-msgid "|no |invalid class |Match no audit events."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:193
-msgid ""
-"|nt |network |Audit events related to network actions such as man:connect[2] "
-"and man:accept[2]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:197
-msgid "|ot |other |Audit miscellaneous events."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:202
-msgid ""
-"|pc |process |Audit process operations such as man:exec[3] and man:exit[3].  "
-"|==="
+"`argv` and `envv` parameters to the `policy` setting.\n"
+"\n"
+"|fa\n"
+"|file attribute access\n"
+"|Audit the access of object attributes such as man:stat[1] and "
+"man:pathconf[2].\n"
+"\n"
+"|fc\n"
+"|file create\n"
+"|Audit events where a file is created as a result.\n"
+"\n"
+"|fd\n"
+"|file delete\n"
+"|Audit events where file deletion occurs.\n"
+"\n"
+"|fm\n"
+"|file attribute modify\n"
+"|Audit events where file attribute modification occurs, such as by "
+"man:chown[8], man:chflags[1], and man:flock[2].\n"
+"\n"
+"|fr\n"
+"|file read\n"
+"|Audit events in which data is read or files are opened for reading.\n"
+"\n"
+"|fw\n"
+"|file write\n"
+"|Audit events in which data is written or files are written or modified.\n"
+"\n"
+"|io\n"
+"|ioctl\n"
+"|Audit use of the `ioctl` system call.\n"
+"\n"
+"|ip\n"
+"|ipc\n"
+"|Audit various forms of Inter-Process Communication, including POSIX pipes "
+"and System V IPC operations.\n"
+"\n"
+"|lo\n"
+"|login_logout\n"
+"|Audit man:login[1] and man:logout[1] events.\n"
+"\n"
+"|na\n"
+"|non attributable\n"
+"|Audit non-attributable events.\n"
+"\n"
+"|no\n"
+"|invalid class\n"
+"|Match no audit events.\n"
+"\n"
+"|nt\n"
+"|network\n"
+"|Audit events related to network actions such as man:connect[2] and "
+"man:accept[2].\n"
+"\n"
+"|ot\n"
+"|other\n"
+"|Audit miscellaneous events.\n"
+"\n"
+"|pc\n"
+"|process\n"
+"|Audit process operations such as man:exec[3] and man:exit[3].\n"
 msgstr ""
 
 #. type: Plain text
@@ -455,34 +401,27 @@ msgstr ""
 msgid "Prefixes for Audit Event Classes"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:213
-msgid "|=== | Prefix | Action"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:216
-msgid "|+ |Audit successful events in this class."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:219
-msgid "|- |Audit failed events in this class."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:222
-msgid "|^ |Audit neither successful nor failed events in this class."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:225
-msgid "|^+ |Do not audit successful events in this class."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/audit/_index.adoc:229
-msgid "|^- |Do not audit failed events in this class.  |==="
+#. type: Table
+#: documentation/content/en/books/handbook/audit/_index.adoc:228
+#, no-wrap
+msgid ""
+"| Prefix\n"
+"| Action\n"
+"\n"
+"|+\n"
+"|Audit successful events in this class.\n"
+"\n"
+"|-\n"
+"|Audit failed events in this class.\n"
+"\n"
+"|^\n"
+"|Audit neither successful nor failed events in this class.\n"
+"\n"
+"|^+\n"
+"|Do not audit successful events in this class.\n"
+"\n"
+"|^-\n"
+"|Do not audit failed events in this class.\n"
 msgstr ""
 
 #. type: Plain text

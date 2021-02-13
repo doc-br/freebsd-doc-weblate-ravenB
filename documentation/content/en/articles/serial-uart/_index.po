@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -57,11 +57,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/serial-uart/_index.adoc:29
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -476,136 +471,217 @@ msgid ""
 "connectors."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:142
+#. type: Table
+#: documentation/content/en/articles/serial-uart/_index.adoc:342
+#, no-wrap
 msgid ""
-"|=== | DB25 RS232-C Pin | DB9 IBM PC Pin | EIA Circuit Symbol | CCITT "
-"Circuit Symbol | Common Name | Signal Source | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:150
-msgid "|1 |- |AA |101 |PG/FG |- |Frame/Protective Ground"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:158
-msgid "|2 |3 |BA |103 |TD |DTE |Transmit Data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:166
-msgid "|3 |2 |BB |104 |RD |DCE |Receive Data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:174
-msgid "|4 |7 |CA |105 |RTS |DTE |Request to Send"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:182
-msgid "|5 |8 |CB |106 |CTS |DCE |Clear to Send"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:190
-msgid "|6 |6 |CC |107 |DSR |DCE |Data Set Ready"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:198
-msgid "|7 |5 |AV |102 |SG/GND |- |Signal Ground"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:206
-msgid "|8 |1 |CF |109 |DCD/CD |DCE |Data Carrier Detect"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:214
-msgid "|9 |- |- |- |- |- |Reserved for Test"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:222
-msgid "|10 |- |- |- |- |- |Reserved for Test"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:230
-msgid "|11 |- |- |- |- |- |Reserved for Test"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:238
-msgid "|12 |- |CI |122 |SRLSD |DCE |Sec. Recv. Line Signal Detector"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:246
-msgid "|13 |- |SCB |121 |SCTS |DCE |Secondary Clear to Send"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:254
-msgid "|14 |- |SBA |118 |STD |DTE |Secondary Transmit Data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:262
-msgid "|15 |- |DB |114 |TSET |DCE |Trans. Sig. Element Timing"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:270
-msgid "|16 |- |SBB |119 |SRD |DCE |Secondary Received Data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:278
-msgid "|17 |- |DD |115 |RSET |DCE |Receiver Signal Element Timing"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:286
-msgid "|18 |- |- |141 |LOOP |DTE |Local Loopback"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:294
-msgid "|19 |- |SCA |120 |SRS |DTE |Secondary Request to Send"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:302
-msgid "|20 |4 |CD |108.2 |DTR |DTE |Data Terminal Ready"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:310
-msgid "|21 |- |- |- |RDL |DTE |Remote Digital Loopback"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:318
-msgid "|22 |9 |CE |125 |RI |DCE |Ring Indicator"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:326
-msgid "|23 |- |CH |111 |DSRS |DTE |Data Signal Rate Selector"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:334
-msgid "|24 |- |DA |113 |TSET |DTE |Trans. Sig. Element Timing"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:343
-msgid "|25 |- |- |142 |- |DCE |Test Mode |==="
+"| DB25 RS232-C Pin\n"
+"| DB9 IBM PC Pin\n"
+"| EIA Circuit Symbol\n"
+"| CCITT Circuit Symbol\n"
+"| Common Name\n"
+"| Signal Source\n"
+"| Description\n"
+"\n"
+"|1\n"
+"|-\n"
+"|AA\n"
+"|101\n"
+"|PG/FG\n"
+"|-\n"
+"|Frame/Protective Ground\n"
+"\n"
+"|2\n"
+"|3\n"
+"|BA\n"
+"|103\n"
+"|TD\n"
+"|DTE\n"
+"|Transmit Data\n"
+"\n"
+"|3\n"
+"|2\n"
+"|BB\n"
+"|104\n"
+"|RD\n"
+"|DCE\n"
+"|Receive Data\n"
+"\n"
+"|4\n"
+"|7\n"
+"|CA\n"
+"|105\n"
+"|RTS\n"
+"|DTE\n"
+"|Request to Send\n"
+"\n"
+"|5\n"
+"|8\n"
+"|CB\n"
+"|106\n"
+"|CTS\n"
+"|DCE\n"
+"|Clear to Send\n"
+"\n"
+"|6\n"
+"|6\n"
+"|CC\n"
+"|107\n"
+"|DSR\n"
+"|DCE\n"
+"|Data Set Ready\n"
+"\n"
+"|7\n"
+"|5\n"
+"|AV\n"
+"|102\n"
+"|SG/GND\n"
+"|-\n"
+"|Signal Ground\n"
+"\n"
+"|8\n"
+"|1\n"
+"|CF\n"
+"|109\n"
+"|DCD/CD\n"
+"|DCE\n"
+"|Data Carrier Detect\n"
+"\n"
+"|9\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|Reserved for Test\n"
+"\n"
+"|10\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|Reserved for Test\n"
+"\n"
+"|11\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|Reserved for Test\n"
+"\n"
+"|12\n"
+"|-\n"
+"|CI\n"
+"|122\n"
+"|SRLSD\n"
+"|DCE\n"
+"|Sec. Recv. Line Signal Detector\n"
+"\n"
+"|13\n"
+"|-\n"
+"|SCB\n"
+"|121\n"
+"|SCTS\n"
+"|DCE\n"
+"|Secondary Clear to Send\n"
+"\n"
+"|14\n"
+"|-\n"
+"|SBA\n"
+"|118\n"
+"|STD\n"
+"|DTE\n"
+"|Secondary Transmit Data\n"
+"\n"
+"|15\n"
+"|-\n"
+"|DB\n"
+"|114\n"
+"|TSET\n"
+"|DCE\n"
+"|Trans. Sig. Element Timing\n"
+"\n"
+"|16\n"
+"|-\n"
+"|SBB\n"
+"|119\n"
+"|SRD\n"
+"|DCE\n"
+"|Secondary Received Data\n"
+"\n"
+"|17\n"
+"|-\n"
+"|DD\n"
+"|115\n"
+"|RSET\n"
+"|DCE\n"
+"|Receiver Signal Element Timing\n"
+"\n"
+"|18\n"
+"|-\n"
+"|-\n"
+"|141\n"
+"|LOOP\n"
+"|DTE\n"
+"|Local Loopback\n"
+"\n"
+"|19\n"
+"|-\n"
+"|SCA\n"
+"|120\n"
+"|SRS\n"
+"|DTE\n"
+"|Secondary Request to Send\n"
+"\n"
+"|20\n"
+"|4\n"
+"|CD\n"
+"|108.2\n"
+"|DTR\n"
+"|DTE\n"
+"|Data Terminal Ready\n"
+"\n"
+"|21\n"
+"|-\n"
+"|-\n"
+"|-\n"
+"|RDL\n"
+"|DTE\n"
+"|Remote Digital Loopback\n"
+"\n"
+"|22\n"
+"|9\n"
+"|CE\n"
+"|125\n"
+"|RI\n"
+"|DCE\n"
+"|Ring Indicator\n"
+"\n"
+"|23\n"
+"|-\n"
+"|CH\n"
+"|111\n"
+"|DSRS\n"
+"|DTE\n"
+"|Data Signal Rate Selector\n"
+"\n"
+"|24\n"
+"|-\n"
+"|DA\n"
+"|113\n"
+"|TSET\n"
+"|DTE\n"
+"|Trans. Sig. Element Timing\n"
+"\n"
+"|25\n"
+"|-\n"
+"|-\n"
+"|142\n"
+"|-\n"
+"|DCE\n"
+"|Test Mode\n"
 msgstr ""
 
 #. type: Title ===
@@ -987,24 +1063,21 @@ msgstr ""
 msgid "The `_p_` is the package-type field. The types are:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:440
-msgid "|==="
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:444
-msgid "|\"F\" |QFP |(quad flat pack) L lead type"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:448
-msgid "|\"N\" |DIP |(dual inline package) through hole straight lead type"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:453
-msgid "|\"V\" |LPCC |(lead plastic chip carrier) J lead type |==="
+#. type: Table
+#: documentation/content/en/articles/serial-uart/_index.adoc:452
+#, no-wrap
+msgid ""
+"|\"F\"\n"
+"|QFP\n"
+"|(quad flat pack) L lead type\n"
+"\n"
+"|\"N\"\n"
+"|DIP\n"
+"|(dual inline package) through hole straight lead type\n"
+"\n"
+"|\"V\"\n"
+"|LPCC\n"
+"|(lead plastic chip carrier) J lead type\n"
 msgstr ""
 
 #. type: Plain text
@@ -1128,51 +1201,45 @@ msgid ""
 "differences were encountered."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:484
-msgid "|=== | Vendor | Part Number | Errors (aka \"differences\" reported)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:488
-msgid "|National |(PC16550DV)  |0"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:492
-msgid "|National |(NS16550AFN)  |0"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:496
-msgid "|National |(NS16C552V)  |0"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:500
-msgid "|TI |(TL16550AFN)  |3"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:504
-msgid "|CMD |(16C550PE)  |19"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:508
-msgid "|StarTech |(ST16C550J)  |23"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:512
+#. type: Table
+#: documentation/content/en/articles/serial-uart/_index.adoc:516
+#, no-wrap
 msgid ""
-"|Rockwell |Reference modem with internal 16550 or an emulation "
-"(RC144DPi/C3000-25)  |117"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:517
-msgid "|Sierra |Modem with an internal 16550 (SC11951/SC11351)  |91 |==="
+"| Vendor\n"
+"| Part Number\n"
+"| Errors (aka \"differences\" reported)\n"
+"\n"
+"|National\n"
+"|(PC16550DV)\n"
+"|0\n"
+"\n"
+"|National\n"
+"|(NS16550AFN)\n"
+"|0\n"
+"\n"
+"|National\n"
+"|(NS16C552V)\n"
+"|0\n"
+"\n"
+"|TI\n"
+"|(TL16550AFN)\n"
+"|3\n"
+"\n"
+"|CMD\n"
+"|(16C550PE)\n"
+"|19\n"
+"\n"
+"|StarTech\n"
+"|(ST16C550J)\n"
+"|23\n"
+"\n"
+"|Rockwell\n"
+"|Reference modem with internal 16550 or an emulation (RC144DPi/C3000-25)\n"
+"|117\n"
+"\n"
+"|Sierra\n"
+"|Modem with an internal 16550 (SC11951/SC11351)\n"
+"|91\n"
 msgstr ""
 
 #. type: delimited block =
@@ -1276,89 +1343,56 @@ msgid ""
 "below."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:550
-msgid "|=== | I/O Port | Access Allowed | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:554
-msgid "|+0x00 |write (DLAB==0)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:556
-msgid "Transmit Holding Register (THR)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:558
+#. type: Table
+#: documentation/content/en/articles/serial-uart/_index.adoc:690
+#, no-wrap
 msgid ""
+"| I/O Port\n"
+"| Access Allowed\n"
+"| Description\n"
+"\n"
+"|+0x00\n"
+"|write (DLAB==0)\n"
+"|\n"
+"\n"
+"Transmit Holding Register (THR).\n"
+"\n"
 "Information written to this port are treated as data words and will be "
-"transmitted by the UART."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:562
-msgid "|+0x00 |read (DLAB==0)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:564
-msgid "Receive Buffer Register (RBR)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:566
-msgid ""
+"transmitted by the UART.\n"
+"\n"
+"|+0x00\n"
+"|read (DLAB==0)\n"
+"|\n"
+"\n"
+"Receive Buffer Register (RBR).\n"
+"\n"
 "Any data words received by the UART form the serial link are accessed by the "
-"host by reading this port."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:570
-msgid "|+0x00 |write/read (DLAB==1)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:572
-msgid "Divisor Latch LSB (DLL)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:574
-msgid ""
+"host by reading this port.\n"
+"\n"
+"|+0x00\n"
+"|write/read (DLAB==1)\n"
+"|\n"
+"\n"
+"Divisor Latch LSB (DLL)\n"
+"\n"
 "This value will be divided from the master input clock (in the IBM PC, the "
 "master clock is 1.8432MHz) and the resulting clock will determine the baud "
-"rate of the UART. This register holds bits 0 thru 7 of the divisor."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:578
-msgid "|+0x01 |write/read (DLAB==1)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:580
-msgid "Divisor Latch MSB (DLH)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:582
-msgid ""
+"rate of the UART. This register holds bits 0 thru 7 of the divisor.\n"
+"\n"
+"|+0x01\n"
+"|write/read (DLAB==1)\n"
+"|\n"
+"\n"
+"Divisor Latch MSB (DLH)\n"
+"\n"
 "This value will be divided from the master input clock (in the IBM PC, the "
 "master clock is 1.8432MHz) and the resulting clock will determine the baud "
-"rate of the UART. This register holds bits 8 thru 15 of the divisor."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:586
-msgid "|+0x01 |write/read (DLAB==0)  |Interrupt Enable Register (IER) +"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:596
-msgid ""
+"rate of the UART. This register holds bits 8 thru 15 of the divisor.\n"
+"\n"
+"|+0x01\n"
+"|write/read (DLAB==0)\n"
+"|Interrupt Enable Register (IER) +\n"
+"\n"
 "The 8250/16450/16550 UART classifies events into one of four "
 "categories. Each category can be configured to generate an interrupt when "
 "any of the events occurs. The 8250/16450/16550 UART generates a single "
@@ -1366,167 +1400,188 @@ msgid ""
 "categories have occurred. It is up to the host processor to respond to the "
 "interrupt and then poll the enabled interrupt categories (usually all "
 "categories have interrupts enabled) to determine the true cause(s) of the "
-"interrupt. + Bit 7 -> Reserved, always 0. + Bit 6 -> Reserved, always 0. + "
-"Bit 5 -> Reserved, always 0. + Bit 4 -> Reserved, always 0. + Bit 3 -> "
-"Enable Modem Status Interrupt (EDSSI). Setting this bit to \"1\" allows the "
-"UART to generate an interrupt when a change occurs on one or more of the "
-"status lines. + Bit 2 -> Enable Receiver Line Status Interrupt (ELSI) "
-"Setting this bit to \"1\" causes the UART to generate an interrupt when the "
-"an error (or a BREAK signal) has been detected in the incoming data. + Bit 1 "
-"-> Enable Transmitter Holding Register Empty Interrupt (ETBEI) Setting this "
-"bit to \"1\" causes the UART to generate an interrupt when the UART has room "
-"for one or more additional characters that are to be transmitted. + Bit 0 -> "
-"Enable Received Data Available Interrupt (ERBFI) Setting this bit to \"1\" "
-"causes the UART to generate an interrupt when the UART has received enough "
-"characters to exceed the trigger level of the FIFO, or the FIFO timer has "
-"expired (stale data), or a single character has been received when the FIFO "
-"is disabled."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:602
-msgid ""
-"|+0x02 |write |FIFO Control Register (FCR) (This port does not exist on the "
-"8250 and 16450 UART.) + Bit 7 -> Receiver Trigger Bit #1 + Bit 6 -> Receiver "
-"Trigger Bit #0 +"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:615
-msgid ""
+"interrupt. +\n"
+"Bit 7 -> Reserved, always 0. +\n"
+"Bit 6 -> Reserved, always 0. +\n"
+"Bit 5 -> Reserved, always 0. +\n"
+"Bit 4 -> Reserved, always 0. +\n"
+"Bit 3 -> Enable Modem Status Interrupt (EDSSI). Setting this bit to \"1\" "
+"allows the UART to generate an interrupt when a change occurs on one or more "
+"of the status lines. +\n"
+"Bit 2 -> Enable Receiver Line Status Interrupt (ELSI) Setting this bit to "
+"\"1\" causes the UART to generate an interrupt when the an error (or a BREAK "
+"signal) has been detected in the incoming data. +\n"
+"Bit 1 -> Enable Transmitter Holding Register Empty Interrupt (ETBEI) Setting "
+"this bit to \"1\" causes the UART to generate an interrupt when the UART has "
+"room for one or more additional characters that are to be transmitted. +\n"
+"Bit 0 -> Enable Received Data Available Interrupt (ERBFI) Setting this bit "
+"to \"1\" causes the UART to generate an interrupt when the UART has received "
+"enough characters to exceed the trigger level of the FIFO, or the FIFO timer "
+"has expired (stale data), or a single character has been received when the "
+"FIFO is disabled.\n"
+"\n"
+"|+0x02\n"
+"|write\n"
+"|FIFO Control Register (FCR) (This port does not exist on the 8250 and 16450 "
+"UART.) +\n"
+"Bit 7 -> Receiver Trigger Bit #1 +\n"
+"Bit 6 -> Receiver Trigger Bit #0 +\n"
+"\n"
 "These two bits control at what point the receiver is to generate an "
-"interrupt when the FIFO is active. + 7 6 How many words are received before "
-"an interrupt is generated + 0 0 1 + 0 1 4 + 1 0 8 + 1 1 14 + Bit 5 -> "
-"Reserved, always 0. + Bit 4 -> Reserved, always 0. + Bit 3 -> DMA Mode "
-"Select. If Bit 0 is set to \"1\" (FIFOs enabled), setting this bit changes "
-"the operation of the -RXRDY and -TXRDY signals from Mode 0 to Mode 1. + Bit "
-"2 -> Transmit FIFO Reset. When a \"1\" is written to this bit, the contents "
-"of the FIFO are discarded. Any word currently being transmitted will be sent "
-"intact. This function is useful in aborting transfers. + Bit 1 -> Receiver "
-"FIFO Reset. When a \"1\" is written to this bit, the contents of the FIFO "
-"are discarded. Any word currently being assembled in the shift register will "
-"be received intact. + Bit 0 -> 16550 FIFO Enable. When set, both the "
-"transmit and receive FIFOs are enabled. Any contents in the holding "
-"register, shift registers or FIFOs are lost when FIFOs are enabled or "
-"disabled. +"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:633
-msgid ""
-"|+0x02 |read |Interrupt Identification Register + Bit 7 -> FIFOs enabled. On "
-"the 8250/16450 UART, this bit is zero. + Bit 6 -> FIFOs enabled. On the "
-"8250/16450 UART, this bit is zero. + Bit 5 -> Reserved, always 0. + Bit 4 -> "
-"Reserved, always 0. + Bit 3 -> Interrupt ID Bit #2. On the 8250/16450 UART, "
-"this bit is zero. + Bit 2 -> Interrupt ID Bit #1 + Bit 1 -> Interrupt ID Bit "
-"#0.These three bits combine to report the category of event that caused the "
-"interrupt that is in progress. These categories have priorities, so if "
-"multiple categories of events occur at the same time, the UART will report "
-"the more important events first and the host must resolve the events in the "
-"order they are reported. All events that caused the current interrupt must "
-"be resolved before any new interrupts will be generated. (This is a "
-"limitation of the PC architecture.) + 2 1 0 Priority Description + 0 1 1 "
-"First Received Error (OE, PE, BI, or FE) + 0 1 0 Second Received Data "
-"Available + 1 1 0 Second Trigger level identification (Stale data in receive "
-"buffer) + 0 0 1 Third Transmitter has room for more words (THRE) + 0 0 0 "
-"Fourth Modem Status Change (-CTS, -DSR, -RI, or -DCD) + Bit 0 -> Interrupt "
-"Pending Bit. If this bit is set to \"0\", then at least one interrupt is "
-"pending."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:651
-msgid ""
-"|+0x03 |write/read |Line Control Register (LCR) + Bit 7 -> Divisor Latch "
-"Access Bit (DLAB). When set, access to the data transmit/receive register "
-"(THR/RBR) and the Interrupt Enable Register (IER) is disabled. Any access to "
-"these ports is now redirected to the Divisor Latch Registers. Setting this "
-"bit, loading the Divisor Registers, and clearing DLAB should be done with "
-"interrupts disabled. + Bit 6 -> Set Break. When set to \"1\", the "
-"transmitter begins to transmit continuous Spacing until this bit is set to "
-"\"0\". This overrides any bits of characters that are being transmitted. + "
+"interrupt when the FIFO is active. +\n"
+"7 6 How many words are received before an interrupt is generated +\n"
+"0 0 1 +\n"
+"0 1 4 +\n"
+"1 0 8 +\n"
+"1 1 14 +\n"
+"Bit 5 -> Reserved, always 0. +\n"
+"Bit 4 -> Reserved, always 0. +\n"
+"Bit 3 -> DMA Mode Select. If Bit 0 is set to \"1\" (FIFOs enabled), setting "
+"this bit changes the operation of the -RXRDY and -TXRDY signals from Mode 0 "
+"to Mode 1. +\n"
+"Bit 2 -> Transmit FIFO Reset. When a \"1\" is written to this bit, the "
+"contents of the FIFO are discarded. Any word currently being transmitted "
+"will be sent intact. This function is useful in aborting transfers. +\n"
+"Bit 1 -> Receiver FIFO Reset. When a \"1\" is written to this bit, the "
+"contents of the FIFO are discarded. Any word currently being assembled in "
+"the shift register will be received intact. +\n"
+"Bit 0 -> 16550 FIFO Enable. When set, both the transmit and receive FIFOs "
+"are enabled. Any contents in the holding register, shift registers or FIFOs "
+"are lost when FIFOs are enabled or disabled. +\n"
+"\n"
+"|+0x02\n"
+"|read\n"
+"|Interrupt Identification Register +\n"
+"Bit 7 -> FIFOs enabled. On the 8250/16450 UART, this bit is zero. +\n"
+"Bit 6 -> FIFOs enabled. On the 8250/16450 UART, this bit is zero. +\n"
+"Bit 5 -> Reserved, always 0. +\n"
+"Bit 4 -> Reserved, always 0. +\n"
+"Bit 3 -> Interrupt ID Bit #2. On the 8250/16450 UART, this bit is zero. +\n"
+"Bit 2 -> Interrupt ID Bit #1 +\n"
+"Bit 1 -> Interrupt ID Bit #0.These three bits combine to report the category "
+"of event that caused the interrupt that is in progress. These categories "
+"have priorities, so if multiple categories of events occur at the same time, "
+"the UART will report the more important events first and the host must "
+"resolve the events in the order they are reported. All events that caused "
+"the current interrupt must be resolved before any new interrupts will be "
+"generated. (This is a limitation of the PC architecture.) +\n"
+"2 1 0 Priority Description +\n"
+"0 1 1 First Received Error (OE, PE, BI, or FE) +\n"
+"0 1 0 Second Received Data Available +\n"
+"1 1 0 Second Trigger level identification (Stale data in receive buffer) +\n"
+"0 0 1 Third Transmitter has room for more words (THRE) +\n"
+"0 0 0 Fourth Modem Status Change (-CTS, -DSR, -RI, or -DCD) +\n"
+"Bit 0 -> Interrupt Pending Bit. If this bit is set to \"0\", then at least "
+"one interrupt is pending.\n"
+"\n"
+"|+0x03\n"
+"|write/read\n"
+"|Line Control Register (LCR) +\n"
+"Bit 7 -> Divisor Latch Access Bit (DLAB). When set, access to the data "
+"transmit/receive register (THR/RBR) and the Interrupt Enable Register (IER) "
+"is disabled. Any access to these ports is now redirected to the Divisor "
+"Latch Registers. Setting this bit, loading the Divisor Registers, and "
+"clearing DLAB should be done with interrupts disabled. +\n"
+"Bit 6 -> Set Break. When set to \"1\", the transmitter begins to transmit "
+"continuous Spacing until this bit is set to \"0\". This overrides any bits "
+"of characters that are being transmitted. +\n"
 "Bit 5 -> Stick Parity. When parity is enabled, setting this bit causes "
-"parity to always be \"1\" or \"0\", based on the value of Bit 4.  Bit 4 -> "
-"Even Parity Select (EPS). When parity is enabled and Bit 5 is \"0\", setting "
-"this bit causes even parity to be transmitted and expected. Otherwise, odd "
-"parity is used. + Bit 3 -> Parity Enable (PEN). When set to \"1\", a parity "
-"bit is inserted between the last bit of the data and the Stop Bit. The UART "
-"will also expect parity to be present in the received data. + Bit 2 -> "
-"Number of Stop Bits (STB). If set to \"1\" and using 5-bit data words, 1.5 "
-"Stop Bits are transmitted and expected in each data word. For 6, 7 and 8-bit "
-"data words, 2 Stop Bits are transmitted and expected. When this bit is set "
-"to \"0\", one Stop Bit is used on each data word. + Bit 1 -> Word Length "
-"Select Bit #1 (WLSB1) + Bit 0 -> Word Length Select Bit #0 (WLSB0) + "
-"Together these bits specify the number of bits in each data word. + 1 0 Word "
-"Length + 0 0 5 Data Bits + 0 1 6 Data Bits + 1 0 7 Data Bits + 1 1 8 Data "
-"Bits +"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:663
-msgid ""
-"|+0x04 |write/read |Modem Control Register (MCR) + Bit 7 -> Reserved, always "
-"0. + Bit 6 -> Reserved, always 0. + Bit 5 -> Reserved, always 0. + Bit 4 -> "
-"Loop-Back Enable. When set to \"1\", the UART transmitter and receiver are "
-"internally connected together to allow diagnostic operations. In addition, "
-"the UART modem control outputs are connected to the UART modem control "
-"inputs. CTS is connected to RTS, DTR is connected to DSR, OUT1 is connected "
-"to RI, and OUT 2 is connected to DCD. + Bit 3 -> OUT 2. An auxiliary output "
-"that the host processor may set high or low. In the IBM PC serial adapter "
-"(and most clones), OUT 2 is used to tri-state (disable) the interrupt signal "
-"from the 8250/16450/16550 UART. + Bit 2 -> OUT 1. An auxiliary output that "
-"the host processor may set high or low. This output is not used on the IBM "
-"PC serial adapter. + Bit 1 -> Request to Send (RTS). When set to \"1\", the "
-"output of the UART -RTS line is Low (Active). + Bit 0 -> Data Terminal Ready "
-"(DTR). When set to \"1\", the output of the UART -DTR line is Low "
-"(Active). +"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:675
-msgid ""
-"|+0x05 |write/read |Line Status Register (LSR) + Bit 7 -> Error in Receiver "
-"FIFO. On the 8250/16450 UART, this bit is zero. This bit is set to \"1\" "
-"when any of the bytes in the FIFO have one or more of the following error "
-"conditions: PE, FE, or BI. + Bit 6 -> Transmitter Empty (TEMT). When set to "
-"\"1\", there are no words remaining in the transmit FIFO or the transmit "
-"shift register. The transmitter is completely idle. + Bit 5 -> Transmitter "
-"Holding Register Empty (THRE). When set to \"1\", the FIFO (or holding "
-"register) now has room for at least one additional word to transmit. The "
-"transmitter may still be transmitting when this bit is set to \"1\". + Bit 4 "
-"-> Break Interrupt (BI). The receiver has detected a Break signal. + Bit 3 "
-"-> Framing Error (FE). A Start Bit was detected but the Stop Bit did not "
-"appear at the expected time. The received word is probably garbled. + Bit 2 "
-"-> Parity Error (PE). The parity bit was incorrect for the word received. + "
+"parity to always be \"1\" or \"0\", based on the value of Bit 4.\n"
+"Bit 4 -> Even Parity Select (EPS). When parity is enabled and Bit 5 is "
+"\"0\", setting this bit causes even parity to be transmitted and "
+"expected. Otherwise, odd parity is used. +\n"
+"Bit 3 -> Parity Enable (PEN). When set to \"1\", a parity bit is inserted "
+"between the last bit of the data and the Stop Bit. The UART will also expect "
+"parity to be present in the received data. +\n"
+"Bit 2 -> Number of Stop Bits (STB). If set to \"1\" and using 5-bit data "
+"words, 1.5 Stop Bits are transmitted and expected in each data word. For 6, "
+"7 and 8-bit data words, 2 Stop Bits are transmitted and expected. When this "
+"bit is set to \"0\", one Stop Bit is used on each data word. +\n"
+"Bit 1 -> Word Length Select Bit #1 (WLSB1) +\n"
+"Bit 0 -> Word Length Select Bit #0 (WLSB0) +\n"
+"Together these bits specify the number of bits in each data word. +\n"
+"1 0 Word Length +\n"
+"0 0 5 Data Bits +\n"
+"0 1 6 Data Bits +\n"
+"1 0 7 Data Bits +\n"
+"1 1 8 Data Bits +\n"
+"\n"
+"|+0x04\n"
+"|write/read\n"
+"|Modem Control Register (MCR) +\n"
+"Bit 7 -> Reserved, always 0. +\n"
+"Bit 6 -> Reserved, always 0. +\n"
+"Bit 5 -> Reserved, always 0. +\n"
+"Bit 4 -> Loop-Back Enable. When set to \"1\", the UART transmitter and "
+"receiver are internally connected together to allow diagnostic "
+"operations. In addition, the UART modem control outputs are connected to the "
+"UART modem control inputs. CTS is connected to RTS, DTR is connected to DSR, "
+"OUT1 is connected to RI, and OUT 2 is connected to DCD. +\n"
+"Bit 3 -> OUT 2. An auxiliary output that the host processor may set high or "
+"low. In the IBM PC serial adapter (and most clones), OUT 2 is used to "
+"tri-state (disable) the interrupt signal from the 8250/16450/16550 UART. +\n"
+"Bit 2 -> OUT 1. An auxiliary output that the host processor may set high or "
+"low. This output is not used on the IBM PC serial adapter. +\n"
+"Bit 1 -> Request to Send (RTS). When set to \"1\", the output of the UART "
+"-RTS line is Low (Active). +\n"
+"Bit 0 -> Data Terminal Ready (DTR). When set to \"1\", the output of the "
+"UART -DTR line is Low (Active). +\n"
+"\n"
+"|+0x05\n"
+"|write/read\n"
+"|Line Status Register (LSR) +\n"
+"Bit 7 -> Error in Receiver FIFO. On the 8250/16450 UART, this bit is "
+"zero. This bit is set to \"1\" when any of the bytes in the FIFO have one or "
+"more of the following error conditions: PE, FE, or BI. +\n"
+"Bit 6 -> Transmitter Empty (TEMT). When set to \"1\", there are no words "
+"remaining in the transmit FIFO or the transmit shift register. The "
+"transmitter is completely idle. +\n"
+"Bit 5 -> Transmitter Holding Register Empty (THRE). When set to \"1\", the "
+"FIFO (or holding register) now has room for at least one additional word to "
+"transmit. The transmitter may still be transmitting when this bit is set to "
+"\"1\". +\n"
+"Bit 4 -> Break Interrupt (BI). The receiver has detected a Break signal. +\n"
+"Bit 3 -> Framing Error (FE). A Start Bit was detected but the Stop Bit did "
+"not appear at the expected time. The received word is probably garbled. +\n"
+"Bit 2 -> Parity Error (PE). The parity bit was incorrect for the word "
+"received. +\n"
 "Bit 1 -> Overrun Error (OE). A new word was received and there was no room "
 "in the receive buffer. The newly-arrived word in the shift register is "
 "discarded. On 8250/16450 UARTs, the word in the holding register is "
-"discarded and the newly- arrived word is put in the holding register. + Bit "
-"0 -> Data Ready (DR) One or more words are in the receive FIFO that the host "
-"may read. A word must be completely received and moved from the shift "
+"discarded and the newly- arrived word is put in the holding register. +\n"
+"Bit 0 -> Data Ready (DR) One or more words are in the receive FIFO that the "
+"host may read. A word must be completely received and moved from the shift "
 "register into the FIFO (or holding register for 8250/16450 designs) before "
-"this bit is set."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/serial-uart/_index.adoc:691
-msgid ""
-"|+0x06 |write/read |Modem Status Register (MSR) + Bit 7 -> Data Carrier "
-"Detect (DCD). Reflects the state of the DCD line on the UART. + Bit 6 -> "
-"Ring Indicator (RI). Reflects the state of the RI line on the UART. + Bit 5 "
-"-> Data Set Ready (DSR). Reflects the state of the DSR line on the UART. + "
+"this bit is set.\n"
+"\n"
+"|+0x06\n"
+"|write/read\n"
+"|Modem Status Register (MSR) +\n"
+"Bit 7 -> Data Carrier Detect (DCD). Reflects the state of the DCD line on "
+"the UART. +\n"
+"Bit 6 -> Ring Indicator (RI). Reflects the state of the RI line on the "
+"UART. +\n"
+"Bit 5 -> Data Set Ready (DSR). Reflects the state of the DSR line on the "
+"UART. +\n"
 "Bit 4 -> Clear To Send (CTS). Reflects the state of the CTS line on the "
-"UART. + Bit 3 -> Delta Data Carrier Detect (DDCD). Set to \"1\" if the -DCD "
-"line has changed state one more time since the last time the MSR was read by "
-"the host. + Bit 2 -> Trailing Edge Ring Indicator (TERI). Set to \"1\" if "
-"the -RI line has had a low to high transition since the last time the MSR "
-"was read by the host. + Bit 1 -> Delta Data Set Ready (DDSR). Set to \"1\" "
-"if the -DSR line has changed state one more time since the last time the MSR "
-"was read by the host. + Bit 0 -> Delta Clear To Send (DCTS). Set to \"1\" if "
-"the -CTS line has changed state one more time since the last time the MSR "
-"was read by the host. + |+0x07 |write/read |Scratch Register (SCR). This "
-"register performs no function in the UART. Any value can be written by the "
-"host to this location and read by the host later on.  |==="
+"UART. +\n"
+"Bit 3 -> Delta Data Carrier Detect (DDCD). Set to \"1\" if the -DCD line has "
+"changed state one more time since the last time the MSR was read by the "
+"host. +\n"
+"Bit 2 -> Trailing Edge Ring Indicator (TERI). Set to \"1\" if the -RI line "
+"has had a low to high transition since the last time the MSR was read by the "
+"host. +\n"
+"Bit 1 -> Delta Data Set Ready (DDSR). Set to \"1\" if the -DSR line has "
+"changed state one more time since the last time the MSR was read by the "
+"host. +\n"
+"Bit 0 -> Delta Clear To Send (DCTS). Set to \"1\" if the -CTS line has "
+"changed state one more time since the last time the MSR was read by the "
+"host. +\n"
+"|+0x07\n"
+"|write/read\n"
+"|Scratch Register (SCR). This register performs no function in the UART. Any "
+"value can be written by the host to this location and read by the host later "
+"on.\n"
 msgstr ""
 
 #. type: Title ===

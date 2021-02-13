@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -50,26 +50,6 @@ msgid "FreeBSD Handbook"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/book.adoc:31
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/book.adoc:39 documentation/content/en/books/handbook/book.adoc:49 documentation/content/en/books/handbook/book.adoc:59
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/book.adoc:41
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/book.adoc:51
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
 #: documentation/content/en/books/handbook/book.adoc:63
 msgid "Abstract"
 msgstr ""
@@ -103,9 +83,4 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/books/handbook/book.adoc:69
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/book.adoc:71
-msgid "toc::[]"
 msgstr ""

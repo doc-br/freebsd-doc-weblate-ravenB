@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -41,11 +41,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/secure/chapter.adoc:10
 #, no-wrap
 msgid "Secure Programming"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:33
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -140,74 +135,44 @@ msgid ""
 "library is filled with a handful of very dangerous functions."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:60
-msgid "|==="
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:63
-msgid "|`strcpy`(char *dest, const char *src)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:65 documentation/content/en/books/developers-handbook/secure/chapter.adoc:70
-msgid "May overflow the dest buffer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:68
-msgid "|`strcat`(char *dest, const char *src)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:73
-msgid "|`getwd`(char *buf)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:75
-msgid "May overflow the buf buffer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:78
-msgid "|`gets`(char *s)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:80
-msgid "May overflow the s buffer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:83
-msgid "|`[vf]scanf`(const char *format, ...)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:85
-msgid "May overflow its arguments."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:88
-msgid "|`realpath`(char *path, char resolved_path[])  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:90
-msgid "May overflow the path buffer"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:93
-msgid "|`[v]sprintf`(char *str, const char *format, ...)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:96
-msgid "May overflow the str buffer.  |==="
+#. type: Table
+#: documentation/content/en/books/developers-handbook/secure/chapter.adoc:95
+#, no-wrap
+msgid ""
+"|`strcpy`(char *dest, const char *src)\n"
+"|\n"
+"\n"
+"May overflow the dest buffer\n"
+"\n"
+"|`strcat`(char *dest, const char *src)\n"
+"|\n"
+"\n"
+"May overflow the dest buffer\n"
+"\n"
+"|`getwd`(char *buf)\n"
+"|\n"
+"\n"
+"May overflow the buf buffer\n"
+"\n"
+"|`gets`(char *s)\n"
+"|\n"
+"\n"
+"May overflow the s buffer\n"
+"\n"
+"|`[vf]scanf`(const char *format, ...)\n"
+"|\n"
+"\n"
+"May overflow its arguments.\n"
+"\n"
+"|`realpath`(char *path, char resolved_path[])\n"
+"|\n"
+"\n"
+"May overflow the path buffer\n"
+"\n"
+"|`[v]sprintf`(char *str, const char *format, ...)\n"
+"|\n"
+"\n"
+"May overflow the str buffer.\n"
 msgstr ""
 
 #. type: Title ===

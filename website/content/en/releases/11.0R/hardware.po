@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,24 +49,108 @@ msgid "<<intro,Introduction>>"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:12
+msgid "<<proc,Supported Processors and System Boards>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:13
+msgid "<<proc-amd64,amd64>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:14
+msgid "<<proc-i386,i386>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:15
+msgid "<<proc-pc98,pc98>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:16
+msgid "<<proc-powerpc,powerpc>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/11.0R/hardware.adoc:17
-msgid ""
-"<<proc,Supported Processors and System Boards>> ** <<proc-amd64,amd64>> ** "
-"<<proc-i386,i386>> ** <<proc-pc98,pc98>> ** <<proc-powerpc,powerpc>> ** "
-"<<proc-sparc64,sparc64>>"
+msgid "<<proc-sparc64,sparc64>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:18
+msgid "<<support,Supported Devices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:19
+msgid "<<disk,Disk Controllers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:20
+msgid "<<ethernet,Ethernet Interfaces>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:21
+msgid "<<fddi,FDDI Interface>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:22
+msgid "<<atm,ATM Interfaces>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:23
+msgid "<<wlan,Wireless Network Interfaces>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:24
+msgid "<<misc-network,Miscellaneous Networks>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:25
+msgid "<<serial,Serial Interfaces>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:26
+msgid "<<sound,Sound Devices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:27
+msgid "<<camera,Camera and Video Capture Devices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:28
+msgid "<<usb,USB Devices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:29
+msgid "<<firewire,IEEE 1394 (Firewire) Devices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:30
+msgid "<<bluetooth,Bluetooth Devices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.0R/hardware.adoc:31
+msgid "<<crypto-accel,Cryptographic Accelerators>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.0R/hardware.adoc:32
-msgid ""
-"<<support,Supported Devices>> ** <<disk,Disk Controllers>> ** "
-"<<ethernet,Ethernet Interfaces>> ** <<fddi,FDDI Interface>> ** <<atm,ATM "
-"Interfaces>> ** <<wlan,Wireless Network Interfaces>> ** "
-"<<misc-network,Miscellaneous Networks>> ** <<serial,Serial Interfaces>> ** "
-"<<sound,Sound Devices>> ** <<camera,Camera and Video Capture Devices>> ** "
-"<<usb,USB Devices>> ** <<firewire,IEEE 1394 (Firewire) Devices>> ** "
-"<<bluetooth,Bluetooth Devices>> ** <<crypto-accel,Cryptographic "
-"Accelerators>> ** <<misc,Miscellaneous>>"
+msgid "<<misc,Miscellaneous>>"
 msgstr ""
 
 #. type: Title ==
@@ -412,7 +496,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:121 website/content/en/releases/11.0R/hardware.adoc:128
+#: website/content/en/releases/11.0R/hardware.adoc:121
+#: website/content/en/releases/11.0R/hardware.adoc:128
 msgid "SMP is supported on all systems with more than 1 processor."
 msgstr ""
 
@@ -1766,7 +1851,8 @@ msgid "NEC SV-98/2-B03 (PC-98)"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:424 website/content/en/releases/11.0R/hardware.adoc:437
+#: website/content/en/releases/11.0R/hardware.adoc:424
+#: website/content/en/releases/11.0R/hardware.adoc:437
 msgid "Many motherboards with on-board SCSI support"
 msgstr ""
 
@@ -2319,7 +2405,8 @@ msgid "BusLogic BT-540CF"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:546 website/content/en/releases/11.0R/hardware.adoc:547
+#: website/content/en/releases/11.0R/hardware.adoc:546
+#: website/content/en/releases/11.0R/hardware.adoc:547
 msgid "BusLogic BT-542B"
 msgstr ""
 
@@ -2344,7 +2431,8 @@ msgid "BusLogic/BusTek BT-640"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:552 website/content/en/releases/11.0R/hardware.adoc:553
+#: website/content/en/releases/11.0R/hardware.adoc:552
+#: website/content/en/releases/11.0R/hardware.adoc:553
 msgid "BusLogic BT-742A"
 msgstr ""
 
@@ -2703,7 +2791,8 @@ msgid "Smart RAID IV"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:633 website/content/en/releases/11.0R/hardware.adoc:800
+#: website/content/en/releases/11.0R/hardware.adoc:633
+#: website/content/en/releases/11.0R/hardware.adoc:800
 #, no-wrap
 msgid ""
 "*Note*: +\n"
@@ -3391,7 +3480,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:796 website/content/en/releases/11.0R/hardware.adoc:810
+#: website/content/en/releases/11.0R/hardware.adoc:796
+#: website/content/en/releases/11.0R/hardware.adoc:810
 msgid ""
 "Compatible Mylex controllers not listed should work, but have not been "
 "verified."
@@ -3799,17 +3889,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:910 website/content/en/releases/11.0R/hardware.adoc:1001
+#: website/content/en/releases/11.0R/hardware.adoc:910
+#: website/content/en/releases/11.0R/hardware.adoc:1001
 msgid "53C810"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:911 website/content/en/releases/11.0R/hardware.adoc:1002
+#: website/content/en/releases/11.0R/hardware.adoc:911
+#: website/content/en/releases/11.0R/hardware.adoc:1002
 msgid "53C810A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:912 website/content/en/releases/11.0R/hardware.adoc:1003
+#: website/content/en/releases/11.0R/hardware.adoc:912
+#: website/content/en/releases/11.0R/hardware.adoc:1003
 msgid "53C815"
 msgstr ""
 
@@ -3819,17 +3912,20 @@ msgid "53C820"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:914 website/content/en/releases/11.0R/hardware.adoc:1005
+#: website/content/en/releases/11.0R/hardware.adoc:914
+#: website/content/en/releases/11.0R/hardware.adoc:1005
 msgid "53C825A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:915 website/content/en/releases/11.0R/hardware.adoc:1006
+#: website/content/en/releases/11.0R/hardware.adoc:915
+#: website/content/en/releases/11.0R/hardware.adoc:1006
 msgid "53C860"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:916 website/content/en/releases/11.0R/hardware.adoc:1007
+#: website/content/en/releases/11.0R/hardware.adoc:916
+#: website/content/en/releases/11.0R/hardware.adoc:1007
 msgid "53C875"
 msgstr ""
 
@@ -3844,22 +3940,26 @@ msgid "53C885"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:919 website/content/en/releases/11.0R/hardware.adoc:1009
+#: website/content/en/releases/11.0R/hardware.adoc:919
+#: website/content/en/releases/11.0R/hardware.adoc:1009
 msgid "53C895"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:920 website/content/en/releases/11.0R/hardware.adoc:1010
+#: website/content/en/releases/11.0R/hardware.adoc:920
+#: website/content/en/releases/11.0R/hardware.adoc:1010
 msgid "53C895A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:921 website/content/en/releases/11.0R/hardware.adoc:1011
+#: website/content/en/releases/11.0R/hardware.adoc:921
+#: website/content/en/releases/11.0R/hardware.adoc:1011
 msgid "53C896"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:922 website/content/en/releases/11.0R/hardware.adoc:1017
+#: website/content/en/releases/11.0R/hardware.adoc:922
+#: website/content/en/releases/11.0R/hardware.adoc:1017
 msgid "53C1510D"
 msgstr ""
 
@@ -8708,7 +8808,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2083 website/content/en/releases/11.0R/hardware.adoc:2084 website/content/en/releases/11.0R/hardware.adoc:2104
+#: website/content/en/releases/11.0R/hardware.adoc:2083
+#: website/content/en/releases/11.0R/hardware.adoc:2084
+#: website/content/en/releases/11.0R/hardware.adoc:2104
 msgid "Apple Airport Extreme"
 msgstr ""
 
@@ -8718,12 +8820,14 @@ msgid "ASUS WL-100g"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2086 website/content/en/releases/11.0R/hardware.adoc:2105
+#: website/content/en/releases/11.0R/hardware.adoc:2086
+#: website/content/en/releases/11.0R/hardware.adoc:2105
 msgid "ASUS WL-138g"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2087 website/content/en/releases/11.0R/hardware.adoc:2106
+#: website/content/en/releases/11.0R/hardware.adoc:2087
+#: website/content/en/releases/11.0R/hardware.adoc:2106
 msgid "Buffalo WLI-CB-G54S"
 msgstr ""
 
@@ -8738,12 +8842,14 @@ msgid "Compaq R4035 onboard"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2090 website/content/en/releases/11.0R/hardware.adoc:2107
+#: website/content/en/releases/11.0R/hardware.adoc:2090
+#: website/content/en/releases/11.0R/hardware.adoc:2107
 msgid "Dell Wireless 1390"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2091 website/content/en/releases/11.0R/hardware.adoc:2108
+#: website/content/en/releases/11.0R/hardware.adoc:2091
+#: website/content/en/releases/11.0R/hardware.adoc:2108
 msgid "Dell Wireless 1470"
 msgstr ""
 
@@ -8753,22 +8859,26 @@ msgid "Dell Truemobile 1300 r2"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2093 website/content/en/releases/11.0R/hardware.adoc:2109
+#: website/content/en/releases/11.0R/hardware.adoc:2093
+#: website/content/en/releases/11.0R/hardware.adoc:2109
 msgid "Dell Truemobile 1400"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2094 website/content/en/releases/11.0R/hardware.adoc:2111
+#: website/content/en/releases/11.0R/hardware.adoc:2094
+#: website/content/en/releases/11.0R/hardware.adoc:2111
 msgid "HP nx6125"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2095 website/content/en/releases/11.0R/hardware.adoc:2112
+#: website/content/en/releases/11.0R/hardware.adoc:2095
+#: website/content/en/releases/11.0R/hardware.adoc:2112
 msgid "Linksys WPC54G Ver 3"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2096 website/content/en/releases/11.0R/hardware.adoc:2113
+#: website/content/en/releases/11.0R/hardware.adoc:2096
+#: website/content/en/releases/11.0R/hardware.adoc:2113
 msgid "Linksys WPC54GS Ver 2"
 msgstr ""
 
@@ -8778,7 +8888,8 @@ msgid "TRENDnet TEW-401PCplus"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2098 website/content/en/releases/11.0R/hardware.adoc:2114
+#: website/content/en/releases/11.0R/hardware.adoc:2098
+#: website/content/en/releases/11.0R/hardware.adoc:2114
 msgid "US Robotics 5411"
 msgstr ""
 
@@ -9318,7 +9429,8 @@ msgid "SMC SMCWPCI-GM"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2225 website/content/en/releases/11.0R/hardware.adoc:2421
+#: website/content/en/releases/11.0R/hardware.adoc:2225
+#: website/content/en/releases/11.0R/hardware.adoc:2421
 msgid "SparkLAN WL-685R"
 msgstr ""
 
@@ -11469,7 +11581,8 @@ msgid "Terratec DMX 6fire"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2741 website/content/en/releases/11.0R/hardware.adoc:2759
+#: website/content/en/releases/11.0R/hardware.adoc:2741
+#: website/content/en/releases/11.0R/hardware.adoc:2759
 msgid ""
 "Only analog playback is supported. Recording and other features of these "
 "cards are not supported."
@@ -11756,7 +11869,8 @@ msgid "NVIDIA nForce2 400"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.0R/hardware.adoc:2813 website/content/en/releases/11.0R/hardware.adoc:2979
+#: website/content/en/releases/11.0R/hardware.adoc:2813
+#: website/content/en/releases/11.0R/hardware.adoc:2979
 msgid "NVIDIA nForce3"
 msgstr ""
 

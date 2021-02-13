@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -23,10 +23,10 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/portmgr/qa.adoc:5
+#: website/content/en/portmgr/qa.adoc:4
 msgid ""
 "title: \"Quality Assurance Tasks for the Ports Management Team\" sidenav: "
-"about ---"
+"about"
 msgstr ""
 
 #. type: Title =
@@ -111,69 +111,59 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:29
-#, no-wrap
 msgid ""
-"** a public list of all ports to be removed due to security problems, build "
-"failures, or general obsolescence, unless they are fixed first.\n"
+"a public list of all ports to be removed due to security problems, build "
+"failures, or general obsolescence, unless they are fixed first."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:31
-#, no-wrap
 msgid ""
-"** private email to all maintainers of the affected ports (including ports "
-"dependent on the above).\n"
+"private email to all maintainers of the affected ports (including ports "
+"dependent on the above)."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:33
-#, no-wrap
 msgid ""
-"** private email to all maintainers of ports that are already marked BROKEN "
-"and/or FORBIDDEN.\n"
+"private email to all maintainers of ports that are already marked BROKEN "
+"and/or FORBIDDEN."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:35
-#, no-wrap
 msgid ""
-"** private email to maintainers who are not committers, who have PRs filed "
-"against their ports (to flag PRs that might never have been Cc:ed to "
-"them).\n"
+"private email to maintainers who are not committers, who have PRs filed "
+"against their ports (to flag PRs that might never have been Cc:ed to them)."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:37
-#, no-wrap
-msgid "** public email about port commits that break building of INDEX.\n"
+msgid "public email about port commits that break building of INDEX."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:39
-#, no-wrap
 msgid ""
-"** public email about port commits that send the revision metadata backwards "
-"(and thus confuse tools like portupgrade).\n"
+"public email about port commits that send the revision metadata backwards "
+"(and thus confuse tools like portupgrade)."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:41
-#, no-wrap
 msgid ""
-"** a public list of all ports that have at least one file that fails to "
-"fetch from any non-FreeBSD mastersite. For the complete list of results for "
-"all files versus all mastersites, see "
-"https://people.FreeBSD.org/~ehaupt/distilator/[Emanuel Haupt's port "
-"survey].\n"
+"a public list of all ports that have at least one file that fails to fetch "
+"from any non-FreeBSD mastersite. For the complete list of results for all "
+"files versus all mastersites, see "
+"https://people.FreeBSD.org/~ehaupt/distilator/[Emanuel Haupt's port survey]."
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/portmgr/qa.adoc:43
-#, no-wrap
 msgid ""
-"** private email to an affected port maintainer when a port is about to be "
+"private email to an affected port maintainer when a port is about to be "
 "marked BROKEN, Cc:ed to the last committer to the port. (This email is not "
-"automated but it should be sent as a courtesy.)\n"
+"automated but it should be sent as a courtesy.)"
 msgstr ""
 
 #. type: Plain text

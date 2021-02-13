@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -255,7 +255,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/advocacy/myths.adoc:63 website/content/en/advocacy/myths.adoc:84 website/content/en/advocacy/myths.adoc:93 website/content/en/advocacy/myths.adoc:102 website/content/en/advocacy/myths.adoc:111 website/content/en/advocacy/myths.adoc:124 website/content/en/advocacy/myths.adoc:135 website/content/en/advocacy/myths.adoc:156 website/content/en/advocacy/myths.adoc:163 website/content/en/advocacy/myths.adoc:170
+#: website/content/en/advocacy/myths.adoc:63
+#: website/content/en/advocacy/myths.adoc:84
+#: website/content/en/advocacy/myths.adoc:93
+#: website/content/en/advocacy/myths.adoc:102
+#: website/content/en/advocacy/myths.adoc:111
+#: website/content/en/advocacy/myths.adoc:124
+#: website/content/en/advocacy/myths.adoc:135
+#: website/content/en/advocacy/myths.adoc:156
+#: website/content/en/advocacy/myths.adoc:163
+#: website/content/en/advocacy/myths.adoc:170
 msgid "'''"
 msgstr ""
 
@@ -603,7 +612,8 @@ msgid "Myth: *BSD is better than (insert other system)"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/advocacy/myths.adoc:161 website/content/en/advocacy/myths.adoc:168
+#: website/content/en/advocacy/myths.adoc:161
+#: website/content/en/advocacy/myths.adoc:168
 msgid "This is user opinion only."
 msgstr ""
 
@@ -626,10 +636,13 @@ msgid ""
 "this page;"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/advocacy/myths.adoc:182
+#, no-wrap
 msgid ""
-"|=== |Nik Clayton <nik@FreeBSD.org> |Jordan Hubbard <jkh@FreeBSD.org> |Ian "
-"F. Darwin <ian@DarwinSys.com> |Adrian Filipi-Martin <adrian@ubergeeks.com> "
-"|Tom Rhodes <trhodes@FreeBSD.org> |==="
+"|Nik Clayton <nik@FreeBSD.org>\n"
+"|Jordan Hubbard <jkh@FreeBSD.org>\n"
+"|Ian F. Darwin <ian@DarwinSys.com>\n"
+"|Adrian Filipi-Martin <adrian@ubergeeks.com>\n"
+"|Tom Rhodes <trhodes@FreeBSD.org>\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,35 +152,36 @@ msgid ""
 "`http://security.FreeBSD.org/`."
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/9.3R/relnotes.adoc:59
+#. type: Table
+#: website/content/en/releases/9.3R/relnotes.adoc:58
+#, no-wrap
 msgid ""
-"|=== |Advisory |Date |Topic "
+"|Advisory |Date |Topic\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:01.bsnmpd.asc[FreeBSD-SA-14:01.bsnmpd] "
-"|14 January 2014 |Fix man:bsnmpd[1] remote denial of service vulnerability "
+"|14 January 2014 |Fix man:bsnmpd[1] remote denial of service vulnerability\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:02.ntpd.asc[FreeBSD-SA-14:02.ntpd] "
-"|14 January 2014 |Disable \"monitor\" feature in man:ntpd[8] by default "
+"|14 January 2014 |Disable \"monitor\" feature in man:ntpd[8] by default\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:04.bind.asc[FreeBSD-SA-14:04.bind] "
-"|14 January 2014 |Remote denial of service vulnerability "
+"|14 January 2014 |Remote denial of service vulnerability\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:05.nfsserver.asc[FreeBSD-SA-14:05.nfsserver] "
-"|8 April 2014 |Deadlock in the NFS server "
+"|8 April 2014 |Deadlock in the NFS server\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:06.openssl.asc[FreeBSD-SA-14:06.openssl] "
-"|8 April 2014 |ECDSA side channel leak "
+"|8 April 2014 |ECDSA side channel leak\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:08.tcp.asc[FreeBSD-SA-14:08.tcp] "
-"|30 April 2014 |TCP reassembly vulnerability "
+"|30 April 2014 |TCP reassembly vulnerability\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:11.sendmail.asc[FreeBSD-SA-14:11.sendmail] "
-"|26 May 2014 |Sendmail improper close-on-exec flag handling "
+"|26 May 2014 |Sendmail improper close-on-exec flag handling\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:12.ktrace.asc[FreeBSD-SA-14:12.ktrace] "
-"|3 June 2014 |man:ktrace[1] kernel memory disclosure "
+"|3 June 2014 |man:ktrace[1] kernel memory disclosure\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:13.pam.asc[FreeBSD-SA-14:13.pam] "
-"|3 June 2014 |Incorrect error handling in PAM policy parser "
+"|3 June 2014 |Incorrect error handling in PAM policy parser\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-14:14.openssl.asc[FreeBSD-SA-14:14.openssl] "
-"|5 June 2014 |Multiple vulnerabilities "
+"|5 June 2014 |Multiple vulnerabilities\n"
 "|http://www.freebsd.org/security/advisories/FreeBSD-SA-14:16.file.asc[FreeBSD-SA-14:16.file] "
-"|24 June 2014 |Multiple vulnerabilities "
+"|24 June 2014 |Multiple vulnerabilities\n"
 "|http://www.freebsd.org/security/advisories/FreeBSD-SA-14:17.kmem.asc[FreeBSD-SA-14:17.kmem] "
 "|8 July 2014 |Kernel memory disclosure in control messages and SCTP "
-"notifications |==="
+"notifications\n"
 msgstr ""
 
 #. type: Title ==
@@ -1257,7 +1258,8 @@ msgid "Ports and Packages"
 msgstr ""
 
 #. type: Title ==
-#: website/content/en/releases/9.3R/relnotes.adoc:317 website/content/en/releases/9.3R/relnotes.adoc:355
+#: website/content/en/releases/9.3R/relnotes.adoc:317
+#: website/content/en/releases/9.3R/relnotes.adoc:355
 #, no-wrap
 msgid "Important:"
 msgstr ""

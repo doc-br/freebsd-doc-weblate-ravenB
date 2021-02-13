@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -62,10 +62,18 @@ msgid "<<install,Installing FreeBSD>>"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/10.3R/installation.adoc:16
+msgid "<<upgrade,Upgrading FreeBSD>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.3R/installation.adoc:17
+msgid "<<upgrade-source,Upgrading from Source>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/10.3R/installation.adoc:18
-msgid ""
-"<<upgrade,Upgrading FreeBSD>> ** <<upgrade-source,Upgrading from Source>> ** "
-"<<upgrade-binary,Upgrading Using \"FreeBSD Update\">>"
+msgid "<<upgrade-binary,Upgrading Using \"FreeBSD Update\">>"
 msgstr ""
 
 #. type: Title ==
@@ -189,7 +197,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: website/content/en/releases/10.3R/installation.adoc:63 website/content/en/releases/10.3R/installation.adoc:77 website/content/en/releases/10.3R/installation.adoc:86
+#: website/content/en/releases/10.3R/installation.adoc:63
+#: website/content/en/releases/10.3R/installation.adoc:77
+#: website/content/en/releases/10.3R/installation.adoc:86
 #, no-wrap
 msgid "# freebsd-update install\n"
 msgstr ""
@@ -202,7 +212,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: website/content/en/releases/10.3R/installation.adoc:70 website/content/en/releases/10.3R/installation.adoc:93
+#: website/content/en/releases/10.3R/installation.adoc:70
+#: website/content/en/releases/10.3R/installation.adoc:93
 #, no-wrap
 msgid "# shutdown -r now\n"
 msgstr ""

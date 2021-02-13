@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.1R/errata.adoc:14 website/content/en/releases/9.1R/errata.adoc:27 website/content/en/releases/9.1R/errata.adoc:47
+#: website/content/en/releases/9.1R/errata.adoc:14
+#: website/content/en/releases/9.1R/errata.adoc:27
+#: website/content/en/releases/9.1R/errata.adoc:47
 msgid "'''''"
 msgstr ""
 
@@ -115,29 +117,30 @@ msgid ""
 "available from http://security.FreeBSD.org/."
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/9.1R/errata.adoc:45
+#. type: Table
+#: website/content/en/releases/9.1R/errata.adoc:44
+#, no-wrap
 msgid ""
-"|=== |Advisory |Date |Topic "
+"|Advisory |Date |Topic\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:01.openssl.asc[SA-12:01.openssl] "
-"|3 May 2012 |OpenSSL multiple vulnerabilities "
+"|3 May 2012 |OpenSSL multiple vulnerabilities\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:02.crypt.asc[SA-12:02.crypt] "
-"|30 May 2012 |Incorrect `crypt()` hashing "
+"|30 May 2012 |Incorrect `crypt()` hashing\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:03.bind.asc[SA-12:03.bind] "
 "|12 June 2012 |Incorrect handling of zero-length RDATA fields in "
-"man:named[8] "
+"man:named[8]\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:04.sysret.asc[SA-12:04.sysret] "
-"|12 June 2012 |Privilege escalation when returning from kernel "
+"|12 June 2012 |Privilege escalation when returning from kernel\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:05.bind.asc[SA-12:05.bind] "
-"|6 August 2012 |man:named[8] DNSSEC validation Denial of Service "
+"|6 August 2012 |man:named[8] DNSSEC validation Denial of Service\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:06.bind.asc[SA-12:06.bind] "
 "|22 November 2012 |Multiple Denial of Service vulnerabilities with "
-"man:named[8] "
+"man:named[8]\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:07.hostapd.asc[SA-12:07.hostapd] "
 "|22 November 2012 |Insufficient message length validation for EAP-TLS "
-"messages "
+"messages\n"
 "|http://security.freebsd.org/advisories/FreeBSD-SA-12:08.linux.asc[SA-12:08.linux] "
-"|22 November 2012 |Linux compatibility layer input validation error |==="
+"|22 November 2012 |Linux compatibility layer input validation error\n"
 msgstr ""
 
 #. type: Title ==

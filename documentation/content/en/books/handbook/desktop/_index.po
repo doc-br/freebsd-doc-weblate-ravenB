@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/desktop/_index.adoc:9
 #, no-wrap
 msgid "Desktop Applications"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:27 documentation/content/en/books/handbook/desktop/_index.adoc:31 documentation/content/en/books/handbook/desktop/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -155,26 +130,29 @@ msgid ""
 "from ports, or has any major dependencies."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:79
-msgid "|=== | Application Name | Resources Needed | Installation from Ports | Notes"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:84
+#. type: Table
+#: documentation/content/en/books/handbook/desktop/_index.adoc:94
+#, no-wrap
 msgid ""
-"|Firefox |medium |heavy |FreeBSD, Linux(R), and localized versions are "
-"available"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:89
-msgid "|Konqueror |medium |heavy |Requires KDE libraries"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:95
-msgid "|Chromium |medium |heavy |Requires Gtk+ |==="
+"| Application Name\n"
+"| Resources Needed\n"
+"| Installation from Ports\n"
+"| Notes\n"
+"\n"
+"|Firefox\n"
+"|medium\n"
+"|heavy\n"
+"|FreeBSD, Linux(R), and localized versions are available\n"
+"\n"
+"|Konqueror\n"
+"|medium\n"
+"|heavy\n"
+"|Requires KDE libraries\n"
+"\n"
+"|Chromium\n"
+"|medium\n"
+"|heavy\n"
+"|Requires Gtk+\n"
 msgstr ""
 
 #. type: Title ===
@@ -339,36 +317,39 @@ msgid ""
 "compile from ports, or has any major dependencies."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:179 documentation/content/en/books/handbook/desktop/_index.adoc:358 documentation/content/en/books/handbook/desktop/_index.adoc:496
+#. type: Table
+#: documentation/content/en/books/handbook/desktop/_index.adoc:204
+#, no-wrap
 msgid ""
-"|=== | Application Name | Resources Needed | Installation from Ports | Major "
-"Dependencies"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:184
-msgid "|Calligra |light |heavy |KDE"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:189
-msgid "|AbiWord |light |light |Gtk+ or GNOME"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:194
-msgid "|The Gimp |light |heavy |Gtk+"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:199
-msgid "|Apache OpenOffice |heavy |huge |JDK(TM) and Mozilla"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:205
-msgid "|LibreOffice |somewhat heavy |huge |Gtk+, or KDE/ GNOME, or JDK(TM)  |==="
+"| Application Name\n"
+"| Resources Needed\n"
+"| Installation from Ports\n"
+"| Major Dependencies\n"
+"\n"
+"|Calligra\n"
+"|light\n"
+"|heavy\n"
+"|KDE\n"
+"\n"
+"|AbiWord\n"
+"|light\n"
+"|light\n"
+"|Gtk+ or GNOME\n"
+"\n"
+"|The Gimp\n"
+"|light\n"
+"|heavy\n"
+"|Gtk+\n"
+"\n"
+"|Apache OpenOffice\n"
+"|heavy\n"
+"|huge\n"
+"|JDK(TM) and Mozilla\n"
+"\n"
+"|LibreOffice\n"
+"|somewhat heavy\n"
+"|huge\n"
+"|Gtk+, or KDE/ GNOME, or JDK(TM)\n"
 msgstr ""
 
 #. type: Title ===
@@ -720,29 +701,39 @@ msgid ""
 "section demonstrates how to install the following document viewers:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:363
-msgid "|Xpdf |light |light |FreeType"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:368
-msgid "|gv |light |light |Xaw3d"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:373
-msgid "|Geeqie |light |light |Gtk+ or GNOME"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:378
-msgid "|ePDFView |light |light |Gtk+"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:384
-msgid "|Okular |light |heavy |KDE |==="
+#. type: Table
+#: documentation/content/en/books/handbook/desktop/_index.adoc:383
+#, no-wrap
+msgid ""
+"| Application Name\n"
+"| Resources Needed\n"
+"| Installation from Ports\n"
+"| Major Dependencies\n"
+"\n"
+"|Xpdf\n"
+"|light\n"
+"|light\n"
+"|FreeType\n"
+"\n"
+"|gv\n"
+"|light\n"
+"|light\n"
+"|Xaw3d\n"
+"\n"
+"|Geeqie\n"
+"|light\n"
+"|light\n"
+"|Gtk+ or GNOME\n"
+"\n"
+"|ePDFView\n"
+"|light\n"
+"|light\n"
+"|Gtk+\n"
+"\n"
+"|Okular\n"
+"|light\n"
+"|heavy\n"
+"|KDE\n"
 msgstr ""
 
 #. type: Title ===
@@ -771,7 +762,11 @@ msgid "# pkg install xpdf\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:397 documentation/content/en/books/handbook/desktop/_index.adoc:437 documentation/content/en/books/handbook/desktop/_index.adoc:527 documentation/content/en/books/handbook/desktop/_index.adoc:546 documentation/content/en/books/handbook/desktop/_index.adoc:565
+#: documentation/content/en/books/handbook/desktop/_index.adoc:397
+#: documentation/content/en/books/handbook/desktop/_index.adoc:437
+#: documentation/content/en/books/handbook/desktop/_index.adoc:527
+#: documentation/content/en/books/handbook/desktop/_index.adoc:546
+#: documentation/content/en/books/handbook/desktop/_index.adoc:565
 msgid "If the package is not available, use the Ports Collection:"
 msgstr ""
 
@@ -818,7 +813,9 @@ msgid "# pkg install gv\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:418 documentation/content/en/books/handbook/desktop/_index.adoc:456 documentation/content/en/books/handbook/desktop/_index.adoc:475
+#: documentation/content/en/books/handbook/desktop/_index.adoc:418
+#: documentation/content/en/books/handbook/desktop/_index.adoc:456
+#: documentation/content/en/books/handbook/desktop/_index.adoc:475
 msgid "If a package is unavailable, use the Ports Collection:"
 msgstr ""
 
@@ -953,19 +950,29 @@ msgstr ""
 msgid "This section covers these programs:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:501
-msgid "|GnuCash |light |heavy |GNOME"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:506
-msgid "|Gnumeric |light |heavy |GNOME"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/desktop/_index.adoc:512
-msgid "|KMyMoney |light |heavy |KDE |==="
+#. type: Table
+#: documentation/content/en/books/handbook/desktop/_index.adoc:511
+#, no-wrap
+msgid ""
+"| Application Name\n"
+"| Resources Needed\n"
+"| Installation from Ports\n"
+"| Major Dependencies\n"
+"\n"
+"|GnuCash\n"
+"|light\n"
+"|heavy\n"
+"|GNOME\n"
+"\n"
+"|Gnumeric\n"
+"|light\n"
+"|heavy\n"
+"|GNOME\n"
+"\n"
+"|KMyMoney\n"
+"|light\n"
+"|heavy\n"
+"|KDE\n"
 msgstr ""
 
 #. type: Title ===

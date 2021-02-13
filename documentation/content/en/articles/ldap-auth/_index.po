@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -62,11 +62,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/ldap-auth/_index.adoc:27
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/ldap-auth/_index.adoc:29
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -153,7 +148,8 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: documentation/content/en/articles/ldap-auth/_index.adoc:57 documentation/content/en/articles/ldap-auth/_index.adoc:62
+#: documentation/content/en/articles/ldap-auth/_index.adoc:57
+#: documentation/content/en/articles/ldap-auth/_index.adoc:62
 #, no-wrap
 msgid "Installing OpenLDAP"
 msgstr ""
@@ -1133,7 +1129,8 @@ msgid "Hide Passwords"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/articles/ldap-auth/_index.adoc:518 documentation/content/en/articles/ldap-auth/_index.adoc:542
+#: documentation/content/en/articles/ldap-auth/_index.adoc:518
+#: documentation/content/en/articles/ldap-auth/_index.adoc:542
 #, no-wrap
 msgid ""
 "access to dn.subtree=\"ou=people,dc=example,dc=org\"\n"
@@ -1144,7 +1141,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/articles/ldap-auth/_index.adoc:522 documentation/content/en/articles/ldap-auth/_index.adoc:549
+#: documentation/content/en/articles/ldap-auth/_index.adoc:522
+#: documentation/content/en/articles/ldap-auth/_index.adoc:549
 #, no-wrap
 msgid ""
 "access to *\n"
@@ -1214,7 +1212,8 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: documentation/content/en/articles/ldap-auth/_index.adoc:563 documentation/content/en/articles/ldap-auth/_index.adoc:568
+#: documentation/content/en/articles/ldap-auth/_index.adoc:563
+#: documentation/content/en/articles/ldap-auth/_index.adoc:568
 #, no-wrap
 msgid "Creating a Management Group"
 msgstr ""

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -65,17 +65,35 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.2R/relnotes.adoc:21
+#: website/content/en/releases/9.2R/relnotes.adoc:17
 msgid ""
 "The ZFS filesystem now supports TRIM when used on solid state drives. ZFS "
 "TRIM support is enabled by "
 "default. "
 "[http://svn.FreeBSD.org/viewvc/base?view=revision&revision=251419[r251419]] "
-"The following tunables have been added: ** `vfs.zfs.trim.enabled`: Enable "
-"ZFS TRIM ** `vfs.zfs.trim.max_interval`: Maximum interval in seconds between "
-"TRIM queue processing ** `vfs.zfs.trim.timeout`: Delay TRIMs by up to this "
-"many seconds ** `vfs.zfs.trim.txg_delay`: Delay TRIMs by up to this many "
-"TXGs"
+"The following tunables have been added:"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.2R/relnotes.adoc:18
+msgid "`vfs.zfs.trim.enabled`: Enable ZFS TRIM"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.2R/relnotes.adoc:19
+msgid ""
+"`vfs.zfs.trim.max_interval`: Maximum interval in seconds between TRIM queue "
+"processing"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.2R/relnotes.adoc:20
+msgid "`vfs.zfs.trim.timeout`: Delay TRIMs by up to this many seconds"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.2R/relnotes.adoc:21
+msgid "`vfs.zfs.trim.txg_delay`: Delay TRIMs by up to this many TXGs"
 msgstr ""
 
 #. type: Plain text

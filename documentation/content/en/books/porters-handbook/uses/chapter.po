@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/porters-handbook/uses/chapter.adoc:8
 #, no-wrap
 msgid "Using `USES` Macros"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:32
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -453,7 +448,39 @@ msgid "`cargo`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:184 documentation/content/en/books/porters-handbook/uses/chapter.adoc:191 documentation/content/en/books/porters-handbook/uses/chapter.adoc:229 documentation/content/en/books/porters-handbook/uses/chapter.adoc:254 documentation/content/en/books/porters-handbook/uses/chapter.adoc:261 documentation/content/en/books/porters-handbook/uses/chapter.adoc:275 documentation/content/en/books/porters-handbook/uses/chapter.adoc:301 documentation/content/en/books/porters-handbook/uses/chapter.adoc:350 documentation/content/en/books/porters-handbook/uses/chapter.adoc:378 documentation/content/en/books/porters-handbook/uses/chapter.adoc:406 documentation/content/en/books/porters-handbook/uses/chapter.adoc:413 documentation/content/en/books/porters-handbook/uses/chapter.adoc:557 documentation/content/en/books/porters-handbook/uses/chapter.adoc:621 documentation/content/en/books/porters-handbook/uses/chapter.adoc:663 documentation/content/en/books/porters-handbook/uses/chapter.adoc:670 documentation/content/en/books/porters-handbook/uses/chapter.adoc:677 documentation/content/en/books/porters-handbook/uses/chapter.adoc:791 documentation/content/en/books/porters-handbook/uses/chapter.adoc:798 documentation/content/en/books/porters-handbook/uses/chapter.adoc:805 documentation/content/en/books/porters-handbook/uses/chapter.adoc:812 documentation/content/en/books/porters-handbook/uses/chapter.adoc:848 documentation/content/en/books/porters-handbook/uses/chapter.adoc:855 documentation/content/en/books/porters-handbook/uses/chapter.adoc:882 documentation/content/en/books/porters-handbook/uses/chapter.adoc:896 documentation/content/en/books/porters-handbook/uses/chapter.adoc:903 documentation/content/en/books/porters-handbook/uses/chapter.adoc:917 documentation/content/en/books/porters-handbook/uses/chapter.adoc:933 documentation/content/en/books/porters-handbook/uses/chapter.adoc:1214 documentation/content/en/books/porters-handbook/uses/chapter.adoc:1221 documentation/content/en/books/porters-handbook/uses/chapter.adoc:1228 documentation/content/en/books/porters-handbook/uses/chapter.adoc:1431 documentation/content/en/books/porters-handbook/uses/chapter.adoc:1445 documentation/content/en/books/porters-handbook/uses/chapter.adoc:1499
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:184
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:191
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:229
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:254
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:261
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:275
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:301
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:350
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:378
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:406
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:413
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:557
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:621
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:663
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:670
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:677
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:791
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:798
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:805
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:812
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:848
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:855
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:882
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:896
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:903
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:917
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:933
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1214
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1221
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1228
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1431
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1445
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1499
 msgid "Possible arguments: (none)"
 msgstr ""
 
@@ -1026,7 +1053,8 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:375 documentation/content/en/books/porters-handbook/uses/chapter.adoc:387
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:375
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:387
 #, no-wrap
 msgid "`gl`"
 msgstr ""
@@ -1150,7 +1178,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:417 documentation/content/en/books/porters-handbook/uses/chapter.adoc:699
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:417
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:699
 msgid "`atk`"
 msgstr ""
 
@@ -1160,7 +1189,8 @@ msgid "`atkmm`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:419 documentation/content/en/books/porters-handbook/uses/chapter.adoc:702
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:419
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:702
 msgid "`cairo`"
 msgstr ""
 
@@ -1200,7 +1230,8 @@ msgid "`gdkpixbuf`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:427 documentation/content/en/books/porters-handbook/uses/chapter.adoc:713
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:427
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:713
 msgid "`gdkpixbuf2`"
 msgstr ""
 
@@ -1340,12 +1371,14 @@ msgid "`gvfs`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:455 documentation/content/en/books/porters-handbook/uses/chapter.adoc:824
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:455
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:824
 msgid "`intlhack`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:456 documentation/content/en/books/porters-handbook/uses/chapter.adoc:825
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:456
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:825
 msgid "`intltool`"
 msgstr ""
 
@@ -1470,7 +1503,8 @@ msgid "`libxml++26`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:481 documentation/content/en/books/porters-handbook/uses/chapter.adoc:738
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:481
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:738
 msgid "`libxml2`"
 msgstr ""
 
@@ -1495,7 +1529,8 @@ msgid "`orbit2`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:486 documentation/content/en/books/porters-handbook/uses/chapter.adoc:749
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:486
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:749
 msgid "`pango`"
 msgstr ""
 
@@ -1555,7 +1590,8 @@ msgid "`vte3`"
 msgstr ""
 
 #. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:499 documentation/content/en/books/porters-handbook/uses/chapter.adoc:837
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:499
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:837
 msgid ""
 "The default dependency is build- and run-time, it can be changed with "
 "`:build` or `:run`. For example:"
@@ -2330,7 +2366,8 @@ msgid "`nss`"
 msgstr ""
 
 #. type: Title ==
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:744 documentation/content/en/books/porters-handbook/uses/chapter.adoc:907
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:744
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:907
 #, no-wrap
 msgid "`openal`"
 msgstr ""
@@ -2371,7 +2408,8 @@ msgid "`pulseaudio-libs`"
 msgstr ""
 
 #. type: Title ==
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:753 documentation/content/en/books/porters-handbook/uses/chapter.adoc:1140
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:753
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1140
 #, no-wrap
 msgid "`qt`"
 msgstr ""
@@ -4482,239 +4520,150 @@ msgstr ""
 msgid "Available X.Org Components"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1508
-msgid "|=== | Name | Description"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1511
-msgid "|`dmx` |DMX extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1514
-msgid "|`fontenc` |The fontenc Library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1517
-msgid "|`fontutil` |Create an index of X font files in a directory"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1520
-msgid "|`ice` |Inter Client Exchange library for X11"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1523
-msgid "|`libfs` |The FS library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1526
-msgid "|`pciaccess` |Generic PCI access library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1529
-msgid "|`pixman` |Low-level pixel manipulation library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1532
-msgid "|`sm` |Session Management library for X11"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1535
-msgid "|`x11` |X11 library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1538
-msgid "|`xau` |Authentication Protocol library for X11"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1541
-msgid "|`xaw` |X Athena Widgets library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1544
-msgid "|`xaw6` |X Athena Widgets library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1547
-msgid "|`xaw7` |X Athena Widgets library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1550
-msgid "|`xbitmaps` |X.Org bitmaps data"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1553
-msgid "|`xcb` |The X protocol C-language Binding (XCB) library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1556
-msgid "|`xcomposite` |X Composite extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1559
-msgid "|`xcursor` |X client-side cursor loading library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1562
-msgid "|`xdamage` |X Damage extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1565
-msgid "|`xdmcp` |X Display Manager Control Protocol library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1568
-msgid "|`xext` |X11 Extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1571
-msgid "|`xfixes` |X Fixes extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1574
-msgid "|`xfont` |X font library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1577
-msgid "|`xfont2` |X font library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1580
-msgid "|`xft` |Client-sided font API for X applications"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1583
-msgid "|`xi` |X Input extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1586
-msgid "|`xinerama` |X11 Xinerama library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1589
-msgid "|`xkbfile` |XKB file library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1592
-msgid "|`xmu` |X Miscellaneous Utilities libraries"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1595
-msgid "|`xmuu` |X Miscellaneous Utilities libraries"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1598
-msgid "|`xorg-macros` |X.Org development aclocal macros"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1601
-msgid "|`xorg-server` |X.Org X server and related programs"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1604
-msgid "|`xorgproto` |xorg protocol headers"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1607
-msgid "|`xpm` |X Pixmap library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1610
-msgid "|`xpresent` |X Present Extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1613
-msgid "|`xrandr` |X Resize and Rotate extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1616
-msgid "|`xrender` |X Render extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1619
-msgid "|`xres` |X Resource usage library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1622
-msgid "|`xscrnsaver` |The XScrnSaver library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1625
-msgid "|`xshmfence` |Shared memory 'SyncFence' synchronization primitive"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1628
-msgid "|`xt` |X Toolkit library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1631
-msgid "|`xtrans` |Abstract network code for X"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1634
-msgid "|`xtst` |X Test extension"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1637
-msgid "|`xv` |X Video Extension library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1640
-msgid "|`xvmc` |X Video Extension Motion Compensation library"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1643
-msgid "|`xxf86dga` |X DGA Extension"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1647
-msgid "|`xxf86vm` |X Vidmode Extension |==="
+#. type: Table
+#: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1646
+#, no-wrap
+msgid ""
+"| Name\n"
+"| Description\n"
+"\n"
+"|`dmx`\n"
+"|DMX extension library\n"
+"\n"
+"|`fontenc`\n"
+"|The fontenc Library\n"
+"\n"
+"|`fontutil`\n"
+"|Create an index of X font files in a directory\n"
+"\n"
+"|`ice`\n"
+"|Inter Client Exchange library for X11\n"
+"\n"
+"|`libfs`\n"
+"|The FS library\n"
+"\n"
+"|`pciaccess`\n"
+"|Generic PCI access library\n"
+"\n"
+"|`pixman`\n"
+"|Low-level pixel manipulation library\n"
+"\n"
+"|`sm`\n"
+"|Session Management library for X11\n"
+"\n"
+"|`x11`\n"
+"|X11 library\n"
+"\n"
+"|`xau`\n"
+"|Authentication Protocol library for X11\n"
+"\n"
+"|`xaw`\n"
+"|X Athena Widgets library\n"
+"\n"
+"|`xaw6`\n"
+"|X Athena Widgets library\n"
+"\n"
+"|`xaw7`\n"
+"|X Athena Widgets library\n"
+"\n"
+"|`xbitmaps`\n"
+"|X.Org bitmaps data\n"
+"\n"
+"|`xcb`\n"
+"|The X protocol C-language Binding (XCB) library\n"
+"\n"
+"|`xcomposite`\n"
+"|X Composite extension library\n"
+"\n"
+"|`xcursor`\n"
+"|X client-side cursor loading library\n"
+"\n"
+"|`xdamage`\n"
+"|X Damage extension library\n"
+"\n"
+"|`xdmcp`\n"
+"|X Display Manager Control Protocol library\n"
+"\n"
+"|`xext`\n"
+"|X11 Extension library\n"
+"\n"
+"|`xfixes`\n"
+"|X Fixes extension library\n"
+"\n"
+"|`xfont`\n"
+"|X font library\n"
+"\n"
+"|`xfont2`\n"
+"|X font library\n"
+"\n"
+"|`xft`\n"
+"|Client-sided font API for X applications\n"
+"\n"
+"|`xi`\n"
+"|X Input extension library\n"
+"\n"
+"|`xinerama`\n"
+"|X11 Xinerama library\n"
+"\n"
+"|`xkbfile`\n"
+"|XKB file library\n"
+"\n"
+"|`xmu`\n"
+"|X Miscellaneous Utilities libraries\n"
+"\n"
+"|`xmuu`\n"
+"|X Miscellaneous Utilities libraries\n"
+"\n"
+"|`xorg-macros`\n"
+"|X.Org development aclocal macros\n"
+"\n"
+"|`xorg-server`\n"
+"|X.Org X server and related programs\n"
+"\n"
+"|`xorgproto`\n"
+"|xorg protocol headers\n"
+"\n"
+"|`xpm`\n"
+"|X Pixmap library\n"
+"\n"
+"|`xpresent`\n"
+"|X Present Extension library\n"
+"\n"
+"|`xrandr`\n"
+"|X Resize and Rotate extension library\n"
+"\n"
+"|`xrender`\n"
+"|X Render extension library\n"
+"\n"
+"|`xres`\n"
+"|X Resource usage library\n"
+"\n"
+"|`xscrnsaver`\n"
+"|The XScrnSaver library\n"
+"\n"
+"|`xshmfence`\n"
+"|Shared memory 'SyncFence' synchronization primitive\n"
+"\n"
+"|`xt`\n"
+"|X Toolkit library\n"
+"\n"
+"|`xtrans`\n"
+"|Abstract network code for X\n"
+"\n"
+"|`xtst`\n"
+"|X Test extension\n"
+"\n"
+"|`xv`\n"
+"|X Video Extension library\n"
+"\n"
+"|`xvmc`\n"
+"|X Video Extension Motion Compensation library\n"
+"\n"
+"|`xxf86dga`\n"
+"|X DGA Extension\n"
+"\n"
+"|`xxf86vm`\n"
+"|X Vidmode Extension\n"
 msgstr ""
 
 #. type: Title ==
@@ -4723,14 +4672,14 @@ msgstr ""
 msgid "`xorg-cat`"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1652
 msgid ""
 "Possible arguments: `app`, `data`, `doc`, `driver`, `font`, `lib`, `proto`, "
 "`util`, `xserver` and (none) or one off `autotools` (default), `meson`"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1654
 msgid ""
 "Provide support for building Xorg components. It takes care of setting up "
@@ -4738,12 +4687,12 @@ msgid ""
 "needed. This is intended only for Xorg components."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1656
 msgid "The category has to match upstream categories."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1658
 msgid ""
 "The second argument is the build system to use. autotools is the default, "
@@ -4756,12 +4705,12 @@ msgstr ""
 msgid "`zip`"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1663
 msgid "Possible arguments: (none), `infozip`"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/porters-handbook/uses/chapter.adoc:1664
 msgid ""
 "Indicates that the distribution files use the ZIP compression algorithm. For "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/network-servers/_index.adoc:9
 #, no-wrap
 msgid "Network Servers"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:27 documentation/content/en/books/handbook/network-servers/_index.adoc:31 documentation/content/en/books/handbook/network-servers/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -338,43 +313,40 @@ msgstr ""
 msgid "Use one of the following protocol names:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:149
-msgid "|=== | Protocol Name | Explanation"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:153
-msgid "|tcp or tcp4 |TCP IPv4"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:156
-msgid "|udp or udp4 |UDP IPv4"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:159
-msgid "|tcp6 |TCP IPv6"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:162
-msgid "|udp6 |UDP IPv6"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:165
-msgid "|tcp46 |Both TCP IPv4 and IPv6"
+#. type: Table
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:168
+#, no-wrap
+msgid ""
+"| Protocol Name\n"
+"| Explanation\n"
+"\n"
+"\n"
+"|tcp or tcp4\n"
+"|TCP IPv4\n"
+"\n"
+"|udp or udp4\n"
+"|UDP IPv4\n"
+"\n"
+"|tcp6\n"
+"|TCP IPv6\n"
+"\n"
+"|udp6\n"
+"|UDP IPv6\n"
+"\n"
+"|tcp46\n"
+"|Both TCP IPv4 and IPv6\n"
+"\n"
+"|udp46\n"
+"|Both UDP IPv4 and IPv6\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/network-servers/_index.adoc:171
+#, no-wrap
 msgid ""
-"|udp46 |Both UDP IPv4 and IPv6 |=== "
-"{wait|nowait}[/max-child[/max-connections-per-ip-per-minute[/max-child-per-ip]]]:: "
+"{wait|nowait}[/max-child[/max-connections-per-ip-per-minute[/max-child-per-ip]]]::\n"
 "In this field, `wait` or `nowait` must be specified. `max-child`, "
-"`max-connections-per-ip-per-minute` and `max-child-per-ip` are optional."
+"`max-connections-per-ip-per-minute` and `max-child-per-ip` are optional.\n"
 msgstr ""
 
 #. type: Plain text
@@ -490,38 +462,60 @@ msgstr ""
 msgid "The available rate limiting options are:"
 msgstr ""
 
+#. type: Labeled list
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:203
+#, no-wrap
+msgid "-c maximum"
+msgstr ""
+
 #. type: Plain text
 #: documentation/content/en/books/handbook/network-servers/_index.adoc:205
 msgid ""
-"-c maximum:: Specify the default maximum number of simultaneous invocations "
-"of each service, where the default is unlimited. May be overridden on a "
-"per-service basis by using `max-child` in [.filename]#/etc/inetd.conf#."
+"Specify the default maximum number of simultaneous invocations of each "
+"service, where the default is unlimited. May be overridden on a per-service "
+"basis by using `max-child` in [.filename]#/etc/inetd.conf#."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:206
+#, no-wrap
+msgid "-C rate"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/network-servers/_index.adoc:208
 msgid ""
-"-C rate:: Specify the default maximum number of times a service can be "
-"invoked from a single IP address per minute. May be overridden on a "
-"per-service basis by using `max-connections-per-ip-per-minute` in "
-"[.filename]#/etc/inetd.conf#."
+"Specify the default maximum number of times a service can be invoked from a "
+"single IP address per minute. May be overridden on a per-service basis by "
+"using `max-connections-per-ip-per-minute` in [.filename]#/etc/inetd.conf#."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:209
+#, no-wrap
+msgid "-R rate"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/network-servers/_index.adoc:211
 msgid ""
-"-R rate:: Specify the maximum number of times a service can be invoked in "
-"one minute, where the default is `256`. A rate of `0` allows an unlimited "
-"number."
+"Specify the maximum number of times a service can be invoked in one minute, "
+"where the default is `256`. A rate of `0` allows an unlimited number."
+msgstr ""
+
+#. type: Labeled list
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:212
+#, no-wrap
+msgid "-s maximum"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/network-servers/_index.adoc:214
 msgid ""
-"-s maximum:: Specify the maximum number of times a service can be invoked "
-"from a single IP address at any one time, where the default is "
-"unlimited. May be overridden on a per-service basis by using "
-"`max-child-per-ip` in [.filename]#/etc/inetd.conf#."
+"Specify the maximum number of times a service can be invoked from a single "
+"IP address at any one time, where the default is unlimited. May be "
+"overridden on a per-service basis by using `max-child-per-ip` in "
+"[.filename]#/etc/inetd.conf#."
 msgstr ""
 
 #. type: Plain text
@@ -627,26 +621,23 @@ msgstr ""
 msgid "These daemons must be running on the server:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:246
-msgid "|=== | Daemon | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:250
-msgid "|nfsd |The NFS daemon which services requests from NFS clients."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:253
-msgid "|mountd |The NFS mount daemon which carries out requests received from nfsd."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:257
+#. type: Table
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:256
+#, no-wrap
 msgid ""
-"|rpcbind | This daemon allows NFS clients to discover which port the NFS "
-"server is using.  |==="
+"| Daemon\n"
+"| Description\n"
+"\n"
+"\n"
+"|nfsd\n"
+"|The NFS daemon which services requests from NFS clients.\n"
+"\n"
+"|mountd\n"
+"|The NFS mount daemon which carries out requests received from nfsd.\n"
+"\n"
+"|rpcbind\n"
+"| This daemon allows NFS clients to discover which port the NFS server is "
+"using.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1136,52 +1127,39 @@ msgstr ""
 msgid "NIS Terminology"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:472
-msgid "|=== | Term | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:475
+#. type: Table
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:487
+#, no-wrap
 msgid ""
-"|NIS domain name |NIS servers and clients share an NIS domain "
-"name. Typically, this name does not have anything to do with DNS."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:478
-msgid ""
-"|man:rpcbind[8] |This service enables RPC and must be running in order to "
-"run an NIS server or act as an NIS client."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:481
-msgid ""
-"|man:ypbind[8] |This service binds an NIS client to its NIS server. It will "
-"take the NIS domain name and use RPC to connect to the server. It is the "
-"core of client/server communication in an NIS environment. If this service "
-"is not running on a client machine, it will not be able to access the NIS "
-"server."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:484
-msgid ""
-"|man:ypserv[8] |This is the process for the NIS server. If this service "
-"stops running, the server will no longer be able to respond to NIS requests "
-"so hopefully, there is a slave server to take over. Some non-FreeBSD clients "
-"will not try to reconnect using a slave server and the ypbind process may "
-"need to be restarted on these clients."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:488
-msgid ""
-"|man:rpc.yppasswdd[8] |This process only runs on NIS master servers. This "
-"daemon allows NIS clients to change their NIS passwords. If this daemon is "
-"not running, users will have to login to the NIS master server and change "
-"their passwords there.  |==="
+"| Term\n"
+"| Description\n"
+"\n"
+"|NIS domain name\n"
+"|NIS servers and clients share an NIS domain name. Typically, this name does "
+"not have anything to do with DNS.\n"
+"\n"
+"|man:rpcbind[8]\n"
+"|This service enables RPC and must be running in order to run an NIS server "
+"or act as an NIS client.\n"
+"\n"
+"|man:ypbind[8]\n"
+"|This service binds an NIS client to its NIS server. It will take the NIS "
+"domain name and use RPC to connect to the server. It is the core of "
+"client/server communication in an NIS environment. If this service is not "
+"running on a client machine, it will not be able to access the NIS server.\n"
+"\n"
+"|man:ypserv[8]\n"
+"|This is the process for the NIS server. If this service stops running, the "
+"server will no longer be able to respond to NIS requests so hopefully, there "
+"is a slave server to take over. Some non-FreeBSD clients will not try to "
+"reconnect using a slave server and the ypbind process may need to be "
+"restarted on these clients.\n"
+"\n"
+"|man:rpc.yppasswdd[8]\n"
+"|This process only runs on NIS master servers. This daemon allows NIS "
+"clients to change their NIS passwords. If this daemon is not running, users "
+"will have to login to the NIS master server and change their passwords "
+"there.\n"
 msgstr ""
 
 #. type: Title ===
@@ -1268,34 +1246,34 @@ msgstr ""
 msgid "The configuration of the lab will be as follows:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:517
-msgid "|=== | Machine name | IP address | Machine role"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:522
-msgid "|`ellington` |`10.0.0.2` |NIS master"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:526
-msgid "|`coltrane` |`10.0.0.3` |NIS slave"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:530
-msgid "|`basie` |`10.0.0.4` |Faculty workstation"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:534
-msgid "|`bird` |`10.0.0.5` |Client machine"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:539
-msgid "|`cli[1-11]` |`10.0.0.[6-17]` |Other client machines |==="
+#. type: Table
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:538
+#, no-wrap
+msgid ""
+"| Machine name\n"
+"| IP address\n"
+"| Machine role\n"
+"\n"
+"\n"
+"|`ellington`\n"
+"|`10.0.0.2`\n"
+"|NIS master\n"
+"\n"
+"|`coltrane`\n"
+"|`10.0.0.3`\n"
+"|NIS slave\n"
+"\n"
+"|`basie`\n"
+"|`10.0.0.4`\n"
+"|Faculty workstation\n"
+"\n"
+"|`bird`\n"
+"|`10.0.0.5`\n"
+"|Client machine\n"
+"\n"
+"|`cli[1-11]`\n"
+"|`10.0.0.[6-17]`\n"
+"|Other client machines\n"
 msgstr ""
 
 #. type: Plain text
@@ -1789,7 +1767,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:759 documentation/content/en/books/handbook/network-servers/_index.adoc:944
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:759
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:944
 #, no-wrap
 msgid "+:::::::::\n"
 msgstr ""
@@ -2011,29 +1990,24 @@ msgstr ""
 msgid "Additional Users"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:850
-msgid "|=== | User Name(s)  | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:853
-msgid "|`alpha`, `beta` |IT department employees"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:856
-msgid "|`charlie`, `delta` |IT department apprentices"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:859
-msgid "|`echo`, `foxtrott`, `golf`, ...  |employees"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:863
-msgid "|`able`, `baker`, ...  |interns |==="
+#. type: Table
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:862
+#, no-wrap
+msgid ""
+"| User Name(s)\n"
+"| Description\n"
+"\n"
+"|`alpha`, `beta`\n"
+"|IT department employees\n"
+"\n"
+"|`charlie`, `delta`\n"
+"|IT department apprentices\n"
+"\n"
+"|`echo`, `foxtrott`, `golf`, ...\n"
+"|employees\n"
+"\n"
+"|`able`, `baker`, ...\n"
+"|interns\n"
 msgstr ""
 
 #. type: Block title
@@ -2042,37 +2016,25 @@ msgstr ""
 msgid "Additional Systems"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:869
-msgid "|=== | Machine Name(s)  | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:872
+#. type: Table
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:881
+#, no-wrap
 msgid ""
-"|`war`, `death`, `famine`, `pollution` |Only IT employees are allowed to log "
-"onto these servers."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:875
-msgid ""
-"|`pride`, `greed`, `envy`, `wrath`, `lust`, `sloth` |All members of the IT "
-"department are allowed to login onto these servers."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:878
-msgid ""
-"|`one`, `two`, `three`, `four`, ...  |Ordinary workstations used by "
-"employees."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:882
-msgid ""
-"|`trashcan` |A very old machine without any critical data. Even interns are "
-"allowed to use this system.  |==="
+"| Machine Name(s)\n"
+"| Description\n"
+"\n"
+"|`war`, `death`, `famine`, `pollution`\n"
+"|Only IT employees are allowed to log onto these servers.\n"
+"\n"
+"|`pride`, `greed`, `envy`, `wrath`, `lust`, `sloth`\n"
+"|All members of the IT department are allowed to login onto these servers.\n"
+"\n"
+"|`one`, `two`, `three`, `four`, ...\n"
+"|Ordinary workstations used by employees.\n"
+"\n"
+"|`trashcan`\n"
+"|A very old machine without any critical data. Even interns are allowed to "
+"use this system.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2567,7 +2529,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1108 documentation/content/en/books/handbook/network-servers/_index.adoc:1353
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:1108
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:1353
 #, no-wrap
 msgid ""
 "# search result\n"
@@ -2576,7 +2539,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1111 documentation/content/en/books/handbook/network-servers/_index.adoc:1356
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:1111
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:1356
 #, no-wrap
 msgid ""
 "# numResponses: 2\n"
@@ -3656,46 +3620,34 @@ msgstr ""
 msgid "DNS Terminology"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1619
-msgid "|=== | Term | Definition"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1622
-msgid "|Forward DNS |Mapping of hostnames to IP addresses."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1625
-msgid "|Origin |Refers to the domain covered in a particular zone file."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1628
+#. type: Table
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:1637
+#, no-wrap
 msgid ""
-"|Resolver |A system process through which a machine queries a name server "
-"for zone information."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1631
-msgid "|Reverse DNS |Mapping of IP addresses to hostnames."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1634
-msgid ""
-"|Root zone |The beginning of the Internet zone hierarchy. All zones fall "
-"under the root zone, similar to how all files in a file system fall under "
-"the root directory."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:1638
-msgid ""
-"|Zone |An individual domain, subdomain, or portion of the DNS administered "
-"by the same authority.  |==="
+"| Term\n"
+"| Definition\n"
+"\n"
+"|Forward DNS\n"
+"|Mapping of hostnames to IP addresses.\n"
+"\n"
+"|Origin\n"
+"|Refers to the domain covered in a particular zone file.\n"
+"\n"
+"|Resolver\n"
+"|A system process through which a machine queries a name server for zone "
+"information.\n"
+"\n"
+"|Reverse DNS\n"
+"|Mapping of IP addresses to hostnames.\n"
+"\n"
+"|Root zone\n"
+"|The beginning of the Internet zone hierarchy. All zones fall under the root "
+"zone, similar to how all files in a file system fall under the root "
+"directory.\n"
+"\n"
+"|Zone\n"
+"|An individual domain, subdomain, or portion of the DNS administered by the "
+"same authority.\n"
 msgstr ""
 
 #. type: Plain text
@@ -5570,7 +5522,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:2348 documentation/content/en/books/handbook/network-servers/_index.adoc:2408
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:2348
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:2408
 #, no-wrap
 msgid ""
 "portal-group pg0 {\n"
@@ -5590,7 +5543,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/network-servers/_index.adoc:2358 documentation/content/en/books/handbook/network-servers/_index.adoc:2434
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:2358
+#: documentation/content/en/books/handbook/network-servers/_index.adoc:2434
 #, no-wrap
 msgid ""
 "\tlun 0 {\n"

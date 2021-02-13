@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,72 +70,188 @@ msgid "<<upgrade,Upgrading from Previous Releases of FreeBSD>>"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:19
+msgid "<<security-errata,Security and Errata>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:20
+msgid "<<security,Security Advisories>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:21
-msgid ""
-"<<security-errata,Security and Errata>> ** <<security,Security Advisories>> "
-"** <<errata,Errata Notices>>"
+msgid "<<errata,Errata Notices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:22
+msgid "<<userland,Userland>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:23
+msgid "<<userland-config,Userland Configuration Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:24
+msgid "<<userland-programs,Userland Application Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:25
+msgid "<<userland-contrib,Contributed Software>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:26
+msgid "<<userland-installer,Installation and Configuration Tools>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:27
+msgid "<<userland-rc,`/etc/rc.d` Scripts>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:28
+msgid "<<userland-periodic,`/etc/periodic` Scripts>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:29
+msgid "<<userland-libraries,Runtime Libraries and API>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:30
+msgid "<<userland-abi,ABI Compatibility>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:31
-msgid ""
-"<<userland,Userland>> ** <<userland-config,Userland Configuration Changes>> "
-"** <<userland-programs,Userland Application Changes>> ** "
-"<<userland-contrib,Contributed Software>> ** "
-"<<userland-installer,Installation and Configuration Tools>> ** "
-"<<userland-rc,`/etc/rc.d` Scripts>> ** <<userland-periodic,`/etc/periodic` "
-"Scripts>> ** <<userland-libraries,Runtime Libraries and API>> ** "
-"<<userland-abi,ABI Compatibility>> ** <<userland-debug,Userland Debugging>>"
+msgid "<<userland-debug,Userland Debugging>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:32
+msgid "<<kernel,Kernel>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:33
+msgid "<<kernel-general,General Kernel Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:34
+msgid "<<kernel-bugfix,Kernel Bug Fixes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:35
+msgid "<<kernel-config,Kernel Configuration>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:36
+msgid "<<kernel-modules,Kernel Modules>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:37
-msgid ""
-"<<kernel,Kernel>> ** <<kernel-general,General Kernel Changes>> ** "
-"<<kernel-bugfix,Kernel Bug Fixes>> ** <<kernel-config,Kernel Configuration>> "
-"** <<kernel-modules,Kernel Modules>> ** <<kernel-sysctl,System Tuning and "
-"Controls>>"
+msgid "<<kernel-sysctl,System Tuning and Controls>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:38
+msgid "<<drivers,Devices and Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:39
+msgid "<<drivers-device,Device Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:40
+msgid "<<drivers-storage,Storage Drivers>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:41
-msgid ""
-"<<drivers,Devices and Drivers>> ** <<drivers-device,Device Drivers>> ** "
-"<<drivers-storage,Storage Drivers>> ** <<drivers-network,Network Drivers>>"
+msgid "<<drivers-network,Network Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:42
+msgid "<<hardware,Hardware Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:43
+msgid "<<hardware-support,Hardware Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:44
+msgid "<<hardware-virtualization,Virtualization Support>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:45
-msgid ""
-"<<hardware,Hardware Support>> ** <<hardware-support,Hardware Support>> ** "
-"<<hardware-virtualization,Virtualization Support>> ** <<hardware-arm,ARM "
-"Support>>"
+msgid "<<hardware-arm,ARM Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:46
+msgid "<<storage,Storage>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:47
+msgid "<<storage-net,Networked Storage>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:48
-msgid ""
-"<<storage,Storage>> ** <<storage-net,Networked Storage>> ** "
-"<<storage-zfs,ZFS>>"
+msgid "<<storage-zfs,ZFS>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:49
+msgid "<<boot,Boot Loader Changes>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:50
-msgid "<<boot,Boot Loader Changes>> ** <<boot-loader,Boot Loader Changes>>"
+msgid "<<boot-loader,Boot Loader Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:51
+msgid "<<network,Networking>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:52
+msgid "<<network-general,General Network Changes>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:53
-msgid ""
-"<<network,Networking>> ** <<network-general,General Network Changes>> ** "
-"<<network-protocols,Network Protocols>>"
+msgid "<<network-protocols,Network Protocols>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/11.1R/relnotes.adoc:54
+msgid "<<ports,Ports Collection and Package Infrastructure>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/11.1R/relnotes.adoc:55
-msgid ""
-"<<ports,Ports Collection and Package Infrastructure>> ** "
-"<<ports-packages,Packaging Changes>>"
+msgid "<<ports-packages,Packaging Changes>>"
 msgstr ""
 
 #. type: Title ==
@@ -248,38 +364,39 @@ msgstr ""
 msgid "Security Advisories"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.1R/relnotes.adoc:103
+#. type: Table
+#: website/content/en/releases/11.1R/relnotes.adoc:102
+#, no-wrap
 msgid ""
-"|=== |Advisory |Date |Topic "
+"|Advisory |Date |Topic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:32.bhyve.asc[FreeBSD-SA-16:32.bhyve] "
-"|25 October 2016 |Privilege escalation vulnerability "
+"|25 October 2016 |Privilege escalation vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:33.openssh.asc[FreeBSD-SA-16:33.openssh] "
-"|2 November 2016 |Remote Denial of Service vulnerability "
+"|2 November 2016 |Remote Denial of Service vulnerability\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:36.telnetd.asc[FreeBSD-SA-16:36.telnetd] "
 "|6 December 2016 |Possible "
 "http://www.FreeBSD.org/cgi/man.cgi?query=login&sektion=1&manpath=freebsd-release-ports[login(1)] "
-"argument injection "
+"argument injection\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:37.libc.asc[FreeBSD-SA-16:37.libc] "
 "|6 December 2016 "
 "|http://www.FreeBSD.org/cgi/man.cgi?query=link_ntoa&sektion=3&manpath=freebsd-release-ports[link_ntoa(3)] "
-"buffer overflow "
+"buffer overflow\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:38.bhyve.asc[FreeBSD-SA-16:38.bhyve] "
 "|6 December 2016 |Possible escape from "
 "http://www.FreeBSD.org/cgi/man.cgi?query=bhyve&sektion=8&manpath=freebsd-release-ports[bhyve(8)] "
-"virtual machine "
+"virtual machine\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-16:39.ntp.asc[FreeBSD-SA-16:39.ntp] "
-"|22 December 2016 |Multiple vulnerabilities "
+"|22 December 2016 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:01.openssh.asc[FreeBSD-SA-17:01.openssh] "
-"|10 January 2017 |Multiple vulnerabilities "
+"|10 January 2017 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:02.openssl.asc[FreeBSD-SA-17:02.openssl] "
-"|23 February 2017 |Multiple vulnerabilities "
+"|23 February 2017 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:03.ntp.asc[FreeBSD-SA-17:03.ntp] "
-"|12 April 2017 |Multiple vulnerabilities "
+"|12 April 2017 |Multiple vulnerabilities\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:04.ipfilter.asc[FreeBSD-SA-17:04.ipfilter] "
-"|27 April 2017 |Fix fragment handling panic "
+"|27 April 2017 |Fix fragment handling panic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-SA-17:05.heimdal.asc[FreeBSD-SA-17:05.heimdal] "
-"|12 July 2017 |Fix KDC-REP service name validation vulnerability |==="
+"|12 July 2017 |Fix KDC-REP service name validation vulnerability\n"
 msgstr ""
 
 #. type: Title ==
@@ -288,32 +405,33 @@ msgstr ""
 msgid "Errata Notices"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.1R/relnotes.adoc:120
+#. type: Table
+#: website/content/en/releases/11.1R/relnotes.adoc:119
+#, no-wrap
 msgid ""
-"|=== |Errata |Date |Topic "
+"|Errata |Date |Topic\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:18.loader.asc[FreeBSD-EN-16:18.loader] "
-"|25 October 2016 |Loader may hang during boot "
+"|25 October 2016 |Loader may hang during boot\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:19.tzcode.asc[FreeBSD-EN-16:19.tzcode] "
-"|6 December 2016 |Fix warnings about invalid timezone abbreviations "
+"|6 December 2016 |Fix warnings about invalid timezone abbreviations\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:20.tzdata.asc[FreeBSD-EN-16:20.tzdata] "
-"|6 December 2016 |Update timezone database information "
+"|6 December 2016 |Update timezone database information\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-16:21.localedef.asc[FreeBSD-EN-16:21.localedef] "
-"|6 December 2016 |Fix incorrectly defined unicode characters "
+"|6 December 2016 |Fix incorrectly defined unicode characters\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:01.pcie.asc[FreeBSD-EN-17:01.pcie] "
 "|23 February 2017 |Fix system hang when booting when PCI-express HotPlug is "
-"enabled "
+"enabled\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:02.yp.asc[FreeBSD-EN-17:02.yp] "
-"|23 February 2017 |Fix NIS master updates are not pushed to an NIS slave "
+"|23 February 2017 |Fix NIS master updates are not pushed to an NIS slave\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:03.hyperv.asc[FreeBSD-EN-17:03.hyperv] "
 "|23 February 2017 |Fix compatibility with Hyper-V/storage after KB3172614 or "
-"KB3179574 "
+"KB3179574\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:04.mandoc.asc[FreeBSD-EN-17:04.mandoc] "
 "|23 February 2017 |Make "
 "http://www.FreeBSD.org/cgi/man.cgi?query=makewhatis&sektion=1&manpath=freebsd-release-ports[makewhatis(1)] "
-"output reproducible "
+"output reproducible\n"
 "|https://www.FreeBSD.org/security/advisories/FreeBSD-EN-17:05.xen.asc[FreeBSD-EN-17:05.xen] "
-"|23 February 2017 |Xen migration enhancements |==="
+"|23 February 2017 |Xen migration enhancements\n"
 msgstr ""
 
 #. type: Title ==
@@ -1633,7 +1751,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: website/content/en/releases/11.1R/relnotes.adoc:420 website/content/en/releases/11.1R/relnotes.adoc:425
+#: website/content/en/releases/11.1R/relnotes.adoc:420
+#: website/content/en/releases/11.1R/relnotes.adoc:425
 #, no-wrap
 msgid "Hardware Support"
 msgstr ""
@@ -1830,7 +1949,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: website/content/en/releases/11.1R/relnotes.adoc:473 website/content/en/releases/11.1R/relnotes.adoc:478
+#: website/content/en/releases/11.1R/relnotes.adoc:473
+#: website/content/en/releases/11.1R/relnotes.adoc:478
 #, no-wrap
 msgid "Boot Loader Changes"
 msgstr ""

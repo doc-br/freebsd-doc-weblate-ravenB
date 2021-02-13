@@ -7,17 +7,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: delimited block .
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:1 documentation/content/en/books/fdp-primer/structure/chapter.adoc:148 documentation/content/en/books/fdp-primer/structure/chapter.adoc:192
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:1
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:148
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:192
 #, no-wrap
 msgid "---\n"
 msgstr ""
@@ -36,11 +38,6 @@ msgstr ""
 #: documentation/content/en/books/fdp-primer/structure/chapter.adoc:8
 #, no-wrap
 msgid "Documentation Directory Structure"
-msgstr ""
-
-#. type: delimited block .
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:24 documentation/content/en/books/fdp-primer/structure/chapter.adoc:214
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -88,35 +85,28 @@ msgid ""
 "share the same structure."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:42 documentation/content/en/books/fdp-primer/structure/chapter.adoc:62
-msgid "|=== | Directory | Usage"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:45
+#. type: Table
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:51
+#, no-wrap
 msgid ""
-"|[.filename]#documentation# |Contains all the articles and books in AsciiDoc "
+"| Directory\n"
+"| Usage\n"
+"\n"
+"|[.filename]#documentation#\n"
+"|Contains all the articles and books in AsciiDoc format. Contains "
+"subdirectories to further categorize the information by languages\n"
+"\n"
+"|[.filename]#shared#\n"
+"|Contains files that are not specific to the various translations of the "
+"documentation. Contains subdirectories to further categorize the information "
+"by languages and three files to store the authors, releases and mirrors "
+"information. This directory is shared between `documentation` and the "
+"`website`.\n"
+"\n"
+"|[.filename]#website#\n"
+"|Contains the link:https://www.FreeBSD.org[FreeBSD website] in AsciiDoc "
 "format. Contains subdirectories to further categorize the information by "
-"languages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:48
-msgid ""
-"|[.filename]#shared# |Contains files that are not specific to the various "
-"translations of the documentation. Contains subdirectories to further "
-"categorize the information by languages and three files to store the "
-"authors, releases and mirrors information. This directory is shared between "
-"`documentation` and the `website`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:52
-msgid ""
-"|[.filename]#website# |Contains the link:https://www.FreeBSD.org[FreeBSD "
-"website] in AsciiDoc format. Contains subdirectories to further categorize "
-"the information by languages.  |==="
+"languages. \n"
 msgstr ""
 
 #. type: Title ==
@@ -134,79 +124,57 @@ msgid ""
 "structure]."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:66
+#. type: Table
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:93
+#, no-wrap
 msgid ""
-"|[.filename]#archetypes# |Contain templates to create new articles, books "
-"and webpages. For more information take a look "
-"link:https://gohugo.io/content-management/archetypes/[here]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:69
-msgid ""
-"|[.filename]#config# |Contain the Hugo configuration files. One main file "
-"and one file per language. For more information take a look "
-"link:https://gohugo.io/getting-started/configuration/[here]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:72
-msgid ""
-"|[.filename]#content# |Contain the books, articles and webpages. One "
-"directory exists for each available translation of the documentation, for "
-"example `en` and `zh_TW`."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:75
-msgid ""
-"| [.filename]#data# | Contain custom data for build the website in "
+"| Directory\n"
+"| Usage\n"
+"\n"
+"\n"
+"|[.filename]#archetypes#\n"
+"|Contain templates to create new articles, books and webpages. For more "
+"information take a look "
+"link:https://gohugo.io/content-management/archetypes/[here].\n"
+"\n"
+"|[.filename]#config#\n"
+"|Contain the Hugo configuration files. One main file and one file per "
+"language. For more information take a look "
+"link:https://gohugo.io/getting-started/configuration/[here].\n"
+"\n"
+"|[.filename]#content#\n"
+"|Contain the books, articles and webpages. One directory exists for each "
+"available translation of the documentation, for example `en` and `zh_TW`. \n"
+"\n"
+"| [.filename]#data#\n"
+"| Contain custom data for build the website in "
 "link:https://en.wikipedia.org/wiki/TOML[TOML] format. This directory is used "
 "to store the events, news, press, etc. For more information take a look "
-"link:https://gohugo.io/templates/data-templates/[here]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:78
-msgid ""
-"| [.filename]#static# | Contain static assets. Images, security advisories, "
-"the pgpkeys, etc. For more information take a look "
-"link:https://gohugo.io/content-management/static-files/[here]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:81
-msgid ""
-"| [.filename]#themes# | Contain the templates in the form of `.html` files "
-"that specify how the website looks. For more information take a look "
-"link:https://gohugo.io/templates/[here]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:84
-msgid ""
-"| [.filename]#tools# | Contain tools used to enhance the documentation "
-"build. For example to generate the Table of Contents of the books, etc."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:87
-msgid "| [.filename]#beastie.png# | This image don't need an introduction ;)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:90
-msgid ""
-"| [.filename]#LICENSE# | License of the documentation, shared and "
-"website. BSD 2-Clause License."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:94
-msgid ""
-"| [.filename]#Makefile# | The [.filename]#Makefile# defines the build "
-"process of the documentation and the website.  |==="
+"link:https://gohugo.io/templates/data-templates/[here].\n"
+"\n"
+"| [.filename]#static#\n"
+"| Contain static assets. Images, security advisories, the pgpkeys, etc. For "
+"more information take a look "
+"link:https://gohugo.io/content-management/static-files/[here].\n"
+"\n"
+"| [.filename]#themes#\n"
+"| Contain the templates in the form of `.html` files that specify how the "
+"website looks. For more information take a look "
+"link:https://gohugo.io/templates/[here].\n"
+"\n"
+"| [.filename]#tools#\n"
+"| Contain tools used to enhance the documentation build. For example to "
+"generate the Table of Contents of the books, etc.\n"
+"\n"
+"| [.filename]#beastie.png#\n"
+"| This image don't need an introduction ;)\n"
+"\n"
+"| [.filename]#LICENSE#\n"
+"| License of the documentation, shared and website. BSD 2-Clause License.\n"
+"\n"
+"| [.filename]#Makefile#\n"
+"| The [.filename]#Makefile# defines the build process of the documentation "
+"and the website.\n"
 msgstr ""
 
 #. type: Title ==
@@ -243,7 +211,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:108 documentation/content/en/books/fdp-primer/structure/chapter.adoc:179
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:108
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:179
 #, no-wrap
 msgid "Physical Organization"
 msgstr ""
@@ -256,7 +225,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:113 documentation/content/en/books/fdp-primer/structure/chapter.adoc:184
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:113
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:184
 #, no-wrap
 msgid "_index.adoc"
 msgstr ""
@@ -470,6 +440,11 @@ msgstr ""
 #. type: delimited block .
 #: documentation/content/en/books/fdp-primer/structure/chapter.adoc:212
 msgid "'''"
+msgstr ""
+
+#. type: delimited block .
+#: documentation/content/en/books/fdp-primer/structure/chapter.adoc:214
+msgid "toc::[]"
 msgstr ""
 
 #. type: delimited block .

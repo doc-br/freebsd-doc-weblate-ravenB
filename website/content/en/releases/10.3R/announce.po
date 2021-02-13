@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -323,7 +323,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/10.3R/announce.adoc:83 website/content/en/releases/10.3R/announce.adoc:94 website/content/en/releases/10.3R/announce.adoc:107
+#: website/content/en/releases/10.3R/announce.adoc:83
+#: website/content/en/releases/10.3R/announce.adoc:94
+#: website/content/en/releases/10.3R/announce.adoc:107
 msgid "Be careful to make sure you get the target (of=) correct."
 msgstr ""
 
@@ -621,21 +623,24 @@ msgstr ""
 msgid "The release engineering team for {{% param thisRelease %}}-RELEASE includes:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/10.3R/announce.adoc:212
+#. type: Table
+#: website/content/en/releases/10.3R/announce.adoc:211
+#, no-wrap
 msgid ""
-"|=== |Marius Strobl <marius@FreeBSD.org> |Release Engineering Deputy Lead, "
-"{{% param thisRelease %}}-rELEASE release Engineer |Glen Barber "
-"<gjb@FreeBSD.org> |Release Engineering Lead |Konstantin Belousov "
-"<kib@FreeBSD.org> |Release Engineering |Baptiste Daroussin "
-"<bapt@FreeBSD.org> |Package Building |Bryan Drewery <bdrewery@FreeBSD.org> "
-"|Package Building |Marc Fonvieille <blackend@FreeBSD.org> |Release "
-"Engineering, Documentation |Xin Li <delphij@FreeBSD.org> |Release "
-"Engineering, Security Officer |remko Lodder <remko@FreeBSD.org> |Security "
-"Team Liaison |Hiroki Sato <hrs@FreeBSD.org> |Release Engineering, "
-"Documentation |Gleb Smirnoff <glebius@FreeBSD.org> |Release Engineering, "
-"Security Officer Deputy |robert Watson <rwatson@FreeBSD.org> |Release "
-"Engineering |==="
+"|Marius Strobl <marius@FreeBSD.org> |Release Engineering Deputy Lead, {{% "
+"param thisRelease %}}-rELEASE release Engineer\n"
+"|Glen Barber <gjb@FreeBSD.org> |Release Engineering Lead\n"
+"|Konstantin Belousov <kib@FreeBSD.org> |Release Engineering\n"
+"|Baptiste Daroussin <bapt@FreeBSD.org> |Package Building\n"
+"|Bryan Drewery <bdrewery@FreeBSD.org> |Package Building\n"
+"|Marc Fonvieille <blackend@FreeBSD.org> |Release Engineering, "
+"Documentation\n"
+"|Xin Li <delphij@FreeBSD.org> |Release Engineering, Security Officer\n"
+"|remko Lodder <remko@FreeBSD.org> |Security Team Liaison\n"
+"|Hiroki Sato <hrs@FreeBSD.org> |Release Engineering, Documentation\n"
+"|Gleb Smirnoff <glebius@FreeBSD.org> |Release Engineering, Security Officer "
+"Deputy\n"
+"|robert Watson <rwatson@FreeBSD.org> |Release Engineering\n"
 msgstr ""
 
 #. type: Title ==
@@ -656,7 +661,8 @@ msgid "ISO Image Checksums"
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/10.3R/announce.adoc:219 website/content/en/releases/10.3R/announce.adoc:446
+#: website/content/en/releases/10.3R/announce.adoc:219
+#: website/content/en/releases/10.3R/announce.adoc:446
 #, no-wrap
 msgid "amd64 (x86_64):"
 msgstr ""
@@ -754,7 +760,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/10.3R/announce.adoc:267 website/content/en/releases/10.3R/announce.adoc:462
+#: website/content/en/releases/10.3R/announce.adoc:267
+#: website/content/en/releases/10.3R/announce.adoc:462
 #, no-wrap
 msgid "i386 (x86):"
 msgstr ""

@@ -25,7 +25,6 @@
 
 
 ALL_RESOURCES="documentation/content/en
-shared/en
 website/content/en"
 
 RESOURCES="${1:-$ALL_RESOURCES}"

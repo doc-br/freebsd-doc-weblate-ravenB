@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -55,52 +55,167 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/administration.adoc:21
+msgid "Project Management"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:22
+msgid "<<t-core, Core Team>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:23
+msgid "<<t-doceng, Documentation Engineering Team>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:24
+msgid "<<t-portmgr, Port Management Team>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/administration.adoc:25
-msgid ""
-"Project Management ** <<t-core, Core Team>> ** <<t-doceng, Documentation "
-"Engineering Team>> ** <<t-portmgr, Port Management Team>> ** "
-"<<t-ports-secteam, Ports Security Team>>"
+msgid "<<t-ports-secteam, Ports Security Team>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:26
+msgid "Release Engineering"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:27
+msgid "<<t-re, Primary Release Engineering Team>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/administration.adoc:28
-msgid ""
-"Release Engineering ** <<t-re, Primary Release Engineering Team>> ** "
-"<<t-re-builder, Builders Release Engineering Team>>"
+msgid "<<t-re-builder, Builders Release Engineering Team>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:29
+msgid "Teams"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:30
+msgid "<<t-donations, Donations Team>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:31
+msgid "<<t-secteam, Security Team>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/administration.adoc:32
-msgid ""
-"Teams ** <<t-donations, Donations Team>> ** <<t-secteam, Security Team>> ** "
-"<<t-vendor, Vendor Relations>>"
+msgid "<<t-vendor, Vendor Relations>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:33
+msgid "Secretaries"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:34
+msgid "<<t-core-secretary, Core Team Secretary>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:35
+msgid "<<t-doceng-secretary, Documentation Engineering Team Secretary>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/administration.adoc:36
-msgid ""
-"Secretaries ** <<t-core-secretary, Core Team Secretary>> ** "
-"<<t-doceng-secretary, Documentation Engineering Team Secretary>> ** "
-"<<t-portmgr-secretary, Port Management Team Secretary>>"
+msgid "<<t-portmgr-secretary, Port Management Team Secretary>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:37
+msgid "Internal Administration"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:38
+msgid "<<t-accounts, Accounts Team>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:39
+msgid "<<t-backups, Backup Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:40
+msgid "<<t-bugmeister, Bugmeisters>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:41
+msgid "<<t-clusteradm, Cluster Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:42
+msgid "<<t-dnsadm, DNS Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:43
+msgid "<<t-forum-admins, Forum Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:44
+msgid "<<t-github-automation, GitHub Repository Mirror>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:45
+msgid "<<t-jenkins-admin, Jenkins Continuous Integration Testing Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:46
+msgid "<<t-mirror-admin, FTP/WWW Mirror Site Coordinators>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:47
+msgid "<<t-phabric-admin, Phabricator Code Review Administration>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:48
+msgid "<<t-postmaster, Postmaster Team>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:49
+msgid "<<t-subversion, Subversion Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/administration.adoc:50
+msgid "<<t-webmaster, Webmaster Team>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/administration.adoc:51
-msgid ""
-"Internal Administration ** <<t-accounts, Accounts Team>> ** <<t-backups, "
-"Backup Administrators>> ** <<t-bugmeister, Bugmeisters>> ** <<t-clusteradm, "
-"Cluster Administrators>> ** <<t-dnsadm, DNS Administrators>> ** "
-"<<t-forum-admins, Forum Administrators>> ** <<t-github-automation, GitHub "
-"Repository Mirror>> ** <<t-jenkins-admin, Jenkins Continuous Integration "
-"Testing Administrators>> ** <<t-mirror-admin, FTP/WWW Mirror Site "
-"Coordinators>> ** <<t-phabric-admin, Phabricator Code Review "
-"Administration>> ** <<t-postmaster, Postmaster Team>> ** <<t-subversion, "
-"Subversion Administrators>> ** <<t-webmaster, Webmaster Team>> ** <<t-wiki, "
-"Wiki Admin Team>>"
+msgid "<<t-wiki, Wiki Admin Team>>"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:53 website/content/en/administration.adoc:97 website/content/en/administration.adoc:108 website/content/en/administration.adoc:133 website/content/en/administration.adoc:164 website/content/en/administration.adoc:187
+#: website/content/en/administration.adoc:53
+#: website/content/en/administration.adoc:97
+#: website/content/en/administration.adoc:108
+#: website/content/en/administration.adoc:133
+#: website/content/en/administration.adoc:164
+#: website/content/en/administration.adoc:187
 msgid "'''"
 msgstr ""
 
@@ -181,17 +296,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:75 website/content/en/administration.adoc:223
+#: website/content/en/administration.adoc:75
+#: website/content/en/administration.adoc:223
 msgid "{gjb}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:76 website/content/en/administration.adoc:247
+#: website/content/en/administration.adoc:76
+#: website/content/en/administration.adoc:247
 msgid "{wblock}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:77 website/content/en/administration.adoc:118
+#: website/content/en/administration.adoc:77
+#: website/content/en/administration.adoc:118
 msgid "{blackend}"
 msgstr ""
 
@@ -206,7 +324,8 @@ msgid "{bcr}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:80 website/content/en/administration.adoc:121
+#: website/content/en/administration.adoc:80
+#: website/content/en/administration.adoc:121
 msgid "{hrs}"
 msgstr ""
 
@@ -268,7 +387,8 @@ msgid "{rene} (Secretary)"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:95 website/content/en/administration.adoc:271
+#: website/content/en/administration.adoc:95
+#: website/content/en/administration.adoc:271
 msgid "{swills}"
 msgstr ""
 
@@ -468,7 +588,9 @@ msgid "{markj}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:157 website/content/en/administration.adoc:226 website/content/en/administration.adoc:306
+#: website/content/en/administration.adoc:157
+#: website/content/en/administration.adoc:226
+#: website/content/en/administration.adoc:306
 msgid "{philip}"
 msgstr ""
 
@@ -505,7 +627,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:171 website/content/en/administration.adoc:288
+#: website/content/en/administration.adoc:171
+#: website/content/en/administration.adoc:288
 msgid "{bofh}"
 msgstr ""
 
@@ -606,22 +729,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:208 website/content/en/administration.adoc:289
+#: website/content/en/administration.adoc:208
+#: website/content/en/administration.adoc:289
 msgid "{eadler}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:209 website/content/en/administration.adoc:255
+#: website/content/en/administration.adoc:209
+#: website/content/en/administration.adoc:255
 msgid "{mva}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:210 website/content/en/administration.adoc:222 website/content/en/administration.adoc:332
+#: website/content/en/administration.adoc:210
+#: website/content/en/administration.adoc:222
+#: website/content/en/administration.adoc:332
 msgid "{gavin}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:211 website/content/en/administration.adoc:254 website/content/en/administration.adoc:334
+#: website/content/en/administration.adoc:211
+#: website/content/en/administration.adoc:254
+#: website/content/en/administration.adoc:334
 msgid "{koobs}"
 msgstr ""
 
@@ -643,17 +772,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:218 website/content/en/administration.adoc:287
+#: website/content/en/administration.adoc:218
+#: website/content/en/administration.adoc:287
 msgid "{allanjude}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:219 website/content/en/administration.adoc:265
+#: website/content/en/administration.adoc:219
+#: website/content/en/administration.adoc:265
 msgid "{bapt}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:220 website/content/en/administration.adoc:243 website/content/en/administration.adoc:266
+#: website/content/en/administration.adoc:220
+#: website/content/en/administration.adoc:243
+#: website/content/en/administration.adoc:266
 msgid "{brd}"
 msgstr ""
 
@@ -663,7 +796,9 @@ msgid "{dhw}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:224 website/content/en/administration.adoc:268 website/content/en/administration.adoc:292
+#: website/content/en/administration.adoc:224
+#: website/content/en/administration.adoc:268
+#: website/content/en/administration.adoc:292
 msgid "{lwhsu}"
 msgstr ""
 
@@ -862,7 +997,8 @@ msgid "{miwi}"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/administration.adoc:295 website/content/en/administration.adoc:307
+#: website/content/en/administration.adoc:295
+#: website/content/en/administration.adoc:307
 msgid "{pi}"
 msgstr ""
 

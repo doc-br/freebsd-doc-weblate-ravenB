@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,26 +47,6 @@ msgid "FreeBSD Architecture Handbook"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/_index.adoc:30
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/_index.adoc:38 documentation/content/en/books/arch-handbook/_index.adoc:48 documentation/content/en/books/arch-handbook/_index.adoc:58
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/_index.adoc:40
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/_index.adoc:50
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
 #: documentation/content/en/books/arch-handbook/_index.adoc:61
 msgid "Abstract"
 msgstr ""
@@ -93,11 +73,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/books/arch-handbook/_index.adoc:67
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/_index.adoc:69
-msgid "toc::[]"
 msgstr ""
 
 #.  Section one

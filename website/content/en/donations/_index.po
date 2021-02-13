@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -23,8 +23,8 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/donations/_index.adoc:5
-msgid "title: \"FreeBSD Donations Liaison\" sidenav: about ---"
+#: website/content/en/donations/_index.adoc:4
+msgid "title: \"FreeBSD Donations Liaison\" sidenav: about"
 msgstr ""
 
 #. type: Title =
@@ -339,12 +339,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/donations/_index.adoc:90 website/content/en/donations/_index.adoc:102
+#: website/content/en/donations/_index.adoc:90
+#: website/content/en/donations/_index.adoc:102
 msgid "Are you willing to ship this system?"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/donations/_index.adoc:91 website/content/en/donations/_index.adoc:103
+#: website/content/en/donations/_index.adoc:91
+#: website/content/en/donations/_index.adoc:103
 msgid ""
 "Your physical location. We try to make shipping as easy and inexpensive as "
 "possible."

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:8
 #, no-wrap
 msgid "Dos and Don'ts"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:33
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -194,47 +189,33 @@ msgid ""
 "complete list)."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:95
-msgid "|=== | Variable | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:98
-msgid "|`ARCH` |The architecture as returned by `uname -m` (for example, `i386`)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:101
+#. type: Table
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:113
+#, no-wrap
 msgid ""
-"|`OPSYS` |The operating system type, as returned by `uname -s` (for example, "
-"`FreeBSD`)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:104
-msgid ""
-"|`OSREL` |The release version of the operating system (for example, `2.1.5` "
-"or `2.2.7`)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:107
-msgid ""
-"|`OSVERSION` |The numeric version of the operating system; the same as "
-"<<versions,`{freebsd-version}`>>."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:110
-msgid "|`LOCALBASE` |The base of the \"local\" tree (for example, `/usr/local`)"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:114
-msgid ""
-"|`PREFIX` |Where the port installs itself (see <<porting-prefix,more on "
-"`PREFIX`>>).  |==="
+"| Variable\n"
+"| Description\n"
+"\n"
+"|`ARCH`\n"
+"|The architecture as returned by `uname -m` (for example, `i386`)\n"
+"\n"
+"|`OPSYS`\n"
+"|The operating system type, as returned by `uname -s` (for example, "
+"`FreeBSD`)\n"
+"\n"
+"|`OSREL`\n"
+"|The release version of the operating system (for example, `2.1.5` or "
+"`2.2.7`)\n"
+"\n"
+"|`OSVERSION`\n"
+"|The numeric version of the operating system; the same as "
+"<<versions,`{freebsd-version}`>>.\n"
+"\n"
+"|`LOCALBASE`\n"
+"|The base of the \"local\" tree (for example, `/usr/local`)\n"
+"\n"
+"|`PREFIX`\n"
+"|Where the port installs itself (see <<porting-prefix,more on `PREFIX`>>).\n"
 msgstr ""
 
 #. type: delimited block =
@@ -604,16 +585,30 @@ msgid "  For instance, use `BROKEN` when a port:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:281
-#, no-wrap
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:277
+msgid "does not compile"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:278
+msgid "fails its configuration or installation process"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:279
+msgid "installs files outside of [.filename]#${PREFIX}#"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:280
 msgid ""
-"** does not compile\n"
-"** fails its configuration or installation process\n"
-"** installs files outside of [.filename]#${PREFIX}#\n"
-"** does not remove all its files cleanly upon deinstall (however, it may be "
-"acceptable, and desirable, for the port to leave user-modified files "
-"behind)\n"
-"** has runtime issues on systems where it is supposed to run fine.\n"
+"does not remove all its files cleanly upon deinstall (however, it may be "
+"acceptable, and desirable, for the port to leave user-modified files behind)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:281
+msgid "has runtime issues on systems where it is supposed to run fine."
 msgstr ""
 
 #. type: Plain text
@@ -642,15 +637,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:288
-#, no-wrap
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:286
+msgid "does not work on the installed version of FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:287
 msgid ""
-"** does not work on the installed version of FreeBSD\n"
-"** has a distfile which may not be automatically fetched due to licensing "
-"restrictions\n"
-"** does not work with some other currently installed port (for instance, the "
+"has a distfile which may not be automatically fetched due to licensing "
+"restrictions"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/porters-handbook/porting-dads/chapter.adoc:288
+msgid ""
+"does not work with some other currently installed port (for instance, the "
 "port depends on package:www/apache20[] but package:www/apache22[] is "
-"installed)\n"
+"installed)"
 msgstr ""
 
 #. type: delimited block =

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -165,22 +165,42 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.1R/relnotes.adoc:37
+#: website/content/en/releases/9.1R/relnotes.adoc:33
+msgid "The man:bge[4] and brgphy(4) drivers have been improved:"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:34
 msgid ""
-"The man:bge[4] and brgphy(4) drivers have been improved: ** A bug which "
-"could prevent the DMA functionality from working correctly has been "
+"A bug which could prevent the DMA functionality from working correctly has "
+"been "
 "fixed. "
-"http://svn.freebsd.org/viewvc/base?view=revision&revision=229350[r229350] ** "
+"http://svn.freebsd.org/viewvc/base?view=revision&revision=229350[r229350]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:35
+msgid ""
 "It now works with PCI-X BCM 5704 controller that is connected to AMD-8131 "
 "PCI-X "
 "bridge. "
-"http://svn.freebsd.org/viewvc/base?view=revision&revision=233495[r233495] ** "
+"http://svn.freebsd.org/viewvc/base?view=revision&revision=233495[r233495]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:36
+msgid ""
 "It now supports the BCM 5720 and BCM 5720C PHY, and the BCM 57780 1000BASE-T "
 "media "
 "interface. "
 "http://svn.freebsd.org/viewvc/base?view=revision&revision=229357[r229357], "
 "http://svn.freebsd.org/viewvc/base?view=revision&revision=229867[r229867], "
-"http://svn.freebsd.org/viewvc/base?view=revision&revision=232134[r232134] ** "
+"http://svn.freebsd.org/viewvc/base?view=revision&revision=232134[r232134]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:37
+msgid ""
 "It now supports a man:loader[8] tunable `dev.bge.N.msi` to control the use "
 "of MSI. The default value is `1` "
 "(enabled). "
@@ -422,17 +442,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.1R/relnotes.adoc:66
+#: website/content/en/releases/9.1R/relnotes.adoc:62
+msgid "The FreeBSD NFS filesystem has been improved:"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:63
 msgid ""
-"The FreeBSD NFS filesystem has been improved: ** It now supports a timeout "
-"on positive name cache entries on the client side. A new mount option "
-"`nametimeo` has been added and set to `60` (in seconds) by "
+"It now supports a timeout on positive name cache entries on the client "
+"side. A new mount option `nametimeo` has been added and set to `60` (in "
+"seconds) by "
 "default. "
-"http://svn.freebsd.org/viewvc/base?view=revision&revision=233326[r233326] ** "
+"http://svn.freebsd.org/viewvc/base?view=revision&revision=233326[r233326]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:64
+msgid ""
 "A memory leak when a ZFS volume is exported via the FreeBSD NFS server has "
 "been "
 "fixed. "
-"http://svn.freebsd.org/viewvc/base?view=revision&revision=234740[r234740] ** "
+"http://svn.freebsd.org/viewvc/base?view=revision&revision=234740[r234740]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:65
+msgid ""
 "A bug has been fixed. When a process writes to an mmap-backed file on an NFS "
 "filesystem, flushing changes to the data could fail under some circumstances "
 "such as errors due to permission mismatch, and this failure could not "
@@ -441,7 +476,12 @@ msgid ""
 "the client side related to this issue. When this is set to `1`, the pages "
 "where a write operation failed are kept dirty. The default value is set to "
 "`0`. "
-"http://svn.freebsd.org/viewvc/base?view=revision&revision=233730[r233730] ** "
+"http://svn.freebsd.org/viewvc/base?view=revision&revision=233730[r233730]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:66
+msgid ""
 "The man:nfsv4[4] filesystem now supports a man:sysctl[8] variable "
 "`vfs.nfsd.disable_checkutf8`. This disables the check for UTF-8 compliance "
 "in the filenames. This is disabled by default. Note that enabling this may "
@@ -470,17 +510,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.1R/relnotes.adoc:73
+#: website/content/en/releases/9.1R/relnotes.adoc:69
 msgid ""
 "FreeBSD ZFS filesystem has been updated by merging improvements from illumos "
 "project. The following changes are made: "
 "http://svn.freebsd.org/viewvc/base?view=revision&revision=229578[r229578], "
-"http://svn.freebsd.org/viewvc/base?view=revision&revision=232328[r232328] ** "
-"New properties, `clones` and `written`, have been added.  ** The man:zfs[8] "
-"`send` command now reports an estimated size of the stream.  ** The "
-"man:zfs[8] `destroy` command now reports an estimate of the space which "
-"would be reclaimed, when `-n` flag is specified.  ** The man:zfs[8] `get` "
-"command now supports the `-t type` flag to specify the data type."
+"http://svn.freebsd.org/viewvc/base?view=revision&revision=232328[r232328]"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:70
+msgid "New properties, `clones` and `written`, have been added."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:71
+msgid "The man:zfs[8] `send` command now reports an estimated size of the stream."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:72
+msgid ""
+"The man:zfs[8] `destroy` command now reports an estimate of the space which "
+"would be reclaimed, when `-n` flag is specified."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/9.1R/relnotes.adoc:73
+msgid ""
+"The man:zfs[8] `get` command now supports the `-t type` flag to specify the "
+"data type."
 msgstr ""
 
 #. type: Plain text

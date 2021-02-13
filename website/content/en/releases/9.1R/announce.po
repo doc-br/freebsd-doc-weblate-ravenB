@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -511,20 +511,22 @@ msgstr ""
 msgid "The release engineering team for 9.1-RELEASE includes:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/9.1R/announce.adoc:142
+#. type: Table
+#: website/content/en/releases/9.1R/announce.adoc:141
+#, no-wrap
 msgid ""
-"|=== |Ken Smith <kensmith@FreeBSD.org> |Release Engineering, amd64, i386, "
-"sparc64 Release Building, Mirror Site Coordination |Robert Watson "
-"<rwatson@FreeBSD.org> |Release Engineering, Security |Konstantin Belousov "
-"<kib@FreeBSD.org> |Release Engineering |Marc Fonvieille "
-"<blackend@FreeBSD.org> |Release Engineering, Documentation |Josh Paetzel "
-"<jpaetzel@FreeBSD.org> |Release Engineering |Hiroki Sato <hrs@FreeBSD.org> "
-"|Release Engineering, Documentation |Bjoern Zeeb <bz@FreeBSD.org> |Release "
-"Engineering, Package Building |Marcel Moolenaar <marcel@FreeBSD.org> |ia64, "
-"powerpc Release Building |Nathan Whitehorn <nwhitehorn@FreeBSD.org> "
-"|powerpc64 Release Building |Simon Nielsen <simon@FreeBSD.org> |Security "
-"Officer |==="
+"|Ken Smith <kensmith@FreeBSD.org> |Release Engineering, amd64, i386, sparc64 "
+"Release Building, Mirror Site Coordination\n"
+"|Robert Watson <rwatson@FreeBSD.org> |Release Engineering, Security\n"
+"|Konstantin Belousov <kib@FreeBSD.org> |Release Engineering\n"
+"|Marc Fonvieille <blackend@FreeBSD.org> |Release Engineering, "
+"Documentation\n"
+"|Josh Paetzel <jpaetzel@FreeBSD.org> |Release Engineering\n"
+"|Hiroki Sato <hrs@FreeBSD.org> |Release Engineering, Documentation\n"
+"|Bjoern Zeeb <bz@FreeBSD.org> |Release Engineering, Package Building\n"
+"|Marcel Moolenaar <marcel@FreeBSD.org> |ia64, powerpc Release Building\n"
+"|Nathan Whitehorn <nwhitehorn@FreeBSD.org> |powerpc64 Release Building\n"
+"|Simon Nielsen <simon@FreeBSD.org> |Security Officer\n"
 msgstr ""
 
 #. type: Title ==

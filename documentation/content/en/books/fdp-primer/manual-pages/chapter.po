@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -36,11 +36,6 @@ msgstr ""
 #: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:8
 #, no-wrap
 msgid "Manual Pages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:24
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -87,54 +82,40 @@ msgid ""
 "for a specific category of documentation:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:44
-msgid "|=== | Section Number | Category"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:48
-msgid "|1 |General Commands"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:51
-msgid "|2 |System Calls"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:54
-msgid "|3 |Library Functions"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:57
-msgid "|4 |Kernel Interfaces"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:60
-msgid "|5 |File Formats"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:63
-msgid "|6 |Games"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:66
-msgid "|7 |Miscellaneous"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:69
-msgid "|8 |System Manager"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:73
-msgid "|9 |Kernel Developer |==="
+#. type: Table
+#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:72
+#, no-wrap
+msgid ""
+"| Section Number\n"
+"| Category\n"
+"\n"
+"\n"
+"|1\n"
+"|General Commands\n"
+"\n"
+"|2\n"
+"|System Calls\n"
+"\n"
+"|3\n"
+"|Library Functions\n"
+"\n"
+"|4\n"
+"|Kernel Interfaces\n"
+"\n"
+"|5\n"
+"|File Formats\n"
+"\n"
+"|6\n"
+"|Games\n"
+"\n"
+"|7\n"
+"|Miscellaneous\n"
+"\n"
+"|8\n"
+"|System Manager\n"
+"\n"
+"|9\n"
+"|Kernel Developer\n"
 msgstr ""
 
 #. type: Title ==
@@ -185,69 +166,49 @@ msgid ""
 "the sections are:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:93
-msgid "|=== | Section Name | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:97
-msgid "|NAME |Name of the command"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:100
-msgid "|SYNOPSIS |Format of options and arguments"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:103
-msgid "|DESCRIPTION |Description of purpose and usage"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:106
-msgid "|ENVIRONMENT |Environment settings that affect operation"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:109
-msgid "|EXIT STATUS |Error codes returned on exit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:112
-msgid "|EXAMPLES |Examples of usage"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:115
-msgid "|COMPATIBILITY |Compatibility with other implementations"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:118
-msgid "|SEE ALSO |Cross-reference to related manual pages"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:121
-msgid "|STANDARDS |Compatibility with standards like POSIX"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:124
-msgid "|HISTORY |History of implementation"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:127
-msgid "|BUGS |Known bugs"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:131
-msgid "|AUTHORS |People who created the command or wrote the manual page.  |==="
+#. type: Table
+#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:130
+#, no-wrap
+msgid ""
+"| Section Name\n"
+"| Description\n"
+"\n"
+"\n"
+"|NAME\n"
+"|Name of the command\n"
+"\n"
+"|SYNOPSIS\n"
+"|Format of options and arguments\n"
+"\n"
+"|DESCRIPTION\n"
+"|Description of purpose and usage\n"
+"\n"
+"|ENVIRONMENT\n"
+"|Environment settings that affect operation\n"
+"\n"
+"|EXIT STATUS\n"
+"|Error codes returned on exit\n"
+"\n"
+"|EXAMPLES\n"
+"|Examples of usage\n"
+"\n"
+"|COMPATIBILITY\n"
+"|Compatibility with other implementations\n"
+"\n"
+"|SEE ALSO\n"
+"|Cross-reference to related manual pages\n"
+"\n"
+"|STANDARDS\n"
+"|Compatibility with standards like POSIX\n"
+"\n"
+"|HISTORY\n"
+"|History of implementation\n"
+"\n"
+"|BUGS\n"
+"|Known bugs\n"
+"\n"
+"|AUTHORS\n"
+"|People who created the command or wrote the manual page.\n"
 msgstr ""
 
 #. type: Plain text
@@ -522,43 +483,33 @@ msgstr ""
 msgid "Some macros are used to define logical blocks of a manual page."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:258
-msgid "|=== | Organizational Macro | Use"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:262
+#. type: Table
+#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:277
+#, no-wrap
 msgid ""
-"|`.Sh` |Section header. Followed by the name of the section, traditionally "
-"all upper case. Think of these as chapter titles."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:265
-msgid ""
-"|`.Ss` |Subsection header. Followed by the name of the subsection. Used to "
-"divide a `.Sh` section into subsections."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:268
-msgid "|`.Bl` |Begin list. Start a list of items."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:271
-msgid "|`.El` |End a list."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:274
-msgid "|`.Bd` |Begin display. Begin a special area of text, like an indented area."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:278
-msgid "|`.Ed` |End display.  |==="
+"| Organizational Macro\n"
+"| Use\n"
+"\n"
+"\n"
+"|`.Sh`\n"
+"|Section header. Followed by the name of the section, traditionally all "
+"upper case. Think of these as chapter titles.\n"
+"\n"
+"|`.Ss`\n"
+"|Subsection header. Followed by the name of the subsection. Used to divide a "
+"`.Sh` section into subsections.\n"
+"\n"
+"|`.Bl`\n"
+"|Begin list. Start a list of items.\n"
+"\n"
+"|`.El`\n"
+"|End a list.\n"
+"\n"
+"|`.Bd`\n"
+"|Begin display. Begin a special area of text, like an indented area.\n"
+"\n"
+"|`.Ed`\n"
+"|End display.\n"
 msgstr ""
 
 #. type: Title ====
@@ -572,22 +523,20 @@ msgstr ""
 msgid "Many macros are used to mark up inline text."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:289
-msgid "|=== | Inline Macro | Use"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:293
+#. type: Table
+#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:296
+#, no-wrap
 msgid ""
-"|`.Nm` |Name. Called with a name as a parameter on the first use, then used "
-"later without the parameter to display the name that has already been "
-"defined."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:297
-msgid "|`.Pa` |Path to a file. Used to mark up filenames and directory paths.  |==="
+"| Inline Macro\n"
+"| Use\n"
+"\n"
+"\n"
+"|`.Nm`\n"
+"|Name. Called with a name as a parameter on the first use, then used later "
+"without the parameter to display the name that has already been defined.\n"
+"\n"
+"|`.Pa`\n"
+"|Path to a file. Used to mark up filenames and directory paths.\n"
 msgstr ""
 
 #. type: Title ==
@@ -827,29 +776,25 @@ msgstr ""
 msgid "Some manual pages are suitable as in-depth examples."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:464
-msgid "|=== | Manual Page | Path to Source Location"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:468
-msgid "|man:cp[1] |[.filename]#/usr/src/bin/cp/cp.1#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:471
-msgid "|man:vt[4] |[.filename]#/usr/src/shared/man/man4/vt.4#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:474
-msgid "|man:crontab[5] |[.filename]#/usr/src/usr.sbin/cron/crontab/crontab.5#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:478
-msgid "|man:gpart[8] |[.filename]#/usr/src/sbin/geom/class/part/gpart.8# |==="
+#. type: Table
+#: documentation/content/en/books/fdp-primer/manual-pages/chapter.adoc:477
+#, no-wrap
+msgid ""
+"| Manual Page\n"
+"| Path to Source Location\n"
+"\n"
+"\n"
+"|man:cp[1]\n"
+"|[.filename]#/usr/src/bin/cp/cp.1#\n"
+"\n"
+"|man:vt[4]\n"
+"|[.filename]#/usr/src/shared/man/man4/vt.4#\n"
+"\n"
+"|man:crontab[5]\n"
+"|[.filename]#/usr/src/usr.sbin/cron/crontab/crontab.5#\n"
+"\n"
+"|man:gpart[8]\n"
+"|[.filename]#/usr/src/sbin/geom/class/part/gpart.8#\n"
 msgstr ""
 
 #. type: Title ==

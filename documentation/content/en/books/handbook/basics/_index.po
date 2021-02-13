@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/basics/_index.adoc:9
 #, no-wrap
 msgid "FreeBSD basics"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:27 documentation/content/en/books/handbook/basics/_index.adoc:31 documentation/content/en/books/handbook/basics/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -816,38 +791,27 @@ msgstr ""
 msgid "Utilities for Managing User Accounts"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:288
-msgid "|=== | Command | Summary"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:291
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:303
+#, no-wrap
 msgid ""
-"|man:adduser[8] |The recommended command-line application for adding new "
-"users."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:294
-msgid "|man:rmuser[8] |The recommended command-line application for removing users."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:297
-msgid "|man:chpass[1] |A flexible tool for changing user database information."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:300
-msgid "|man:passwd[1] |The command-line tool to change user passwords."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:304
-msgid ""
-"|man:pw[8] |A powerful and flexible tool for modifying all aspects of user "
-"accounts.  |==="
+"| Command\n"
+"| Summary\n"
+"\n"
+"|man:adduser[8]\n"
+"|The recommended command-line application for adding new users.\n"
+"\n"
+"|man:rmuser[8]\n"
+"|The recommended command-line application for removing users.\n"
+"\n"
+"|man:chpass[1]\n"
+"|A flexible tool for changing user database information.\n"
+"\n"
+"|man:passwd[1]\n"
+"|The command-line tool to change user passwords.\n"
+"\n"
+"|man:pw[8]\n"
+"|A powerful and flexible tool for modifying all aspects of user accounts.\n"
 msgstr ""
 
 #. type: Title ====
@@ -856,7 +820,7 @@ msgstr ""
 msgid "`adduser`"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/handbook/basics/_index.adoc:309
 msgid ""
 "The recommended program for adding new users is man:adduser[8]. When a new "
@@ -867,7 +831,7 @@ msgid ""
 "welcome message. This utility must be run as the superuser."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/handbook/basics/_index.adoc:311
 msgid ""
 "The man:adduser[8] utility is interactive and walks through the steps for "
@@ -1383,52 +1347,48 @@ msgstr ""
 msgid "UNIX(R) Permissions"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:574
-msgid "|=== | Value | Permission | Directory Listing"
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:606
+#, no-wrap
+msgid ""
+"| Value\n"
+"| Permission\n"
+"| Directory Listing\n"
+"\n"
+"|0\n"
+"|No read, no write, no execute\n"
+"|`---`\n"
+"\n"
+"|1\n"
+"|No read, no write, execute\n"
+"|`--x`\n"
+"\n"
+"|2\n"
+"|No read, write, no execute\n"
+"|`-w-`\n"
+"\n"
+"|3\n"
+"|No read, write, execute\n"
+"|`-wx`\n"
+"\n"
+"|4\n"
+"|Read, no write, no execute\n"
+"|`r--`\n"
+"\n"
+"|5\n"
+"|Read, no write, execute\n"
+"|`r-x`\n"
+"\n"
+"|6\n"
+"|Read, write, no execute\n"
+"|`rw-`\n"
+"\n"
+"|7\n"
+"|Read, write, execute\n"
+"|`rwx`\n"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:578
-msgid "|0 |No read, no write, no execute |`---`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:582
-msgid "|1 |No read, no write, execute |`--x`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:586
-msgid "|2 |No read, write, no execute |`-w-`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:590
-msgid "|3 |No read, write, execute |`-wx`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:594
-msgid "|4 |Read, no write, no execute |`r--`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:598
-msgid "|5 |Read, no write, execute |`r-x`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:602
-msgid "|6 |Read, write, no execute |`rw-`"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:607
-msgid "|7 |Read, write, execute |`rwx` |==="
-msgstr ""
-
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/handbook/basics/_index.adoc:609
 msgid ""
 "Use the `-l` argument to man:ls[1] to view a long directory listing that "
@@ -1515,69 +1475,61 @@ msgid ""
 "(who) (action) (permissions), where the following values are available:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:639
-msgid "|=== | Option | Letter | Represents"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:643
-msgid "|(who)  |u |User"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:647
-msgid "|(who)  |g |Group owner"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:651
-msgid "|(who)  |o |Other"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:655
-msgid "|(who)  |a |All (\"world\")"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:659
-msgid "|(action)  |+ |Adding permissions"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:663
-msgid "|(action)  |- |Removing permissions"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:667
-msgid "|(action)  |= |Explicitly set permissions"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:671
-msgid "|(permissions)  |r |Read"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:675
-msgid "|(permissions)  |w |Write"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:679
-msgid "|(permissions)  |x |Execute"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:683
-msgid "|(permissions)  |t |Sticky bit"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:688
-msgid "|(permissions)  |s |Set UID or GID |==="
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:687
+#, no-wrap
+msgid ""
+"| Option\n"
+"| Letter\n"
+"| Represents\n"
+"\n"
+"|(who)\n"
+"|u\n"
+"|User\n"
+"\n"
+"|(who)\n"
+"|g\n"
+"|Group owner\n"
+"\n"
+"|(who)\n"
+"|o\n"
+"|Other\n"
+"\n"
+"|(who)\n"
+"|a\n"
+"|All (\"world\")\n"
+"\n"
+"|(action)\n"
+"|+\n"
+"|Adding permissions\n"
+"\n"
+"|(action)\n"
+"|-\n"
+"|Removing permissions\n"
+"\n"
+"|(action)\n"
+"|=\n"
+"|Explicitly set permissions\n"
+"\n"
+"|(permissions)\n"
+"|r\n"
+"|Read\n"
+"\n"
+"|(permissions)\n"
+"|w\n"
+"|Write\n"
+"\n"
+"|(permissions)\n"
+"|x\n"
+"|Execute\n"
+"\n"
+"|(permissions)\n"
+"|t\n"
+"|Sticky bit\n"
+"\n"
+"|(permissions)\n"
+"|s\n"
+"|Set UID or GID\n"
 msgstr ""
 
 #. type: Plain text
@@ -1922,228 +1874,134 @@ msgid ""
 "common directories."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:845
-msgid "|=== | Directory | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:848
-msgid "|[.filename]#/# |Root directory of the file system."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:851
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:947
+#, no-wrap
 msgid ""
-"|[.filename]#/bin/# |User utilities fundamental to both single-user and "
-"multi-user environments."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:854
-msgid ""
-"|[.filename]#/boot/# |Programs and configuration files used during operating "
-"system bootstrap."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:857
-msgid ""
-"|[.filename]#/boot/defaults/# |Default boot configuration files. Refer to "
-"man:loader.conf[5] for details."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:860
-msgid "|[.filename]#/dev/# |Device nodes. Refer to man:intro[4] for details."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:863
-msgid "|[.filename]#/etc/# |System configuration files and scripts."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:866
-msgid ""
-"|[.filename]#/etc/defaults/# |Default system configuration files. Refer to "
-"man:rc[8] for details."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:869
-msgid ""
-"|[.filename]#/etc/mail/# |Configuration files for mail transport agents such "
-"as man:sendmail[8]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:872
-msgid ""
-"|[.filename]#/etc/periodic/# |Scripts that run daily, weekly, and monthly, "
-"via man:cron[8]. Refer to man:periodic[8] for details."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:875
-msgid "|[.filename]#/etc/ppp/# |man:ppp[8] configuration files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:878
-msgid ""
-"|[.filename]#/mnt/# |Empty directory commonly used by system administrators "
-"as a temporary mount point."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:881
-msgid ""
-"|[.filename]#/proc/# |Process file system. Refer to man:procfs[5], "
-"man:mount_procfs[8] for details."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:884
-msgid ""
-"|[.filename]#/rescue/# |Statically linked programs for emergency recovery as "
-"described in man:rescue[8]."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:887
-msgid "|[.filename]#/root/# |Home directory for the `root` account."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:890
-msgid ""
-"|[.filename]#/sbin/# |System programs and administration utilities "
-"fundamental to both single-user and multi-user environments."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:893
-msgid ""
-"|[.filename]#/tmp/# |Temporary files which are usually _not_ preserved "
-"across a system reboot. A memory-based file system is often mounted at "
-"[.filename]#/tmp#. This can be automated using the tmpmfs-related variables "
-"of man:rc.conf[5] or with an entry in [.filename]#/etc/fstab#; refer to "
-"man:mdmfs[8] for details."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:896
-msgid "|[.filename]#/usr/# |The majority of user utilities and applications."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:899
-msgid ""
-"|[.filename]#/usr/bin/# |Common utilities, programming tools, and "
-"applications."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:902
-msgid "|[.filename]#/usr/include/# |Standard C include files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:905
-msgid "|[.filename]#/usr/lib/# |Archive libraries."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:908
-msgid "|[.filename]#/usr/libdata/# |Miscellaneous utility data files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:911
-msgid ""
-"|[.filename]#/usr/libexec/# |System daemons and system utilities executed by "
-"other programs."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:914
-msgid ""
-"|[.filename]#/usr/local/# |Local executables and libraries. Also used as the "
-"default destination for the FreeBSD ports framework. Within "
-"[.filename]#/usr/local#, the general layout sketched out by man:hier[7] for "
-"[.filename]#/usr# should be used. Exceptions are the man directory, which is "
-"directly under [.filename]#/usr/local# rather than under "
-"[.filename]#/usr/local/share#, and the ports documentation is in "
-"[.filename]#share/doc/port#."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:917
-msgid ""
-"|[.filename]#/usr/obj/# |Architecture-specific target tree produced by "
-"building the [.filename]#/usr/src# tree."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:920
-msgid "|[.filename]#/usr/ports/# |The FreeBSD Ports Collection (optional)."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:923
-msgid ""
-"|[.filename]#/usr/sbin/# |System daemons and system utilities executed by "
-"users."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:926
-msgid "|[.filename]#/usr/shared/# |Architecture-independent files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:929
-msgid "|[.filename]#/usr/src/# |BSD and/or local source files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:932
-msgid ""
-"|[.filename]#/var/# |Multi-purpose log, temporary, transient, and spool "
-"files. A memory-based file system is sometimes mounted at "
-"[.filename]#/var#. This can be automated using the varmfs-related variables "
-"in man:rc.conf[5] or with an entry in [.filename]#/etc/fstab#; refer to "
-"man:mdmfs[8] for details."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:935
-msgid "|[.filename]#/var/log/# |Miscellaneous system log files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:938
-msgid "|[.filename]#/var/mail/# |User mailbox files."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:941
-msgid ""
-"|[.filename]#/var/spool/# |Miscellaneous printer and mail system spooling "
-"directories."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:944
-msgid ""
-"|[.filename]#/var/tmp/# |Temporary files which are usually preserved across "
-"a system reboot, unless [.filename]#/var# is a memory-based file system."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:948
-msgid "|[.filename]#/var/yp/# |NIS maps.  |==="
+"| Directory\n"
+"| Description\n"
+"\n"
+"|[.filename]#/#\n"
+"|Root directory of the file system.\n"
+"\n"
+"|[.filename]#/bin/#\n"
+"|User utilities fundamental to both single-user and multi-user "
+"environments.\n"
+"\n"
+"|[.filename]#/boot/#\n"
+"|Programs and configuration files used during operating system bootstrap.\n"
+"\n"
+"|[.filename]#/boot/defaults/#\n"
+"|Default boot configuration files. Refer to man:loader.conf[5] for "
+"details.\n"
+"\n"
+"|[.filename]#/dev/#\n"
+"|Device nodes. Refer to man:intro[4] for details.\n"
+"\n"
+"|[.filename]#/etc/#\n"
+"|System configuration files and scripts.\n"
+"\n"
+"|[.filename]#/etc/defaults/#\n"
+"|Default system configuration files. Refer to man:rc[8] for details.\n"
+"\n"
+"|[.filename]#/etc/mail/#\n"
+"|Configuration files for mail transport agents such as man:sendmail[8].\n"
+"\n"
+"|[.filename]#/etc/periodic/#\n"
+"|Scripts that run daily, weekly, and monthly, via man:cron[8]. Refer to "
+"man:periodic[8] for details.\n"
+"\n"
+"|[.filename]#/etc/ppp/#\n"
+"|man:ppp[8] configuration files.\n"
+"\n"
+"|[.filename]#/mnt/#\n"
+"|Empty directory commonly used by system administrators as a temporary mount "
+"point.\n"
+"\n"
+"|[.filename]#/proc/#\n"
+"|Process file system. Refer to man:procfs[5], man:mount_procfs[8] for "
+"details.\n"
+"\n"
+"|[.filename]#/rescue/#\n"
+"|Statically linked programs for emergency recovery as described in "
+"man:rescue[8].\n"
+"\n"
+"|[.filename]#/root/#\n"
+"|Home directory for the `root` account.\n"
+"\n"
+"|[.filename]#/sbin/#\n"
+"|System programs and administration utilities fundamental to both "
+"single-user and multi-user environments.\n"
+"\n"
+"|[.filename]#/tmp/#\n"
+"|Temporary files which are usually _not_ preserved across a system reboot. A "
+"memory-based file system is often mounted at [.filename]#/tmp#. This can be "
+"automated using the tmpmfs-related variables of man:rc.conf[5] or with an "
+"entry in [.filename]#/etc/fstab#; refer to man:mdmfs[8] for details.\n"
+"\n"
+"|[.filename]#/usr/#\n"
+"|The majority of user utilities and applications.\n"
+"\n"
+"|[.filename]#/usr/bin/#\n"
+"|Common utilities, programming tools, and applications.\n"
+"\n"
+"|[.filename]#/usr/include/#\n"
+"|Standard C include files.\n"
+"\n"
+"|[.filename]#/usr/lib/#\n"
+"|Archive libraries.\n"
+"\n"
+"|[.filename]#/usr/libdata/#\n"
+"|Miscellaneous utility data files.\n"
+"\n"
+"|[.filename]#/usr/libexec/#\n"
+"|System daemons and system utilities executed by other programs.\n"
+"\n"
+"|[.filename]#/usr/local/#\n"
+"|Local executables and libraries. Also used as the default destination for "
+"the FreeBSD ports framework. Within [.filename]#/usr/local#, the general "
+"layout sketched out by man:hier[7] for [.filename]#/usr# should be "
+"used. Exceptions are the man directory, which is directly under "
+"[.filename]#/usr/local# rather than under [.filename]#/usr/local/share#, and "
+"the ports documentation is in [.filename]#share/doc/port#.\n"
+"\n"
+"|[.filename]#/usr/obj/#\n"
+"|Architecture-specific target tree produced by building the "
+"[.filename]#/usr/src# tree.\n"
+"\n"
+"|[.filename]#/usr/ports/#\n"
+"|The FreeBSD Ports Collection (optional).\n"
+"\n"
+"|[.filename]#/usr/sbin/#\n"
+"|System daemons and system utilities executed by users.\n"
+"\n"
+"|[.filename]#/usr/shared/#\n"
+"|Architecture-independent files.\n"
+"\n"
+"|[.filename]#/usr/src/#\n"
+"|BSD and/or local source files.\n"
+"\n"
+"|[.filename]#/var/#\n"
+"|Multi-purpose log, temporary, transient, and spool files. A memory-based "
+"file system is sometimes mounted at [.filename]#/var#. This can be automated "
+"using the varmfs-related variables in man:rc.conf[5] or with an entry in "
+"[.filename]#/etc/fstab#; refer to man:mdmfs[8] for details.\n"
+"\n"
+"|[.filename]#/var/log/#\n"
+"|Miscellaneous system log files.\n"
+"\n"
+"|[.filename]#/var/mail/#\n"
+"|User mailbox files.\n"
+"\n"
+"|[.filename]#/var/spool/#\n"
+"|Miscellaneous printer and mail system spooling directories.\n"
+"\n"
+"|[.filename]#/var/tmp/#\n"
+"|Temporary files which are usually preserved across a system reboot, unless "
+"[.filename]#/var# is a memory-based file system.\n"
+"\n"
+"|[.filename]#/var/yp/#\n"
+"|NIS maps.\n"
 msgstr ""
 
 #. type: Title ==
@@ -2381,35 +2239,28 @@ msgstr ""
 msgid "Some partitions have certain conventions associated with them."
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1012
-msgid "|=== | Partition | Convention"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1015
-msgid "|`a` |Normally contains the root file system."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1018
-msgid "|`b` |Normally contains swap space."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1021
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:1024
+#, no-wrap
 msgid ""
-"|`c` |Normally the same size as the enclosing slice. This allows utilities "
-"that need to work on the entire slice, such as a bad block scanner, to work "
-"on the `c` partition. A file system would not normally be created on this "
-"partition."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1025
-msgid ""
-"|`d` |Partition `d` used to have a special meaning associated with it, "
-"although that is now gone and `d` may work as any normal partition.  |==="
+"| Partition\n"
+"| Convention\n"
+"\n"
+"|`a`\n"
+"|Normally contains the root file system.\n"
+"\n"
+"|`b`\n"
+"|Normally contains swap space.\n"
+"\n"
+"|`c`\n"
+"|Normally the same size as the enclosing slice. This allows utilities that "
+"need to work on the entire slice, such as a bad block scanner, to work on "
+"the `c` partition. A file system would not normally be created on this "
+"partition.\n"
+"\n"
+"|`d`\n"
+"|Partition `d` used to have a special meaning associated with it, although "
+"that is now gone and `d` may work as any normal partition.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2478,59 +2329,41 @@ msgstr ""
 msgid "Disk Device Names"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1046
-msgid "|=== | Drive Type | Drive Device Name"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1049
-msgid "|SATA and IDE hard drives |`ada` or `ad`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1052
-msgid "|SCSI hard drives and USB storage devices |`da`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1055
-msgid "|SATA and IDECD-ROM drives |`cd` or `acd`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1058
-msgid "|SCSICD-ROM drives |`cd`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1061
-msgid "|Floppy drives |`fd`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1064
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:1073
+#, no-wrap
 msgid ""
-"|Assorted non-standard CD-ROM drives |`mcd` for Mitsumi CD-ROM and `scd` for "
-"Sony CD-ROM devices"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1067
-msgid "|SCSI tape drives |`sa`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1070
-msgid "|IDE tape drives |`ast`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1074
-msgid ""
-"|RAID drives |Examples include `aacd` for Adaptec(R) AdvancedRAID, `mlxd` "
-"and `mlyd` for Mylex(R), `amrd` for AMI MegaRAID(R), `idad` for Compaq Smart "
-"RAID, `twed` for 3ware(R) RAID.  |==="
+"| Drive Type\n"
+"| Drive Device Name\n"
+"\n"
+"|SATA and IDE hard drives\n"
+"|`ada` or `ad`\n"
+"\n"
+"|SCSI hard drives and USB storage devices\n"
+"|`da`\n"
+"\n"
+"|SATA and IDECD-ROM drives\n"
+"|`cd` or `acd`\n"
+"\n"
+"|SCSICD-ROM drives\n"
+"|`cd`\n"
+"\n"
+"|Floppy drives\n"
+"|`fd`\n"
+"\n"
+"|Assorted non-standard CD-ROM drives\n"
+"|`mcd` for Mitsumi CD-ROM and `scd` for Sony CD-ROM devices\n"
+"\n"
+"|SCSI tape drives\n"
+"|`sa`\n"
+"\n"
+"|IDE tape drives\n"
+"|`ast`\n"
+"\n"
+"|RAID drives\n"
+"|Examples include `aacd` for Adaptec(R) AdvancedRAID, `mlxd` and `mlyd` for "
+"Mylex(R), `amrd` for AMI MegaRAID(R), `idad` for Compaq Smart RAID, `twed` "
+"for 3ware(R) RAID.\n"
 msgstr ""
 
 #. type: Block title
@@ -2539,23 +2372,20 @@ msgstr ""
 msgid "Sample Disk, Slice, and Partition Names"
 msgstr ""
 
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:1084
-msgid "|=== | Name | Meaning"
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:1087
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:1090
+#, no-wrap
 msgid ""
-"|`ada0s1a` |The first partition (`a`) on the first slice (`s1`) on the first "
-"SATA disk (`ada0`)."
-msgstr ""
-
-#. type: delimited block =
-#: documentation/content/en/books/handbook/basics/_index.adoc:1091
-msgid ""
-"|`da1s2e` |The fifth partition (`e`) on the second slice (`s2`) on the "
-"second SCSI disk (`da1`).  |==="
+"| Name\n"
+"| Meaning\n"
+"\n"
+"|`ada0s1a`\n"
+"|The first partition (`a`) on the first slice (`s1`) on the first SATA disk "
+"(`ada0`).\n"
+"\n"
+"|`da1s2e`\n"
+"|The fifth partition (`e`) on the second slice (`s2`) on the second SCSI "
+"disk (`da1`).\n"
 msgstr ""
 
 #. type: Block title
@@ -2564,7 +2394,7 @@ msgstr ""
 msgid "Conceptual Model of a Disk"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/handbook/basics/_index.adoc:1098
 msgid ""
 "This diagram shows FreeBSD's view of the first SATA disk attached to the "
@@ -2575,7 +2405,7 @@ msgid ""
 "partitions and a swap partition."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: documentation/content/en/books/handbook/basics/_index.adoc:1100
 msgid ""
 "The four partitions each hold a file system. Partition `a` is used for the "
@@ -2596,7 +2426,7 @@ msgstr ""
 msgid "Mounting and Unmounting File Systems"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/handbook/basics/_index.adoc:1108
 msgid ""
 "The file system is best visualized as a tree, rooted, as it were, at "
@@ -2605,7 +2435,7 @@ msgid ""
 "branches, such as [.filename]#/usr/local#, and so on."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/handbook/basics/_index.adoc:1110
 msgid ""
 "There are various reasons to house some of these directories on separate "
@@ -2615,7 +2445,7 @@ msgid ""
 "splitting [.filename]#/var# from [.filename]#/# is often favorable."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/handbook/basics/_index.adoc:1112
 msgid ""
 "Another common reason to contain certain directory trees on other file "
@@ -2631,7 +2461,7 @@ msgstr ""
 msgid "The [.filename]#fstab# File"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: documentation/content/en/books/handbook/basics/_index.adoc:1117
 msgid ""
 "During the boot process (crossref:boot[boot,The FreeBSD Booting Process]), "
@@ -3327,70 +3157,47 @@ msgstr ""
 msgid "Common Environment Variables"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1332
-msgid "|=== | Variable | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1335
-msgid "|`USER` |Current logged in user's name."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1338
-msgid "|`PATH` |Colon-separated list of directories to search for binaries."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1341
-msgid "|`DISPLAY` |Network name of the Xorg display to connect to, if available."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1344
-msgid "|`SHELL` |The current shell."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1347
+#. type: Table
+#: documentation/content/en/books/handbook/basics/_index.adoc:1365
+#, no-wrap
 msgid ""
-"|`TERM` |The name of the user's type of terminal. Used to determine the "
-"capabilities of the terminal."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1350
-msgid ""
-"|`TERMCAP` |Database entry of the terminal escape codes to perform various "
-"terminal functions."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1353
-msgid "|`OSTYPE` |Type of operating system."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1356
-msgid "|`MACHTYPE` |The system's CPU architecture."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1359
-msgid "|`EDITOR` |The user's preferred text editor."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1362
-msgid "|`PAGER` |The user's preferred utility for viewing text one page at a time."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/basics/_index.adoc:1366
-msgid ""
-"|`MANPATH` |Colon-separated list of directories to search for manual pages.  "
-"|==="
+"| Variable\n"
+"| Description\n"
+"\n"
+"|`USER`\n"
+"|Current logged in user's name.\n"
+"\n"
+"|`PATH`\n"
+"|Colon-separated list of directories to search for binaries.\n"
+"\n"
+"|`DISPLAY`\n"
+"|Network name of the Xorg display to connect to, if available.\n"
+"\n"
+"|`SHELL`\n"
+"|The current shell.\n"
+"\n"
+"|`TERM`\n"
+"|The name of the user's type of terminal. Used to determine the capabilities "
+"of the terminal.\n"
+"\n"
+"|`TERMCAP`\n"
+"|Database entry of the terminal escape codes to perform various terminal "
+"functions.\n"
+"\n"
+"|`OSTYPE`\n"
+"|Type of operating system.\n"
+"\n"
+"|`MACHTYPE`\n"
+"|The system's CPU architecture.\n"
+"\n"
+"|`EDITOR`\n"
+"|The user's preferred text editor.\n"
+"\n"
+"|`PAGER`\n"
+"|The user's preferred utility for viewing text one page at a time.\n"
+"\n"
+"|`MANPATH`\n"
+"|Colon-separated list of directories to search for manual pages.\n"
 msgstr ""
 
 #. type: Plain text

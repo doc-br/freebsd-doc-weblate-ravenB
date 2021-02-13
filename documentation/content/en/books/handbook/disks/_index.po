@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/disks/_index.adoc:9
 #, no-wrap
 msgid "Storage"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/disks/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/disks/_index.adoc:27 documentation/content/en/books/handbook/disks/_index.adoc:31 documentation/content/en/books/handbook/disks/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/disks/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/disks/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/disks/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -1540,7 +1515,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/disks/_index.adoc:749 documentation/content/en/books/handbook/disks/_index.adoc:948
+#: documentation/content/en/books/handbook/disks/_index.adoc:749
+#: documentation/content/en/books/handbook/disks/_index.adoc:948
 #, no-wrap
 msgid "hw.ata.atapi_dma=\"1\"\n"
 msgstr ""
@@ -1730,7 +1706,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/disks/_index.adoc:825 documentation/content/en/books/handbook/disks/_index.adoc:902
+#: documentation/content/en/books/handbook/disks/_index.adoc:825
+#: documentation/content/en/books/handbook/disks/_index.adoc:902
 #, no-wrap
 msgid "# dvd+rw-format /dev/cd0\n"
 msgstr ""
@@ -1772,7 +1749,8 @@ msgid "For example, to append data to a DVD+RW, use the following:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/disks/_index.adoc:843 documentation/content/en/books/handbook/disks/_index.adoc:920
+#: documentation/content/en/books/handbook/disks/_index.adoc:843
+#: documentation/content/en/books/handbook/disks/_index.adoc:920
 #, no-wrap
 msgid "# growisofs -M /dev/cd0 -J -R /path/to/nextdata\n"
 msgstr ""
@@ -1829,7 +1807,8 @@ msgid "To blank a DVD-RW in sequential mode:"
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/disks/_index.adoc:870 documentation/content/en/books/handbook/disks/_index.adoc:909
+#: documentation/content/en/books/handbook/disks/_index.adoc:870
+#: documentation/content/en/books/handbook/disks/_index.adoc:909
 #, no-wrap
 msgid "# dvd+rw-format -blank=full /dev/cd0\n"
 msgstr ""

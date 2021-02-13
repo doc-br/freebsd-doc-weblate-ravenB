@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/serialcomms/_index.adoc:9
 #, no-wrap
 msgid "Serial Communications"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:27 documentation/content/en/books/handbook/serialcomms/_index.adoc:31 documentation/content/en/books/handbook/serialcomms/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -258,49 +233,36 @@ msgstr ""
 msgid "RS-232C Signal Names"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:100
-msgid "|=== <| Acronyms <| Names"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:103
-msgid "|RD |Received Data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:106
-msgid "|TD |Transmitted Data"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:109
-msgid "|DTR |Data Terminal Ready"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:112
-msgid "|DSR |Data Set Ready"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:115
-msgid "|DCD |Data Carrier Detect"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:118
-msgid "|SG |Signal Ground"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:121
-msgid "|RTS |Request to Send"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:125
-msgid "|CTS |Clear to Send |==="
+#. type: Table
+#: documentation/content/en/books/handbook/serialcomms/_index.adoc:124
+#, no-wrap
+msgid ""
+"<| Acronyms\n"
+"<| Names\n"
+"\n"
+"|RD\n"
+"|Received Data\n"
+"\n"
+"|TD\n"
+"|Transmitted Data\n"
+"\n"
+"|DTR\n"
+"|Data Terminal Ready\n"
+"\n"
+"|DSR\n"
+"|Data Set Ready\n"
+"\n"
+"|DCD\n"
+"|Data Carrier Detect\n"
+"\n"
+"|SG\n"
+"|Signal Ground\n"
+"\n"
+"|RTS\n"
+"|Request to Send\n"
+"\n"
+"|CTS\n"
+"|Clear to Send\n"
 msgstr ""
 
 #. type: Block title
@@ -309,54 +271,69 @@ msgstr ""
 msgid "DB-25 to DB-25 Null-Modem Cable"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:135 documentation/content/en/books/handbook/serialcomms/_index.adoc:200 documentation/content/en/books/handbook/serialcomms/_index.adoc:265
-msgid "|=== <| Signal <| Pin # | <| Pin # <| Signal"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:141
-msgid "|SG |7 |connects to |7 |SG"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:147
-msgid "|TD |2 |connects to |3 |RD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:153
-msgid "|RD |3 |connects to |2 |TD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:159
-msgid "|RTS |4 |connects to |5 |CTS"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:165
-msgid "|CTS |5 |connects to |4 |RTS"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:171
-msgid "|DTR |20 |connects to |6 |DSR"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:177
-msgid "|DTR |20 |connects to |8 |DCD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:183 documentation/content/en/books/handbook/serialcomms/_index.adoc:301
-msgid "|DSR |6 |connects to |20 |DTR"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:190
-msgid "|DCD |8 |connects to |20 |DTR |==="
+#. type: Table
+#: documentation/content/en/books/handbook/serialcomms/_index.adoc:189
+#, no-wrap
+msgid ""
+"<| Signal\n"
+"<| Pin #\n"
+"| \n"
+"<| Pin #\n"
+"<| Signal\n"
+"\n"
+"|SG\n"
+"|7\n"
+"|connects to\n"
+"|7\n"
+"|SG\n"
+"\n"
+"|TD\n"
+"|2\n"
+"|connects to\n"
+"|3\n"
+"|RD\n"
+"\n"
+"|RD\n"
+"|3\n"
+"|connects to\n"
+"|2\n"
+"|TD\n"
+"\n"
+"|RTS\n"
+"|4\n"
+"|connects to\n"
+"|5\n"
+"|CTS\n"
+"\n"
+"|CTS\n"
+"|5\n"
+"|connects to\n"
+"|4\n"
+"|RTS\n"
+"\n"
+"|DTR\n"
+"|20\n"
+"|connects to\n"
+"|6\n"
+"|DSR\n"
+"\n"
+"|DTR\n"
+"|20\n"
+"|connects to\n"
+"|8\n"
+"|DCD\n"
+"\n"
+"|DSR\n"
+"|6\n"
+"|connects to\n"
+"|20\n"
+"|DTR\n"
+"\n"
+"|DCD\n"
+"|8\n"
+"|connects to\n"
+"|20\n"
+"|DTR\n"
 msgstr ""
 
 #. type: Block title
@@ -365,49 +342,69 @@ msgstr ""
 msgid "DB-9 to DB-9 Null-Modem Cable"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:206
-msgid "|RD |2 |connects to |3 |TD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:212
-msgid "|TD |3 |connects to |2 |RD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:218 documentation/content/en/books/handbook/serialcomms/_index.adoc:283
-msgid "|DTR |4 |connects to |6 |DSR"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:224
-msgid "|DTR |4 |connects to |1 |DCD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:230
-msgid "|SG |5 |connects to |5 |SG"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:236
-msgid "|DSR |6 |connects to |4 |DTR"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:242
-msgid "|DCD |1 |connects to |4 |DTR"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:248
-msgid "|RTS |7 |connects to |8 |CTS"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:255
-msgid "|CTS |8 |connects to |7 |RTS |==="
+#. type: Table
+#: documentation/content/en/books/handbook/serialcomms/_index.adoc:254
+#, no-wrap
+msgid ""
+"<| Signal\n"
+"<| Pin #\n"
+"| \n"
+"<| Pin #\n"
+"<| Signal\n"
+"\n"
+"|RD\n"
+"|2\n"
+"|connects to\n"
+"|3\n"
+"|TD\n"
+"\n"
+"|TD\n"
+"|3\n"
+"|connects to\n"
+"|2\n"
+"|RD\n"
+"\n"
+"|DTR\n"
+"|4\n"
+"|connects to\n"
+"|6\n"
+"|DSR\n"
+"\n"
+"|DTR\n"
+"|4\n"
+"|connects to\n"
+"|1\n"
+"|DCD\n"
+"\n"
+"|SG\n"
+"|5\n"
+"|connects to\n"
+"|5\n"
+"|SG\n"
+"\n"
+"|DSR\n"
+"|6\n"
+"|connects to\n"
+"|4\n"
+"|DTR\n"
+"\n"
+"|DCD\n"
+"|1\n"
+"|connects to\n"
+"|4\n"
+"|DTR\n"
+"\n"
+"|RTS\n"
+"|7\n"
+"|connects to\n"
+"|8\n"
+"|CTS\n"
+"\n"
+"|CTS\n"
+"|8\n"
+"|connects to\n"
+"|7\n"
+"|RTS\n"
 msgstr ""
 
 #. type: Block title
@@ -416,39 +413,69 @@ msgstr ""
 msgid "DB-9 to DB-25 Null-Modem Cable"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:271
-msgid "|RD |2 |connects to |2 |TD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:277
-msgid "|TD |3 |connects to |3 |RD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:289
-msgid "|DTR |4 |connects to |8 |DCD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:295
-msgid "|SG |5 |connects to |7 |SG"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:307
-msgid "|DCD |1 |connects to |20 |DTR"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:313
-msgid "|RTS |7 |connects to |5 |CTS"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:320
-msgid "|CTS |8 |connects to |4 |RTS |==="
+#. type: Table
+#: documentation/content/en/books/handbook/serialcomms/_index.adoc:319
+#, no-wrap
+msgid ""
+"<| Signal\n"
+"<| Pin #\n"
+"| \n"
+"<| Pin #\n"
+"<| Signal\n"
+"\n"
+"|RD\n"
+"|2\n"
+"|connects to\n"
+"|2\n"
+"|TD\n"
+"\n"
+"|TD\n"
+"|3\n"
+"|connects to\n"
+"|3\n"
+"|RD\n"
+"\n"
+"|DTR\n"
+"|4\n"
+"|connects to\n"
+"|6\n"
+"|DSR\n"
+"\n"
+"|DTR\n"
+"|4\n"
+"|connects to\n"
+"|8\n"
+"|DCD\n"
+"\n"
+"|SG\n"
+"|5\n"
+"|connects to\n"
+"|7\n"
+"|SG\n"
+"\n"
+"|DSR\n"
+"|6\n"
+"|connects to\n"
+"|20\n"
+"|DTR\n"
+"\n"
+"|DCD\n"
+"|1\n"
+"|connects to\n"
+"|20\n"
+"|DTR\n"
+"\n"
+"|RTS\n"
+"|7\n"
+"|connects to\n"
+"|5\n"
+"|CTS\n"
+"\n"
+"|CTS\n"
+"|8\n"
+"|connects to\n"
+"|4\n"
+"|RTS\n"
 msgstr ""
 
 #. type: delimited block =
@@ -910,7 +937,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:465 documentation/content/en/books/handbook/serialcomms/_index.adoc:595
+#: documentation/content/en/books/handbook/serialcomms/_index.adoc:465
+#: documentation/content/en/books/handbook/serialcomms/_index.adoc:595
 #, no-wrap
 msgid "# kill -HUP 1\n"
 msgstr ""
@@ -2111,56 +2139,51 @@ msgid ""
 "[.filename]#/boot.config#:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:908
-msgid "|=== <| Options <| Message goes to"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:911
-msgid "|none |internal console"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:914
-msgid "|`-h` |serial console"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:917
-msgid "|`-D` |serial and internal consoles"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:920
-msgid "|`-Dh` |serial and internal consoles"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:923
-msgid "|`-P`, keyboard present |internal console"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/serialcomms/_index.adoc:927
-msgid "|`-P`, keyboard absent |serial console |==="
+#. type: Table
+#: documentation/content/en/books/handbook/serialcomms/_index.adoc:926
+#, no-wrap
+msgid ""
+"<| Options\n"
+"<| Message goes to\n"
+"\n"
+"|none\n"
+"|internal console\n"
+"\n"
+"|`-h`\n"
+"|serial console\n"
+"\n"
+"|`-D`\n"
+"|serial and internal consoles\n"
+"\n"
+"|`-Dh`\n"
+"|serial and internal consoles\n"
+"\n"
+"|`-P`, keyboard present\n"
+"|internal console\n"
+"\n"
+"|`-P`, keyboard absent\n"
+"|serial console\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/serialcomms/_index.adoc:929
+#, no-wrap
 msgid ""
-"  After the message, there will be a small pause before the boot blocks "
+"\n"
+"After the message, there will be a small pause before the boot blocks "
 "continue loading the boot loader and before any further messages are printed "
 "to the console. Under normal circumstances, there is no need to interrupt "
 "the boot blocks, but one can do so in order to make sure things are set up "
-"correctly."
+"correctly.\n"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/books/handbook/serialcomms/_index.adoc:931
+#, no-wrap
 msgid ""
-"  Press any key, other than kbd:[Enter], at the console to interrupt the "
-"boot process. The boot blocks will then prompt for further action:"
+"\n"
+"Press any key, other than kbd:[Enter], at the console to interrupt the boot "
+"process. The boot blocks will then prompt for further action:\n"
 msgstr ""
 
 #. type: delimited block .

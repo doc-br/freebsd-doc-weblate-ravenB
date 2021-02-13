@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -38,11 +38,6 @@ msgstr ""
 msgid "Rosetta Stone"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:24
-msgid "toc::[]"
-msgstr ""
-
 #. type: Title ==
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:26
 #, no-wrap
@@ -62,78 +57,109 @@ msgstr ""
 msgid "Comparision between Docbook and AsciiDoc"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:34
-msgid "|=== |Language Feature |Docbook | AsciiDoc"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:38
-msgid "|*Bold* |<strong>bold</strong> |\\*bold*"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:42
-msgid "|*Italic* |<emphasis>Italic</emphasis> |\\_Italic_"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:46
-msgid "|*Monospace* |<literal>Monospace</literal> |\\`Monospace`"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:50
-msgid "|*Paragraph* |<para>This is a paragraph</para> |This is a paragraph"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:54
-msgid "|*Keycap* |<keycap>F11</keycap> |\\kbd:[F11]"
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:57
-msgid "|*Links* a|"
+#, no-wrap
+msgid ""
+"|Language Feature |Docbook | AsciiDoc\n"
+"\n"
+"|*Bold*\n"
+"|<strong>bold</strong>\n"
+"|\\*bold*\n"
+"\n"
+"|*Italic*\n"
+"|<emphasis>Italic</emphasis>\n"
+"|\\_Italic_\n"
+"\n"
+"|*Monospace*\n"
+"|<literal>Monospace</literal>\n"
+"|\\`Monospace`\n"
+"\n"
+"|*Paragraph*\n"
+"|<para>This is a paragraph</para>\n"
+"|This is a paragraph\n"
+"\n"
+"|*Keycap*\n"
+"|<keycap>F11</keycap>\n"
+"|\\kbd:[F11]\n"
+"\n"
+"|*Links*\n"
+"a|\n"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:58
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:63
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:70
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:77
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:80
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:85
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:98
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:106
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:124
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:134
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:146
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:154
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:163
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:171
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:184
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:199
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:220
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:224
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:230
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:237
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:260
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:277
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:284
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:289
+#, no-wrap
+msgid "----\n"
+msgstr ""
+
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:60
 #, no-wrap
 msgid ""
 "<link xlink:href=\"https://www.freebsd.org/where/\">Download "
 "FreeBSD</link>\n"
+"----\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:62 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:76 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:97 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:123 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:145 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:160 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:183 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:219 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:259 documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:283
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:62
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:76
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:97
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:123
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:145
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:160
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:183
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:219
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:259
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:283
 msgid "a|"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:65
 #, no-wrap
-msgid "link:https://www.freebsd.org/where/[Download FreeBSD]\n"
+msgid ""
+"link:https://www.freebsd.org/where/[Download FreeBSD]\n"
+"----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:69
 msgid "|*Sections* a|"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:74
 #, no-wrap
 msgid ""
 "  <sect1 xml:id=\"id\">\n"
 "    <title>Section 1</title>\n"
 "  </sect1>\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:79
-#, no-wrap
-msgid "[[id]]\n"
+"----\n"
 msgstr ""
 
 #. type: Title =
@@ -142,45 +168,46 @@ msgstr ""
 msgid "Section 1"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:84
 msgid "|*Unordered list* a|"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:90
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:95
 #, no-wrap
 msgid ""
 "<itemizedlist>\n"
 "  <listitem>\n"
 "    <para>When to build a custom kernel.</para>\n"
 "  </listitem>\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:95
-#, no-wrap
-msgid ""
+"\n"
 "  <listitem>\n"
 "    <para>How to take a hardware inventory.</para>\n"
 "  </listitem>\n"
 "</itemizedlist>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:100
+msgid "When to build a custom kernel."
+msgstr ""
+
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:101
 #, no-wrap
 msgid ""
-"* When to build a custom kernel.\n"
-"* How to take a hardware inventory.\n"
+"How to take a hardware inventory.\n"
+"----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:105
 msgid "|*Ordered list* a|"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:121
 #, no-wrap
 msgid ""
@@ -198,24 +225,36 @@ msgid ""
 "    <para>Four</para>\n"
 "  </listitem>\n"
 "</orderedlist>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:126
+msgid "One"
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:127
+msgid "Two"
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:128
+msgid "Three"
+msgstr ""
+
+#. type: Title -
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:129
 #, no-wrap
-msgid ""
-". One\n"
-". Two\n"
-". Three\n"
-". Four\n"
+msgid "Four"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:133
 msgid "|*Variable list* a|"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:143
 #, no-wrap
 msgid ""
@@ -227,102 +266,100 @@ msgid ""
 "    </listitem>\n"
 "  </varlistentry>\n"
 "</variablelist>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
+#. type: Labeled list
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:147
+#, no-wrap
+msgid "amd64"
+msgstr ""
+
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:149
 #, no-wrap
 msgid ""
-"amd64::\n"
 "This is the most common desktop...\n"
+"----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:153
 msgid "|*Source code* a|"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:158
 #, no-wrap
 msgid ""
 "<screen>\n"
 "  &prompt.root; <userinput>mkdir -p /var/spool/lpd/lp</userinput>\n"
 "</screen>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block .
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:166
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:162
+msgid "...."
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:165
 #, no-wrap
 msgid ""
-"[source,bash]\n"
-"----\n"
 "# mkdir -p /var/spool/lpd/lp\n"
 "----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:170
-msgid "|*Literal block* a|"
+msgid "....  |*Literal block* a|"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:175
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:181
 #, no-wrap
 msgid ""
 "<programlisting>\n"
 "include GENERIC\n"
 "ident MYKERNEL\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:181
-#, no-wrap
-msgid ""
+"\n"
 "options         IPFIREWALL\n"
 "options         DUMMYNET\n"
 "options         IPFIREWALL_DEFAULT_TO_ACCEPT\n"
 "options         IPDIVERT\n"
 "</programlisting>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:188
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:194
 #, no-wrap
 msgid ""
 "....\n"
 "include GENERIC\n"
 "ident MYKERNEL\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:194
-#, no-wrap
-msgid ""
+"\n"
 "options         IPFIREWALL\n"
 "options         DUMMYNET\n"
 "options         IPFIREWALL_DEFAULT_TO_ACCEPT\n"
 "options         IPDIVERT\n"
 "....\n"
+"----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:198
 msgid "|*Images* a|"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:202
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:217
 #, no-wrap
 msgid ""
 "<figure xml:id=\"bsdinstall-newboot-loader-menu\">\n"
 "  <title>FreeBSD Boot Loader Menu</title>\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:217
-#, no-wrap
-msgid ""
+"\n"
 "  <mediaobject>\n"
 "    <imageobject>\n"
 "      <imagedata fileref=\"bsdinstall/bsdinstall-newboot-loader-menu\"/>\n"
@@ -338,48 +375,53 @@ msgid ""
 "    </textobject>\n"
 "  </mediaobject>\n"
 "</figure>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:224
+#. type: Block title
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:222
 #, no-wrap
-msgid ""
-"[[bsdinstall-newboot-loader-menu]]\n"
-".FreeBSD Boot Loader Menu\n"
-"image::bsdinstall/bsdinstall-newboot-loader-menu[The FreeBSD loader menu, "
-"with options 1-6 to boot multi-user, boot single user, escape to loader "
-"prompt, reboot, select a kernel to load, and select boot options]\n"
+msgid "FreeBSD Boot Loader Menu"
 msgstr ""
 
-#. type: Plain text
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:223
+#, no-wrap
+msgid "The FreeBSD loader menu"
+msgstr ""
+
+#. type: Target for macro image
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:223
+#, no-wrap
+msgid "bsdinstall/bsdinstall-newboot-loader-menu"
+msgstr ""
+
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:229
 msgid "|*Includes* |n/a a|"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:232
 #, no-wrap
-msgid "\\include::chapter.adoc[]\n"
+msgid ""
+"\\include::chapter.adoc[]\n"
+"----\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:236
 msgid "|*Tables* a|"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:240
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:257
 #, no-wrap
 msgid ""
 "<table xml:id=\"partition-schemes\" frame=\"none\" rowsep=\"1\" "
 "pgwide=\"1\">\n"
 "  <title>Partitioning Schemes</title>\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:248
-#, no-wrap
-msgid ""
+"\n"
 "  <tgroup cols=\"2\" align=\"left\">\n"
 "    <thead>\n"
 "      <row>\n"
@@ -387,12 +429,7 @@ msgid ""
 "        <entry align=\"left\">Description</entry>\n"
 "      </row>\n"
 "    </thead>\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:257
-#, no-wrap
-msgid ""
+"\n"
 "    <tbody>\n"
 "      <row>\n"
 "        <entry>APM</entry>\n"
@@ -401,59 +438,55 @@ msgid ""
 "    </tbody>\n"
 "  </tgroup>\n"
 "</table>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:267
+#. type: Block title
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:262
+#, no-wrap
+msgid "Partitioning Schemes"
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:272
 #, no-wrap
 msgid ""
-"[[partition-schemes]]\n"
-".Partitioning Schemes\n"
-"[cols=\"1,1\", frame=\"none\", options=\"header\"]\n"
 "\\|===\n"
 "\\| Abbreviation\n"
 "\\| Description\n"
-msgstr ""
-
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:270
-#, no-wrap
-msgid ""
+"\n"
 "\\|APM\n"
 "\\|Apple Partition Map, used by PowerPC(R).\n"
+"\n"
+"\\|===\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:272
-#, no-wrap
-msgid "\\|===\n"
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:276
 msgid "|*Admonitions* a|"
 msgstr ""
 
-#. type: delimited block -
+#. type: Table
 #: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:281
 #, no-wrap
 msgid ""
 "<tip>\n"
 "  <para>This is a tip</para>\n"
 "</tip>\n"
+"----\n"
 msgstr ""
 
-#. type: delimited block -
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:289
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:286
+#, no-wrap
+msgid "====\n"
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:288
 #, no-wrap
 msgid ""
-"[TIP]\n"
-"====\n"
 "This is a tip\n"
 "====\n"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/rosetta/chapter.adoc:291
-msgid "|==="
 msgstr ""

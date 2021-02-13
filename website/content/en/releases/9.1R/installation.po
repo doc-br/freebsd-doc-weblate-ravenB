@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/9.1R/installation.adoc:12 website/content/en/releases/9.1R/installation.adoc:19 website/content/en/releases/9.1R/installation.adoc:26 website/content/en/releases/9.1R/installation.adoc:34
+#: website/content/en/releases/9.1R/installation.adoc:12
+#: website/content/en/releases/9.1R/installation.adoc:19
+#: website/content/en/releases/9.1R/installation.adoc:26
+#: website/content/en/releases/9.1R/installation.adoc:34
 msgid "'''''"
 msgstr ""
 
@@ -177,7 +180,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: website/content/en/releases/9.1R/installation.adoc:63 website/content/en/releases/9.1R/installation.adoc:77 website/content/en/releases/9.1R/installation.adoc:86
+#: website/content/en/releases/9.1R/installation.adoc:63
+#: website/content/en/releases/9.1R/installation.adoc:77
+#: website/content/en/releases/9.1R/installation.adoc:86
 #, no-wrap
 msgid "# freebsd-update install\n"
 msgstr ""
@@ -190,7 +195,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: website/content/en/releases/9.1R/installation.adoc:70 website/content/en/releases/9.1R/installation.adoc:93
+#: website/content/en/releases/9.1R/installation.adoc:70
+#: website/content/en/releases/9.1R/installation.adoc:93
 #, no-wrap
 msgid "# shutdown -r now\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,29 +59,68 @@ msgid "Table of Contents"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:17
+msgid "<<intro,Introduction>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:18
+msgid "<<about,About FreeBSD>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/10.4R/readme.adoc:19
-msgid ""
-"<<intro,Introduction>> ** <<about,About FreeBSD>> ** <<audience,Target "
-"Audience>>"
+msgid "<<audience,Target Audience>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:20
+msgid "<<obtain,Obtaining FreeBSD>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:21
+msgid "<<cdromdvd,CDROM and DVD>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/readme.adoc:22
-msgid "<<obtain,Obtaining FreeBSD>> ** <<cdromdvd,CDROM and DVD>> ** <<ftp,FTP>>"
+msgid "<<ftp,FTP>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:23
+msgid "<<contacting,Contacting the FreeBSD Project>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:24
+msgid "<<emailmailinglists,Email and Mailing Lists>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/readme.adoc:25
-msgid ""
-"<<contacting,Contacting the FreeBSD Project>> ** <<emailmailinglists,Email "
-"and Mailing Lists>> ** <<pr,Submitting Problem Reports>>"
+msgid "<<pr,Submitting Problem Reports>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:26
+msgid "<<seealso,Further Reading>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:27
+msgid "<<release-docs,Release Documentation>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/10.4R/readme.adoc:28
+msgid "<<manpages,Manual Pages>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/10.4R/readme.adoc:29
-msgid ""
-"<<seealso,Further Reading>> ** <<release-docs,Release Documentation>> ** "
-"<<manpages,Manual Pages>> ** <<booksarticles,Books and Articles>>"
+msgid "<<booksarticles,Books and Articles>>"
 msgstr ""
 
 #. type: Plain text

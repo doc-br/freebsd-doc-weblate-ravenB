@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,22 +304,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:134 documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:155 documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:196
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:134
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:155
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:196
 msgid "And this would be rendered as."
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:136 documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:157
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:136
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:157
 msgid "First item"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:138
-msgid "Second item ** Subsecond item"
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:137
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:158
+msgid "Second item"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:139 documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:160
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:138
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:159
+msgid "Subsecond item"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:139
+#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:160
 msgid "Third item"
 msgstr ""
 
@@ -347,16 +358,6 @@ msgid ""
 ". Second item\n"
 ".. Subsecond item\n"
 ". Third item\n"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:158
-msgid "Second item"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/fdp-primer/asciidoctor-primer/chapter.adoc:159
-msgid "Subsecond item"
 msgstr ""
 
 #. type: Title ==

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,31 +37,6 @@ msgstr ""
 #: documentation/content/en/books/handbook/multimedia/_index.adoc:9
 #, no-wrap
 msgid "Multimedia"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:25
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:27 documentation/content/en/books/handbook/multimedia/_index.adoc:31 documentation/content/en/books/handbook/multimedia/_index.adoc:35
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:29
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:33
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:43
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -539,54 +514,34 @@ msgstr ""
 msgid "Common Error Messages"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:249
-msgid "|=== | Error | Solution"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:252
-msgid "|`sb_dspwr(XX) timed out` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:254
-msgid "The I/O port is not set correctly."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:257
-msgid "|`bad irq XX` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:259
+#. type: Table
+#: documentation/content/en/books/handbook/multimedia/_index.adoc:269
+#, no-wrap
 msgid ""
+"| Error\n"
+"| Solution\n"
+"\n"
+"|`sb_dspwr(XX) timed out`\n"
+"|\n"
+"\n"
+"The I/O port is not set correctly.\n"
+"\n"
+"|`bad irq XX`\n"
+"|\n"
+"\n"
 "The IRQ is set incorrectly. Make sure that the set IRQ and the sound IRQ are "
-"the same."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:262
-msgid "|`xxx: gus pcm not attached, out of memory` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:264
-msgid "There is not enough available memory to use the device."
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:267
-msgid "|`xxx: can't open /dev/dsp!` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:270
-msgid ""
+"the same.\n"
+"\n"
+"|`xxx: gus pcm not attached, out of memory`\n"
+"|\n"
+"\n"
+"There is not enough available memory to use the device.\n"
+"\n"
+"|`xxx: can't open /dev/dsp!`\n"
+"|\n"
+"\n"
 "Type `fstat \\| grep` dsp to check if another application is holding the "
-"device open. Noteworthy troublemakers are esound and KDE's sound support.  "
-"|==="
+"device open. Noteworthy troublemakers are esound and KDE's sound support.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2198,7 +2153,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/handbook/multimedia/_index.adoc:979 documentation/content/en/books/handbook/multimedia/_index.adoc:1007
+#: documentation/content/en/books/handbook/multimedia/_index.adoc:979
+#: documentation/content/en/books/handbook/multimedia/_index.adoc:1007
 #, no-wrap
 msgid ""
 "# scanimage -L\n"

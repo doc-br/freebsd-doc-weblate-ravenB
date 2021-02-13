@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,11 +62,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/pam/_index.adoc:26
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:28
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -533,14 +528,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:175
-#, no-wrap
+#: documentation/content/en/articles/pam/_index.adoc:174
 msgid ""
-"** man:pam_authenticate[3] authenticates the applicant, usually by "
-"requesting an authentication token and comparing it with a value stored in a "
-"database or obtained from an authentication server.\n"
-"** man:pam_setcred[3] establishes account credentials such as user ID, group "
-"membership and resource limits.\n"
+"man:pam_authenticate[3] authenticates the applicant, usually by requesting "
+"an authentication token and comparing it with a value stored in a database "
+"or obtained from an authentication server."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/pam/_index.adoc:175
+msgid ""
+"man:pam_setcred[3] establishes account credentials such as user ID, group "
+"membership and resource limits."
 msgstr ""
 
 #. type: Labeled list
@@ -559,8 +558,7 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/pam/_index.adoc:180
-#, no-wrap
-msgid "** man:pam_acct_mgmt[3] verifies that the requested account is available.\n"
+msgid "man:pam_acct_mgmt[3] verifies that the requested account is available."
 msgstr ""
 
 #. type: Labeled list
@@ -577,15 +575,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:186
-#, no-wrap
+#: documentation/content/en/articles/pam/_index.adoc:185
 msgid ""
-"** man:pam_open_session[3] performs tasks associated with session set-up: "
-"add an entry in the [.filename]#utmp# and [.filename]#wtmp# databases, start "
-"an SSH agent, etc.\n"
-"** man:pam_close_session[3] performs tasks associated with session "
-"tear-down: add an entry in the [.filename]#utmp# and [.filename]#wtmp# "
-"databases, stop the SSH agent, etc.\n"
+"man:pam_open_session[3] performs tasks associated with session set-up: add "
+"an entry in the [.filename]#utmp# and [.filename]#wtmp# databases, start an "
+"SSH agent, etc."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/pam/_index.adoc:186
+msgid ""
+"man:pam_close_session[3] performs tasks associated with session tear-down: "
+"add an entry in the [.filename]#utmp# and [.filename]#wtmp# databases, stop "
+"the SSH agent, etc."
 msgstr ""
 
 #. type: Labeled list
@@ -604,11 +606,9 @@ msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/pam/_index.adoc:191
-#, no-wrap
 msgid ""
-"** man:pam_chauthtok[3] changes the authentication token, optionally "
-"verifying that it is sufficiently hard to guess, has not been used "
-"previously, etc.\n"
+"man:pam_chauthtok[3] changes the authentication token, optionally verifying "
+"that it is sufficiently hard to guess, has not been used previously, etc."
 msgstr ""
 
 #. type: Title ===
@@ -1144,34 +1144,39 @@ msgstr ""
 msgid "PAM Chain Execution Summary"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:338
-msgid "|=== | | PAM_SUCCESS | PAM_IGNORE | other"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:343
-msgid "|binding |if (!fail) break; |- |fail = true;"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:348
-msgid "|required |- |- |fail = true;"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:353
-msgid "|requisite |- |- |fail = true; break;"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:358
-msgid "|sufficient |if (!fail) break; |- |-"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:364
-msgid "|optional |- |- |- |==="
+#. type: Table
+#: documentation/content/en/articles/pam/_index.adoc:363
+#, no-wrap
+msgid ""
+"| \n"
+"| PAM_SUCCESS\n"
+"| PAM_IGNORE\n"
+"| other\n"
+"\n"
+"|binding\n"
+"|if (!fail) break;\n"
+"|-\n"
+"|fail = true;\n"
+"\n"
+"|required\n"
+"|-\n"
+"|-\n"
+"|fail = true;\n"
+"\n"
+"|requisite\n"
+"|-\n"
+"|-\n"
+"|fail = true; break;\n"
+"\n"
+"|sufficient\n"
+"|if (!fail) break;\n"
+"|-\n"
+"|-\n"
+"\n"
+"|optional\n"
+"|-\n"
+"|-\n"
+"|-\n"
 msgstr ""
 
 #. type: Plain text
@@ -1549,7 +1554,8 @@ msgid "PAM Application Programming"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/pam/_index.adoc:497 documentation/content/en/articles/pam/_index.adoc:502
+#: documentation/content/en/articles/pam/_index.adoc:497
+#: documentation/content/en/articles/pam/_index.adoc:502
 msgid "This section has not yet been written."
 msgstr ""
 

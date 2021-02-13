@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -347,7 +347,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:89 website/content/en/releases/13.0R/hardware.adoc:96
+#: website/content/en/releases/13.0R/hardware.adoc:89
+#: website/content/en/releases/13.0R/hardware.adoc:96
 msgid "SMP is supported on all systems with more than 1 processor."
 msgstr ""
 
@@ -1622,7 +1623,8 @@ msgid "Adaptec 4944UW"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:385 website/content/en/releases/13.0R/hardware.adoc:398
+#: website/content/en/releases/13.0R/hardware.adoc:385
+#: website/content/en/releases/13.0R/hardware.adoc:398
 msgid "Many motherboards with on-board SCSI support"
 msgstr ""
 
@@ -2180,7 +2182,8 @@ msgid "BusLogic BT-540CF"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:508 website/content/en/releases/13.0R/hardware.adoc:509
+#: website/content/en/releases/13.0R/hardware.adoc:508
+#: website/content/en/releases/13.0R/hardware.adoc:509
 msgid "BusLogic BT-542B"
 msgstr ""
 
@@ -2241,7 +2244,7 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/13.0R/hardware.adoc:522
-msgid "  Controllers supported by the {{< manpage \"ciss\" \"4\">}} driver include:"
+msgid "Controllers supported by the {{< manpage \"ciss\" \"4\">}} driver include:"
 msgstr ""
 
 #. type: Plain text
@@ -2472,7 +2475,8 @@ msgid "Smart RAID IV"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:574 website/content/en/releases/13.0R/hardware.adoc:739
+#: website/content/en/releases/13.0R/hardware.adoc:574
+#: website/content/en/releases/13.0R/hardware.adoc:739
 #, no-wrap
 msgid ""
 "*Note*: +\n"
@@ -3159,7 +3163,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:735 website/content/en/releases/13.0R/hardware.adoc:749
+#: website/content/en/releases/13.0R/hardware.adoc:735
+#: website/content/en/releases/13.0R/hardware.adoc:749
 msgid ""
 "Compatible Mylex controllers not listed should work, but have not been "
 "verified."
@@ -3614,17 +3619,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:858 website/content/en/releases/13.0R/hardware.adoc:943
+#: website/content/en/releases/13.0R/hardware.adoc:858
+#: website/content/en/releases/13.0R/hardware.adoc:943
 msgid "53C810"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:859 website/content/en/releases/13.0R/hardware.adoc:944
+#: website/content/en/releases/13.0R/hardware.adoc:859
+#: website/content/en/releases/13.0R/hardware.adoc:944
 msgid "53C810A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:860 website/content/en/releases/13.0R/hardware.adoc:945
+#: website/content/en/releases/13.0R/hardware.adoc:860
+#: website/content/en/releases/13.0R/hardware.adoc:945
 msgid "53C815"
 msgstr ""
 
@@ -3634,17 +3642,20 @@ msgid "53C820"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:862 website/content/en/releases/13.0R/hardware.adoc:947
+#: website/content/en/releases/13.0R/hardware.adoc:862
+#: website/content/en/releases/13.0R/hardware.adoc:947
 msgid "53C825A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:863 website/content/en/releases/13.0R/hardware.adoc:948
+#: website/content/en/releases/13.0R/hardware.adoc:863
+#: website/content/en/releases/13.0R/hardware.adoc:948
 msgid "53C860"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:864 website/content/en/releases/13.0R/hardware.adoc:949
+#: website/content/en/releases/13.0R/hardware.adoc:864
+#: website/content/en/releases/13.0R/hardware.adoc:949
 msgid "53C875"
 msgstr ""
 
@@ -3659,22 +3670,26 @@ msgid "53C885"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:867 website/content/en/releases/13.0R/hardware.adoc:951
+#: website/content/en/releases/13.0R/hardware.adoc:867
+#: website/content/en/releases/13.0R/hardware.adoc:951
 msgid "53C895"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:868 website/content/en/releases/13.0R/hardware.adoc:952
+#: website/content/en/releases/13.0R/hardware.adoc:868
+#: website/content/en/releases/13.0R/hardware.adoc:952
 msgid "53C895A"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:869 website/content/en/releases/13.0R/hardware.adoc:953
+#: website/content/en/releases/13.0R/hardware.adoc:869
+#: website/content/en/releases/13.0R/hardware.adoc:953
 msgid "53C896"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:870 website/content/en/releases/13.0R/hardware.adoc:959
+#: website/content/en/releases/13.0R/hardware.adoc:870
+#: website/content/en/releases/13.0R/hardware.adoc:959
 msgid "53C1510D"
 msgstr ""
 
@@ -8650,7 +8665,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2047 website/content/en/releases/13.0R/hardware.adoc:2048 website/content/en/releases/13.0R/hardware.adoc:2068
+#: website/content/en/releases/13.0R/hardware.adoc:2047
+#: website/content/en/releases/13.0R/hardware.adoc:2048
+#: website/content/en/releases/13.0R/hardware.adoc:2068
 msgid "Apple Airport Extreme"
 msgstr ""
 
@@ -8660,12 +8677,14 @@ msgid "ASUS WL-100g"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2050 website/content/en/releases/13.0R/hardware.adoc:2069
+#: website/content/en/releases/13.0R/hardware.adoc:2050
+#: website/content/en/releases/13.0R/hardware.adoc:2069
 msgid "ASUS WL-138g"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2051 website/content/en/releases/13.0R/hardware.adoc:2070
+#: website/content/en/releases/13.0R/hardware.adoc:2051
+#: website/content/en/releases/13.0R/hardware.adoc:2070
 msgid "Buffalo WLI-CB-G54S"
 msgstr ""
 
@@ -8680,12 +8699,14 @@ msgid "Compaq R4035 onboard"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2054 website/content/en/releases/13.0R/hardware.adoc:2071
+#: website/content/en/releases/13.0R/hardware.adoc:2054
+#: website/content/en/releases/13.0R/hardware.adoc:2071
 msgid "Dell Wireless 1390"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2055 website/content/en/releases/13.0R/hardware.adoc:2072
+#: website/content/en/releases/13.0R/hardware.adoc:2055
+#: website/content/en/releases/13.0R/hardware.adoc:2072
 msgid "Dell Wireless 1470"
 msgstr ""
 
@@ -8695,22 +8716,26 @@ msgid "Dell Truemobile 1300 r2"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2057 website/content/en/releases/13.0R/hardware.adoc:2073
+#: website/content/en/releases/13.0R/hardware.adoc:2057
+#: website/content/en/releases/13.0R/hardware.adoc:2073
 msgid "Dell Truemobile 1400"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2058 website/content/en/releases/13.0R/hardware.adoc:2075
+#: website/content/en/releases/13.0R/hardware.adoc:2058
+#: website/content/en/releases/13.0R/hardware.adoc:2075
 msgid "HP nx6125"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2059 website/content/en/releases/13.0R/hardware.adoc:2076
+#: website/content/en/releases/13.0R/hardware.adoc:2059
+#: website/content/en/releases/13.0R/hardware.adoc:2076
 msgid "Linksys WPC54G Ver 3"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2060 website/content/en/releases/13.0R/hardware.adoc:2077
+#: website/content/en/releases/13.0R/hardware.adoc:2060
+#: website/content/en/releases/13.0R/hardware.adoc:2077
 msgid "Linksys WPC54GS Ver 2"
 msgstr ""
 
@@ -8720,7 +8745,8 @@ msgid "TRENDnet TEW-401PCplus"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2062 website/content/en/releases/13.0R/hardware.adoc:2078
+#: website/content/en/releases/13.0R/hardware.adoc:2062
+#: website/content/en/releases/13.0R/hardware.adoc:2078
 msgid "US Robotics 5411"
 msgstr ""
 
@@ -9255,7 +9281,8 @@ msgid "SMC SMCWPCI-GM"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2187 website/content/en/releases/13.0R/hardware.adoc:2386
+#: website/content/en/releases/13.0R/hardware.adoc:2187
+#: website/content/en/releases/13.0R/hardware.adoc:2386
 msgid "SparkLAN WL-685R"
 msgstr ""
 
@@ -11214,7 +11241,8 @@ msgid "Terratec DMX 6fire"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2638 website/content/en/releases/13.0R/hardware.adoc:2657
+#: website/content/en/releases/13.0R/hardware.adoc:2638
+#: website/content/en/releases/13.0R/hardware.adoc:2657
 msgid ""
 "Only analog playback is supported. Recording and other features of these "
 "cards are not supported."
@@ -11512,7 +11540,8 @@ msgid "NVIDIA nForce2 400"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/13.0R/hardware.adoc:2711 website/content/en/releases/13.0R/hardware.adoc:2864
+#: website/content/en/releases/13.0R/hardware.adoc:2711
+#: website/content/en/releases/13.0R/hardware.adoc:2864
 msgid "NVIDIA nForce3"
 msgstr ""
 
@@ -12051,7 +12080,7 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/13.0R/hardware.adoc:2841
-msgid "  [i386] Connectix QuickCam"
+msgid "[i386] Connectix QuickCam"
 msgstr ""
 
 #. type: Title ===
@@ -12698,7 +12727,7 @@ msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/13.0R/hardware.adoc:2999
-msgid "  The {{< manpage \"umct\" \"4\">}} driver supports the following adapters:"
+msgid "The {{< manpage \"umct\" \"4\">}} driver supports the following adapters:"
 msgstr ""
 
 #. type: Plain text

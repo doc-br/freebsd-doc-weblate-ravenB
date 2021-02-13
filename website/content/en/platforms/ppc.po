@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -113,14 +113,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/platforms/ppc.adoc:33 website/content/en/platforms/ppc.adoc:77
+#: website/content/en/platforms/ppc.adoc:33
+#: website/content/en/platforms/ppc.adoc:77
 msgid ""
 "The most up-to-date information about supported hardware is currently being "
 "maintained https://wiki.freebsd.org/powerpc[on the wiki]."
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/platforms/ppc.adoc:35 website/content/en/platforms/ppc.adoc:42 website/content/en/platforms/ppc.adoc:72 website/content/en/platforms/ppc.adoc:100 website/content/en/platforms/ppc.adoc:107 website/content/en/platforms/ppc.adoc:125
+#: website/content/en/platforms/ppc.adoc:35
+#: website/content/en/platforms/ppc.adoc:42
+#: website/content/en/platforms/ppc.adoc:72
+#: website/content/en/platforms/ppc.adoc:100
+#: website/content/en/platforms/ppc.adoc:107
+#: website/content/en/platforms/ppc.adoc:125
 msgid "'''''"
 msgstr ""
 
@@ -241,23 +247,29 @@ msgstr ""
 msgid "People have previously reported that FreeBSD runs on the following machines:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/platforms/ppc.adoc:98
+#. type: Table
+#: website/content/en/platforms/ppc.adoc:97
+#, no-wrap
 msgid ""
-"|=== |Manufacturer |Model |Submitter (optional links) |Notes |Apple |iMac G3 "
-"350 MHz |mailto:diskiller@diskiller.net[Martin Minkus] |Rage 128VR |Apple "
-"|iMac G3 DV Special Edition |mailto:webmaster@machowto.com[David S. Besade] "
-"(https://people.FreeBSD.org/~flz/local/dmesg.ppc[dmesg]) |None |Apple |iMac "
-"G3 Revision B |mailto:grehan@FreeBSD.org[Peter Grehan] |Rage 3D Pro 215GP, "
-"accel disabled |Apple |eMac 700 MHz |mailto:grehan@FreeBSD.org[Peter Grehan] "
-"|Nvidia GeForce2 MX |Apple |Mac Mini G4 1.4 GHz "
-"|mailto:arved@FreeBSD.org[Tilman Linneweh] "
-"(https://people.FreeBSD.org/~arved/stuff/minimac[dmesg]) |None |Apple "
-"|Powerbook G4 1.33 GHz |mailto:grehan@FreeBSD.org[Peter Grehan] |Nvidia "
-"GeForce G5200 |Apple |Aluminium Powerbook G4 1.5 GHz "
-"|mailto:toa@pop.agri.ch[Andreas Tobler] |None |Apple |PowerMac G5 | |FreeBSD "
-"8.0 |Apple |iMac G5 | |FreeBSD 8.0 |Apple |Xserve G5 | |FreeBSD 8.1 |Apple "
-"|PowerMac G5 (late 2005) | |FreeBSD 8.1 |==="
+"|Manufacturer |Model |Submitter (optional links) |Notes\n"
+"|Apple |iMac G3 350 MHz |mailto:diskiller@diskiller.net[Martin Minkus] |Rage "
+"128VR\n"
+"|Apple |iMac G3 DV Special Edition |mailto:webmaster@machowto.com[David "
+"S. Besade] (https://people.FreeBSD.org/~flz/local/dmesg.ppc[dmesg]) |None\n"
+"|Apple |iMac G3 Revision B |mailto:grehan@FreeBSD.org[Peter Grehan] |Rage 3D "
+"Pro 215GP, accel disabled\n"
+"|Apple |eMac 700 MHz |mailto:grehan@FreeBSD.org[Peter Grehan] |Nvidia "
+"GeForce2 MX\n"
+"|Apple |Mac Mini G4 1.4 GHz |mailto:arved@FreeBSD.org[Tilman Linneweh] "
+"(https://people.FreeBSD.org/~arved/stuff/minimac[dmesg]) |None\n"
+"|Apple |Powerbook G4 1.33 GHz |mailto:grehan@FreeBSD.org[Peter Grehan] "
+"|Nvidia GeForce G5200\n"
+"|Apple |Aluminium Powerbook G4 1.5 GHz |mailto:toa@pop.agri.ch[Andreas "
+"Tobler] |None\n"
+"|Apple |PowerMac G5 | |FreeBSD 8.0\n"
+"|Apple |iMac G5 | |FreeBSD 8.0\n"
+"|Apple |Xserve G5 | |FreeBSD 8.1\n"
+"|Apple |PowerMac G5 (late 2005) | |FreeBSD 8.1\n"
 msgstr ""
 
 #. type: Title ==

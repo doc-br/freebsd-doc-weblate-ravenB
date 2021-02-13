@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -46,11 +46,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:11
 #, no-wrap
 msgid "Introduction"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:34
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -169,109 +164,70 @@ msgid ""
 "which contains the following subdirectories:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:72
-msgid "|=== | Directory | Description"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:75
-msgid "|[.filename]#bin/# |Source for files in [.filename]#/bin#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:78
-msgid ""
-"|[.filename]#cddl/# |Utilities covered by the Common Development and "
-"Distribution License"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:81
-msgid "|[.filename]#contrib/# |Source for files from contributed software"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:84
-msgid "|[.filename]#crypto/# |Cryptographical sources"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:87
-msgid "|[.filename]#etc/# |Source for files in [.filename]#/etc#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:90
-msgid "|[.filename]#gnu/# |Utilities covered by the GNU Public License"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:93
-msgid "|[.filename]#include/# |Source for files in [.filename]#/usr/include#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:96
-msgid "|[.filename]#kerberos5/# |Source for Kerberos version 5"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:99
-msgid "|[.filename]#lib/# |Source for files in [.filename]#/usr/lib#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:102
-msgid "|[.filename]#libexec/# |Source for files in [.filename]#/usr/libexec#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:105
-msgid "|[.filename]#release/# |Files required to produce a FreeBSD release"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:108
-msgid "|[.filename]#rescue/# |Build system for the [.filename]#/rescue# utilities"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:111
-msgid "|[.filename]#sbin/# |Source for files in [.filename]#/sbin#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:114
-msgid "|[.filename]#secure/# |Contributed cryptographic sources"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:117
-msgid "|[.filename]#share/# |Source for files in [.filename]#/usr/share#"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:120
-msgid "|[.filename]#sys/# |Kernel source files"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:123
-msgid "|[.filename]#tests/# |The FreeBSD test suite"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:126
-msgid "|[.filename]#tools/# |Tools used for maintenance and testing of FreeBSD"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:129
-msgid "|[.filename]#usr.bin/# |Source for files in [.filename]#/usr/bin#"
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: documentation/content/en/books/developers-handbook/introduction/chapter.adoc:132
-msgid "|[.filename]#usr.sbin/# |Source for files in [.filename]#/usr/sbin# |==="
+#, no-wrap
+msgid ""
+"| Directory\n"
+"| Description\n"
+"\n"
+"|[.filename]#bin/#\n"
+"|Source for files in [.filename]#/bin#\n"
+"\n"
+"|[.filename]#cddl/#\n"
+"|Utilities covered by the Common Development and Distribution License\n"
+"\n"
+"|[.filename]#contrib/#\n"
+"|Source for files from contributed software\n"
+"\n"
+"|[.filename]#crypto/#\n"
+"|Cryptographical sources\n"
+"\n"
+"|[.filename]#etc/#\n"
+"|Source for files in [.filename]#/etc#\n"
+"\n"
+"|[.filename]#gnu/#\n"
+"|Utilities covered by the GNU Public License\n"
+"\n"
+"|[.filename]#include/#\n"
+"|Source for files in [.filename]#/usr/include#\n"
+"\n"
+"|[.filename]#kerberos5/#\n"
+"|Source for Kerberos version 5\n"
+"\n"
+"|[.filename]#lib/#\n"
+"|Source for files in [.filename]#/usr/lib#\n"
+"\n"
+"|[.filename]#libexec/#\n"
+"|Source for files in [.filename]#/usr/libexec#\n"
+"\n"
+"|[.filename]#release/#\n"
+"|Files required to produce a FreeBSD release\n"
+"\n"
+"|[.filename]#rescue/#\n"
+"|Build system for the [.filename]#/rescue# utilities\n"
+"\n"
+"|[.filename]#sbin/#\n"
+"|Source for files in [.filename]#/sbin#\n"
+"\n"
+"|[.filename]#secure/#\n"
+"|Contributed cryptographic sources\n"
+"\n"
+"|[.filename]#share/#\n"
+"|Source for files in [.filename]#/usr/share#\n"
+"\n"
+"|[.filename]#sys/#\n"
+"|Kernel source files\n"
+"\n"
+"|[.filename]#tests/#\n"
+"|The FreeBSD test suite\n"
+"\n"
+"|[.filename]#tools/#\n"
+"|Tools used for maintenance and testing of FreeBSD\n"
+"\n"
+"|[.filename]#usr.bin/#\n"
+"|Source for files in [.filename]#/usr/bin#\n"
+"\n"
+"|[.filename]#usr.sbin/#\n"
+"|Source for files in [.filename]#/usr/sbin#\n"
 msgstr ""

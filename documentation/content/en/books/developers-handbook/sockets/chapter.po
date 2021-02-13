@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -41,11 +41,6 @@ msgstr ""
 #: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:10
 #, no-wrap
 msgid "Sockets"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:34
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -841,7 +836,8 @@ msgid "sockaddr_in on an Intel system"
 msgstr ""
 
 #. type: Target for macro image
-#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:314 documentation/content/en/books/developers-handbook/sockets/chapter.adoc:348
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:314
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:348
 #, no-wrap
 msgid "sainlsb.png"
 msgstr ""
@@ -858,7 +854,8 @@ msgid "sockaddr_in on an MSB system"
 msgstr ""
 
 #. type: Target for macro image
-#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:318 documentation/content/en/books/developers-handbook/sockets/chapter.adoc:352
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:318
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:352
 #, no-wrap
 msgid "sainmsb.png"
 msgstr ""
@@ -1177,7 +1174,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:430 documentation/content/en/books/developers-handbook/sockets/chapter.adoc:793
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:430
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:793
 #, no-wrap
 msgid ""
 "  if ((s = socket(PF_INET, SOCK_STREAM, 0)) < 0) {\n"
@@ -1187,7 +1185,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:432 documentation/content/en/books/developers-handbook/sockets/chapter.adoc:795
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:432
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:795
 #, no-wrap
 msgid "  bzero(&sa, sizeof sa);\n"
 msgstr ""
@@ -1216,7 +1215,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:448 documentation/content/en/books/developers-handbook/sockets/chapter.adoc:819
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:448
+#: documentation/content/en/books/developers-handbook/sockets/chapter.adoc:819
 #, no-wrap
 msgid ""
 "  close(s);\n"

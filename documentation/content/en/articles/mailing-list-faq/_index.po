@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -63,11 +63,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/mailing-list-faq/_index.adoc:29
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/mailing-list-faq/_index.adoc:31
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -352,12 +347,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/articles/mailing-list-faq/_index.adoc:101
+msgid "exmh"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/mailing-list-faq/_index.adoc:102
+msgid "Microsoft(R) Exchange"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/articles/mailing-list-faq/_index.adoc:103
-#, no-wrap
-msgid ""
-"** exmh\n"
-"** Microsoft(R) Exchange\n"
-"** Microsoft(R) Outlook(R)\n"
+msgid "Microsoft(R) Outlook(R)"
 msgstr ""
 
 #. type: Plain text
@@ -464,19 +465,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/articles/mailing-list-faq/_index.adoc:127
+msgid "A: Because it reverses the logical flow of conversation."
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/articles/mailing-list-faq/_index.adoc:128
-#, no-wrap
-msgid ""
-"** A: Because it reverses the logical flow of conversation.\n"
-"** Q: Why is top posting frowned upon?\n"
+msgid "Q: Why is top posting frowned upon?"
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/mailing-list-faq/_index.adoc:130
-#, no-wrap
-msgid ""
-"\n"
-"(Thanks to Randy Bush for the joke.)\n"
+msgid "  (Thanks to Randy Bush for the joke.)"
 msgstr ""
 
 #. type: Title ==

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -23,13 +23,13 @@ msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/11.3R/signatures.adoc:11
+#: website/content/en/releases/11.3R/signatures.adoc:10
 msgid ""
 "title: \"FreeBSD 11.3 Release Checksum Signatures\" sidenav: download "
 "localRel: 11.3 localBranchName: \"RELEASE\" localBranchStable: \"stable/11\" "
 "localBranchReleng: \"releng/11.3\" localRelSha256: "
 "\"../checksums/CHECKSUM.SHA256-FreeBSD-11.3-RELEASE\" localRelSha512: "
-"\"../checksums/CHECKSUM.SHA512-FreeBSD-11.3-RELEASE\" ---"
+"\"../checksums/CHECKSUM.SHA512-FreeBSD-11.3-RELEASE\""
 msgstr ""
 
 #. type: Title =
@@ -57,21 +57,23 @@ msgstr ""
 msgid "Installation Image Checksums"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.3R/signatures.adoc:32
+#. type: Table
+#: website/content/en/releases/11.3R/signatures.adoc:31
+#, no-wrap
 msgid ""
-"|=== |Architecture |`SHA512` |`SHA256` |amd64 (x86_64) |link:{{% param "
-"localRelSha512 %}}-amd64.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-amd64.asc[SHA256] |i386 |link:{{% param localRelSha512 "
-"%}}-i386.asc[SHA512] |link:{{% param localRelSha256 %}}-i386.asc[SHA256] "
+"|Architecture |`SHA512` |`SHA256`\n"
+"|amd64 (x86_64) |link:{{% param localRelSha512 %}}-amd64.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-amd64.asc[SHA256]\n"
+"|i386 |link:{{% param localRelSha512 %}}-i386.asc[SHA512] |link:{{% param "
+"localRelSha256 %}}-i386.asc[SHA256]\n"
 "|powerpc |link:{{% param localRelSha512 %}}-powerpc.asc[SHA512] |link:{{% "
-"param localRelSha256 %}}-powerpc.asc[SHA256] |powerpc64 |link:{{% param "
-"localRelSha512 %}}-powerpc-powerpc64.asc[SHA512] |link:{{% param "
-"localRelSha256 %}}-powerpc-powerpc64.asc[SHA256] |sparc64 |link:{{% param "
-"localRelSha512 %}}-sparc64.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-sparc64.asc[SHA256] |aarch64 |link:{{% param localRelSha512 "
-"%}}-arm64-aarch64.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-arm64-aarch64.asc[SHA256] |==="
+"param localRelSha256 %}}-powerpc.asc[SHA256]\n"
+"|powerpc64 |link:{{% param localRelSha512 %}}-powerpc-powerpc64.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-powerpc-powerpc64.asc[SHA256]\n"
+"|sparc64 |link:{{% param localRelSha512 %}}-sparc64.asc[SHA512] |link:{{% "
+"param localRelSha256 %}}-sparc64.asc[SHA256]\n"
+"|aarch64 |link:{{% param localRelSha512 %}}-arm64-aarch64.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-arm64-aarch64.asc[SHA256]\n"
 msgstr ""
 
 #. type: Title ==
@@ -80,16 +82,17 @@ msgstr ""
 msgid "Virtual Machine Image Checksums"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/11.3R/signatures.adoc:44
+#. type: Table
+#: website/content/en/releases/11.3R/signatures.adoc:43
+#, no-wrap
 msgid ""
-"|=== |Architecture |`SHA512` |`SHA256` |amd64 (x86_64) |link:{{% param "
-"localRelSha512 %}}-amd64-vm.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-amd64-vm.asc[SHA256] |i386 |link:{{% param localRelSha512 "
-"%}}-i386-vm.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-i386-vm.asc[SHA256] |aarch64 |link:{{% param localRelSha512 "
-"%}}-arm64-aarch64-vm.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-arm64-aarch64-vm.asc[SHA256] |==="
+"|Architecture |`SHA512` |`SHA256`\n"
+"|amd64 (x86_64) |link:{{% param localRelSha512 %}}-amd64-vm.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-amd64-vm.asc[SHA256]\n"
+"|i386 |link:{{% param localRelSha512 %}}-i386-vm.asc[SHA512] |link:{{% param "
+"localRelSha256 %}}-i386-vm.asc[SHA256]\n"
+"|aarch64 |link:{{% param localRelSha512 %}}-arm64-aarch64-vm.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-arm64-aarch64-vm.asc[SHA256]\n"
 msgstr ""
 
 #. type: Title ==
@@ -98,27 +101,33 @@ msgstr ""
 msgid "SD Card Image Checksums"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/releases/11.3R/signatures.adoc:61
+#, no-wrap
 msgid ""
-"|=== |Board Name |`SHA512` |`SHA256` |BANANAPI |link:{{% param "
-"localRelSha512 %}}-arm-armv6-BANANAPI.asc[SHA512] |link:{{% param "
-"localRelSha256 %}}-arm-armv6-BANANAPI.asc[SHA256] |BEAGLEBONE |link:{{% "
-"param localRelSha512 %}}-arm-armv6-BEAGLEBONE.asc[SHA512] |link:{{% param "
-"localRelSha256 %}}-arm-armv6-BEAGLEBONE.asc[SHA256] |CUBOX/HUMMINGBOARD "
-"|link:{{% param localRelSha512 %}}-arm-armv6-CUBOX-HUMMINGBOARD.asc[SHA512] "
-"|link:{{% param localRelSha256 %}}-arm-armv6-CUBOX-HUMMINGBOARD.asc[SHA256] "
+"|Board Name |`SHA512` |`SHA256`\n"
+"|BANANAPI |link:{{% param localRelSha512 %}}-arm-armv6-BANANAPI.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-arm-armv6-BANANAPI.asc[SHA256]\n"
+"|BEAGLEBONE |link:{{% param localRelSha512 "
+"%}}-arm-armv6-BEAGLEBONE.asc[SHA512] |link:{{% param localRelSha256 "
+"%}}-arm-armv6-BEAGLEBONE.asc[SHA256]\n"
+"|CUBOX/HUMMINGBOARD |link:{{% param localRelSha512 "
+"%}}-arm-armv6-CUBOX-HUMMINGBOARD.asc[SHA512] |link:{{% param localRelSha256 "
+"%}}-arm-armv6-CUBOX-HUMMINGBOARD.asc[SHA256]\n"
 "|CUBIEBOARD |link:{{% param localRelSha512 "
 "%}}-arm-armv6-CUBIEBOARD.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-arm-armv6-CUBIEBOARD.asc[SHA256] |CUBIEBOARD2 |link:{{% param "
-"localRelSha512 %}}-arm-armv6-CUBIEBOARD2.asc[SHA512] |link:{{% param "
-"localRelSha256 %}}-arm-armv6-CUBIEBOARD2.asc[SHA256] |PANDABOARD |link:{{% "
-"param localRelSha512 %}}-arm-armv6-PANDABOARD.asc[SHA512] |link:{{% param "
-"localRelSha256 %}}-arm-armv6-PANDABOARD.asc[SHA256] |RPI-B |link:{{% param "
-"localRelSha512 %}}-arm-armv6-RPI-B.asc[SHA512] |link:{{% param "
-"localRelSha256 %}}-arm-armv6-RPI-B.asc[SHA256] |RPI2 |link:{{% param "
-"localRelSha512 %}}-arm-armv6-RPI2.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-arm-armv6-RPI2.asc[SHA256] |WANDBOARD |link:{{% param localRelSha512 "
+"%}}-arm-armv6-CUBIEBOARD.asc[SHA256]\n"
+"|CUBIEBOARD2 |link:{{% param localRelSha512 "
+"%}}-arm-armv6-CUBIEBOARD2.asc[SHA512] |link:{{% param localRelSha256 "
+"%}}-arm-armv6-CUBIEBOARD2.asc[SHA256]\n"
+"|PANDABOARD |link:{{% param localRelSha512 "
+"%}}-arm-armv6-PANDABOARD.asc[SHA512] |link:{{% param localRelSha256 "
+"%}}-arm-armv6-PANDABOARD.asc[SHA256]\n"
+"|RPI-B |link:{{% param localRelSha512 %}}-arm-armv6-RPI-B.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-arm-armv6-RPI-B.asc[SHA256]\n"
+"|RPI2 |link:{{% param localRelSha512 %}}-arm-armv6-RPI2.asc[SHA512] "
+"|link:{{% param localRelSha256 %}}-arm-armv6-RPI2.asc[SHA256]\n"
+"|WANDBOARD |link:{{% param localRelSha512 "
 "%}}-arm-armv6-WANDBOARD.asc[SHA512] |link:{{% param localRelSha256 "
-"%}}-arm-armv6-WANDBOARD.asc[SHA256] |==="
+"%}}-arm-armv6-WANDBOARD.asc[SHA256]\n"
 msgstr ""

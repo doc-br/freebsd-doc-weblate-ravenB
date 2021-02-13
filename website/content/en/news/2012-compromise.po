@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -38,9 +38,10 @@ msgstr ""
 msgid "FreeBSD.org intrusion announced November 17th 2012"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: website/content/en/news/2012-compromise.adoc:15
-msgid "|=== a|"
+#, no-wrap
+msgid "a|\n"
 msgstr ""
 
 #. type: Title ===
@@ -49,8 +50,8 @@ msgstr ""
 msgid "Security Incident on FreeBSD Infrastructure"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/news/2012-compromise.adoc:24
+#. type: Table
+#: website/content/en/news/2012-compromise.adoc:35
 #, no-wrap
 msgid ""
 "*From:* FreeBSD Security Officer <security-officer@FreeBSD.org> +\n"
@@ -59,55 +60,32 @@ msgid ""
 "freebsd-security-notifications@FreeBSD.org +\n"
 "*Reply-To:* secteam@FreeBSD.org +\n"
 "*Subject:* Security Incident on FreeBSD Infrastructure +\n"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/news/2012-compromise.adoc:26
-msgid ""
+"\n"
 "On Sunday 11th of November, an intrusion was detected on two machines within "
 "the FreeBSD.org cluster. The affected machines were taken offline for "
 "analysis. Additionally, a large portion of the remaining infrastructure "
-"machines were also taken offline as a precaution."
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/news/2012-compromise.adoc:28
-msgid ""
+"machines were also taken offline as a precaution.\n"
+"\n"
 "We have found no evidence of any modifications that would put any end user "
 "at risk. However, we do urge all users to read the report available at "
 "link:..[http://www.freebsd.org/news/2012-compromise/] and decide on any "
 "required actions themselves. We will continue to update that page as further "
 "information becomes known. We do not currently believe users have been "
 "affected given current forensic analysis, but we will provide updated "
-"information if this changes."
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/news/2012-compromise.adoc:30
-msgid ""
+"information if this changes.\n"
+"\n"
 "As a result of this event, a number of operational security changes are "
 "being made at the FreeBSD Project, in order to further improve our "
 "resilience to potential attacks. We plan, therefore, to more rapidly "
 "deprecate a number of legacy services, such as cvsup distribution of FreeBSD "
 "source, in favour of our more robust Subversion, freebsd-update, and "
-"portsnap models."
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/news/2012-compromise.adoc:32
-msgid ""
+"portsnap models.\n"
+"\n"
 "More information is available at "
-"link:..[http://www.freebsd.org/news/2012-compromise/]"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/news/2012-compromise.adoc:34
-msgid "Saturday November 17th, 2012"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/news/2012-compromise.adoc:36
-msgid "|==="
+"link:..[http://www.freebsd.org/news/2012-compromise/]\n"
+"\n"
+"Saturday November 17th, 2012\n"
+"\n"
 msgstr ""
 
 #. type: Title ==
@@ -557,12 +535,23 @@ msgid "Power down all machines on which the attacker may have had access."
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/news/2012-compromise.adoc:142
+msgid "Audit the SVN and Perforce repositories to:"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/news/2012-compromise.adoc:143
+msgid "Verify that there had been no server intrusion."
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/news/2012-compromise.adoc:144
+msgid "Verify that no malicious commits had been made to the repository."
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/news/2012-compromise.adoc:145
-msgid ""
-"Audit the SVN and Perforce repositories to: ** Verify that there had been no "
-"server intrusion.  ** Verify that no malicious commits had been made to the "
-"repository.  ** Verify that the SVN repository exactly matched a known-clean "
-"off-site copy."
+msgid "Verify that the SVN repository exactly matched a known-clean off-site copy."
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,33 +47,8 @@ msgid "A project model for the FreeBSD Project"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:28
-msgid "ifeval::[\"{backend}\" == \"html5\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:36 documentation/content/en/books/dev-model/_index.adoc:46 documentation/content/en/books/dev-model/_index.adoc:56
-msgid "endif::[]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:38
-msgid "ifeval::[\"{backend}\" == \"pdf\"]"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:48
-msgid "ifeval::[\"{backend}\" == \"epub3\"]"
-msgstr ""
-
-#. type: Plain text
 #: documentation/content/en/books/dev-model/_index.adoc:58
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:60
-msgid "toc::[]"
 msgstr ""
 
 #. type: Plain text
@@ -343,24 +318,21 @@ msgstr ""
 msgid "The FreeBSD Project's structure (in order of descending authority)"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:137
-msgid "|=== | Group | Number of people"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:140
-msgid "|Core members |9"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:143
-msgid "|Committers |269"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:147
-msgid "|Contributors |~3000 |==="
+#. type: Table
+#: documentation/content/en/books/dev-model/_index.adoc:146
+#, no-wrap
+msgid ""
+"| Group\n"
+"| Number of people\n"
+"\n"
+"|Core members\n"
+"|9\n"
+"\n"
+"|Committers\n"
+"|269\n"
+"\n"
+"|Contributors\n"
+"|~3000\n"
 msgstr ""
 
 #. type: Plain text
@@ -411,44 +383,41 @@ msgstr ""
 msgid "The FreeBSD Project's structure with committers in categories"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:166
-msgid "|=== | Group | Category | Number of people"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:170
-msgid "|Core members | |9"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:174
-msgid "|Committers |Kernel |56"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:178
-msgid "| |Userland |50"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:182
-msgid "| |Docs |9"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:186
-msgid "| |Ports |120"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:190
-msgid "| |Total |269"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:195
-msgid "|Contributors | |~3000 |==="
+#. type: Table
+#: documentation/content/en/books/dev-model/_index.adoc:194
+#, no-wrap
+msgid ""
+"| Group\n"
+"| Category\n"
+"| Number of people\n"
+"\n"
+"|Core members\n"
+"|\n"
+"|9\n"
+"\n"
+"|Committers\n"
+"|Kernel\n"
+"|56\n"
+"\n"
+"|\n"
+"|Userland\n"
+"|50\n"
+"\n"
+"|\n"
+"|Docs\n"
+"|9\n"
+"\n"
+"|\n"
+"|Ports\n"
+"|120\n"
+"\n"
+"|\n"
+"|Total\n"
+"|269\n"
+"\n"
+"|Contributors\n"
+"|\n"
+"|~3000\n"
 msgstr ""
 
 #. type: Plain text
@@ -541,43 +510,43 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:217 documentation/content/en/books/dev-model/_index.adoc:649
+#: documentation/content/en/books/dev-model/_index.adoc:217
+#: documentation/content/en/books/dev-model/_index.adoc:649
 msgid "Jørgenssen's model for change integration"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:224 documentation/content/en/books/dev-model/_index.adoc:656
-msgid "|=== | Stage | Next if successful | Next if unsuccessful"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:228 documentation/content/en/books/dev-model/_index.adoc:660
-msgid "|code |review |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:232 documentation/content/en/books/dev-model/_index.adoc:664
-msgid "|review |pre-commit test |code"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:236 documentation/content/en/books/dev-model/_index.adoc:668
-msgid "|pre-commit test |development release |code"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:240 documentation/content/en/books/dev-model/_index.adoc:672
-msgid "|development release |parallel debugging |code"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:244 documentation/content/en/books/dev-model/_index.adoc:676
-msgid "|parallel debugging |production release |code"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:249 documentation/content/en/books/dev-model/_index.adoc:681
-msgid "|production release | |code |==="
+#. type: Table
+#: documentation/content/en/books/dev-model/_index.adoc:248
+#: documentation/content/en/books/dev-model/_index.adoc:680
+#, no-wrap
+msgid ""
+"| Stage\n"
+"| Next if successful\n"
+"| Next if unsuccessful\n"
+"\n"
+"|code\n"
+"|review\n"
+"|\n"
+"\n"
+"|review\n"
+"|pre-commit test\n"
+"|code\n"
+"\n"
+"|pre-commit test\n"
+"|development release\n"
+"|code\n"
+"\n"
+"|development release\n"
+"|parallel debugging\n"
+"|code\n"
+"\n"
+"|parallel debugging\n"
+"|production release\n"
+"|code\n"
+"\n"
+"|production release\n"
+"|\n"
+"|code\n"
 msgstr ""
 
 #. type: Plain text
@@ -744,48 +713,42 @@ msgstr ""
 msgid "branches.png"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:286
-msgid "|=== | Major release | Forked from | Following minor releases"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:290 documentation/content/en/books/dev-model/_index.adoc:310
-msgid "|...  | |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:294
+#. type: Table
+#: documentation/content/en/books/dev-model/_index.adoc:311
+#, no-wrap
 msgid ""
-"|3.0 Current (development branch)  | |Releng 3 branches: 3.0 Release to 3.5 "
-"Release, leading to 3.5.1 Release and the subsequent 3 Stable branch"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:298
-msgid ""
-"|4.0 Current (development branch)  |3.1 Release |Releng 4 branches: 4.1 "
-"Release to 4.6 Release (and 4.6.2 Release), then 4.7 Release to 4.11 Release "
-"(all starting at 4.3 Release also leading to a Releng_4_n branch), and the "
-"subsequent 4 Release branch"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:302
-msgid ""
-"|5.0 Current (development branch)  |4.0 Release |Releng 5 branches: 5.0 "
-"Release to 5.4 Release (all except 5.0 and 5.3 also leading to a Releng_5_n "
-"branch), and the subsequent 5 Release branch"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:306
-msgid "|6.0 Current (development branch)  |5.3 Release |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:312
-msgid "|==="
+"| Major release\n"
+"| Forked from\n"
+"| Following minor releases\n"
+"\n"
+"|...\n"
+"|\n"
+"|\n"
+"\n"
+"|3.0 Current (development branch)\n"
+"|\n"
+"|Releng 3 branches: 3.0 Release to 3.5 Release, leading to 3.5.1 Release and "
+"the subsequent 3 Stable branch \n"
+"\n"
+"|4.0 Current (development branch)\n"
+"|3.1 Release\n"
+"|Releng 4 branches: 4.1 Release to 4.6 Release (and 4.6.2 Release), then 4.7 "
+"Release to 4.11 Release (all starting at 4.3 Release also leading to a "
+"Releng_4_n branch), and the subsequent 4 Release branch \n"
+"\n"
+"|5.0 Current (development branch)\n"
+"|4.0 Release\n"
+"|Releng 5 branches: 5.0 Release to 5.4 Release (all except 5.0 and 5.3 also "
+"leading to a Releng_5_n branch), and the subsequent 5 Release branch \n"
+"\n"
+"|6.0 Current (development branch)\n"
+"|5.3 Release\n"
+"|\n"
+"\n"
+"|...\n"
+"|\n"
+"|\n"
+"\n"
 msgstr ""
 
 #. type: Plain text
@@ -1567,7 +1530,11 @@ msgid "Process summary: adding a new committer"
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: documentation/content/en/books/dev-model/_index.adoc:541 documentation/content/en/books/dev-model/_index.adoc:548 documentation/content/en/books/dev-model/_index.adoc:578 documentation/content/en/books/dev-model/_index.adoc:616 documentation/content/en/books/dev-model/_index.adoc:696
+#: documentation/content/en/books/dev-model/_index.adoc:541
+#: documentation/content/en/books/dev-model/_index.adoc:548
+#: documentation/content/en/books/dev-model/_index.adoc:578
+#: documentation/content/en/books/dev-model/_index.adoc:616
+#: documentation/content/en/books/dev-model/_index.adoc:696
 #, no-wrap
 msgid "Refer to paragraph below for a screen-reader friendly version."
 msgstr ""
@@ -1636,22 +1603,29 @@ msgid "Roles in this process:"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:557 documentation/content/en/books/dev-model/_index.adoc:623 documentation/content/en/books/dev-model/_index.adoc:727
+#: documentation/content/en/books/dev-model/_index.adoc:557
+#: documentation/content/en/books/dev-model/_index.adoc:623
+#: documentation/content/en/books/dev-model/_index.adoc:727
 msgid "<<role-core>>"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:558 documentation/content/en/books/dev-model/_index.adoc:591
+#: documentation/content/en/books/dev-model/_index.adoc:558
+#: documentation/content/en/books/dev-model/_index.adoc:591
 msgid "<<role-contributor>>"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:559 documentation/content/en/books/dev-model/_index.adoc:590 documentation/content/en/books/dev-model/_index.adoc:624 documentation/content/en/books/dev-model/_index.adoc:728
+#: documentation/content/en/books/dev-model/_index.adoc:559
+#: documentation/content/en/books/dev-model/_index.adoc:590
+#: documentation/content/en/books/dev-model/_index.adoc:624
+#: documentation/content/en/books/dev-model/_index.adoc:728
 msgid "<<role-committer>>"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:560 documentation/content/en/books/dev-model/_index.adoc:704
+#: documentation/content/en/books/dev-model/_index.adoc:560
+#: documentation/content/en/books/dev-model/_index.adoc:704
 msgid "<<role-maintainer>>"
 msgstr ""
 
@@ -2531,94 +2505,63 @@ msgstr ""
 msgid "Approximate dates each multiple of 1000 ports is reached"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:813
-msgid "|=== | Number of ports | Approximate date"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:816
-msgid "|1000 |Late 1997"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:819
-msgid "|2000 |Late 1998"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:822
-msgid "|3000 |Early 2000"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:825
-msgid "|4000 |Late 2000"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:828
-msgid "|5000 |Mid 2001"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:831
-msgid "|6000 |4th quarter of 2001"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:834
-msgid "|7000 |Mid 2002"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:837
-msgid "|8000 |4th quarter of 2002"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:840
-msgid "|9000 |Mid 2003"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:843
-msgid "|10000 |End of 2003"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:846
-msgid "|11000 |Mid 2004"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:849
-msgid "|12000 |End of 2004"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:852
-msgid "|13000 |Mid 2005"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:855
-msgid "|14000 |Early 2006"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:858
-msgid "|15000 |Mid 2006"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:861
-msgid "|16000 |3rd quarter 2006"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:865
-msgid "|17000 |2nd quarter 2007 |==="
+#. type: Table
+#: documentation/content/en/books/dev-model/_index.adoc:864
+#, no-wrap
+msgid ""
+"| Number of ports\n"
+"| Approximate date\n"
+"\n"
+"|1000\n"
+"|Late 1997\n"
+"\n"
+"|2000\n"
+"|Late 1998\n"
+"\n"
+"|3000\n"
+"|Early 2000\n"
+"\n"
+"|4000\n"
+"|Late 2000\n"
+"\n"
+"|5000\n"
+"|Mid 2001\n"
+"\n"
+"|6000\n"
+"|4th quarter of 2001\n"
+"\n"
+"|7000\n"
+"|Mid 2002\n"
+"\n"
+"|8000\n"
+"|4th quarter of 2002\n"
+"\n"
+"|9000\n"
+"|Mid 2003\n"
+"\n"
+"|10000\n"
+"|End of 2003\n"
+"\n"
+"|11000\n"
+"|Mid 2004\n"
+"\n"
+"|12000\n"
+"|End of 2004\n"
+"\n"
+"|13000\n"
+"|Mid 2005\n"
+"\n"
+"|14000\n"
+"|Early 2006\n"
+"\n"
+"|15000\n"
+"|Mid 2006\n"
+"\n"
+"|16000\n"
+"|3rd quarter 2006\n"
+"\n"
+"|17000\n"
+"|2nd quarter 2007\n"
 msgstr ""
 
 #. type: Plain text
@@ -2626,79 +2569,54 @@ msgstr ""
 msgid "Approximate number of ports at the start of each year"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:873
-msgid "|=== | Year | Approximate number of ports"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:876
-msgid "|1995 |100"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:879
-msgid "|1996 |300"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:882
-msgid "|1997 |700"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:885
-msgid "|1998 |1200"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:888
-msgid "|1999 |2000"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:891
-msgid "|2000 |2900"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:894
-msgid "|2001 |4300"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:897
-msgid "|2002 |6200"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:900
-msgid "|2003 |8100"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:903
-msgid "|2004 |10050"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:906
-msgid "|2005 |12100"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:909
-msgid "|2006 |14000"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:912
-msgid "|2007 |16200"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/dev-model/_index.adoc:916
-msgid "|2008 |17900 |==="
+#. type: Table
+#: documentation/content/en/books/dev-model/_index.adoc:915
+#, no-wrap
+msgid ""
+"| Year\n"
+"| Approximate number of ports\n"
+"\n"
+"|1995\n"
+"|100\n"
+"\n"
+"|1996\n"
+"|300\n"
+"\n"
+"|1997\n"
+"|700\n"
+"\n"
+"|1998\n"
+"|1200\n"
+"\n"
+"|1999\n"
+"|2000\n"
+"\n"
+"|2000\n"
+"|2900\n"
+"\n"
+"|2001\n"
+"|4300\n"
+"\n"
+"|2002\n"
+"|6200\n"
+"\n"
+"|2003\n"
+"|8100\n"
+"\n"
+"|2004\n"
+"|10050\n"
+"\n"
+"|2005\n"
+"|12100\n"
+"\n"
+"|2006\n"
+"|14000\n"
+"\n"
+"|2007\n"
+"|16200\n"
+"\n"
+"|2008\n"
+"|17900\n"
 msgstr ""
 
 #. type: Plain text

@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -181,205 +181,126 @@ msgstr ""
 msgid "Security Advisories"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:67
-msgid "|=== | Advisory | Date | Topic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:72
+#. type: Table
+#: website/content/en/releases/12.2R/relnotes.adoc:180
+#, no-wrap
 msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-19:25.mcepsc.asc[FreeBSD-SA-19:25.mcepce] "
-"|12 November 2019 |Machine Check Exception on Page Size Change"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:76
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-19:26.mcu.asc[FreeBSD-SA-19:26.mcu] "
-"|12 November 2019 |Intel CPU Microcode Update"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:80
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:01.libfetch.asc[FreeBSD-SA-20:01.libfetch] "
-"|28 January 2020 |man:fetch[3] buffer overflow"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:84
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:03.thrmisc.asc[FreeBSD-SA-20:03.thrmisc] "
-"|28 January 2020 |Kernel stack data disclosure"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:88
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:04.tcp.asc[FreeBSD-SA-20:04.tcp] "
-"|18 March 2020 |TCP IPv6 SYN cache kernel information disclosure"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:92
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:05.if_oce_ioctl.asc[FreeBSD-SA-20:05.if_oce_ioctl] "
-"|18 March 2020 |Insufficient man:ioctl[2] privilege checking"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:96
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:06.if_ixl_ioctl.asc[FreeBSD-SA-20:06.if_ixl_ioctl] "
-"|18 March 2020 |Insufficient man:ioctl[2] privilege checking"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:100
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:07.epair.asc[FreeBSD-SA-20:07.epair] "
-"|18 March 2020 |Incorrect user-controlled pointer use"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:104
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:08.jail.asc[FreeBSD-SA-20:08.jail] "
-"|18 March 2020 |Kernel memory disclosure with nested jails"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:108
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:09.ntp.asc[FreeBSD-SA-20:09.ntp] "
-"|18 March 2020 |Multiple denial of service"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:112
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:10.ipfw.asc[FreeBSD-SA-20:10.ipfw] "
-"|21 April 2020 |Invalid man:mbuf[9] handling"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:116
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:11.openssl.asc[FreeBSD-SA-20:11.openssl] "
-"|21 April 2020 |Remote denial of service"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:120
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:12.libalias.asc[FreeBSD-SA-20:12.libalias] "
-"|12 May 2020 |Insufficient packet length validation"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:124
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:13.libalias.asc[FreeBSD-SA-20:13.libalias] "
-"|12 May 2020 |Memory disclosure vulnerability"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:128
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:15.cryptodev.asc[FreeBSD-SA-20:15.cryptodev] "
-"|12 May 2020 |Use-after-free condition"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:132
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:16.cryptodev.asc[FreeBSD-SA-20:16.cryptodev] "
-"|12 May 2020 |Insufficient MAC key length check"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:136
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:17.usb.asc[FreeBSD-SA-20:17.usb] "
-"|9 June 2020 |HID descriptor parsing error"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:140
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:19.unbound.asc[FreeBSD-SA-20:19.unbound] "
-"|8 July 2020 |Multiple vulnerabilities"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:144
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:20.ipv6.asc[FreeBSD-SA-20:20.ipv6] "
-"|8 July 2020 |Race condition and use-after-free"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:148
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:21.usb_net.asc[FreeBSD-SA-20:21.usb_net] "
-"|5 August 2020 |Memory corruption"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:152
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:22.sqlite.asc[FreeBSD-SA-20:22.sqlite] "
-"|5 August 2020 |Multiple vulnerabilities"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:156
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:23.sendmsg.asc[FreeBSD-SA-20:23.sendmsg] "
-"|5 August 2020 |Privilege escalation"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:160
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:25.sctp.asc[FreeBSD-SA-20:25.sctp] "
-"|2 September 2020 |Use-after-free bug"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:164
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:26.dhclient.asc[FreeBSD-SA-20:26.dhclient] "
-"|2 September 2020 |Heap overflow"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:168
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:27.ure.asc[FreeBSD-SA-20:27.ure] "
-"|15 September 2020 |Packet-in-packet attack"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:172
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:28.bhyve_vmcs.asc[FreeBSD-SA-20:28.bhyve_vmcs] "
-"|15 September 2020 |Privilege escalation via VMCS"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:176
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:29.bhyve_svm.asc[FreeBSD-SA-20:29.bhyve_svm] "
-"|15 September 2020 |SVM guest escape"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:181
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:30.ftpd.asc[FreeBSD-SA-20:30.ftpd] "
-"|15 September 2020 |Privilege escalation |==="
+"| Advisory\n"
+"| Date\n"
+"| Topic\n"
+"\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-19:25.mcepsc.asc[FreeBSD-SA-19:25.mcepce]\n"
+"|12 November 2019\n"
+"|Machine Check Exception on Page Size Change\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-19:26.mcu.asc[FreeBSD-SA-19:26.mcu]\n"
+"|12 November 2019\n"
+"|Intel CPU Microcode Update\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:01.libfetch.asc[FreeBSD-SA-20:01.libfetch]\n"
+"|28 January 2020\n"
+"|man:fetch[3] buffer overflow\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:03.thrmisc.asc[FreeBSD-SA-20:03.thrmisc]\n"
+"|28 January 2020\n"
+"|Kernel stack data disclosure\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:04.tcp.asc[FreeBSD-SA-20:04.tcp]\n"
+"|18 March 2020\n"
+"|TCP IPv6 SYN cache kernel information disclosure\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:05.if_oce_ioctl.asc[FreeBSD-SA-20:05.if_oce_ioctl]\n"
+"|18 March 2020\n"
+"|Insufficient man:ioctl[2] privilege checking\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:06.if_ixl_ioctl.asc[FreeBSD-SA-20:06.if_ixl_ioctl]\n"
+"|18 March 2020\n"
+"|Insufficient man:ioctl[2] privilege checking\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:07.epair.asc[FreeBSD-SA-20:07.epair]\n"
+"|18 March 2020\n"
+"|Incorrect user-controlled pointer use\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:08.jail.asc[FreeBSD-SA-20:08.jail]\n"
+"|18 March 2020\n"
+"|Kernel memory disclosure with nested jails\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:09.ntp.asc[FreeBSD-SA-20:09.ntp]\n"
+"|18 March 2020\n"
+"|Multiple denial of service\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:10.ipfw.asc[FreeBSD-SA-20:10.ipfw]\n"
+"|21 April 2020\n"
+"|Invalid man:mbuf[9] handling\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:11.openssl.asc[FreeBSD-SA-20:11.openssl]\n"
+"|21 April 2020\n"
+"|Remote denial of service\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:12.libalias.asc[FreeBSD-SA-20:12.libalias]\n"
+"|12 May 2020\n"
+"|Insufficient packet length validation\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:13.libalias.asc[FreeBSD-SA-20:13.libalias]\n"
+"|12 May 2020\n"
+"|Memory disclosure vulnerability\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:15.cryptodev.asc[FreeBSD-SA-20:15.cryptodev]\n"
+"|12 May 2020\n"
+"|Use-after-free condition\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:16.cryptodev.asc[FreeBSD-SA-20:16.cryptodev]\n"
+"|12 May 2020\n"
+"|Insufficient MAC key length check\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:17.usb.asc[FreeBSD-SA-20:17.usb]\n"
+"|9 June 2020\n"
+"|HID descriptor parsing error\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:19.unbound.asc[FreeBSD-SA-20:19.unbound]\n"
+"|8 July 2020\n"
+"|Multiple vulnerabilities\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:20.ipv6.asc[FreeBSD-SA-20:20.ipv6]\n"
+"|8 July 2020\n"
+"|Race condition and use-after-free\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:21.usb_net.asc[FreeBSD-SA-20:21.usb_net]\n"
+"|5 August 2020\n"
+"|Memory corruption\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:22.sqlite.asc[FreeBSD-SA-20:22.sqlite]\n"
+"|5 August 2020\n"
+"|Multiple vulnerabilities\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:23.sendmsg.asc[FreeBSD-SA-20:23.sendmsg]\n"
+"|5 August 2020\n"
+"|Privilege escalation\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:25.sctp.asc[FreeBSD-SA-20:25.sctp]\n"
+"|2 September 2020\n"
+"|Use-after-free bug\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:26.dhclient.asc[FreeBSD-SA-20:26.dhclient]\n"
+"|2 September 2020\n"
+"|Heap overflow\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:27.ure.asc[FreeBSD-SA-20:27.ure]\n"
+"|15 September 2020\n"
+"|Packet-in-packet attack\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:28.bhyve_vmcs.asc[FreeBSD-SA-20:28.bhyve_vmcs]\n"
+"|15 September 2020\n"
+"|Privilege escalation via VMCS\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:29.bhyve_svm.asc[FreeBSD-SA-20:29.bhyve_svm]\n"
+"|15 September 2020\n"
+"|SVM guest escape\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-SA-20:30.ftpd.asc[FreeBSD-SA-20:30.ftpd]\n"
+"|15 September 2020\n"
+"|Privilege escalation\n"
 msgstr ""
 
 #. type: Title ===
@@ -388,126 +309,79 @@ msgstr ""
 msgid "Errata Notices"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:191
-msgid "|=== | Errata | Date | Topic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:196
+#. type: Table
+#: website/content/en/releases/12.2R/relnotes.adoc:257
+#, no-wrap
 msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-19:19.loader.asc[FreeBSD-EN-19:19.loader] "
-"|12 November 2019 |UEFI Loader Memory Fragmentation"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:200
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:01.ssp.asc[FreeBSD-EN-20:01.ssp] "
-"|28 January 2020 |Imprecise orderring of canary initialization"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:204
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:03.sshd.asc[FreeBSD-EN-20:03.sshd] "
-"|18 March 2020 |Misleading log messages upon successful login"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:208
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:05.mlx5en.asc[FreeBSD-EN-20:05.mlx5en] "
-"|18 March 2020 |Fix packet forwarding performance"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:212
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:06.ipv6.asc[FreeBSD-EN-20:06.ipv6] "
-"|18 March 2020 |Incorrect checksum calculations"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:216
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:07.quotad.asc[FreeBSD-EN-20:07.quotad] "
-"|21 April 2020 |Regression with certain NFS servers"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:220
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:08.tzdata.asc[FreeBSD-EN-20:08.tzdata] "
-"|12 May 2020 |Timezone database update"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:224
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:09.igb.asc[FreeBSD-EN-20:09.igb] "
-"|12 May 2020 |Fix failure to switch to inactive state"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:228
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:10.build.asc[FreeBSD-EN-20:10.build] "
-"|12 May 2020 |Incorrect build host clang version detection"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:232
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:11.ena.asc[FreeBSD-EN-20:11.ena] "
-"|9 June 2020 |Stability issues in man:ena[4]"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:236
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:12.iflib.asc[FreeBSD-EN-20:12.iflib] "
-"|9 June 2020 |Watchdog timeout resetting idle queues"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:240
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:13.bhyve.asc[FreeBSD-EN-20:13.bhyve] "
-"|8 July 2020 |Crash with PCI device passthrough"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:244
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:14.linuxkpi.asc[FreeBSD-EN-20:14.linuxkpi] "
-"|8 July 2020 |Kernel panic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:248
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:15.mps.asc[FreeBSD-EN-20:15.mps] "
-"|8 July 2020 |Kernel panic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:252
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:16.vmx.asc[FreeBSD-EN-20:16.vmx] "
-"|5 August 2020 |Packet loss and degraded performance"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:256
-msgid ""
-"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:17.linuxthread.asc[FreeBSD-EN-20:17.linuxthread] "
-"|2 September 2020 |Kernel panic"
-msgstr ""
-
-#. type: Plain text
-#: website/content/en/releases/12.2R/relnotes.adoc:258
-msgid "|==="
+"| Errata\n"
+"| Date\n"
+"| Topic\n"
+"\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-19:19.loader.asc[FreeBSD-EN-19:19.loader]\n"
+"|12 November 2019\n"
+"|UEFI Loader Memory Fragmentation\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:01.ssp.asc[FreeBSD-EN-20:01.ssp]\n"
+"|28 January 2020\n"
+"|Imprecise orderring of canary initialization\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:03.sshd.asc[FreeBSD-EN-20:03.sshd]\n"
+"|18 March 2020\n"
+"|Misleading log messages upon successful login\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:05.mlx5en.asc[FreeBSD-EN-20:05.mlx5en]\n"
+"|18 March 2020\n"
+"|Fix packet forwarding performance\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:06.ipv6.asc[FreeBSD-EN-20:06.ipv6]\n"
+"|18 March 2020\n"
+"|Incorrect checksum calculations\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:07.quotad.asc[FreeBSD-EN-20:07.quotad]\n"
+"|21 April 2020\n"
+"|Regression with certain NFS servers\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:08.tzdata.asc[FreeBSD-EN-20:08.tzdata]\n"
+"|12 May 2020\n"
+"|Timezone database update\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:09.igb.asc[FreeBSD-EN-20:09.igb]\n"
+"|12 May 2020\n"
+"|Fix failure to switch to inactive state\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:10.build.asc[FreeBSD-EN-20:10.build]\n"
+"|12 May 2020\n"
+"|Incorrect build host clang version detection\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:11.ena.asc[FreeBSD-EN-20:11.ena]\n"
+"|9 June 2020\n"
+"|Stability issues in man:ena[4]\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:12.iflib.asc[FreeBSD-EN-20:12.iflib]\n"
+"|9 June 2020\n"
+"|Watchdog timeout resetting idle queues\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:13.bhyve.asc[FreeBSD-EN-20:13.bhyve]\n"
+"|8 July 2020\n"
+"|Crash with PCI device passthrough\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:14.linuxkpi.asc[FreeBSD-EN-20:14.linuxkpi]\n"
+"|8 July 2020\n"
+"|Kernel panic\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:15.mps.asc[FreeBSD-EN-20:15.mps]\n"
+"|8 July 2020\n"
+"|Kernel panic\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:16.vmx.asc[FreeBSD-EN-20:16.vmx]\n"
+"|5 August 2020\n"
+"|Packet loss and degraded performance\n"
+"\n"
+"|https://www.freebsd.org/security/advisories/FreeBSD-EN-20:17.linuxthread.asc[FreeBSD-EN-20:17.linuxthread]\n"
+"|2 September 2020\n"
+"|Kernel panic\n"
+"\n"
 msgstr ""
 
 #. type: Title ==
@@ -1010,7 +884,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/12.2R/relnotes.adoc:414 website/content/en/releases/12.2R/relnotes.adoc:419
+#: website/content/en/releases/12.2R/relnotes.adoc:414
+#: website/content/en/releases/12.2R/relnotes.adoc:419
 #, no-wrap
 msgid "Boot Loader Changes"
 msgstr ""

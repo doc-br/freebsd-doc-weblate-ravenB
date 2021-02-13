@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -70,83 +70,193 @@ msgid "<<upgrade,Upgrading from Previous Releases of FreeBSD>>"
 msgstr ""
 
 #. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:25
+msgid "<<security-errata,Security and Errata>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:26
+msgid "<<security,Security Advisories>>"
+msgstr ""
+
+#. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:27
-msgid ""
-"<<security-errata,Security and Errata>> ** <<security,Security Advisories>> "
-"** <<errata,Errata Notices>>"
+msgid "<<errata,Errata Notices>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:28
+msgid "<<userland,Userland>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:29
+msgid "<<userland-config,Userland Configuration Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:30
+msgid "<<userland-programs,Userland Application Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:31
+msgid "<<userland-contrib,Contributed Software>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:32
+msgid "<<userland-installer,Installation and Configuration Tools>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:33
+msgid "<<userland-rc,/etc/rc.d Scripts>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:34
+msgid "<<userland-libraries,Runtime Libraries and API>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:35
-msgid ""
-"<<userland,Userland>> ** <<userland-config,Userland Configuration Changes>> "
-"** <<userland-programs,Userland Application Changes>> ** "
-"<<userland-contrib,Contributed Software>> ** "
-"<<userland-installer,Installation and Configuration Tools>> ** "
-"<<userland-rc,/etc/rc.d Scripts>> ** <<userland-libraries,Runtime Libraries "
-"and API>> ** <<userland-abi,ABI Compatibility>>"
+msgid "<<userland-abi,ABI Compatibility>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:36
+msgid "<<kernel,Kernel>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:37
+msgid "<<kernel-bugfix,Kernel Bug Fixes>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:38
-msgid ""
-"<<kernel,Kernel>> ** <<kernel-bugfix,Kernel Bug Fixes>> ** "
-"<<kernel-config,Kernel Configuration>>"
+msgid "<<kernel-config,Kernel Configuration>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:39
+msgid "<<drivers,Devices and Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:40
+msgid "<<drivers-device,Device Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:41
+msgid "<<drivers-network,Network Drivers>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:42
-msgid ""
-"<<drivers,Devices and Drivers>> ** <<drivers-device,Device Drivers>> ** "
-"<<drivers-network,Network Drivers>> ** <<drivers-deprecated,Deprecated "
-"Drivers>>"
+msgid "<<drivers-deprecated,Deprecated Drivers>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:43
+msgid "<<hardware,Hardware Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:44
+msgid "<<hardware-support,Hardware Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:45
+msgid "<<hardware-graphics,Graphics Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:46
+msgid "<<hardware-virtualization,Virtualization Support>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:47
-msgid ""
-"<<hardware,Hardware Support>> ** <<hardware-support,Hardware Support>> ** "
-"<<hardware-graphics,Graphics Support>> ** "
-"<<hardware-virtualization,Virtualization Support>> ** <<hardware-arm,ARM "
-"Support>>"
+msgid "<<hardware-arm,ARM Support>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:48
+msgid "<<storage,Storage>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:49
+msgid "<<storage-general,General Storage>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:50
+msgid "<<storage-net,Networked Storage>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:51
-msgid ""
-"<<storage,Storage>> ** <<storage-general,General Storage>> ** "
-"<<storage-net,Networked Storage>> ** <<storage-zfs,ZFS>>"
+msgid "<<storage-zfs,ZFS>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:52
+msgid "<<boot,Boot Loader Changes>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:53
-msgid "<<boot,Boot Loader Changes>> ** <<boot-loader,Boot Loader Changes>>"
+msgid "<<boot-loader,Boot Loader Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:54
+msgid "<<network,Networking>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:55
+msgid "<<network-general,General Network>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:56
-msgid ""
-"<<network,Networking>> ** <<network-general,General Network>> ** "
-"<<network-protocols,Network Protocols>>"
+msgid "<<network-protocols,Network Protocols>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:57
+msgid "<<ports,Ports Collection and Package Infrastructure>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:58
-msgid ""
-"<<ports,Ports Collection and Package Infrastructure>> ** "
-"<<ports-packages,Packaging Changes>>"
+msgid "<<ports-packages,Packaging Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:59
+msgid "<<doc,Documentation>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:60
-msgid "<<doc,Documentation>> ** <<doc-sources,Documentation Source Changes>>"
+msgid "<<doc-sources,Documentation Source Changes>>"
+msgstr ""
+
+#. type: Plain text
+#: website/content/en/releases/12.0R/relnotes.adoc:61
+msgid "<<releng,Release Engineering and Integration>>"
 msgstr ""
 
 #. type: Plain text
 #: website/content/en/releases/12.0R/relnotes.adoc:62
-msgid ""
-"<<releng,Release Engineering and Integration>> ** "
-"<<releng-changes,Integration Changes>>"
+msgid "<<releng-changes,Integration Changes>>"
 msgstr ""
 
 #. type: Title ==
@@ -277,9 +387,12 @@ msgstr ""
 msgid "Security Advisories"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.0R/relnotes.adoc:105
-msgid "|=== |Advisory |Date |Topic |No advisories. | | |==="
+#. type: Table
+#: website/content/en/releases/12.0R/relnotes.adoc:104
+#, no-wrap
+msgid ""
+"|Advisory |Date |Topic\n"
+"|No advisories. | |\n"
 msgstr ""
 
 #. type: Title ===
@@ -288,9 +401,12 @@ msgstr ""
 msgid "Errata Notices"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.0R/relnotes.adoc:114
-msgid "|=== |Errata |Date |Topic |No errata notices. | | |==="
+#. type: Table
+#: website/content/en/releases/12.0R/relnotes.adoc:113
+#, no-wrap
+msgid ""
+"|Errata |Date |Topic\n"
+"|No errata notices. | |\n"
 msgstr ""
 
 #. type: Title ==
@@ -1125,7 +1241,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/12.0R/relnotes.adoc:353 website/content/en/releases/12.0R/relnotes.adoc:358
+#: website/content/en/releases/12.0R/relnotes.adoc:353
+#: website/content/en/releases/12.0R/relnotes.adoc:358
 #, no-wrap
 msgid "Hardware Support"
 msgstr ""
@@ -1464,7 +1581,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/12.0R/relnotes.adoc:471 website/content/en/releases/12.0R/relnotes.adoc:476
+#: website/content/en/releases/12.0R/relnotes.adoc:471
+#: website/content/en/releases/12.0R/relnotes.adoc:476
 #, no-wrap
 msgid "Boot Loader Changes"
 msgstr ""

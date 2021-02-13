@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -47,11 +47,6 @@ msgstr ""
 #: documentation/content/en/books/arch-handbook/mac/chapter.adoc:13
 #, no-wrap
 msgid "The TrustedBSD MAC Framework"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:36
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -986,14 +981,18 @@ msgid ""
 "struct mac_policy_conf *conf;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:267 documentation/content/en/books/arch-handbook/mac/chapter.adoc:290 documentation/content/en/books/arch-handbook/mac/chapter.adoc:317 documentation/content/en/books/arch-handbook/mac/chapter.adoc:353 documentation/content/en/books/arch-handbook/mac/chapter.adoc:379 documentation/content/en/books/arch-handbook/mac/chapter.adoc:402 documentation/content/en/books/arch-handbook/mac/chapter.adoc:425 documentation/content/en/books/arch-handbook/mac/chapter.adoc:448 documentation/content/en/books/arch-handbook/mac/chapter.adoc:473 documentation/content/en/books/arch-handbook/mac/chapter.adoc:502 documentation/content/en/books/arch-handbook/mac/chapter.adoc:531 documentation/content/en/books/arch-handbook/mac/chapter.adoc:558 documentation/content/en/books/arch-handbook/mac/chapter.adoc:581 documentation/content/en/books/arch-handbook/mac/chapter.adoc:606 documentation/content/en/books/arch-handbook/mac/chapter.adoc:635 documentation/content/en/books/arch-handbook/mac/chapter.adoc:662 documentation/content/en/books/arch-handbook/mac/chapter.adoc:685 documentation/content/en/books/arch-handbook/mac/chapter.adoc:708 documentation/content/en/books/arch-handbook/mac/chapter.adoc:731 documentation/content/en/books/arch-handbook/mac/chapter.adoc:754 documentation/content/en/books/arch-handbook/mac/chapter.adoc:777 documentation/content/en/books/arch-handbook/mac/chapter.adoc:800 documentation/content/en/books/arch-handbook/mac/chapter.adoc:823 documentation/content/en/books/arch-handbook/mac/chapter.adoc:846 documentation/content/en/books/arch-handbook/mac/chapter.adoc:871 documentation/content/en/books/arch-handbook/mac/chapter.adoc:898 documentation/content/en/books/arch-handbook/mac/chapter.adoc:921 documentation/content/en/books/arch-handbook/mac/chapter.adoc:944 documentation/content/en/books/arch-handbook/mac/chapter.adoc:967 documentation/content/en/books/arch-handbook/mac/chapter.adoc:990 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1015 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1044 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1073 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1106 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1147 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1188 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1229 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1270 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1311 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1352 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1393 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1434 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1475 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1516 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1594 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1643 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1684 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1723 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1760 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1801 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1858 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1915 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1956 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1983 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2024 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2065 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2110 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2149 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2184 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2221 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2262 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2303 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2344 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2385 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2427 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2460 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2493 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2534 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2575 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2616 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2657 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2698 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2739 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2784 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2833 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2874 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2915 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2956 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2996 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3030 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3069 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3100 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3123 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3148 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3208 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3243 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3268 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3297 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3326 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3357 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3388 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3411 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3442 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3485 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3520 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3557 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3596 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3631 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3668 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3707 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3746 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3781 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3814 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3845 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3880 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3921 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3958 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3991 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4030 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4063 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4096 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4135 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4170 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4209 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4258 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4307 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4346 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4383 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4428 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4481 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4530 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4571 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4612 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4649 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4694 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4749 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4800 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4837 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4878 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4917 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4952 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4987 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5026 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5075 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5124 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5165 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5208 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5255 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5296 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5329 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5364 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5405 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5452 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5495 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5530 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5561 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5586 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5613 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5640 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5685
-msgid "|=== | Parameter | Description | Locking"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:272 documentation/content/en/books/arch-handbook/mac/chapter.adoc:295
-msgid "|`conf` |MAC policy definition | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:271
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:294
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`conf`\n"
+"|MAC policy definition\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1045,19 +1044,25 @@ msgid ""
 "void *arg;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:321
-msgid "|`td` |Calling thread |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:325
-msgid "|`call` |Policy-specific syscall number |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:330
-msgid "|`arg` |Pointer to syscall arguments | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:329
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`td`\n"
+"|Calling thread\n"
+"|\n"
+"\n"
+"|`call`\n"
+"|Policy-specific syscall number\n"
+"|\n"
+"\n"
+"|`arg`\n"
+"|Pointer to syscall arguments\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1095,9 +1100,17 @@ msgid ""
 "struct thread *td;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:358
-msgid "|`td` |Returning thread | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:357
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`td`\n"
+"|Returning thread\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1139,9 +1152,19 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:384 documentation/content/en/books/arch-handbook/mac/chapter.adoc:430 documentation/content/en/books/arch-handbook/mac/chapter.adoc:453
-msgid "|`label` |New label to apply | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:383
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:429
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:452
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|New label to apply\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1165,9 +1188,19 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:407 documentation/content/en/books/arch-handbook/mac/chapter.adoc:667 documentation/content/en/books/arch-handbook/mac/chapter.adoc:690
-msgid "|`label` |New label to initialize | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:406
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:666
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:689
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|New label to initialize\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1235,14 +1268,21 @@ msgid ""
 "int flag;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:477
-msgid "|`label` |New label to apply |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:482
-msgid "|`flag` |Sleeping/non-sleeping man:malloc[9]; see below | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:481
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|New label to apply\n"
+"|\n"
+"\n"
+"|`flag`\n"
+"|Sleeping/non-sleeping man:malloc[9]; see below\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1274,14 +1314,21 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:506
-msgid "|`flag` |Sleeping/non-sleeping man:malloc[9]; see below |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:511
-msgid "|`label` |Policy label to initialize | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:510
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`flag`\n"
+"|Sleeping/non-sleeping man:malloc[9]; see below\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label to initialize\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1312,14 +1359,21 @@ msgid ""
 "struct label *fslabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:535
-msgid "|`mntlabel` |Policy label to be initialized for the mount itself |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:540
-msgid "|`fslabel` |Policy label to be initialized for the file system | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:539
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`mntlabel`\n"
+"|Policy label to be initialized for the mount itself\n"
+"|\n"
+"\n"
+"|`fslabel`\n"
+"|Policy label to be initialized for the file system\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1343,9 +1397,17 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:563
-msgid "|`label` |Label to be initialized | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:562
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Label to be initialized\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1367,9 +1429,17 @@ msgid ""
 "struct label*label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:586
-msgid "|`label` |Label to be filled in | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:585
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Label to be filled in\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1393,14 +1463,22 @@ msgid ""
 "int flag;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:610 documentation/content/en/books/arch-handbook/mac/chapter.adoc:639
-msgid "|`label` |New label to initialize |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:615 documentation/content/en/books/arch-handbook/mac/chapter.adoc:644
-msgid "|`flag` |man:malloc[9] flags | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:614
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:643
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|New label to initialize\n"
+"|\n"
+"\n"
+"|`flag`\n"
+"|man:malloc[9] flags\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1489,9 +1567,17 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:713
-msgid "|`label` |bpfdesc label | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:712
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|bpfdesc label\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1516,9 +1602,21 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:736 documentation/content/en/books/arch-handbook/mac/chapter.adoc:759 documentation/content/en/books/arch-handbook/mac/chapter.adoc:782 documentation/content/en/books/arch-handbook/mac/chapter.adoc:805 documentation/content/en/books/arch-handbook/mac/chapter.adoc:828
-msgid "|`label` |Label being destroyed | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:735
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:758
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:781
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:804
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:827
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Label being destroyed\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1618,7 +1716,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:832 documentation/content/en/books/arch-handbook/mac/chapter.adoc:855
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:832
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:855
 #, no-wrap
 msgid "`mpo_destroy_mount_label`"
 msgstr ""
@@ -1631,9 +1730,17 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:851
-msgid "|`label` |Mount point label being destroyed | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:850
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Mount point label being destroyed\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1654,14 +1761,21 @@ msgid ""
 "struct label *fslabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:875
-msgid "|`mntlabel` |Mount point label being destroyed |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:880
-msgid "|`fslabel` |File system label being destroyed> | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:879
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`mntlabel`\n"
+"|Mount point label being destroyed\n"
+"|\n"
+"\n"
+"|`fslabel`\n"
+"|File system label being destroyed>\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1686,9 +1800,17 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:903
-msgid "|`label` |Socket label being destroyed | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:902
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Socket label being destroyed\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1713,9 +1835,17 @@ msgid ""
 "struct label *peerlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:926
-msgid "|`peerlabel` |Socket peer label being destroyed | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:925
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`peerlabel`\n"
+"|Socket peer label being destroyed\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1740,9 +1870,17 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:949
-msgid "|`label` |Pipe label | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:948
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Pipe label\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1767,9 +1905,18 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:972 documentation/content/en/books/arch-handbook/mac/chapter.adoc:995
-msgid "|`label` |Process label | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:971
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:994
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Process label\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -1818,18 +1965,29 @@ msgid ""
 "struct label *dest;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1019 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1048 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1077
-msgid "|`src` |Source label |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1023
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1052
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1081
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`src`\n"
+"|Source label\n"
+"|\n"
+"\n"
+"|`dest`\n"
+"|Destination label\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1024 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1053 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1082
-msgid "|`dest` |Destination label | |==="
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1026 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1055 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1084
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1026
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1055
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1084
 msgid "Copy the label information in `src` into `dest`."
 msgstr ""
 
@@ -1885,30 +2043,43 @@ msgid ""
 "int *claimed;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1110 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1151 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1192 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1233 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1274 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1315
-msgid "|`label` |Label to be externalized |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1114 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1155 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1196 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1237 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1278 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1319
-msgid "|`element_name` |Name of the policy whose label should be externalized |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1118 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1159 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1200 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1241 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1282 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1323
-msgid "|`sb` |String buffer to be filled with a text representation of label |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1123 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1164 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1205 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1246 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1287 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1328
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1122
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1163
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1204
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1245
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1286
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1327
+#, no-wrap
 msgid ""
-"|`claimed` |Should be incremented when `element_data` can be filled in.  | "
-"|==="
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Label to be externalized\n"
+"|\n"
+"\n"
+"|`element_name`\n"
+"|Name of the policy whose label should be externalized\n"
+"|\n"
+"\n"
+"|`sb`\n"
+"|String buffer to be filled with a text representation of label\n"
+"|\n"
+"\n"
+"|`claimed`\n"
+"|Should be incremented when `element_data` can be filled in.\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1125 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1166 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1207 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1248 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1289 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1330
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1125
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1166
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1207
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1248
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1289
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1330
 msgid ""
 "Produce an externalized label based on the label structure passed. An "
 "externalized label consists of a text representation of the label contents "
@@ -2041,30 +2212,41 @@ msgid ""
 "int *claimed;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1356 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1397 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1438 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1479 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1520
-msgid "|`label` |Label to be filled in |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1360 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1401 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1442 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1483 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1524
-msgid "|`element_name` |Name of the policy whose label should be internalized |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1364 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1405 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1446 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1487 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1528
-msgid "|`element_data` |Text data to be internalized |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1369 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1410 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1451 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1492 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1533
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1368
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1409
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1450
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1491
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1532
+#, no-wrap
 msgid ""
-"|`claimed` |Should be incremented when data can be successfully "
-"internalized.  | |==="
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`label`\n"
+"|Label to be filled in\n"
+"|\n"
+"\n"
+"|`element_name`\n"
+"|Name of the policy whose label should be internalized\n"
+"|\n"
+"\n"
+"|`element_data`\n"
+"|Text data to be internalized\n"
+"|\n"
+"\n"
+"|`claimed`\n"
+"|Should be incremented when data can be successfully internalized.\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1371 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1412 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1453 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1494 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1535
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1371
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1412
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1453
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1494
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1535
 msgid ""
 "Produce an internal label structure based on externalized label data in text "
 "format. Currently, all policies' `internalize` entry points are called when "
@@ -2282,34 +2464,37 @@ msgid ""
 "struct label *vlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1598 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1809
-msgid "|`mp` |Devfs mount point |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1602
-msgid "|`fslabel` |Devfs file system label (`mp->mnt_fslabel`)  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1606
-msgid "|`de` |Devfs directory entry |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1610
-msgid "|`delabel` |Policy label associated with `de` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1614
-msgid "|`vp` |vnode associated with `de` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1619 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1660 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1701
-msgid "|`vlabel` |Policy label associated with `vp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1618
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`mp`\n"
+"|Devfs mount point\n"
+"|\n"
+"\n"
+"|`fslabel`\n"
+"|Devfs file system label (`mp->mnt_fslabel`)\n"
+"|\n"
+"\n"
+"|`de`\n"
+"|Devfs directory entry\n"
+"|\n"
+"\n"
+"|`delabel`\n"
+"|Policy label associated with `de`\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|vnode associated with `de`\n"
+"|\n"
+"\n"
+"|`vlabel`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2339,19 +2524,30 @@ msgid ""
 "struct label *vlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1647 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1688
-msgid "|`mp` |File system mount point |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1651 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1692
-msgid "|`fslabel` |File system label |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1655 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1696
-msgid "|`vp` |Vnode to label |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1659
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1700
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`mp`\n"
+"|File system mount point\n"
+"|\n"
+"\n"
+"|`fslabel`\n"
+"|File system label\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Vnode to label\n"
+"|\n"
+"\n"
+"|`vlabel`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2409,19 +2605,25 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1727
-msgid "|`dev` |Device corresponding with `devfs_dirent` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1731
-msgid "|`devfs_dirent` |Devfs directory entry to be labeled.  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1736
-msgid "|`label` |Label for `devfs_dirent` to be filled in.  | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1735
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`dev`\n"
+"|Device corresponding with `devfs_dirent`\n"
+"|\n"
+"\n"
+"|`devfs_dirent`\n"
+"|Devfs directory entry to be labeled.\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Label for `devfs_dirent` to be filled in.\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2452,19 +2654,25 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1764
-msgid "|`dirname` |Name of directory being created |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1768
-msgid "|`namelen` |Length of string `dirname` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1773
-msgid "|`devfs_dirent` |Devfs directory entry for directory being created.  | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1772
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`dirname`\n"
+"|Name of directory being created\n"
+"|\n"
+"\n"
+"|`namelen`\n"
+"|Length of string `dirname`\n"
+"|\n"
+"\n"
+"|`devfs_dirent`\n"
+"|Devfs directory entry for directory being created.\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2500,29 +2708,37 @@ msgid ""
 "struct label *delabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1805 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1862 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1919 documentation/content/en/books/arch-handbook/mac/chapter.adoc:1987 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2028 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2153 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2266 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2919 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3152 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3272 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3301 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3330 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3361 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3446 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3489 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3524 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3561 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3600 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3635 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3672 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3711 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3750 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3785 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3849 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3884 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3925 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3962 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4034 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4100 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4139 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4174 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4213 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4262 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4350 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4387 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4432 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4485 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4534 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4616 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4698 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4753 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4804 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4841 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4882 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4921 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4956 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4991 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5030 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5079 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5128 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5169 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5212 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5259 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5300 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5333 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5368 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5409 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5456 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5590 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5644 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5689
-msgid "|`cred` |Subject credential |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1813
-msgid "|`dd` |Link destination |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1817
-msgid "|`ddlabel` |Label associated with `dd` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1821
-msgid "|`de` |Symlink entry |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1826
-msgid "|`delabel` |Label associated with `de` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1825
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`mp`\n"
+"|Devfs mount point\n"
+"|\n"
+"\n"
+"|`dd`\n"
+"|Link destination\n"
+"|\n"
+"\n"
+"|`ddlabel`\n"
+"|Label associated with `dd`\n"
+"|\n"
+"\n"
+"|`de`\n"
+"|Symlink entry\n"
+"|\n"
+"\n"
+"|`delabel`\n"
+"|Label associated with `de`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2560,39 +2776,45 @@ msgid ""
 "struct componentname *cnp;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1866
-msgid "|`mount` |File system mount point |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1870
-msgid "|`label` |File system label |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1874 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4266
-msgid "|`dvp` |Parent directory vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1878
-msgid "|`dlabel` |Label associated with `dvp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1882
-msgid "|`vp` |Newly created vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1886 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2036
-msgid "|`vlabel` |Policy label associated with `vp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1891 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4283 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4719
-msgid "|`cnp` |Component name for `vp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1890
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`mount`\n"
+"|File system mount point\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|File system label\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Parent directory vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Label associated with `dvp`\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Newly created vnode\n"
+"|\n"
+"\n"
+"|`vlabel`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
+"\n"
+"|`cnp`\n"
+"|Component name for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2623,19 +2845,29 @@ msgid ""
 "struct label *fslabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1923
-msgid "|`mp` |Object; file system being mounted |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1927
-msgid "|`mntlabel` |Policy label to be filled in for `mp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1932
-msgid "|`fslabel` |Policy label for the file system `mp` mounts.  | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1931
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`mp`\n"
+"|Object; file system being mounted\n"
+"|\n"
+"\n"
+"|`mntlabel`\n"
+"|Policy label to be filled in for `mp`\n"
+"|\n"
+"\n"
+"|`fslabel`\n"
+"|Policy label for the file system `mp` mounts.\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2665,9 +2897,15 @@ msgid ""
 "struct label *fslabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1959
-msgid "3+|See <<mac-mpo-create-mount>>.  |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1958
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"3+|See <<mac-mpo-create-mount>>.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2698,19 +2936,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1991
-msgid "|`vp` |vnode to relabel |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1995 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4003
-msgid "|`vnodelabel` |Existing policy label for `vp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2000
-msgid "|`newlabel` |New, possibly partial label to replace `vnodelabel` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:1999
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|vnode to relabel\n"
+"|\n"
+"\n"
+"|`vnodelabel`\n"
+"|Existing policy label for `vp`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|New, possibly partial label to replace `vnodelabel`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2740,14 +2988,29 @@ msgid ""
 "struct label *intlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2032
-msgid "|`vp` |Vnode for which the label is being written |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2041
-msgid "|`intlabel` |Label to write out | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2040
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Vnode for which the label is being written\n"
+"|\n"
+"\n"
+"|`vlabel`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
+"\n"
+"|`intlabel`\n"
+"|Label to write out\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2777,24 +3040,30 @@ msgid ""
 "struct label *vnodelabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2069
-msgid "|`devfs_dirent` |Object; devfs directory entry |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2073
-msgid "|`direntlabel` |Policy label for `devfs_dirent` to be updated.  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2078
-msgid "|`vp` |Parent vnode |Locked |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2083 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3047 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3082
-msgid "|`vnodelabel` |Policy label for `vp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2082
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`devfs_dirent`\n"
+"|Object; devfs directory entry\n"
+"|\n"
+"\n"
+"|`direntlabel`\n"
+"|Policy label for `devfs_dirent` to be updated.\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Parent vnode\n"
+"|Locked\n"
+"|\n"
+"\n"
+"|`vnodelabel`\n"
+"|Policy label for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2833,24 +3102,29 @@ msgid ""
 "struct label *mbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2114
-msgid "|`socket` |Socket |Socket locking WIP"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2118 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3680 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3719
-msgid "|`socketlabel` |Policy label for `socket` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2122
-msgid "|`m` |Object; mbuf |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2127
-msgid "|`mbuflabel` |Policy label to fill in for `m` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2126
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`socket`\n"
+"|Socket\n"
+"|Socket locking WIP\n"
+"\n"
+"|`socketlabel`\n"
+"|Policy label for `socket`\n"
+"|\n"
+"\n"
+"|`m`\n"
+"|Object; mbuf\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Policy label to fill in for `m`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2879,14 +3153,29 @@ msgid ""
 "struct label *pipelabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2157 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2270 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3450 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3493 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3528 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3565 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3604 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3639
-msgid "|`pipe` |Pipe |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2162 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3498 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3533 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3609 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3644
-msgid "|`pipelabel` |Policy label associated with `pipe` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2161
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3497
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3532
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3608
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3643
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`pipe`\n"
+"|Pipe\n"
+"|\n"
+"\n"
+"|`pipelabel`\n"
+"|Policy label associated with `pipe`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2914,19 +3203,25 @@ msgid ""
 "struct label *socketlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2188 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2307 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2431 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3995 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4067 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4311 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5499
-msgid "|`cred` |Subject credential |Immutable"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2192
-msgid "|`so` |Object; socket to label |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2197
-msgid "|`socketlabel` |Label to fill in for `so` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2196
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|Immutable\n"
+"\n"
+"|`so`\n"
+"|Object; socket to label\n"
+"|\n"
+"\n"
+"|`socketlabel`\n"
+"|Label to fill in for `so`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -2956,24 +3251,29 @@ msgid ""
 "struct label *newsocketlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2225
-msgid "|`oldsocket` |Listening socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2229
-msgid "|`oldsocketlabel` |Policy label associated with `oldsocket` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2233
-msgid "|`newsocket` |New socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2238
-msgid "|`newsocketlabel` |Policy label associated with `newsocketlabel` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2237
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`oldsocket`\n"
+"|Listening socket\n"
+"|\n"
+"\n"
+"|`oldsocketlabel`\n"
+"|Policy label associated with `oldsocket`\n"
+"|\n"
+"\n"
+"|`newsocket`\n"
+"|New socket\n"
+"|\n"
+"\n"
+"|`newsocketlabel`\n"
+"|Policy label associated with `newsocketlabel`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3003,14 +3303,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2274
-msgid "|`oldlabel` |Current policy label associated with `pipe` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2279
-msgid "|`newlabel` |Policy label update to apply to `pipe` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2278
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`pipe`\n"
+"|Pipe\n"
+"|\n"
+"\n"
+"|`oldlabel`\n"
+"|Current policy label associated with `pipe`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Policy label update to apply to `pipe`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3038,19 +3353,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2311 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5503
-msgid "|`so` |Object; socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2315
-msgid "|`oldlabel` |Current label for `so` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2320
-msgid "|`newlabel` |Label update for `so` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2319
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|Immutable\n"
+"\n"
+"|`so`\n"
+"|Object; socket\n"
+"|\n"
+"\n"
+"|`oldlabel`\n"
+"|Current label for `so`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Label update for `so`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3078,24 +3403,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2348
-msgid "|`mbuf` |First datagram received over socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2352
-msgid "|`mbuflabel` |Label for `mbuf` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2356
-msgid "|`oldlabel` |Current label for the socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2361
-msgid "|`newlabel` |Policy label to be filled out for the socket | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2360
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`mbuf`\n"
+"|First datagram received over socket\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Label for `mbuf`\n"
+"|\n"
+"\n"
+"|`oldlabel`\n"
+"|Current label for the socket\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Policy label to be filled out for the socket\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3126,24 +3456,29 @@ msgid ""
 "struct label *newsocketpeerlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2389
-msgid "|`oldsocket` |Local socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2393
-msgid "|`oldsocketlabel` |Policy label for `oldsocket` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2397
-msgid "|`newsocket` |Peer socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2402
-msgid "|`newsocketpeerlabel` |Policy label to fill in for `newsocket` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2401
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`oldsocket`\n"
+"|Local socket\n"
+"|\n"
+"\n"
+"|`oldsocketlabel`\n"
+"|Policy label for `oldsocket`\n"
+"|\n"
+"\n"
+"|`newsocket`\n"
+"|Peer socket\n"
+"|\n"
+"\n"
+"|`newsocketpeerlabel`\n"
+"|Policy label to fill in for `newsocket`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3178,14 +3513,25 @@ msgid ""
 "struct label *bpflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2435
-msgid "|`bpf_d` |Object; bpf descriptor |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2440
-msgid "|`bpf` |Policy label to be filled in for `bpf_d` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2439
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|Immutable\n"
+"\n"
+"|`bpf_d`\n"
+"|Object; bpf descriptor\n"
+"|\n"
+"\n"
+"|`bpf`\n"
+"|Policy label to be filled in for `bpf_d`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3212,14 +3558,21 @@ msgid ""
 "struct label *ifnetlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2464 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2661 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2743 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2796 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5413 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5460
-msgid "|`ifnet` |Network interface |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2469
-msgid "|`ifnetlabel` |Policy label to fill in for `ifnet` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2468
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`ifnet`\n"
+"|Network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label to fill in for `ifnet`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3251,24 +3604,29 @@ msgid ""
 "struct label *ipqlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2497
-msgid "|`fragment` |First received IP fragment |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2501 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2882
-msgid "|`fragmentlabel` |Policy label for `fragment` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2505
-msgid "|`ipq` |IP reassembly queue to be labeled |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2510
-msgid "|`ipqlabel` |Policy label to be filled in for `ipq` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2509
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`fragment`\n"
+"|First received IP fragment\n"
+"|\n"
+"\n"
+"|`fragmentlabel`\n"
+"|Policy label for `fragment`\n"
+"|\n"
+"\n"
+"|`ipq`\n"
+"|IP reassembly queue to be labeled\n"
+"|\n"
+"\n"
+"|`ipqlabel`\n"
+"|Policy label to be filled in for `ipq`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3298,24 +3656,29 @@ msgid ""
 "struct label *datagramlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2538
-msgid "|`ipq` |IP reassembly queue |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2542
-msgid "|`ipqlabel` |Policy label for `ipq` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2546
-msgid "|`datagram` |Datagram to be labeled |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2551
-msgid "|`datagramlabel` |Policy label to be filled in for `datagramlabel` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2550
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`ipq`\n"
+"|IP reassembly queue\n"
+"|\n"
+"\n"
+"|`ipqlabel`\n"
+"|Policy label for `ipq`\n"
+"|\n"
+"\n"
+"|`datagram`\n"
+"|Datagram to be labeled\n"
+"|\n"
+"\n"
+"|`datagramlabel`\n"
+"|Policy label to be filled in for `datagramlabel`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3345,24 +3708,29 @@ msgid ""
 "struct label *fragmentlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2579
-msgid "|`datagram` |Datagram |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2583
-msgid "|`datagramlabel` |Policy label for `datagram` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2587
-msgid "|`fragment` |Fragment to be labeled |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2592
-msgid "|`fragmentlabel` |Policy label to be filled in for `datagram` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2591
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`datagram`\n"
+"|Datagram\n"
+"|\n"
+"\n"
+"|`datagramlabel`\n"
+"|Policy label for `datagram`\n"
+"|\n"
+"\n"
+"|`fragment`\n"
+"|Fragment to be labeled\n"
+"|\n"
+"\n"
+"|`fragmentlabel`\n"
+"|Policy label to be filled in for `datagram`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3392,24 +3760,29 @@ msgid ""
 "struct label *newmbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2620
-msgid "|`oldmbuf` |Existing (source) mbuf |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2624 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2792 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2841
-msgid "|`oldmbuflabel` |Policy label for `oldmbuf` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2628
-msgid "|`newmbuf` |New mbuf to be labeled |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2633 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2809
-msgid "|`newmbuflabel` |Policy label to be filled in for `newmbuf` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2632
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`oldmbuf`\n"
+"|Existing (source) mbuf\n"
+"|\n"
+"\n"
+"|`oldmbuflabel`\n"
+"|Policy label for `oldmbuf`\n"
+"|\n"
+"\n"
+"|`newmbuf`\n"
+"|New mbuf to be labeled\n"
+"|\n"
+"\n"
+"|`newmbuflabel`\n"
+"|Policy label to be filled in for `newmbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3440,19 +3813,29 @@ msgid ""
 "struct label *mbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2665 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2800 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2927 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5417 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5464
-msgid "|`ifnetlabel` |Policy label for `ifnet` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2669 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2751
-msgid "|`mbuf` |mbuf header for new datagram |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2674 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2756
-msgid "|`mbuflabel` |Policy label to be filled in for `mbuf` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2673
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`ifnet`\n"
+"|Network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label for `ifnet`\n"
+"|\n"
+"\n"
+"|`mbuf`\n"
+"|mbuf header for new datagram\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Policy label to be filled in for `mbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3484,24 +3867,29 @@ msgid ""
 "struct label *mbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2702
-msgid "|`bpf_d` |BPF descriptor |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2706
-msgid "|`bpflabel` |Policy label for `bpflabel` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2710
-msgid "|`mbuf` |New mbuf to be labeled |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2715
-msgid "|`mbuflabel` |Policy label to fill in for `mbuf` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2714
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`bpf_d`\n"
+"|BPF descriptor\n"
+"|\n"
+"\n"
+"|`bpflabel`\n"
+"|Policy label for `bpflabel`\n"
+"|\n"
+"\n"
+"|`mbuf`\n"
+"|New mbuf to be labeled\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Policy label to fill in for `mbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3532,9 +3920,29 @@ msgid ""
 "struct label *mbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2747
-msgid "|`ifnetlabel` |Policy label for `ifnetlabel` |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2755
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`ifnet`\n"
+"|Network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label for `ifnetlabel`\n"
+"|\n"
+"\n"
+"|`mbuf`\n"
+"|mbuf header for new datagram\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Policy label to be filled in for `mbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3568,14 +3976,37 @@ msgid ""
 "struct label *newmbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2788
-msgid "|`oldmbuf` |mbuf header for existing datagram |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2804
-msgid "|`newmbuf` |mbuf header to be labeled for new datagram |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2808
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`oldmbuf`\n"
+"|mbuf header for existing datagram\n"
+"|\n"
+"\n"
+"|`oldmbuflabel`\n"
+"|Policy label for `oldmbuf`\n"
+"|\n"
+"\n"
+"|`ifnet`\n"
+"|Network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label for `ifnet`\n"
+"|\n"
+"\n"
+"|`newmbuf`\n"
+"|mbuf header to be labeled for new datagram\n"
+"|\n"
+"\n"
+"|`newmbuflabel`\n"
+"|Policy label to be filled in for `newmbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3607,19 +4038,29 @@ msgid ""
 "struct label *newmbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2837
-msgid "|`oldmbuf` |Received datagram |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2845
-msgid "|`newmbuf` |Newly created datagram |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2850
-msgid "|`newmbuflabel` |Policy label for `newmbuf` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2849
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`oldmbuf`\n"
+"|Received datagram\n"
+"|\n"
+"\n"
+"|`oldmbuflabel`\n"
+"|Policy label for `oldmbuf`\n"
+"|\n"
+"\n"
+"|`newmbuf`\n"
+"|Newly created datagram\n"
+"|\n"
+"\n"
+"|`newmbuflabel`\n"
+"|Policy label for `newmbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3651,19 +4092,29 @@ msgid ""
 "struct label *ipqlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2878
-msgid "|`fragment` |IP datagram fragment |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2886 documentation/content/en/books/arch-handbook/mac/chapter.adoc:2968
-msgid "|`ipq` |IP fragment reassembly queue |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2891
-msgid "|`ipqlabel` |Policy label for `ipq` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2890
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`fragment`\n"
+"|IP datagram fragment\n"
+"|\n"
+"\n"
+"|`fragmentlabel`\n"
+"|Policy label for `fragment`\n"
+"|\n"
+"\n"
+"|`ipq`\n"
+"|IP fragment reassembly queue\n"
+"|\n"
+"\n"
+"|`ipqlabel`\n"
+"|Policy label for `ipq`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3700,14 +4151,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2923
-msgid "|`ifnet` |Object; Network interface |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2932
-msgid "|`newlabel` |Label update to apply to `ifnet` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2931
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`ifnet`\n"
+"|Object; Network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label for `ifnet`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Label update to apply to `ifnet`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3737,19 +4203,29 @@ msgid ""
 "struct label *ipqlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2960
-msgid "|`mbuf` |IP fragment |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2964
-msgid "|`mbuflabel` |Policy label for `mbuf` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2973
-msgid "|`ipqlabel` |Policy label to be updated for `ipq` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:2972
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`mbuf`\n"
+"|IP fragment\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Policy label for `mbuf`\n"
+"|\n"
+"\n"
+"|`ipq`\n"
+"|IP fragment reassembly queue\n"
+"|\n"
+"\n"
+"|`ipqlabel`\n"
+"|Policy label to be updated for `ipq`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3781,14 +4257,21 @@ msgid ""
 "struct ucred *child_cred;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3000
-msgid "|`parent_cred` |Parent subject credential |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3005
-msgid "|`child_cred` |Child subject credential | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3004
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`parent_cred`\n"
+"|Parent subject credential\n"
+"|\n"
+"\n"
+"|`child_cred`\n"
+"|Child subject credential\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3820,19 +4303,29 @@ msgid ""
 "struct label *vnodelabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3034
-msgid "|`old` |Existing subject credential |Immutable"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3038
-msgid "|`new` |New subject credential to be labeled |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3042
-msgid "|`vp` |File to execute |Locked"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3046
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`old`\n"
+"|Existing subject credential\n"
+"|Immutable\n"
+"\n"
+"|`new`\n"
+"|New subject credential to be labeled\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|File to execute\n"
+"|Locked\n"
+"\n"
+"|`vnodelabel`\n"
+"|Policy label for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3868,14 +4361,25 @@ msgid ""
 "struct label *vnodelabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3073
-msgid "|`old` |Subject credential prior to man:execve[2] |Immutable"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3077
-msgid "|`vp` |File to execute |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3081
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`old`\n"
+"|Subject credential prior to man:execve[2]\n"
+"|Immutable\n"
+"\n"
+"|`vp`\n"
+"|File to execute\n"
+"|\n"
+"\n"
+"|`vnodelabel`\n"
+"|Policy label for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3903,9 +4407,18 @@ msgid ""
 "struct ucred *cred;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3105 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3128
-msgid "|`cred` |Subject credential to be filled in | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3104
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3127
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential to be filled in\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3952,9 +4465,21 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3157
-msgid "|`newlabel` |Label update to apply to `cred` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3156
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Label update to apply to `cred`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -3985,34 +4510,24 @@ msgid ""
 "implemented by the `error_select()` function in [.filename]#kern_mac.c#:"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3168
-msgid "|==="
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3171
-msgid "|Most precedence |EDEADLK"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3174
-msgid "| |EINVAL"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3177
-msgid "| |ESRCH"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3180
-msgid "| |EACCES"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3184
-msgid "|Least precedence |EPERM |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3183
+#, no-wrap
+msgid ""
+"|Most precedence\n"
+"|EDEADLK\n"
+"\n"
+"|\n"
+"|EINVAL\n"
+"\n"
+"|\n"
+"|ESRCH\n"
+"\n"
+"|\n"
+"|EACCES\n"
+"\n"
+"|Least precedence\n"
+"|EPERM\n"
 msgstr ""
 
 #. type: Plain text
@@ -4045,24 +4560,29 @@ msgid ""
 "struct label *ifnetlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3212
-msgid "|`bpf_d` |Subject; BPF descriptor |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3216
-msgid "|`bpflabel` |Policy label for `bpf_d` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3220 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3888
-msgid "|`ifnet` |Object; network interface |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3225
-msgid "|`ifnetlabel` |Policy label for `ifnet` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3224
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`bpf_d`\n"
+"|Subject; BPF descriptor\n"
+"|\n"
+"\n"
+"|`bpflabel`\n"
+"|Policy label for `bpf_d`\n"
+"|\n"
+"\n"
+"|`ifnet`\n"
+"|Object; network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label for `ifnet`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4088,9 +4608,21 @@ msgid ""
 "struct ucred *cred;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3248 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3393 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3416 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5566 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5618
-msgid "|`cred` |Subject credential | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3247
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3392
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3415
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5565
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5617
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4116,9 +4648,23 @@ msgid ""
 "char *name;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3277 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3306 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3335
-msgid "|`name` |Kernel environment variable name | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3276
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3305
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3334
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`name`\n"
+"|Kernel environment variable name\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4192,14 +4738,25 @@ msgid ""
 "struct label *vlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3365
-msgid "|`vp` |Kernel module vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3370 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5543 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5653
-msgid "|`vlabel` |Label associated with `vp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3369
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Kernel module vnode\n"
+"|\n"
+"\n"
+"|`vlabel`\n"
+"|Label associated with `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4271,19 +4828,33 @@ msgid ""
 "void *data;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3454
-msgid "|`pipelabel` |Policy label associated with `pipe` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3458
-msgid "|`cmd` |man:ioctl[2] command |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3463
-msgid "|`data` |man:ioctl[2] data | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3462
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`pipe`\n"
+"|Pipe\n"
+"|\n"
+"\n"
+"|`pipelabel`\n"
+"|Policy label associated with `pipe`\n"
+"|\n"
+"\n"
+"|`cmd`\n"
+"|man:ioctl[2] command\n"
+"|\n"
+"\n"
+"|`data`\n"
+"|man:ioctl[2] data\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4359,14 +4930,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3569
-msgid "|`pipelabel` |Current policy label associated with `pipe` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3574
-msgid "|`newlabel` |Label update to `pipelabel` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3573
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`pipe`\n"
+"|Pipe\n"
+"|\n"
+"\n"
+"|`pipelabel`\n"
+"|Current policy label associated with `pipe`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Label update to `pipelabel`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4442,14 +5028,29 @@ msgid ""
 "struct sockaddr *sockaddr;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3676
-msgid "|`socket` |Socket to be bound |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3685 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3724
-msgid "|`sockaddr` |Address of `socket` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3684
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`socket`\n"
+"|Socket to be bound\n"
+"|\n"
+"\n"
+"|`socketlabel`\n"
+"|Policy label for `socket`\n"
+"|\n"
+"\n"
+"|`sockaddr`\n"
+"|Address of `socket`\n"
+"|\n"
 msgstr ""
 
 #. type: Title ====
@@ -4472,9 +5073,29 @@ msgid ""
 "struct sockaddr *sockaddr;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3715
-msgid "|`socket` |Socket to be connected |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3723
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`socket`\n"
+"|Socket to be connected\n"
+"|\n"
+"\n"
+"|`socketlabel`\n"
+"|Policy label for `socket`\n"
+"|\n"
+"\n"
+"|`sockaddr`\n"
+"|Address of `socket`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4504,14 +5125,26 @@ msgid ""
 "struct label *socketlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3754 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3789
-msgid "|`so` |Socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3759 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3794
-msgid "|`socketlabel` |Policy label associated with `so` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3758
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3793
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`so`\n"
+"|Socket\n"
+"|\n"
+"\n"
+"|`socketlabel`\n"
+"|Policy label associated with `so`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4562,14 +5195,21 @@ msgid ""
 "struct ucred *u2;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3818
-msgid "|`u1` |Subject credential |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3823
-msgid "|`u2` |Object credential | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3822
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`u1`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`u2`\n"
+"|Object credential\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4584,7 +5224,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3827 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5477
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3827
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5477
 #, no-wrap
 msgid "`mpo_check_socket_visible`"
 msgstr ""
@@ -4601,14 +5242,26 @@ msgid ""
 "struct label *socketlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3853 documentation/content/en/books/arch-handbook/mac/chapter.adoc:3929 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4808
-msgid "|`socket` |Object; socket |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3858 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4813
-msgid "|`socketlabel` |Policy label for `socket` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3857
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4812
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`socket`\n"
+"|Object; socket\n"
+"|\n"
+"\n"
+"|`socketlabel`\n"
+"|Policy label for `socket`\n"
+"|\n"
 msgstr ""
 
 #. type: Title ====
@@ -4631,14 +5284,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3892
-msgid "|`ifnetlabel` |Existing policy label for `ifnet` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3897
-msgid "|`newlabel` |Policy label update to later be applied to `ifnet` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3896
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`ifnet`\n"
+"|Object; network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Existing policy label for `ifnet`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Policy label update to later be applied to `ifnet`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4668,14 +5336,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3933
-msgid "|`socketlabel` |Existing policy label for `socket` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3938
-msgid "|`newlabel` |Label update to later be applied to `socketlabel` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3937
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`socket`\n"
+"|Object; socket\n"
+"|\n"
+"\n"
+"|`socketlabel`\n"
+"|Existing policy label for `socket`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Label update to later be applied to `socketlabel`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4701,9 +5384,21 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3967
-msgid "|`newlabel` |Label update to later be applied to `cred` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3966
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Label update to later be applied to `cred`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4733,14 +5428,29 @@ msgid ""
 "struct label *newlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:3999 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4315
-msgid "|`vp` |Object; vnode |Locked"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4008
-msgid "|`newlabel` |Policy label update to later be applied to `vp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4007
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|Immutable\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|Locked\n"
+"\n"
+"|`vnodelabel`\n"
+"|Existing policy label for `vp`\n"
+"|\n"
+"\n"
+"|`newlabel`\n"
+"|Policy label update to later be applied to `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4768,14 +5478,25 @@ msgid ""
 "struct label *mountlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4038
-msgid "|`mp` |Object; file system mount |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4043
-msgid "|`mountlabel` |Policy label for `mp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4042
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`mp`\n"
+"|Object; file system mount\n"
+"|\n"
+"\n"
+"|`mountlabel`\n"
+"|Policy label for `mp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4806,9 +5527,21 @@ msgid ""
 "struct proc *proc;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4072 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5305
-msgid "|`proc` |Object; process | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4071
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|Immutable\n"
+"\n"
+"|`proc`\n"
+"|Object; process\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4842,19 +5575,29 @@ msgid ""
 "int flags;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4104 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4391 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4436 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4886 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4960 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4995 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5034 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5083 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5132 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5173 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5216 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5372
-msgid "|`vp` |Object; vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4108 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4278 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4319 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4395 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4440 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4890 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5038 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5087 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5136 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5177 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5220 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5267
-msgid "|`label` |Policy label for `vp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4113
-msgid "|`flags` |man:access[2] flags | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4112
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`flags`\n"
+"|man:access[2] flags\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4886,14 +5629,25 @@ msgid ""
 "struct label *dlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4143
-msgid "|`dvp` |Object; vnode to man:chdir[2] into |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4148 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4930
-msgid "|`dlabel` |Policy label for `dvp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4147
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Object; vnode to man:chdir[2] into\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label for `dvp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4923,14 +5677,25 @@ msgid ""
 "struct label *dlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4178 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4489 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4702 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4757
-msgid "|`dvp` |Directory vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4183
-msgid "|`dlabel` |Policy label associated with `dvp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4182
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Directory vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label associated with `dvp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -4962,24 +5727,33 @@ msgid ""
 "struct vattr *vap;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4217 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4845
-msgid "|`dvp` |Object; vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4221 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4270 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4849
-msgid "|`dlabel` |Policy label for `dvp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4225
-msgid "|`cnp` |Component name for `dvp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4230
-msgid "|`vap` |vnode attributes for `vap` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4229
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label for `dvp`\n"
+"|\n"
+"\n"
+"|`cnp`\n"
+"|Component name for `dvp`\n"
+"|\n"
+"\n"
+"|`vap`\n"
+"|vnode attributes for `vap`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5017,9 +5791,37 @@ msgid ""
 "struct componentname *cnp;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4274
-msgid "|`vp` |Object; vnode to delete |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4282
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Parent directory vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label for `dvp`\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode to delete\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`cnp`\n"
+"|Component name for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5055,9 +5857,29 @@ msgid ""
 "acl_type_t type;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4324 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4400
-msgid "|`type` |ACL type | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4323
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|Immutable\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|Locked\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`type`\n"
+"|ACL type\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5087,14 +5909,25 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4354
-msgid "|`vp` |Object; vnode to execute |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4359 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4965 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5000 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5377
-msgid "|`label` |Policy label for `vp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4358
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode to execute\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5125,6 +5958,31 @@ msgid ""
 "struct vnode *vp;\n"
 "struct label *label;\n"
 "acl_type_t type;\n"
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4399
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`type`\n"
+"|ACL type\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5160,19 +6018,38 @@ msgid ""
 "struct uio *uio;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4444 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5091
-msgid "|`attrnamespace` |Extended attribute namespace |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4448 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5095
-msgid "|`name` |Extended attribute name |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4453 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5100
-msgid "|`uio` |I/O structure pointer; see man:uio[9] | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4452
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5099
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`attrnamespace`\n"
+"|Extended attribute namespace\n"
+"|\n"
+"\n"
+"|`name`\n"
+"|Extended attribute name\n"
+"|\n"
+"\n"
+"|`uio`\n"
+"|I/O structure pointer; see man:uio[9]\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5210,24 +6087,37 @@ msgid ""
 "struct componentname *cnp;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4493 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4706 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4761
-msgid "|`dlabel` |Policy label associated with `dvp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4497
-msgid "|`vp` |Link destination vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4501 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4542 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4714 documentation/content/en/books/arch-handbook/mac/chapter.adoc:4769
-msgid "|`label` |Policy label associated with `vp` |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4506
-msgid "|`cnp` |Component name for the link being created | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4505
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Directory vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label associated with `dvp`\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Link destination vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
+"\n"
+"|`cnp`\n"
+"|Component name for the link being created\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5257,14 +6147,29 @@ msgid ""
 "int prot;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4538
-msgid "|`vp` |Vnode to map |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4547
-msgid "|`prot` |Mmap protections (see man:mmap[2])  | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4546
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Vnode to map\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
+"\n"
+"|`prot`\n"
+"|Mmap protections (see man:mmap[2])\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5294,24 +6199,29 @@ msgid ""
 "int *prot;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4575
-msgid "|`cred` |See <<mac-mpo-check-vnode-mmap>>.  |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4579
-msgid "|`vp` | |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4583
-msgid "|`label` | |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4588
-msgid "|`prot` |Mmap protections to be downgraded | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4587
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|See <<mac-mpo-check-vnode-mmap>>.\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|\n"
+"|\n"
+"\n"
+"|`prot`\n"
+"|Mmap protections to be downgraded\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5339,14 +6249,25 @@ msgid ""
 "int prot;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4620
-msgid "|`vp` |Mapped vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4625
-msgid "|`prot` |Memory protections | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4624
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Mapped vnode\n"
+"|\n"
+"\n"
+"|`prot`\n"
+"|Memory protections\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5376,24 +6297,29 @@ msgid ""
 "struct label *label;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4653
-msgid "|`active_cred` |Subject credential |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4657
-msgid "|`file_cred` |Credential associated with the struct file |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4661
-msgid "|`vp` |Polled vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4666
-msgid "|`label` |Policy label associated with `vp` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4665
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`active_cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`file_cred`\n"
+"|Credential associated with the struct file\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Polled vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5425,9 +6351,37 @@ msgid ""
 "struct componentname *cnp;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4710
-msgid "|`vp` |Vnode to be renamed |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4718
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Directory vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label associated with `dvp`\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Vnode to be renamed\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
+"\n"
+"|`cnp`\n"
+"|Component name for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5463,21 +6417,41 @@ msgid ""
 "struct componentname *cnp;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4765
-msgid "|`vp` |Overwritten vnode |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4773
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4777
+#, no-wrap
 msgid ""
-"|`samedir` |Boolean; `1` if the source and destination directories are the "
-"same |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4778
-msgid "|`cnp` |Destination component name | |==="
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Directory vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label associated with `dvp`\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Overwritten vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label associated with `vp`\n"
+"|\n"
+"\n"
+"|`samedir`\n"
+"|Boolean; `1` if the source and destination directories are the same\n"
+"|\n"
+"\n"
+"|`cnp`\n"
+"|Destination component name\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5534,9 +6508,29 @@ msgid ""
 "struct componentname *cnp;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4854
-msgid "|`cnp` |Component name being looked up | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4853
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label for `dvp`\n"
+"|\n"
+"\n"
+"|`cnp`\n"
+"|Component name being looked up\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5568,9 +6562,29 @@ msgid ""
 "int acc_mode;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4895
-msgid "|`acc_mode` |man:open[2] access mode | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4894
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`acc_mode`\n"
+"|man:open[2] access mode\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5600,9 +6614,25 @@ msgid ""
 "struct label *dlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4925
-msgid "|`dvp` |Object; directory vnode |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4929
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`dvp`\n"
+"|Object; directory vnode\n"
+"|\n"
+"\n"
+"|`dlabel`\n"
+"|Policy label for `dvp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5630,6 +6660,29 @@ msgid ""
 "struct ucred *cred;\n"
 "struct vnode *vp;\n"
 "struct label *label;\n"
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4964
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:4999
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5376
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5691,14 +6744,33 @@ msgid ""
 "struct acl *acl;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5042
-msgid "|`type` |ACL type |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5047
-msgid "|`acl` |ACL | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5046
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`type`\n"
+"|ACL type\n"
+"|\n"
+"\n"
+"|`acl`\n"
+"|ACL\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5768,9 +6840,29 @@ msgid ""
 "u_long flags;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5141
-msgid "|`flags` |File flags; see man:chflags[2] | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5140
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`flags`\n"
+"|File flags; see man:chflags[2]\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5802,9 +6894,29 @@ msgid ""
 "mode_t mode;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5182
-msgid "|`mode` |File mode; see man:chmod[2] | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5181
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`mode`\n"
+"|File mode; see man:chmod[2]\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5838,14 +6950,33 @@ msgid ""
 "gid_t gid;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5224
-msgid "|`uid` |User ID |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5229
-msgid "|`gid` |Group ID | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5228
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vnode\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`uid`\n"
+"|User ID\n"
+"|\n"
+"\n"
+"|`gid`\n"
+"|Group ID\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5880,19 +7011,33 @@ msgid ""
 "struct timespec mtime;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5263
-msgid "|`vp` |Object; vp |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5271
-msgid "|`atime` |Access time; see man:utimes[2] |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5276
-msgid "|`mtime` |Modification time; see man:utimes[2] | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5275
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Object; vp\n"
+"|\n"
+"\n"
+"|`label`\n"
+"|Policy label for `vp`\n"
+"|\n"
+"\n"
+"|`atime`\n"
+"|Access time; see man:utimes[2]\n"
+"|\n"
+"\n"
+"|`mtime`\n"
+"|Modification time; see man:utimes[2]\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5918,6 +7063,23 @@ msgid ""
 " \tproc);\t \n"
 "struct ucred *ucred;\n"
 "struct proc *proc;\n"
+msgstr ""
+
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5304
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`proc`\n"
+"|Object; process\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -5952,14 +7114,25 @@ msgid ""
 "int signal;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5337
-msgid "|`proc` |Object; process |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5342
-msgid "|`signal` |Signal; see man:kill[2] | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5341
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`proc`\n"
+"|Object; process\n"
+"|\n"
+"\n"
+"|`signal`\n"
+"|Signal; see man:kill[2]\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -6024,14 +7197,33 @@ msgid ""
 "struct label *mbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5421
-msgid "|`mbuf` |Object; mbuf to be sent |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5426 documentation/content/en/books/arch-handbook/mac/chapter.adoc:5473
-msgid "|`mbuflabel` |Policy label for `mbuf` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5425
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`ifnet`\n"
+"|Network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label for `ifnet`\n"
+"|\n"
+"\n"
+"|`mbuf`\n"
+"|Object; mbuf to be sent\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Policy label for `mbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -6064,9 +7256,33 @@ msgid ""
 "struct label *mbuflabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5468
-msgid "|`mbuf` |Object; mbuf to be delivered |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5472
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`ifnet`\n"
+"|Network interface\n"
+"|\n"
+"\n"
+"|`ifnetlabel`\n"
+"|Policy label for `ifnet`\n"
+"|\n"
+"\n"
+"|`mbuf`\n"
+"|Object; mbuf to be delivered\n"
+"|\n"
+"\n"
+"|`mbuflabel`\n"
+"|Policy label for `mbuf`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -6090,9 +7306,25 @@ msgid ""
 "struct label *socketlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5508
-msgid "|`socketlabel` |Policy label for `so` | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5507
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|Immutable\n"
+"\n"
+"|`so`\n"
+"|Object; socket\n"
+"|\n"
+"\n"
+"|`socketlabel`\n"
+"|Policy label for `so`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -6123,14 +7355,25 @@ msgid ""
 "struct label *vlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5534
-msgid "|`ucred` |Subject credential |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5538
-msgid "|`vp` |Accounting file; man:acct[5] |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5542
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`ucred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Accounting file; man:acct[5]\n"
+"|\n"
+"\n"
+"|`vlabel`\n"
+"|Label associated with `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -6175,9 +7418,21 @@ msgid ""
 "int howto;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5595
-msgid "|`howto` |`howto` parameter from man:reboot[2] | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5594
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`howto`\n"
+"|`howto` parameter from man:reboot[2]\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -6224,9 +7479,25 @@ msgid ""
 "struct label *vlabel;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5648
-msgid "|`vp` |Swap device |"
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5652
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`vp`\n"
+"|Swap device\n"
+"|\n"
+"\n"
+"|`vlabel`\n"
+"|Label associated with `vp`\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text
@@ -6264,39 +7535,45 @@ msgid ""
 "size_t newlen;\n"
 msgstr ""
 
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5693
-msgid "|`name` |See man:sysctl[3] |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5697
-msgid "|`namelen` | |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5701
-msgid "|`old` | |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5705
-msgid "|`oldlenp` | |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5709
-msgid "|`inkernel` |Boolean; `1` if called from kernel |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5713
-msgid "|`new` |See man:sysctl[3] |"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5718
-msgid "|`newlen` | | |==="
+#. type: Table
+#: documentation/content/en/books/arch-handbook/mac/chapter.adoc:5717
+#, no-wrap
+msgid ""
+"| Parameter\n"
+"| Description\n"
+"| Locking\n"
+"\n"
+"|`cred`\n"
+"|Subject credential\n"
+"|\n"
+"\n"
+"|`name`\n"
+"|See man:sysctl[3]\n"
+"|\n"
+"\n"
+"|`namelen`\n"
+"|\n"
+"|\n"
+"\n"
+"|`old`\n"
+"|\n"
+"|\n"
+"\n"
+"|`oldlenp`\n"
+"|\n"
+"|\n"
+"\n"
+"|`inkernel`\n"
+"|Boolean; `1` if called from kernel\n"
+"|\n"
+"\n"
+"|`new`\n"
+"|See man:sysctl[3]\n"
+"|\n"
+"\n"
+"|`newlen`\n"
+"|\n"
+"|\n"
 msgstr ""
 
 #. type: Plain text

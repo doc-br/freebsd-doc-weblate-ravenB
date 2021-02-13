@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:36-0300\n"
+"POT-Creation-Date: 2021-02-13 19:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -202,7 +202,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/announce.adoc:61 website/content/en/releases/12.2R/announce.adoc:75 website/content/en/releases/12.2R/announce.adoc:89 website/content/en/releases/12.2R/announce.adoc:101
+#: website/content/en/releases/12.2R/announce.adoc:61
+#: website/content/en/releases/12.2R/announce.adoc:75
+#: website/content/en/releases/12.2R/announce.adoc:89
+#: website/content/en/releases/12.2R/announce.adoc:101
 msgid ""
 "As one example of how to use the memstick image, assuming the USB drive "
 "appears as /dev/da0 on your machine something like this should work:"
@@ -217,7 +220,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/announce.adoc:69 website/content/en/releases/12.2R/announce.adoc:83 website/content/en/releases/12.2R/announce.adoc:97 website/content/en/releases/12.2R/announce.adoc:109 website/content/en/releases/12.2R/announce.adoc:121 website/content/en/releases/12.2R/announce.adoc:135
+#: website/content/en/releases/12.2R/announce.adoc:69
+#: website/content/en/releases/12.2R/announce.adoc:83
+#: website/content/en/releases/12.2R/announce.adoc:97
+#: website/content/en/releases/12.2R/announce.adoc:109
+#: website/content/en/releases/12.2R/announce.adoc:121
+#: website/content/en/releases/12.2R/announce.adoc:135
 msgid "Be careful to make sure you get the target (of=) correct."
 msgstr ""
 
@@ -235,7 +243,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: website/content/en/releases/12.2R/announce.adoc:73 website/content/en/releases/12.2R/announce.adoc:87
+#: website/content/en/releases/12.2R/announce.adoc:73
+#: website/content/en/releases/12.2R/announce.adoc:87
 msgid ""
 "Additionally, this can be written to a USB memory stick (flash drive) for "
 "the amd64 architecture and used to do an install on machines capable of "
@@ -603,21 +612,25 @@ msgid ""
 "the release engineering activities for FreeBSD {thisRelease} including:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.2R/announce.adoc:266
+#. type: Table
+#: website/content/en/releases/12.2R/announce.adoc:265
+#, no-wrap
 msgid ""
-"|=== |https://www.freebsdfoundation.org[The FreeBSD Foundation] "
-"|https://www.netgate.com[Rubicon Communications, LLC (netgate.com)] "
-"|https://www.tarsnap.com[Tarsnap] |https://www.netapp.com[NetApp] "
-"|https://www.isc.org[Internet Systems Consortium] "
-"|https://bytemark.co.uk[ByteMark Hosting] "
-"|https://www.cyberonedata.com[CyberOne Data] |https://www.sentex.ca[Sentex "
-"Data Communications] |https://www.nyi.net[New York Internet] "
-"|https://www.juniper.net[Juniper Networks] "
-"|https://www.netactuate.com[NetActuate] "
+"|https://www.freebsdfoundation.org[The FreeBSD Foundation]\n"
+"|https://www.netgate.com[Rubicon Communications, LLC (netgate.com)]\n"
+"|https://www.tarsnap.com[Tarsnap]\n"
+"|https://www.netapp.com[NetApp]\n"
+"|https://www.isc.org[Internet Systems Consortium]\n"
+"|https://bytemark.co.uk[ByteMark Hosting]\n"
+"|https://www.cyberonedata.com[CyberOne Data]\n"
+"|https://www.sentex.ca[Sentex Data Communications]\n"
+"|https://www.nyi.net[New York Internet]\n"
+"|https://www.juniper.net[Juniper Networks]\n"
+"|https://www.netactuate.com[NetActuate]\n"
 "|https://www.cs.nctu.edu.tw[Department of Computer Science, National Chiao "
-"Tung University] |https://www.nlnetlabs.nl[NLNet Labs] "
-"|https://www.ixsystems.com[iXsystems] |==="
+"Tung University]\n"
+"|https://www.nlnetlabs.nl[NLNet Labs]\n"
+"|https://www.ixsystems.com[iXsystems]\n"
 msgstr ""
 
 #. type: Plain text
@@ -625,20 +638,24 @@ msgstr ""
 msgid "The release engineering team for {thisRelease}-RELEASE includes:"
 msgstr ""
 
-#. type: Plain text
-#: website/content/en/releases/12.2R/announce.adoc:283
+#. type: Table
+#: website/content/en/releases/12.2R/announce.adoc:282
+#, no-wrap
 msgid ""
-"|=== |Glen Barber <gjb@FreeBSD.org> |Release Engineering Lead, "
-"{thisRelease}-RELEASE Release Engineer |Konstantin Belousov "
-"<kib@FreeBSD.org> |Release Engineering |Antoine Brodin <antoine@FreeBSD.org> "
-"|Package Building |Bryan Drewery <bdrewery@FreeBSD.org> |Release "
-"Engineering, Package Building |Marc Fonvieille <blackend@FreeBSD.org> "
-"|Release Engineering, Documentation |Xin Li <delphij@FreeBSD.org> |Release "
-"Engineering, Security Team Liaison |Ed Maste <emaste@FreeBSD.org> |Security "
-"Officer Deputy |Colin Percival <cperciva@FreeBSD.org> |Release Engineering "
-"Deputy Lead |Hiroki Sato <hrs@FreeBSD.org> |Release Engineering, "
-"Documentation |Gleb Smirnoff <glebius@FreeBSD.org> |Release Engineering "
-"|Gordon Tetlow <gordon@FreeBSD.org> |Security Officer |==="
+"|Glen Barber <gjb@FreeBSD.org> |Release Engineering Lead, "
+"{thisRelease}-RELEASE Release Engineer\n"
+"|Konstantin Belousov <kib@FreeBSD.org> |Release Engineering\n"
+"|Antoine Brodin <antoine@FreeBSD.org> |Package Building\n"
+"|Bryan Drewery <bdrewery@FreeBSD.org> |Release Engineering, Package "
+"Building\n"
+"|Marc Fonvieille <blackend@FreeBSD.org> |Release Engineering, "
+"Documentation\n"
+"|Xin Li <delphij@FreeBSD.org> |Release Engineering, Security Team Liaison\n"
+"|Ed Maste <emaste@FreeBSD.org> |Security Officer Deputy\n"
+"|Colin Percival <cperciva@FreeBSD.org> |Release Engineering Deputy Lead\n"
+"|Hiroki Sato <hrs@FreeBSD.org> |Release Engineering, Documentation\n"
+"|Gleb Smirnoff <glebius@FreeBSD.org> |Release Engineering\n"
+"|Gordon Tetlow <gordon@FreeBSD.org> |Security Officer\n"
 msgstr ""
 
 #. type: Title ==
@@ -659,7 +676,8 @@ msgid "ISO Image Checksums"
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/12.2R/announce.adoc:290 website/content/en/releases/12.2R/announce.adoc:560
+#: website/content/en/releases/12.2R/announce.adoc:290
+#: website/content/en/releases/12.2R/announce.adoc:560
 #, no-wrap
 msgid "amd64 (x86_64):"
 msgstr ""
@@ -717,7 +735,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: website/content/en/releases/12.2R/announce.adoc:317 website/content/en/releases/12.2R/announce.adoc:575
+#: website/content/en/releases/12.2R/announce.adoc:317
+#: website/content/en/releases/12.2R/announce.adoc:575
 #, no-wrap
 msgid "i386 (x86):"
 msgstr ""

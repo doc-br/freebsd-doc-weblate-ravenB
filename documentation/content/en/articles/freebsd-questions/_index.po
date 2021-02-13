@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
-"POT-Creation-Date: 2021-02-10 20:35-0300\n"
+"POT-Creation-Date: 2021-02-13 19:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
@@ -68,11 +68,6 @@ msgstr ""
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-questions/_index.adoc:31
 msgid "'''"
-msgstr ""
-
-#. type: Plain text
-#: documentation/content/en/articles/freebsd-questions/_index.adoc:33
-msgid "toc::[]"
 msgstr ""
 
 #. type: Title ==
@@ -475,13 +470,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:142
+msgid "Eudora(R)"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:143
+msgid "exmh"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:144
+msgid "Microsoft(R) Exchange"
+msgstr ""
+
+#. type: Plain text
 #: documentation/content/en/articles/freebsd-questions/_index.adoc:145
-#, no-wrap
-msgid ""
-"** Eudora(R)\n"
-"** exmh\n"
-"** Microsoft(R) Exchange\n"
-"** Microsoft(R) Outlook(R)\n"
+msgid "Microsoft(R) Outlook(R)"
 msgstr ""
 
 #. type: Plain text
@@ -518,38 +523,60 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: documentation/content/en/articles/freebsd-questions/_index.adoc:154
-#, no-wrap
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:153
 msgid ""
-"** In nearly every case, it is important to know the version of FreeBSD you "
-"are running. This is particularly the case for FreeBSD-CURRENT, where you "
-"should also specify the date of the sources, though of course you should not "
-"be sending questions about -CURRENT to FreeBSD-questions.\n"
-"** With any problem which _could_ be hardware related, tell us about your "
+"In nearly every case, it is important to know the version of FreeBSD you are "
+"running. This is particularly the case for FreeBSD-CURRENT, where you should "
+"also specify the date of the sources, though of course you should not be "
+"sending questions about -CURRENT to FreeBSD-questions."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:154
+msgid ""
+"With any problem which _could_ be hardware related, tell us about your "
 "hardware. In case of doubt, assume it is possible that it is hardware. What "
 "kind of CPU are you using? How fast? What motherboard? How much memory? What "
-"peripherals?\n"
+"peripherals?"
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:156
+msgid ""
+"  There is a judgement call here, of course, but the output of the "
+"man:dmesg[8] command can frequently be very useful, since it tells not just "
+"what hardware you are running, but what version of FreeBSD as well."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:157
+msgid ""
+"If you get error messages, do not say \"I get error messages\", say (for "
+"example) \"I get the error message 'No route to host'\"."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:158
+msgid ""
+"If your system panics, do not say \"My system panicked\", say (for example) "
+"\"my system panicked with the message 'free vnode isn't'\"."
+msgstr ""
+
+#. type: Plain text
+#: documentation/content/en/articles/freebsd-questions/_index.adoc:159
+msgid ""
+"If you have difficulty installing FreeBSD, please tell us what hardware you "
+"have. In particular, it is important to know the IRQs and I/O addresses of "
+"the boards installed in your machine."
 msgstr ""
 
 #. type: Plain text
 #: documentation/content/en/articles/freebsd-questions/_index.adoc:160
-#, no-wrap
 msgid ""
-"\n"
-"There is a judgement call here, of course, but the output of the "
-"man:dmesg[8] command can frequently be very useful, since it tells not just "
-"what hardware you are running, but what version of FreeBSD as well.\n"
-"** If you get error messages, do not say \"I get error messages\", say (for "
-"example) \"I get the error message 'No route to host'\".\n"
-"** If your system panics, do not say \"My system panicked\", say (for "
-"example) \"my system panicked with the message 'free vnode isn't'\".\n"
-"** If you have difficulty installing FreeBSD, please tell us what hardware "
-"you have. In particular, it is important to know the IRQs and I/O addresses "
-"of the boards installed in your machine.\n"
-"** If you have difficulty getting PPP to run, describe the "
-"configuration. Which version of PPP do you use? What kind of authentication "
-"do you have? Do you have a static or dynamic IP address? What kind of "
-"messages do you get in the log file?\n"
+"If you have difficulty getting PPP to run, describe the configuration. Which "
+"version of PPP do you use? What kind of authentication do you have? Do you "
+"have a static or dynamic IP address? What kind of messages do you get in the "
+"log file?"
 msgstr ""
 
 #. type: Plain text
