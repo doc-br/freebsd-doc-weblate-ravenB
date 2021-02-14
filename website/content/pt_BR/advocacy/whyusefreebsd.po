@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
 "POT-Creation-Date: 2021-02-10 20:36-0300\n"
-"PO-Revision-Date: 2021-02-11 16:13+0000\n"
+"PO-Revision-Date: 2021-02-14 12:29+0000\n"
 "Last-Translator: Danilo G. Baio <dbaio@FreeBSD.org>\n"
 "Language-Team: Portuguese (Brazil) <https://raven.fugbr.org/projects/"
 "websiteb/advocacywhyusefreebsd/pt_BR/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 #: website/content/en/advocacy/whyusefreebsd.adoc:6
 #, no-wrap
 msgid "FreeBSD Advocacy Project"
-msgstr ""
+msgstr "Projeto de Divulgação do FreeBSD"
 
 #. type: Title ==
 #: website/content/en/advocacy/whyusefreebsd.adoc:8
