@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
 "POT-Creation-Date: 2021-02-10 20:36-0300\n"
-"PO-Revision-Date: 2021-02-11 16:13+0000\n"
+"PO-Revision-Date: 2021-02-14 12:29+0000\n"
 "Last-Translator: Danilo G. Baio <dbaio@FreeBSD.org>\n"
 "Language-Team: Portuguese (Brazil) <https://raven.fugbr.org/projects/"
 "websiteb/advocacy/pt_BR/>\n"
@@ -32,12 +32,15 @@ msgid ""
 "sidenav: about\n"
 "---\n"
 msgstr ""
+"title: \"Projeto de Divulgação do FreeBSD\"\n"
+"sidenav: about\n"
+"---\n"
 
 #. type: Title =
 #: website/content/en/advocacy/_index.adoc:8
 #, no-wrap
 msgid "FreeBSD Advocacy Project"
-msgstr ""
+msgstr "Projeto de Divulgação do FreeBSD"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:11
@@ -45,17 +48,20 @@ msgid ""
 "Much of the success which surrounds FreeBSD is due to people advocating its "
 "use to their friends, colleagues, and employers."
 msgstr ""
+"Muito do sucesso do FreeBSD se deve a pessoas que defendem seu uso para seus "
+"amigos, colegas e empregadores."
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:13
 msgid "This page provides links to more information to help you do this."
 msgstr ""
+"Esta página fornece links com mais informações para ajudá-lo a fazer isso."
 
 #. type: Title ==
 #: website/content/en/advocacy/_index.adoc:14
 #, no-wrap
 msgid "Mailing lists"
-msgstr ""
+msgstr "Listas de Email"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:17
@@ -63,58 +69,64 @@ msgid ""
 "https://lists.freebsd.org/mailman/listinfo/freebsd-advocacy[FreeBSD advocacy "
 "mailing list]"
 msgstr ""
+"https://lists.freebsd.org/mailman/listinfo/freebsd-advocacy[FreeBSD advocacy "
+"mailing list]"
 
 #. type: Title ==
 #: website/content/en/advocacy/_index.adoc:18
 #, no-wrap
 msgid "Web resources"
-msgstr ""
+msgstr "Recursos Web"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:21
 msgid "link:../status[FreeBSD quarterly status reports]"
-msgstr ""
+msgstr "link:../status[FreeBSD quarterly status reports]"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:23
 msgid "Quarterly status reports detailing activity within and surrounding FreeBSD."
 msgstr ""
+"Relatórios de status trimestrais detalhando atividades relacionadas ao "
+"FreeBSD."
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:25
 msgid "link:whyusefreebsd[Why Use FreeBSD?]"
-msgstr ""
+msgstr "link:whyusefreebsd[Why Use FreeBSD?]"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:27
 msgid "Explanations given by existing users as to why FreeBSD should be used."
 msgstr ""
+"Explicações dadas por usuários existentes sobre porque o FreeBSD deve ser "
+"usado."
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:29
 msgid "link:myths[*BSD Myths]"
-msgstr ""
+msgstr "link:myths[*BSD Myths]"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:31
 msgid "Describes and debunks some of the myths that surround the *BSD projects."
-msgstr ""
+msgstr "Descreve e desmascara alguns dos mitos em relação aos projetos *BSD."
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:33
 msgid "link:../press[FreeBSD in the Press]"
-msgstr ""
+msgstr "link:../press[FreeBSD in the Press]"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:35
 msgid "Contains many links to articles that have appeared which mention FreeBSD."
-msgstr ""
+msgstr "Contém muitos links para artigos que surgiram mencionando o FreeBSD."
 
 #. type: Title ==
 #: website/content/en/advocacy/_index.adoc:36
 #, no-wrap
 msgid "Sites using FreeBSD"
-msgstr ""
+msgstr "Sites utilizando FreeBSD"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:39
@@ -123,6 +135,9 @@ msgid ""
 "Performance] by Netcraft is tracking the reliability of major webhosting "
 "services, many of them are using FreeBSD."
 msgstr ""
+"http://uptime.netcraft.com/perf/reports/Hosters[Hosting Providers "
+"Performance] by Netcraft rastreia a confiabilidade dos principais serviços "
+"de hospedagem na web, muitos deles usam o FreeBSD."
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:41
@@ -130,12 +145,14 @@ msgid ""
 "A brief list of sites using FreeBSD is maintained "
 "link:{handbook}#introduction-nutshell-users[in the Handbook]."
 msgstr ""
+"Uma breve lista de sites que usam FreeBSD é mantida no link:{handbook"
+"}#introduction-nutshell-users[Handbook]."
 
 #. type: Title ==
 #: website/content/en/advocacy/_index.adoc:42
 #, no-wrap
 msgid "FreeBSD conferences"
-msgstr ""
+msgstr "Conferências FreeBSD"
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:45
@@ -143,6 +160,8 @@ msgid ""
 "https://www.bsdcan.org/[BSDCan], the annual BSD Conference held in Ottawa, "
 "Canada."
 msgstr ""
+"https://www.bsdcan.org/[BSDCan], a Conferência BSD anual realizada em "
+"Ottawa, Canadá."
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:46
@@ -150,8 +169,9 @@ msgid ""
 "https://www.eurobsdcon.org/[EuroBSDCon], the annual BSD Conference in "
 "Europe."
 msgstr ""
+"https://www.eurobsdcon.org/[EuroBSDCon], a Conferência BSD anual na Europa."
 
 #. type: Plain text
 #: website/content/en/advocacy/_index.adoc:46
 msgid "https://asiabsdcon.org/[AsiaBSDCon], the annual BSD Conference held in Asia."
-msgstr ""
+msgstr "https://asiabsdcon.org/[AsiaBSDCon], a Conferência BSD anual na Asia."
